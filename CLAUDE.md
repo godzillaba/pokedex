@@ -1,3 +1,50 @@
+# American Wildlife Pokédex
+
+A PWA "Pokédex" for American wildlife — retro-styled catalog of ~50 North American species with Pokémon-inspired stat bars, search, and type filtering.
+
+## Tech Stack
+
+- **Vite** — build tool and dev server
+- **Preact** — UI framework (~3KB, React-compatible API via `@preact/preset-vite`)
+- **Plain CSS** — custom properties for the retro Pokédex theme
+- **vite-plugin-pwa** — service worker generation + web app manifest
+- **GitHub Pages** — static hosting via GitHub Actions (`.github/workflows/deploy.yml`)
+
+## Project Structure
+
+```
+src/
+  main.jsx              # entry point, renders <App />
+  app.jsx               # top-level component (shell + list/card routing)
+  app.css               # global reset + CSS custom properties
+  data/species.json     # 50 wildlife species with stats
+  components/
+    pokedex-shell.*     # red device frame, LCD screen, decorative elements
+    species-list.*      # scrollable list + search input + type filters
+    species-card.*      # expanded view: image, stats, region, habitat
+  hooks/
+    use-species.js      # loads species.json, exposes filtered list + search/type state
+public/
+  icon.svg              # PWA icon
+  images/animals/       # species photos (by ID: 001.jpg, 002.jpg, etc.)
+```
+
+## Data
+
+`src/data/species.json` — array of 50 species. Each entry:
+- `id`, `name`, `species` (Latin), `type` (Bird/Mammal/Reptile/Amphibian/Fish/Insect/Arachnid)
+- `region`, `habitat`, `description`
+- `stats`: `size`, `speed`, `rarity`, `danger` (0–100)
+- `image`: path relative to `public/` (e.g. `images/animals/001.jpg`)
+
+JSON is imported statically by Vite — bundled into JS, no runtime fetch.
+
+## Commands
+
+- `npm run dev` — dev server with HMR
+- `npm run build` — production build to `dist/`
+- `npm run preview` — serve production build locally
+
 ## Code Style
 
 Inspired by NASA/JPL's "Power of 10" — code must be quickly and easily reviewable by a human.

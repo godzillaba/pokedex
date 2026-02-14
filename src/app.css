@@ -1,0 +1,73 @@
+:root {
+  --red: #cc0000;
+  --red-dark: #8b0000;
+  --red-light: #e83030;
+  --lcd-bg: #98b88c;
+  --lcd-bg-dark: #7a9a6e;
+  --lcd-text: #1a2a10;
+  --border-dark: #2a2a2a;
+  --border-light: #555;
+  --white: #f0f0f0;
+  --yellow: #f0c040;
+  --blue-led: #30a0d0;
+  --font-pixel: "Press Start 2P", monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-pixel);
+  background: #222;
+  color: var(--lcd-text);
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+}
+
+#app {
+  width: 100%;
+  max-width: 480px;
+}
+
+button {
+  font-family: var(--font-pixel);
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+input {
+  font-family: var(--font-pixel);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--lcd-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--lcd-text);
+  border-radius: 3px;
+}

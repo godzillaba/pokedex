@@ -1,0 +1,145 @@
+.scard {
+  padding: 0.25rem;
+}
+
+.scard__back {
+  font-size: 0.5rem;
+  color: var(--lcd-text);
+  padding: 0.3rem 0.5rem;
+  background: var(--lcd-bg-dark);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.scard__back:hover {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
+}
+
+.scard__header {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.scard__id {
+  font-size: 0.5rem;
+  opacity: 0.6;
+}
+
+.scard__name {
+  font-size: 0.65rem;
+  flex: 1;
+}
+
+.scard__type {
+  font-size: 0.35rem;
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.scard__type--bird { background: #5a8fd0; }
+.scard__type--mammal { background: #a06030; }
+.scard__type--reptile { background: #609030; }
+.scard__type--amphibian { background: #408070; }
+.scard__type--fish { background: #3070b0; }
+.scard__type--insect { background: #a0a020; }
+.scard__type--arachnid { background: #804080; }
+
+.scard__image-frame {
+  background: var(--lcd-bg-dark);
+  border: 3px solid var(--lcd-text);
+  border-radius: 6px;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scard__image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.scard__placeholder {
+  font-size: 3rem;
+  opacity: 0.3;
+}
+
+.scard__species {
+  font-size: 0.4rem;
+  font-style: italic;
+  opacity: 0.7;
+  margin-bottom: 0.4rem;
+  font-family: Georgia, serif;
+}
+
+.scard__desc {
+  font-size: 0.45rem;
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.scard__info {
+  margin-bottom: 0.5rem;
+}
+
+.scard__info-row {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.4rem;
+  padding: 0.2rem 0;
+  border-bottom: 1px solid var(--lcd-bg-dark);
+}
+
+.scard__info-label {
+  font-size: 0.35rem;
+  opacity: 0.6;
+  min-width: 60px;
+}
+
+.scard__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.scard__stat {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.4rem;
+}
+
+.scard__stat-label {
+  min-width: 32px;
+  opacity: 0.7;
+}
+
+.scard__stat-track {
+  flex: 1;
+  height: 8px;
+  background: var(--lcd-bg-dark);
+  border: 1px solid var(--lcd-text);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.scard__stat-fill {
+  height: 100%;
+  background: var(--lcd-text);
+  transition: width 0.3s ease;
+}
+
+.scard__stat-val {
+  min-width: 24px;
+  text-align: right;
+}

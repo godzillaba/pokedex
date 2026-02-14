@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "name": "Bald Eagle",
+    "species": "Haliaeetus leucocephalus",
+    "type": "Bird",
+    "region": "Continental US, Alaska",
+    "habitat": "Near large bodies of water",
+    "stats": {
+      "size": 85,
+      "speed": 75,
+      "rarity": 40,
+      "danger": 35
+    },
+    "description": "The national bird of the United States, known for its striking white head and powerful talons capable of exerting 400 pounds of pressure per square inch.",
+    "image": "images/animals/001.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Grizzly Bear",
+    "species": "Ursus arctos horribilis",
+    "type": "Mammal",
+    "region": "Pacific Northwest, Alaska, Rocky Mountains",
+    "habitat": "Forests, alpine meadows, river valleys",
+    "stats": {
+      "size": 95,
+      "speed": 60,
+      "rarity": 55,
+      "danger": 95
+    },
+    "description": "One of North America's most powerful predators, capable of running at 35 mph despite weighing up to 800 pounds.",
+    "image": "images/animals/002.jpg"
+  },
+  {
+    "id": 3,
+    "name": "American Alligator",
+    "species": "Alligator mississippiensis",
+    "type": "Reptile",
+    "region": "Southeastern US",
+    "habitat": "Freshwater swamps, marshes, rivers, lakes",
+    "stats": {
+      "size": 90,
+      "speed": 45,
+      "rarity": 30,
+      "danger": 80
+    },
+    "description": "A conservation success story that bounced back from near extinction. Their jaws can snap shut with nearly 3,000 pounds of force.",
+    "image": "images/animals/003.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Monarch Butterfly",
+    "species": "Danaus plexippus",
+    "type": "Insect",
+    "region": "Continental US, Southern Canada",
+    "habitat": "Meadows, fields, milkweed patches",
+    "stats": {
+      "size": 5,
+      "speed": 20,
+      "rarity": 50,
+      "danger": 0
+    },
+    "description": "Famous for its epic 3,000-mile migration from Canada to Mexico, navigating using the sun and Earth's magnetic field.",
+    "image": "images/animals/004.jpg"
+  },
+  {
+    "id": 5,
+    "name": "American Bullfrog",
+    "species": "Lithobates catesbeianus",
+    "type": "Amphibian",
+    "region": "Eastern and Central US",
+    "habitat": "Ponds, lakes, slow-moving streams",
+    "stats": {
+      "size": 20,
+      "speed": 30,
+      "rarity": 15,
+      "danger": 5
+    },
+    "description": "The largest frog in North America, with a booming call that can be heard up to half a mile away. It will eat almost anything it can fit in its mouth.",
+    "image": "images/animals/005.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mountain Lion",
+    "species": "Puma concolor",
+    "type": "Mammal",
+    "region": "Western US, Florida",
+    "habitat": "Mountains, forests, deserts, wetlands",
+    "stats": {
+      "size": 80,
+      "speed": 85,
+      "rarity": 65,
+      "danger": 85
+    },
+    "description": "Also called cougar, puma, or panther, this stealthy cat holds the Guinness record for the animal with the most names — over 40 in English alone.",
+    "image": "images/animals/006.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Eastern Diamondback Rattlesnake",
+    "species": "Crotalus adamanteus",
+    "type": "Reptile",
+    "region": "Southeastern US",
+    "habitat": "Pine flatwoods, coastal scrub, palmetto thickets",
+    "stats": {
+      "size": 55,
+      "speed": 25,
+      "rarity": 50,
+      "danger": 90
+    },
+    "description": "The largest venomous snake in North America, capable of delivering a massive dose of hemotoxic venom through fangs up to an inch long.",
+    "image": "images/animals/007.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Brook Trout",
+    "species": "Salvelinus fontinalis",
+    "type": "Fish",
+    "region": "Northeastern US, Appalachian Mountains",
+    "habitat": "Cold, clear streams and mountain lakes",
+    "stats": {
+      "size": 25,
+      "speed": 50,
+      "rarity": 40,
+      "danger": 0
+    },
+    "description": "The only trout native to much of the eastern US, adorned with beautiful vermiculations and bright red spots ringed in blue.",
+    "image": "images/animals/008.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Black Widow Spider",
+    "species": "Latrodectus mactans",
+    "type": "Arachnid",
+    "region": "Southern and Western US",
+    "habitat": "Dark sheltered areas, woodpiles, sheds",
+    "stats": {
+      "size": 5,
+      "speed": 10,
+      "rarity": 30,
+      "danger": 75
+    },
+    "description": "Pound for pound, her venom is 15 times stronger than a rattlesnake's. The iconic red hourglass warns predators to stay away.",
+    "image": "images/animals/009.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Wild Turkey",
+    "species": "Meleagris gallopavo",
+    "type": "Bird",
+    "region": "Eastern and Central US",
+    "habitat": "Hardwood forests, open woodlands",
+    "stats": {
+      "size": 60,
+      "speed": 40,
+      "rarity": 20,
+      "danger": 15
+    },
+    "description": "Benjamin Franklin lobbied for this bird over the Bald Eagle as the national symbol. Despite their bulk, wild turkeys can fly at speeds up to 55 mph.",
+    "image": "images/animals/010.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Gray Wolf",
+    "species": "Canis lupus",
+    "type": "Mammal",
+    "region": "Northern Rocky Mountains, Great Lakes, Alaska",
+    "habitat": "Forests, tundra, grasslands",
+    "stats": {
+      "size": 75,
+      "speed": 70,
+      "rarity": 70,
+      "danger": 60
+    },
+    "description": "Once nearly eliminated from the lower 48 states, wolves were reintroduced to Yellowstone in 1995, triggering a famous trophic cascade that reshaped the landscape.",
+    "image": "images/animals/011.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Gila Monster",
+    "species": "Heloderma suspectum",
+    "type": "Reptile",
+    "region": "Southwestern US",
+    "habitat": "Desert scrub, rocky foothills",
+    "stats": {
+      "size": 35,
+      "speed": 10,
+      "rarity": 70,
+      "danger": 65
+    },
+    "description": "One of only two venomous lizards in North America. Its venom contains a compound now used in a diabetes medication.",
+    "image": "images/animals/012.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Peregrine Falcon",
+    "species": "Falco peregrinus",
+    "type": "Bird",
+    "region": "Continental US, Alaska",
+    "habitat": "Cliffs, tall buildings, bridges",
+    "stats": {
+      "size": 40,
+      "speed": 100,
+      "rarity": 45,
+      "danger": 25
+    },
+    "description": "The fastest animal on Earth, reaching speeds over 240 mph in a hunting dive called a stoop. They've adapted to nest on skyscrapers in major cities.",
+    "image": "images/animals/013.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Hellbender",
+    "species": "Cryptobranchus alleganiensis",
+    "type": "Amphibian",
+    "region": "Appalachian Mountains, Ozarks",
+    "habitat": "Fast-flowing, rocky streams",
+    "stats": {
+      "size": 45,
+      "speed": 20,
+      "rarity": 80,
+      "danger": 5
+    },
+    "description": "North America's largest salamander, reaching over two feet long. Also called 'snot otter' and 'devil dog,' it breathes entirely through its wrinkly skin.",
+    "image": "images/animals/014.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Largemouth Bass",
+    "species": "Micropterus salmoides",
+    "type": "Fish",
+    "region": "Eastern and Central US",
+    "habitat": "Lakes, ponds, slow-moving rivers",
+    "stats": {
+      "size": 35,
+      "speed": 55,
+      "rarity": 10,
+      "danger": 5
+    },
+    "description": "The most popular game fish in America, responsible for a multi-billion dollar fishing industry. Males guard the nest and protect fry for weeks after hatching.",
+    "image": "images/animals/015.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Luna Moth",
+    "species": "Actias luna",
+    "type": "Insect",
+    "region": "Eastern US",
+    "habitat": "Deciduous forests",
+    "stats": {
+      "size": 15,
+      "speed": 15,
+      "rarity": 55,
+      "danger": 0
+    },
+    "description": "This ethereal green moth has no mouth and cannot eat as an adult — it lives only about one week, solely to find a mate.",
+    "image": "images/animals/016.jpg"
+  },
+  {
+    "id": 17,
+    "name": "American Bison",
+    "species": "Bison bison",
+    "type": "Mammal",
+    "region": "Great Plains, Yellowstone",
+    "habitat": "Grasslands, prairies, river valleys",
+    "stats": {
+      "size": 100,
+      "speed": 65,
+      "rarity": 55,
+      "danger": 70
+    },
+    "description": "The largest land animal in North America, once numbering 60 million before being hunted to near extinction. They can jump six feet vertically from a standstill.",
+    "image": "images/animals/017.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Coral Snake",
+    "species": "Micrurus fulvius",
+    "type": "Reptile",
+    "region": "Southeastern US",
+    "habitat": "Pine and scrub oak sandhills, hardwood hammocks",
+    "stats": {
+      "size": 25,
+      "speed": 15,
+      "rarity": 65,
+      "danger": 85
+    },
+    "description": "Possesses the second most potent venom of any snake in the world. The rhyme 'red touches yellow, kills a fellow' distinguishes it from harmless mimics.",
+    "image": "images/animals/018.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Great Blue Heron",
+    "species": "Ardea herodias",
+    "type": "Bird",
+    "region": "Continental US",
+    "habitat": "Wetlands, shorelines, marshes",
+    "stats": {
+      "size": 70,
+      "speed": 50,
+      "rarity": 15,
+      "danger": 10
+    },
+    "description": "Standing four feet tall with a six-foot wingspan, this patient hunter strikes with lightning speed, spearing fish and even small mammals with its dagger-like bill.",
+    "image": "images/animals/019.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Brown Recluse Spider",
+    "species": "Loxosceles reclusa",
+    "type": "Arachnid",
+    "region": "South Central US, Midwest",
+    "habitat": "Dark undisturbed areas, closets, attics",
+    "stats": {
+      "size": 5,
+      "speed": 15,
+      "rarity": 35,
+      "danger": 70
+    },
+    "description": "Identifiable by its violin-shaped marking, its necrotic venom can cause tissue death in severe bites. Despite its reputation, it bites only when pressed against skin.",
+    "image": "images/animals/020.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Red-tailed Hawk",
+    "species": "Buteo jamaicensis",
+    "type": "Bird",
+    "region": "Continental US, Alaska",
+    "habitat": "Open fields, woodlands, deserts",
+    "stats": {
+      "size": 55,
+      "speed": 70,
+      "rarity": 10,
+      "danger": 20
+    },
+    "description": "The most common hawk in North America. Its piercing screech is Hollywood's go-to raptor sound — often dubbed over Bald Eagle footage.",
+    "image": "images/animals/021.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Wolverine",
+    "species": "Gulo gulo luscus",
+    "type": "Mammal",
+    "region": "Northern Rocky Mountains, Alaska",
+    "habitat": "Boreal forests, alpine tundra",
+    "stats": {
+      "size": 45,
+      "speed": 55,
+      "rarity": 90,
+      "danger": 60
+    },
+    "description": "Fearless and ferocious relative of the weasel, known to drive bears and wolves off kills. Can travel 15 miles a day through deep snow.",
+    "image": "images/animals/022.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Timber Rattlesnake",
+    "species": "Crotalus horridus",
+    "type": "Reptile",
+    "region": "Eastern US",
+    "habitat": "Deciduous forests, rocky hillsides",
+    "stats": {
+      "size": 50,
+      "speed": 20,
+      "rarity": 55,
+      "danger": 80
+    },
+    "description": "One of the snakes believed to have inspired the 'Don't Tread on Me' flag. They can sense temperature differences as small as 0.003°C with their heat-sensing pits.",
+    "image": "images/animals/023.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Red Salamander",
+    "species": "Pseudotriton ruber",
+    "type": "Amphibian",
+    "region": "Eastern US",
+    "habitat": "Cool springs, forested streams",
+    "stats": {
+      "size": 15,
+      "speed": 10,
+      "rarity": 50,
+      "danger": 0
+    },
+    "description": "This brilliant red amphibian mimics the toxic red eft stage of eastern newts to fool predators. It can live over 20 years in the wild.",
+    "image": "images/animals/024.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Paddlefish",
+    "species": "Polyodon spathula",
+    "type": "Fish",
+    "region": "Mississippi River Basin",
+    "habitat": "Large, slow-flowing rivers and reservoirs",
+    "stats": {
+      "size": 75,
+      "speed": 40,
+      "rarity": 75,
+      "danger": 0
+    },
+    "description": "A living fossil virtually unchanged for 300 million years, predating dinosaurs. Its paddle-shaped snout detects weak electrical fields to locate plankton.",
+    "image": "images/animals/025.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Firefly",
+    "species": "Photinus pyralis",
+    "type": "Insect",
+    "region": "Eastern and Central US",
+    "habitat": "Meadows, forest edges, gardens",
+    "stats": {
+      "size": 5,
+      "speed": 10,
+      "rarity": 25,
+      "danger": 0
+    },
+    "description": "Their bioluminescent glow is the most efficient light source on Earth — nearly 100% of the energy is emitted as light with almost no heat.",
+    "image": "images/animals/026.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Moose",
+    "species": "Alces alces",
+    "type": "Mammal",
+    "region": "Northern US, Alaska, New England",
+    "habitat": "Boreal forests, wetlands, lakes",
+    "stats": {
+      "size": 98,
+      "speed": 60,
+      "rarity": 45,
+      "danger": 65
+    },
+    "description": "The largest member of the deer family, standing up to seven feet at the shoulder. They are surprisingly strong swimmers and can dive up to 20 feet underwater to feed.",
+    "image": "images/animals/027.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Horned Lizard",
+    "species": "Phrynosoma cornutum",
+    "type": "Reptile",
+    "region": "Southwestern US, Great Plains",
+    "habitat": "Arid deserts, sandy plains",
+    "stats": {
+      "size": 10,
+      "speed": 15,
+      "rarity": 50,
+      "danger": 5
+    },
+    "description": "When threatened, this spiky lizard can shoot blood from its eyes up to five feet as a defense mechanism. The blood tastes foul to canine and feline predators.",
+    "image": "images/animals/028.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Great Horned Owl",
+    "species": "Bubo virginianus",
+    "type": "Bird",
+    "region": "Continental US, Alaska",
+    "habitat": "Forests, deserts, urban areas",
+    "stats": {
+      "size": 55,
+      "speed": 60,
+      "rarity": 25,
+      "danger": 30
+    },
+    "description": "Called the 'tiger of the sky,' it has a grip strength of 300 psi and is the only animal that regularly preys on skunks. Its asymmetric ears allow pinpoint sound location.",
+    "image": "images/animals/029.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Arizona Bark Scorpion",
+    "species": "Centruroides sculpturatus",
+    "type": "Arachnid",
+    "region": "Southwestern US",
+    "habitat": "Desert, rocky terrain, under bark",
+    "stats": {
+      "size": 8,
+      "speed": 20,
+      "rarity": 30,
+      "danger": 70
+    },
+    "description": "The most venomous scorpion in North America, it can climb walls and even ceilings. It glows bright blue-green under ultraviolet light.",
+    "image": "images/animals/030.jpg"
+  },
+  {
+    "id": 31,
+    "name": "American Black Bear",
+    "species": "Ursus americanus",
+    "type": "Mammal",
+    "region": "Continental US, Alaska",
+    "habitat": "Forests, swamps, mountains",
+    "stats": {
+      "size": 82,
+      "speed": 55,
+      "rarity": 30,
+      "danger": 55
+    },
+    "description": "The most common bear in North America, with an incredible sense of smell seven times better than a bloodhound's. They can run uphill at 35 mph.",
+    "image": "images/animals/031.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Copperhead",
+    "species": "Agkistrodon contortrix",
+    "type": "Reptile",
+    "region": "Eastern and Central US",
+    "habitat": "Deciduous forests, rocky outcrops",
+    "stats": {
+      "size": 30,
+      "speed": 20,
+      "rarity": 25,
+      "danger": 60
+    },
+    "description": "Responsible for more venomous snakebites in the US than any other species, though its venom is relatively mild. Its copper-banded camouflage is nearly perfect among leaf litter.",
+    "image": "images/animals/032.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Spring Peeper",
+    "species": "Pseudacris crucifer",
+    "type": "Amphibian",
+    "region": "Eastern US",
+    "habitat": "Wooded wetlands, forest ponds",
+    "stats": {
+      "size": 3,
+      "speed": 15,
+      "rarity": 15,
+      "danger": 0
+    },
+    "description": "Tiny enough to sit on a dime, their deafening spring chorus can reach 90 decibels. They survive winter by freezing solid and thawing out in spring.",
+    "image": "images/animals/033.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Alligator Gar",
+    "species": "Atractosteus spatula",
+    "type": "Fish",
+    "region": "Gulf Coast, Mississippi River Basin",
+    "habitat": "Large rivers, bayous, coastal estuaries",
+    "stats": {
+      "size": 85,
+      "speed": 45,
+      "rarity": 60,
+      "danger": 30
+    },
+    "description": "A prehistoric giant that can grow over eight feet long and breathe air. Its diamond-shaped scales were once used by Native Americans as arrowheads.",
+    "image": "images/animals/034.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Praying Mantis",
+    "species": "Stagmomantis carolina",
+    "type": "Insect",
+    "region": "Eastern and Central US",
+    "habitat": "Gardens, meadows, forests",
+    "stats": {
+      "size": 10,
+      "speed": 25,
+      "rarity": 25,
+      "danger": 5
+    },
+    "description": "The only insect that can rotate its head 180 degrees to scan surroundings. Its strike takes just 50 milliseconds — faster than a human can blink.",
+    "image": "images/animals/035.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Pronghorn",
+    "species": "Antilocapra americana",
+    "type": "Mammal",
+    "region": "Western Great Plains, Rocky Mountain states",
+    "habitat": "Grasslands, sagebrush steppe",
+    "stats": {
+      "size": 65,
+      "speed": 95,
+      "rarity": 40,
+      "danger": 15
+    },
+    "description": "The fastest land animal in the Western Hemisphere at 55 mph, evolved to outrun the now-extinct American cheetah. They have 10x magnification vision.",
+    "image": "images/animals/036.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Snapping Turtle",
+    "species": "Chelydra serpentina",
+    "type": "Reptile",
+    "region": "Eastern and Central US",
+    "habitat": "Freshwater ponds, streams, marshes",
+    "stats": {
+      "size": 50,
+      "speed": 10,
+      "rarity": 20,
+      "danger": 55
+    },
+    "description": "Prehistoric in appearance with a bite force strong enough to sever fingers. They spend so much time motionless that algae grows on their shells as camouflage.",
+    "image": "images/animals/037.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Ruby-throated Hummingbird",
+    "species": "Archilochus colubris",
+    "type": "Bird",
+    "region": "Eastern US",
+    "habitat": "Gardens, forest edges, meadows",
+    "stats": {
+      "size": 3,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "Beats its wings 53 times per second and is the only bird that can fly backwards. It migrates 500 miles nonstop across the Gulf of Mexico.",
+    "image": "images/animals/038.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Tiger Salamander",
+    "species": "Ambystoma tigrinum",
+    "type": "Amphibian",
+    "region": "Central US, Great Plains",
+    "habitat": "Grasslands, marshes, underground burrows",
+    "stats": {
+      "size": 22,
+      "speed": 12,
+      "rarity": 40,
+      "danger": 0
+    },
+    "description": "The largest land-dwelling salamander in North America, spending most of its life underground. Some populations become permanently aquatic, retaining their larval gills.",
+    "image": "images/animals/039.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Channel Catfish",
+    "species": "Ictalurus punctatus",
+    "type": "Fish",
+    "region": "Central and Eastern US",
+    "habitat": "Rivers, lakes, reservoirs",
+    "stats": {
+      "size": 45,
+      "speed": 30,
+      "rarity": 10,
+      "danger": 10
+    },
+    "description": "Has over 100,000 taste buds covering its entire body, essentially tasting with its skin. It can detect a single drop of substance in an Olympic-sized pool.",
+    "image": "images/animals/040.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Dragonfly",
+    "species": "Anax junius",
+    "type": "Insect",
+    "region": "Continental US",
+    "habitat": "Near ponds, lakes, streams",
+    "stats": {
+      "size": 8,
+      "speed": 60,
+      "rarity": 10,
+      "danger": 0
+    },
+    "description": "An aerial predator with a 95% hunting success rate — the highest of any predator on Earth. Each compound eye contains nearly 30,000 individual lenses.",
+    "image": "images/animals/041.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Bobcat",
+    "species": "Lynx rufus",
+    "type": "Mammal",
+    "region": "Continental US",
+    "habitat": "Forests, swamps, deserts, suburban edges",
+    "stats": {
+      "size": 50,
+      "speed": 55,
+      "rarity": 50,
+      "danger": 40
+    },
+    "description": "The most abundant wildcat in North America, thriving from swamps to suburbs. It can leap 12 feet to catch birds in mid-flight.",
+    "image": "images/animals/042.jpg"
+  },
+  {
+    "id": 43,
+    "name": "California Condor",
+    "species": "Gymnogyps californianus",
+    "type": "Bird",
+    "region": "California, Arizona, Utah",
+    "habitat": "Rocky cliffs, open grasslands, oak savanna",
+    "stats": {
+      "size": 90,
+      "speed": 55,
+      "rarity": 98,
+      "danger": 10
+    },
+    "description": "With a 9.5-foot wingspan, it's the largest flying bird in North America. Reduced to just 22 birds in 1987, a captive breeding program saved it from extinction.",
+    "image": "images/animals/043.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Cottonmouth",
+    "species": "Agkistrodon piscivorus",
+    "type": "Reptile",
+    "region": "Southeastern US",
+    "habitat": "Swamps, marshes, drainage ditches, lake edges",
+    "stats": {
+      "size": 40,
+      "speed": 20,
+      "rarity": 30,
+      "danger": 75
+    },
+    "description": "The only semi-aquatic viper in the world, named for the white interior of its mouth displayed as a threat. Unlike most snakes, it stands its ground rather than fleeing.",
+    "image": "images/animals/044.jpg"
+  },
+  {
+    "id": 45,
+    "name": "American Toad",
+    "species": "Anaxyrus americanus",
+    "type": "Amphibian",
+    "region": "Eastern US",
+    "habitat": "Gardens, forests, meadows",
+    "stats": {
+      "size": 10,
+      "speed": 8,
+      "rarity": 10,
+      "danger": 5
+    },
+    "description": "A single toad can eat up to 1,000 insects per day, making it a gardener's best friend. Its skin secretions are mildly toxic to predators but harmless to humans.",
+    "image": "images/animals/045.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Muskellunge",
+    "species": "Esox masquinongy",
+    "type": "Fish",
+    "region": "Great Lakes, Upper Mississippi Valley",
+    "habitat": "Clear lakes and large rivers with vegetation",
+    "stats": {
+      "size": 65,
+      "speed": 65,
+      "rarity": 80,
+      "danger": 20
+    },
+    "description": "Called the 'fish of 10,000 casts' for how difficult it is to catch, this apex predator of freshwater can exceed 50 pounds and strike with explosive ambush speed.",
+    "image": "images/animals/046.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Cicada Killer Wasp",
+    "species": "Sphecius speciosus",
+    "type": "Insect",
+    "region": "Eastern and Central US",
+    "habitat": "Sandy soils, lawns, gardens",
+    "stats": {
+      "size": 18,
+      "speed": 35,
+      "rarity": 30,
+      "danger": 20
+    },
+    "description": "One of the largest wasps in North America at two inches long, it paralyzes cicadas mid-flight and carries them back to its burrow to feed its larvae.",
+    "image": "images/animals/047.jpg"
+  },
+  {
+    "id": 48,
+    "name": "River Otter",
+    "species": "Lontra canadensis",
+    "type": "Mammal",
+    "region": "Continental US, Alaska",
+    "habitat": "Rivers, streams, lakes, coastal marshes",
+    "stats": {
+      "size": 45,
+      "speed": 50,
+      "rarity": 40,
+      "danger": 10
+    },
+    "description": "Playful and social, they slide down muddy and snowy banks for fun. They can hold their breath for up to eight minutes and close their ears and nostrils underwater.",
+    "image": "images/animals/048.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Roadrunner",
+    "species": "Geococcyx californianus",
+    "type": "Bird",
+    "region": "Southwestern US",
+    "habitat": "Deserts, scrublands, open grasslands",
+    "stats": {
+      "size": 30,
+      "speed": 45,
+      "rarity": 35,
+      "danger": 10
+    },
+    "description": "Can sprint at 20 mph and is fast enough to catch and kill rattlesnakes by bashing them against rocks. It reabsorbs water from its own feces to survive the desert.",
+    "image": "images/animals/049.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Tarantula Hawk Wasp",
+    "species": "Pepsis grossa",
+    "type": "Insect",
+    "region": "Southwestern US",
+    "habitat": "Desert, scrubland",
+    "stats": {
+      "size": 15,
+      "speed": 40,
+      "rarity": 45,
+      "danger": 55
+    },
+    "description": "Delivers the second most painful insect sting on the Schmidt Pain Index. It hunts tarantulas twice its size, paralyzing them to serve as live food for its larvae.",
+    "image": "images/animals/050.jpg"
+  }
+]

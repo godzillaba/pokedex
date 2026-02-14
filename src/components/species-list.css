@@ -1,0 +1,135 @@
+.slist {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.slist__controls {
+  flex-shrink: 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--lcd-bg-dark);
+  margin-bottom: 0.25rem;
+}
+
+.slist__search {
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  font-size: 0.55rem;
+  background: var(--lcd-bg-dark);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  color: var(--lcd-text);
+  outline: none;
+}
+
+.slist__search::placeholder {
+  color: rgba(26, 42, 16, 0.5);
+}
+
+.slist__search:focus {
+  border-color: var(--blue-led);
+}
+
+.slist__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 0.4rem;
+}
+
+.slist__filter {
+  font-size: 0.4rem;
+  padding: 0.2rem 0.35rem;
+  background: var(--lcd-bg-dark);
+  color: var(--lcd-text);
+  border: 1px solid var(--lcd-text);
+  border-radius: 3px;
+  transition: background 0.15s;
+}
+
+.slist__filter:hover {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
+}
+
+.slist__filter--active {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
+}
+
+.slist__entries {
+  list-style: none;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.slist__entry {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.25rem;
+  border-bottom: 1px solid var(--lcd-bg-dark);
+  cursor: pointer;
+  transition: background 0.1s;
+  font-size: 0.5rem;
+}
+
+.slist__entry:hover {
+  background: var(--lcd-bg-dark);
+}
+
+.slist__num {
+  color: rgba(26, 42, 16, 0.6);
+  flex-shrink: 0;
+}
+
+.slist__name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.slist__type {
+  font-size: 0.35rem;
+  padding: 0.15rem 0.3rem;
+  border-radius: 3px;
+  flex-shrink: 0;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.slist__type--bird {
+  background: #5a8fd0;
+}
+
+.slist__type--mammal {
+  background: #a06030;
+}
+
+.slist__type--reptile {
+  background: #609030;
+}
+
+.slist__type--amphibian {
+  background: #408070;
+}
+
+.slist__type--fish {
+  background: #3070b0;
+}
+
+.slist__type--insect {
+  background: #a0a020;
+}
+
+.slist__type--arachnid {
+  background: #804080;
+}
+
+.slist__empty {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.5rem;
+  color: rgba(26, 42, 16, 0.5);
+}

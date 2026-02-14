@@ -1,0 +1,58 @@
+import "./species-list.css";
+
+export function SpeciesList({
+  species,
+  types,
+  search,
+  onSearch,
+  typeFilter,
+  onTypeFilter,
+  onSelect,
+}) {
+  return (
+    <div class="slist">
+      <div class="slist__controls">
+        <input
+          class="slist__search"
+          type="text"
+          placeholder="SEARCH..."
+          value={search}
+          onInput={(e) => onSearch(e.target.value)}
+        />
+        <div class="slist__filters">
+          <button
+            class={`slist__filter ${!typeFilter ? "slist__filter--active" : ""}`}
+            onClick={() => onTypeFilter("")}
+          >
+            ALL
+          </button>
+          {types.map((t) => (
+            <button
+              key={t}
+              class={`slist__filter ${typeFilter === t ? "slist__filter--active" : ""}`}
+              onClick={() => onTypeFilter(typeFilter === t ? "" : t)}
+            >
+              {t.toUpperCase()}
+            </button>
+          ))}
+        </div>
+      </div>
+      <ul class="slist__entries">
+        {species.map((s) => (
+          <li key={s.id} class="slist__entry" onClick={() => onSelect(s)}>
+            <span class="slist__num">
+              {String(s.id).padStart(3, "0")}
+            </span>
+            <span class="slist__name">{s.name}</span>
+            <span class={`slist__type slist__type--${s.type.toLowerCase()}`}>
+              {s.type}
+            </span>
+          </li>
+        ))}
+        {species.length === 0 && (
+          <li class="slist__empty">NO SPECIES FOUND</li>
+        )}
+      </ul>
+    </div>
+  );
+}
