@@ -15,7 +15,7 @@ function StatBar({ label, value }) {
   );
 }
 
-export function SpeciesCard({ species, onBack }) {
+export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack }) {
   const [imgErr, setImgErr] = useState(false);
 
   return (
@@ -45,6 +45,22 @@ export function SpeciesCard({ species, onBack }) {
             loading="lazy"
           />
         )}
+      </div>
+
+      <div class="scard__log">
+        <button
+          class={`scard__seen-btn ${entry.seen ? "scard__seen-btn--active" : ""}`}
+          onClick={onToggleSeen}
+        >
+          {entry.seen ? "* SEEN" : "MARK SEEN"}
+        </button>
+        <textarea
+          class="scard__note"
+          placeholder="Add a note..."
+          value={entry.note}
+          onInput={(e) => onSetNote(e.target.value)}
+          rows={3}
+        />
       </div>
 
       <p class="scard__species">{species.species}</p>

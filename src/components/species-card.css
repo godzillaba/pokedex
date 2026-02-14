@@ -74,6 +74,62 @@
   opacity: 0.3;
 }
 
+.scard__log {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  background: var(--lcd-bg-dark);
+  border-radius: 6px;
+}
+
+.scard__seen-btn {
+  font-size: 0.65rem;
+  padding: 0.4rem 0.6rem;
+  background: var(--lcd-bg);
+  color: var(--lcd-text);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  align-self: flex-start;
+}
+
+.scard__seen-btn:hover {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
+}
+
+.scard__seen-btn--active {
+  background: #2a6e2a;
+  color: var(--white);
+  border-color: #2a6e2a;
+}
+
+.scard__seen-btn--active:hover {
+  background: #1e5a1e;
+}
+
+.scard__note {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  padding: 0.4rem;
+  background: var(--lcd-bg);
+  color: var(--lcd-text);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  resize: vertical;
+  outline: none;
+  line-height: 1.8;
+}
+
+.scard__note:focus {
+  border-color: var(--blue-led);
+}
+
+.scard__note::placeholder {
+  color: rgba(26, 42, 16, 0.4);
+}
+
 .scard__species {
   font-size: 0.65rem;
   font-style: italic;

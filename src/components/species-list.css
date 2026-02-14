@@ -127,6 +127,18 @@
   background: #804080;
 }
 
+.slist__seen {
+  color: #2a6e2a;
+  flex-shrink: 0;
+  font-size: 0.75rem;
+}
+
+.slist__has-note {
+  flex-shrink: 0;
+  font-size: 0.6rem;
+  opacity: 0.5;
+}
+
 .slist__empty {
   text-align: center;
   padding: 2rem 0;
