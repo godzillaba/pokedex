@@ -13,8 +13,8 @@
 
 .slist__search {
   width: 100%;
-  padding: 0.4rem 0.5rem;
-  font-size: 0.55rem;
+  padding: 0.6rem 0.75rem;
+  font-size: 0.8rem;
   background: var(--lcd-bg-dark);
   border: 2px solid var(--lcd-text);
   border-radius: 4px;
@@ -33,13 +33,13 @@
 .slist__filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 4px;
-  margin-top: 0.4rem;
+  gap: 6px;
+  margin-top: 0.5rem;
 }
 
 .slist__filter {
-  font-size: 0.4rem;
-  padding: 0.2rem 0.35rem;
+  font-size: 0.6rem;
+  padding: 0.35rem 0.5rem;
   background: var(--lcd-bg-dark);
   color: var(--lcd-text);
   border: 1px solid var(--lcd-text);
@@ -67,11 +67,11 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.4rem 0.25rem;
+  padding: 0.6rem 0.35rem;
   border-bottom: 1px solid var(--lcd-bg-dark);
   cursor: pointer;
   transition: background 0.1s;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
 }
 
 .slist__entry:hover {
@@ -91,8 +91,8 @@
 }
 
 .slist__type {
-  font-size: 0.35rem;
-  padding: 0.15rem 0.3rem;
+  font-size: 0.55rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 3px;
   flex-shrink: 0;
   color: var(--white);
@@ -130,6 +130,6 @@
 .slist__empty {
   text-align: center;
   padding: 2rem 0;
-  font-size: 0.5rem;
+  font-size: 0.75rem;
   color: rgba(26, 42, 16, 0.5);
 }
