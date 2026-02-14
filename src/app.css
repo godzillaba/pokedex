@@ -27,20 +27,17 @@ html {
 
 body {
   font-family: var(--font-pixel);
-  background: #222;
+  background: var(--lcd-bg);
   color: var(--lcd-text);
   min-height: 100dvh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 1rem;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: unset;
 }
 
 #app {
   width: 100%;
-  max-width: 480px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 button {
