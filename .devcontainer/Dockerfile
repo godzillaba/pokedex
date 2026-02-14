@@ -81,6 +81,12 @@ RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/
 # Install Claude
 RUN npm install -g @anthropic-ai/claude-code@${CLAUDE_CODE_VERSION}
 
+# Install Playwright system dependencies and Chromium browser for E2E/visual testing
+ENV PLAYWRIGHT_BROWSERS_PATH=/home/node/.cache/ms-playwright
+USER root
+RUN npx playwright install-deps chromium
+USER node
+RUN npx playwright install chromium
 
 # Copy and set up firewall script
 COPY init-firewall.sh /usr/local/bin/
