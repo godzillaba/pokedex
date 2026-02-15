@@ -1,6 +1,86 @@
 [
   {
     "id": 1,
+    "name": "Abert's Squirrel",
+    "species": "Sciurus aberti",
+    "type": "Mammal",
+    "region": "Southwestern US and northern Mexico (Colorado, Utah, Arizona, New Mexico, extending to Chihuahua and Durango)",
+    "habitat": "Mature ponderosa pine forests",
+    "stats": {
+      "size": 32,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "Easily identified by its distinctive ear tufts extending 2-3 cm upward, this tassel-eared squirrel can consume seeds from up to 75 ponderosa pine cones in a single day and shows remarkable dietary flexibility by safely consuming mushrooms that are deadly to humans.",
+    "image": "images/animals/001.png"
+  },
+  {
+    "id": 2,
+    "name": "Agile Kangaroo Rat",
+    "species": "Dipodomys agilis",
+    "type": "Mammal",
+    "region": "Southern California",
+    "habitat": "Shrubby areas with lighter soils",
+    "stats": {
+      "size": 12,
+      "speed": 75,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nimble desert hopper that evolved alongside Ord's kangaroo rat from a common ancestor, preferring shrubby terrain where it outcompetes its close relative Stephens's kangaroo rat through superior habitat selection.",
+    "image": "images/animals/002.png"
+  },
+  {
+    "id": 3,
+    "name": "Alaska Marmot",
+    "species": "Marmota broweri",
+    "type": "Mammal",
+    "region": "Brooks Range and northern Alaska",
+    "habitat": "Alpine tundra, rocky mountain slopes and scree fields near lakes",
+    "stats": {
+      "size": 28,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "This stocky rodent hibernates for up to eight months annually, dropping its body temperature to near freezing while its heart rate plummets\u2014a survival strategy so extreme it awakens only every three to four weeks to urinate. Despite their remote Arctic habitat, Alaska marmots live in colonies of up to 50, using coordinated sentry duty to warn of golden eagles and grizzly bears.",
+    "image": "images/animals/003.png"
+  },
+  {
+    "id": 4,
+    "name": "Allen's Chipmunk",
+    "species": "Neotamias senex",
+    "type": "Mammal",
+    "region": "Western US (California, Oregon, Nevada)",
+    "habitat": "Old-growth coniferous forests and Sierra Nevada mountains",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This arboreal chipmunk nests as high as 88 feet above ground and is the only chipmunk species that collects and stores the seeds it eats, along with fungi that comprise up to 99% of its diet in virgin forests.",
+    "image": "images/animals/004.png"
+  },
+  {
+    "id": 5,
+    "name": "Alpine Chipmunk",
+    "species": "Neotamias alpinus",
+    "type": "Mammal",
+    "region": "High Sierra Nevada, California",
+    "habitat": "Alpine zone at high elevations",
+    "stats": {
+      "size": 12,
+      "speed": 45,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "This diminutive alpine dweller weighs a mere 27-45 grams yet survives at elevations up to 12,800 feet, hibernating for five months and frequently awakening to snack during winter's harshest months.",
+    "image": "images/animals/005.png"
+  },
+  {
+    "id": 6,
     "name": "American Beaver",
     "species": "Castor canadensis",
     "type": "Mammal",
@@ -12,47 +92,1247 @@
       "rarity": 20,
       "danger": 15
     },
-    "description": "This industrious rodent can fell trees with its continuously-growing incisors and construct dams over half a mile long, with the largest known dam discovered via satellite at 2,790 feet\u2014more than twice the width of the Hoover Dam. Nearly hunted to extinction for its waterproof fur, it can remain submerged for up to 15 minutes and stores winter food underwater for months.",
-    "image": "images/animals/001.jpg"
+    "description": "An aquatic engineer capable of constructing dams over half a mile long and staying submerged for up to 15 minutes, this rodent nearly drove itself to extinction through relentless trapping but has made a remarkable comeback across North America.",
+    "image": "images/animals/006.png"
   },
   {
-    "id": 2,
-    "name": "Mountain Beaver",
-    "species": "Aplodontia rufa",
+    "id": 7,
+    "name": "American Red Squirrel",
+    "species": "Tamiasciurus hudsonicus",
     "type": "Mammal",
-    "region": "Pacific Northwest and California mountains (Cascades, Sierra Nevada, coastal ranges)",
-    "habitat": "Temperate rainforests and moist mountain regions with deep soil for burrowing",
+    "region": "Canada, Alaska, Rocky Mountains, Northern Eastern US",
+    "habitat": "Coniferous forests and mixed woodlands",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A pint-sized hoarder that can accumulate cone scales in middens up to 40 feet across, these territorial squirrels defend their cache year-round and mate with 4 to 16 partners in a single day during breeding season.",
+    "image": "images/animals/007.png"
+  },
+  {
+    "id": 8,
+    "name": "Arctic Ground Squirrel",
+    "species": "Urocitellus parryii",
+    "type": "Mammal",
+    "region": "Arctic Alaska, Northern Canada, Siberia",
+    "habitat": "Arctic tundra, mountain slopes, river flats, sandy soil burrows",
     "stats": {
       "size": 28,
-      "speed": 15,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This Arctic hibernator can reduce its body temperature to \u22123\u00b0C (27\u00b0F) and slow its heart rate to one beat per minute, with blood that remains liquid while frozen\u2014a phenomenon scientists hope could revolutionize organ transplant preservation. During hibernation from August to April, its brain connections dissolve only to mysteriously regrow upon waking.",
+    "image": "images/animals/008.png"
+  },
+  {
+    "id": 9,
+    "name": "Arizona Gray Squirrel",
+    "species": "Sciurus arizonensis",
+    "type": "Mammal",
+    "region": "Eastern Arizona, northern Mexico",
+    "habitat": "Mountain canyons and riparian forests at mid-elevations",
+    "stats": {
+      "size": 28,
+      "speed": 55,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "More closely related to fox squirrels despite its gray appearance, this canyon dweller sports a distinctive red and black striped tail and breeds only when flower blooms provide enough energy to sustain the costly demands of reproduction.",
+    "image": "images/animals/009.png"
+  },
+  {
+    "id": 10,
+    "name": "Arizona Pocket Mouse",
+    "species": "Perognathus amplus",
+    "type": "Mammal",
+    "region": "Sonoran Desert (Arizona)",
+    "habitat": "Sonoran Desert scrubland",
+    "stats": {
+      "size": 8,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 1
+    },
+    "description": "A nocturnal desert specialist that stuffs seeds into oversized cheek pouches and ferries them back to underground burrows for storage. Its smooth, thinly-furred tail and tan-to-orange coloring provide perfect camouflage in the harsh Arizona landscape.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 11,
+    "name": "Attwater's Pocket Gopher",
+    "species": "Geomys attwateri",
+    "type": "Mammal",
+    "region": "Texas Coastal Bend",
+    "habitat": "Coastal grasslands and prairies",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A burrowing rodent named after English naturalist Henry Philemon Attwater, this underground specialist uses its powerful claws to excavate extensive tunnel networks through the Texas coastal landscape in search of roots and tubers.",
+    "image": "images/animals/011.png"
+  },
+  {
+    "id": 12,
+    "name": "Bailey's Pocket Mouse",
+    "species": "Chaetodipus baileyi",
+    "type": "Mammal",
+    "region": "Southwestern US (California, Arizona, New Mexico) and Northwestern Mexico",
+    "habitat": "Desert shrublands and arid regions",
+    "stats": {
+      "size": 18,
+      "speed": 55,
       "rarity": 22,
       "danger": 2
     },
-    "description": "Despite its misleading name, this primitive rodent is more closely related to squirrels than true beavers, and is the only living mammal with uniquely angled molar projections that point toward the cheek on upper teeth but toward the tongue below. Unable to concentrate urine and restricted to wet habitats, it forages up to 9 hours daily on ferns and toxic vegetation that would kill other animals.",
-    "image": "images/animals/002.jpg"
+    "description": "This nocturnal desert dweller is the only animal on Earth capable of digesting the toxic wax found in jojoba nuts, allowing it to feast on seeds that poison nearly every other mammal. A master hoarder, it carries seeds in fur-lined cheek pouches back to its burrow, keeping them perfectly dry.",
+    "image": "images/animals/012.png"
   },
   {
-    "id": 3,
+    "id": 13,
+    "name": "Baird's Pocket Gopher",
+    "species": "Geomys breviceps",
+    "type": "Mammal",
+    "region": "Eastern Texas, Western Louisiana, Eastern Oklahoma, Southwestern Arkansas",
+    "habitat": "Underground burrows in Gulf Coastal Plains with sandy or loamy soil",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A cylindrical burrower that constructs complex tunnel systems up to 180 cm long while foraging underground, using specialized cheek pouches to transport food back to its elaborate winter chambers complete with nesting areas and food storage.",
+    "image": "images/animals/013.png"
+  },
+  {
+    "id": 14,
+    "name": "Baja Pocket Mouse",
+    "species": "Chaetodipus rudinoris",
+    "type": "Mammal",
+    "region": "Southern California, Baja California, Gulf of California islands",
+    "habitat": "Arid scrublands and desert regions",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A diminutive desert dweller with specialized cheek pouches for carrying seeds across the arid southwestern landscape. One subspecies, the Montserrat Island pocket mouse, vanished from existence in 1975.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 15,
+    "name": "Banner-tailed Kangaroo Rat",
+    "species": "Dipodomys spectabilis",
+    "type": "Mammal",
+    "region": "Southwestern US (Arizona, New Mexico, Texas) and Mexico",
+    "habitat": "Desert grassland with scattered shrubs",
+    "stats": {
+      "size": 28,
+      "speed": 72,
+      "rarity": 35,
+      "danger": 2
+    },
+    "description": "A nocturnal hopper with a distinctive black-and-white banner tail that constructs elaborate burrow systems with 3-meter mounds, accumulating massive seed caches in underground chambers and emerging only at dusk to forage for two hours before returning home.",
+    "image": "images/animals/015.png"
+  },
+  {
+    "id": 16,
+    "name": "Belding's Ground Squirrel",
+    "species": "Urocitellus beldingi",
+    "type": "Mammal",
+    "region": "Northwestern US (Oregon, Washington, California, Idaho, Nevada, Utah)",
+    "habitat": "Alpine and subalpine meadows, sagebrush flats",
+    "stats": {
+      "size": 22,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "These industrious rodents spend up to 40% of their summer eating to build fat reserves for hibernation, then recognize their relatives by comparing scents from specialized glands. Females produce piercing alarm calls to warn kin of predators while remaining silent when fleeing from terrestrial threats.",
+    "image": "images/animals/016.png"
+  },
+  {
+    "id": 17,
+    "name": "Big-eared Kangaroo Rat",
+    "species": "Dipodomys elephantinus",
+    "type": "Mammal",
+    "region": "Central California (San Benito and Monterey counties)",
+    "habitat": "Chaparral",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 45,
+      "danger": 0
+    },
+    "description": "Distinguished by its unusually large ears relative to body size, this tiny rodent uses its oversized auditory organs to detect predators and navigate the chaparral scrublands of central California. Despite its small stature, it can leap several feet in a single bound using powerful hind legs.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 18,
+    "name": "Black-tailed Prairie Dog",
+    "species": "Cynomys ludovicianus",
+    "type": "Mammal",
+    "region": "Great Plains, US-Canada border to US-Mexico border",
+    "habitat": "Shortgrass and mixed-grass prairie, sagebrush steppe",
+    "stats": {
+      "size": 18,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "These highly social rodents form massive underground cities with sophisticated vocal communication systems that can describe specific predators, their size, and approach speed. A single prairie dog town in Texas once covered 25,000 square miles and contained 400 million individuals.",
+    "image": "images/animals/018.png"
+  },
+  {
+    "id": 19,
+    "name": "Botta's Pocket Gopher",
+    "species": "Thomomys bottae",
+    "type": "Mammal",
+    "region": "Western North America from California to Texas",
+    "habitat": "Woodlands, chaparral, scrubland, and agricultural areas",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "A tireless underground miner that can excavate up to 28 tons of soil per hectare annually, spending 90% of its life in burrows and reaching depths of up to 5 feet. Its teeth are specially adapted for digging, allowing it to thrive in soils ranging from loose sand to packed clay.",
+    "image": "images/animals/019.png"
+  },
+  {
+    "id": 20,
+    "name": "California Chipmunk",
+    "species": "Neotamias obscurus",
+    "type": "Mammal",
+    "region": "Southern California and Baja California",
+    "habitat": "Chaparral and scrubland",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nimble burrower of California's chaparral, this small rodent darts through scrubland with remarkable agility despite weighing less than an ounce. Known for its striped back and cheek pouches, it stashes seeds and nuts for survival through lean seasons.",
+    "image": "images/animals/020.png"
+  },
+  {
+    "id": 21,
+    "name": "California Ground Squirrel",
+    "species": "Otospermophilus beecheyi",
+    "type": "Mammal",
+    "region": "Western US (Oregon, California, Washington, northwestern Nevada) and Baja California Peninsula",
+    "habitat": "Burrows in gardens, parks, and open areas with ornamental plants",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 18,
+      "danger": 8
+    },
+    "description": "This cunning burrower has evolved extraordinary defenses against rattlesnakes, including the ability to super-heat its tail and wave it to signal danger\u2014a tactic that successfully deters snake attacks in 67% of encounters. Some populations have even developed partial resistance to rattlesnake venom as adults.",
+    "image": "images/animals/021.png"
+  },
+  {
+    "id": 22,
+    "name": "California Kangaroo Rat",
+    "species": "Dipodomys californicus",
+    "type": "Mammal",
+    "region": "Northern California and southern Oregon",
+    "habitat": "Grasslands and foothills from Sierra Nevada to Cascade Mountains",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This 312mm rodent possesses a distinctive white-tipped tail with black stripes and is so well-adapted to harsh environments that it thrives where few humans dare to venture. Unlike common rats, it never scavenges human food and carries no dangerous pathogens, making it an ideal neighbor in inhospitable terrain.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 23,
+    "name": "California Pocket Mouse",
+    "species": "Chaetodipus californicus",
+    "type": "Mammal",
+    "region": "California and Northern Baja California",
+    "habitat": "Chaparral and woodlands",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "A nocturnal seed hoarder equipped with external cheek pouches, this tiny rodent weighs less than an ounce yet stores seeds across its territory. Despite being widespread across central and southern California, its habitat continues to shrink due to climate change and urban development.",
+    "image": "images/animals/023.png"
+  },
+  {
+    "id": 24,
+    "name": "Camas Pocket Gopher",
+    "species": "Thomomys bulbivorus",
+    "type": "Mammal",
+    "region": "Willamette Valley, northwestern Oregon",
+    "habitat": "Clay-rich grasslands, shrublands, and agricultural fields",
+    "stats": {
+      "size": 32,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 15
+    },
+    "description": "The largest of its genus, this underground burrower uses prominent buck teeth to excavate tunnels exceeding 240 meters in hard clay soil, and constructs unique vertical chimney mounds for ventilation using Bernoulli's principle.",
+    "image": "images/animals/024.png"
+  },
+  {
+    "id": 25,
+    "name": "Cascade Golden-mantled Ground Squirrel",
+    "species": "Callospermophilus saturatus",
+    "type": "Mammal",
+    "region": "Cascade Mountains of Washington and British Columbia",
+    "habitat": "Mountain forests and meadows",
+    "stats": {
+      "size": 28,
+      "speed": 72,
+      "rarity": 18,
+      "danger": 2
+    },
+    "description": "Born ectothermic but rapidly developing internal heat regulation, this ground squirrel covers an impressive 5 kilometers daily\u2014traveling at a maximum aerobic speed of 3.63 m/s to outrun predators. Its distinctive alarm calls are so unique they can be identified with 100% accuracy, making this the largest of its three-species genus unmistakable to fellow squirrels.",
+    "image": "images/animals/025.png"
+  },
+  {
+    "id": 26,
+    "name": "Chihuahuan Pocket Mouse",
+    "species": "Chaetodipus eremicus",
+    "type": "Mammal",
+    "region": "Southwestern US (Texas, New Mexico) and Mexico",
+    "habitat": "Desert scrubland with sandy soil",
+    "stats": {
+      "size": 12,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal desert dweller weighing just 15-23 grams that constructs elaborate multi-chambered burrows with numerous hidden exits. This seed-hoarding rodent can enter torpor during winter months and was only recognized as a distinct species in 1996 through DNA analysis.",
+    "image": "images/animals/026.png"
+  },
+  {
+    "id": 27,
+    "name": "Chisel-toothed Kangaroo Rat",
+    "species": "Dipodomys microps",
+    "type": "Mammal",
+    "region": "Great Basin and High Desert (Nevada, Utah, California, Oregon, Arizona, Idaho)",
+    "habitat": "Arid desert shrubland with saltbush, gravelly soils at moderate to high elevations",
+    "stats": {
+      "size": 18,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This tiny desert specialist has evolved chisel-shaped incisors to scrape salt crystals off toxic saltbush leaves, then stores up to 250 grams of leaves in its burrows and obtains all its water from the vegetation\u2014a unique survival strategy among kangaroo rats.",
+    "image": "images/animals/027.png"
+  },
+  {
+    "id": 28,
+    "name": "Cliff Chipmunk",
+    "species": "Neotamias dorsalis",
+    "type": "Mammal",
+    "region": "Western US (Arizona to Colorado) and Mexico",
+    "habitat": "Cliff walls and boulder fields in pinyon-juniper woodlands",
+    "stats": {
+      "size": 12,
+      "speed": 75,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A gravity-defying acrobat that scales sheer cliff faces with ease, this tiny 2.5-ounce rodent forgoes body fat storage and instead meticulously hoards food for winter survival. Remarkably long-lived for its size, it can reach over 12 years of age.",
+    "image": "images/animals/028.png"
+  },
+  {
+    "id": 29,
+    "name": "Colorado Chipmunk",
+    "species": "Neotamias quadrivittatus",
+    "type": "Mammal",
+    "region": "Colorado, Utah, Arizona, New Mexico",
+    "habitat": "Coniferous forests and montane woodlands at high elevation",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "The largest chipmunk of the Colorado Front Range, this tiny rodent can weigh up to 62 grams yet fiercely defends its territory with vocalizations and caches enough seeds and berries to survive harsh mountain winters above 4,900 feet in elevation.",
+    "image": "images/animals/029.png"
+  },
+  {
+    "id": 30,
+    "name": "Columbia Plateau Pocket Mouse",
+    "species": "Perognathus parvus",
+    "type": "Mammal",
+    "region": "Great Basin, Pacific Northwest, and adjacent western US from British Columbia to Arizona",
+    "habitat": "Arid shrublands, sagebrush steppes, and pinyon-juniper woodlands",
+    "stats": {
+      "size": 12,
+      "speed": 45,
+      "rarity": 22,
+      "danger": 1
+    },
+    "description": "A master seed hoarder that requires 870 to 1,000 seeds daily and can locate buried caches from underground using mysterious sensory abilities. This nocturnal rodent enters torpor during harsh seasons to conserve energy, slowing its metabolism to mere kilocalories per day.",
+    "image": "images/animals/030.png"
+  },
+  {
+    "id": 31,
+    "name": "Columbian Ground Squirrel",
+    "species": "Urocitellus columbianus",
+    "type": "Mammal",
+    "region": "Rocky Mountains and high plains from Alberta and British Columbia south through Montana, Idaho, Washington, and Oregon",
+    "habitat": "Alpine and subalpine meadows, grasslands, and mountain slopes at 700\u20138,000 feet elevation",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 18,
+      "danger": 2
+    },
+    "description": "This burrowing rodent hibernates for 8\u20139 months per year and emerges emaciated in spring, with mothers' milk increasing calcium concentration by 134% to fuel their young before the first hibernation. Known for greeting each other with kissing behavior and spending more time standing at attention than any other above-ground activity.",
+    "image": "images/animals/031.png"
+  },
+  {
+    "id": 32,
+    "name": "Coulee Chipmunk",
+    "species": "Neotamias grisescens",
+    "type": "Mammal",
+    "region": "Central Washington (Channeled Scablands)",
+    "habitat": "Scablands and arid shrublands",
+    "stats": {
+      "size": 12,
+      "speed": 55,
+      "rarity": 25,
+      "danger": 2
+    },
+    "description": "A cryptic chipmunk species once mistaken for its close relatives, distinguished by its distinctly grayer coloration and ability to coexist in the same habitat as multiple other chipmunk species.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 33,
+    "name": "Dark Kangaroo Mouse",
+    "species": "Microdipodops megacephalus",
+    "type": "Mammal",
+    "region": "Western US (Oregon, California, Nevada, Idaho, Utah)",
+    "habitat": "Loose sand and gravels in Upper Sonoran life zone",
+    "stats": {
+      "size": 8,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "This tiny hopper weighs just 13 grams but stores fat in its tail like a camel, growing it thick before winter hibernation and thin again in spring\u2014a unique adaptation among North American small mammals. Perfectly adapted to desert life, it never needs to drink water, instead extracting all moisture from seeds it carries in cheek pouches back to its burrow.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 34,
+    "name": "Delmarva Fox Squirrel",
+    "species": "S. n. cinereus",
+    "type": "Mammal",
+    "region": "Eastern Shore of Maryland and Virginia, historically Delmarva Peninsula",
+    "habitat": "Mature hardwood and pine forests with open understory",
+    "stats": {
+      "size": 32,
+      "speed": 55,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "Once hunted to near extinction with only 10% of its population remaining, this frosty silver squirrel has made a remarkable comeback through dedicated reintroduction efforts. A nimble tree-dweller reaching up to 30 inches in length, it can survive on acorns, hickory nuts, and pine cones found only in forest habitats with open space to forage.",
+    "image": "images/animals/034.png"
+  },
+  {
+    "id": 35,
+    "name": "Desert Kangaroo Rat",
+    "species": "Dipodomys deserti",
+    "type": "Mammal",
+    "region": "Southwestern US deserts (Death Valley, Great Basin, Mojave, Sonoran)",
+    "habitat": "Sandy desert dunes with sparse vegetation",
+    "stats": {
+      "size": 28,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A master of desert survival, this nimble rodent can go 2-3 weeks without drinking water by extracting moisture from seeds and its own metabolism. When threatened by snakes, it fearlessly drums its feet and kicks sand to warn predators it's aware of their presence.",
+    "image": "images/animals/035.png"
+  },
+  {
+    "id": 36,
+    "name": "Desert Pocket Gopher",
+    "species": "Geomys arenarius",
+    "type": "Mammal",
+    "region": "Southwest US (Texas, New Mexico) and northern Mexico (Chihuahua)",
+    "habitat": "Sandy riverbanks and loose soil near the Rio Grande Valley and irrigation canals",
+    "stats": {
+      "size": 28,
+      "speed": 15,
+      "rarity": 45,
+      "danger": 2
+    },
+    "description": "A powerful burrower with massive clawed forelimbs, this rodent causes more soil disturbance than other gopher species and can reshape desert landscapes through its relentless digging. Found only in a narrow strip along the Rio Grande, its isolated populations make it one of North America's most geographically restricted pocket gophers.",
+    "image": "images/animals/036.png"
+  },
+  {
+    "id": 37,
+    "name": "Desert Pocket Mouse",
+    "species": "Chaetodipus penicillatus",
+    "type": "Mammal",
+    "region": "Southwestern US and northern Mexico",
+    "habitat": "Arid desert with sparse vegetation, sandy washes, and desert scrub",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal desert dweller that can chew through hard-crusted soil to burrow and stores seeds in hidden caches throughout its territory. Despite living in harsh, arid environments, this tiny mouse survives on seeds alone and requires no additional water beyond its food.",
+    "image": "images/animals/037.png"
+  },
+  {
+    "id": 38,
+    "name": "Douglas Squirrel",
+    "species": "Tamiasciurus douglasii",
+    "type": "Mammal",
+    "region": "Pacific Northwest to central California",
+    "habitat": "Coniferous forests, old-growth and mature second-growth",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 3
+    },
+    "description": "A vocal forest dweller that accumulates massive cone-scale middens up to several meters across through generations of feeding, earning the Native American name 'Pillillooeet' from its characteristic alarm call. Weighing just 150-300 grams, it nonetheless claims territorial dominance over 10,000 square meters of forest during winter months.",
+    "image": "images/animals/038.png"
+  },
+  {
+    "id": 39,
+    "name": "Dulzura Kangaroo Rat",
+    "species": "Dipodomys simulans",
+    "type": "Mammal",
+    "region": "Southern California, Colorado Desert, and northwestern Mexico (Baja California)",
+    "habitat": "Sandy and gravelly soils in semi-desert, dry grassland, scrub, and coastal chaparral",
+    "stats": {
+      "size": 28,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal hopper that can reach densities of up to 45 animals per hectare, propelling itself exclusively on powerful hind legs while using its long tail as a stabilizer. This seed-hoarder stuffs its cheek pouches with food and can live in burrows with multiple hidden entrances, emerging only a few hours each night.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 40,
+    "name": "Eastern Chipmunk",
+    "species": "Tamias striatus",
+    "type": "Mammal",
+    "region": "Eastern North America and southern Canada",
+    "habitat": "Deciduous woodlands and urban parks with rocky areas and brush",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This striped burrower can trill at 130 vibrations per minute and is the only living member of its genus, measuring just 12 inches long but capable of constructing elaborate underground tunnel systems with multiple entrances.",
+    "image": "images/animals/040.png"
+  },
+  {
+    "id": 41,
+    "name": "Eastern Gray Squirrel",
+    "species": "Sciurus carolinensis",
+    "type": "Mammal",
+    "region": "Eastern and Midwestern US, Southern Canada",
+    "habitat": "Mature oak-hickory hardwood forests, urban parks and gardens",
+    "stats": {
+      "size": 28,
+      "speed": 65,
+      "rarity": 18,
+      "danger": 8
+    },
+    "description": "A master hoarder that creates thousands of food caches annually using precise spatial memory, yet forgets enough to accidentally plant entire forests. This acrobat can descend trees head-first by rotating its hind feet backward, and melanistic individuals exhibit 18% reduced heat loss compared to their gray cousins.",
+    "image": "images/animals/041.png"
+  },
+  {
+    "id": 42,
+    "name": "Fox Squirrel",
+    "species": "Sciurus niger",
+    "type": "Mammal",
+    "region": "Eastern US, Great Plains, southern Canadian provinces",
+    "habitat": "Open forest patches with oak, hickory, and pine trees; urban and suburban areas",
+    "stats": {
+      "size": 28,
+      "speed": 65,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "North America's largest tree squirrel, capable of leaping 15 feet horizontally and free-falling 20 feet or more while landing gracefully on tree limbs. Known for their impressive vocabulary of clucking sounds and ability to cache thousands of nuts for winter survival.",
+    "image": "images/animals/042.png"
+  },
+  {
+    "id": 43,
+    "name": "Franklin's Ground Squirrel",
+    "species": "Poliocitellus franklinii",
+    "type": "Mammal",
+    "region": "Northern Great Plains and Midwest (Alberta to Indiana)",
+    "habitat": "Tallgrass prairies with dense vegetation",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "An omnivorous ground squirrel that hibernates for eight months a year and can consume prey as large as fully-grown mallards, weighing up to 950 grams by fall despite starting spring at just 370 grams.",
+    "image": "images/animals/043.png"
+  },
+  {
+    "id": 44,
+    "name": "Fresno Kangaroo Rat",
+    "species": "Dipodomys nitratoides",
+    "type": "Mammal",
+    "region": "San Joaquin Valley, California",
+    "habitat": "Alkaline grasslands, saltbush scrub, and foothill shrublands",
+    "stats": {
+      "size": 8,
+      "speed": 75,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "The smallest kangaroo rat in its genus, this nocturnal rodent is three times less active under moonlight and uses powerful hind limbs to bound across the valley floor like its larger marsupial namesake. Once widespread across the San Joaquin Valley, its range has shrunk to fragmented patches totaling just 20,000 square kilometers due to agricultural development.",
+    "image": "images/animals/044.png"
+  },
+  {
+    "id": 45,
+    "name": "Giant Kangaroo Rat",
+    "species": "Dipodomys ingens",
+    "type": "Mammal",
+    "region": "Central California (San Joaquin Valley region)",
+    "habitat": "Dry, sandy grasslands",
+    "stats": {
+      "size": 18,
+      "speed": 75,
+      "rarity": 78,
+      "danger": 2
+    },
+    "description": "The largest of over 20 kangaroo rat species, this master communicator drums its feet at up to 18 beats per second to warn of danger and attract mates. Once found across vast grasslands, it now survives in less than 2% of its original range.",
+    "image": "images/animals/045.png"
+  },
+  {
+    "id": 46,
+    "name": "Golden-mantled Ground Squirrel",
+    "species": "Callospermophilus lateralis",
+    "type": "Mammal",
+    "region": "Rocky Mountains and western North America",
+    "habitat": "Coniferous forests, meadows, and sagebrush with rocky areas",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 18,
+      "danger": 8
+    },
+    "description": "Distinguished by its striking reddish mantle across the shoulders and white-bordered black stripes along its back, this squirrel can create burrows up to 100 feet long and stores enough food to sustain itself through hibernation lasting several months.",
+    "image": "images/animals/046.png"
+  },
+  {
+    "id": 47,
+    "name": "Gray-collared Chipmunk",
+    "species": "Neotamias cinereicollis",
+    "type": "Mammal",
+    "region": "Arizona and New Mexico",
+    "habitat": "Mountain coniferous forests, ponderosa pine and spruce-fir forests",
+    "stats": {
+      "size": 18,
+      "speed": 62,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A skilled climber with a distinctive gray face and collar, this chipmunk caches food in hidden holes and can sustain itself through winter on stored acorns and seeds without fully hibernating. Population density can quadruple from spring to late summer, peaking at 12 individuals per hectare.",
+    "image": "images/animals/047.png"
+  },
+  {
+    "id": 48,
+    "name": "Gray-footed Chipmunk",
+    "species": "Neotamias canipes",
+    "type": "Mammal",
+    "region": "Southwestern US (New Mexico, West Texas)",
+    "habitat": "Temperate mountain forests with mixed oak, pine, and fir trees",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "A nimble rock-dweller of the southwestern mountains that stuffs its cheeks with acorns, pine seeds, and insects before retreating into rocky crevices. Young chipmunks reach full size by October after a single annual breeding cycle, with females producing up to four offspring.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 49,
+    "name": "Groundhog",
+    "species": "Marmota monax",
+    "type": "Mammal",
+    "region": "Eastern United States, Canada, Alaska",
+    "habitat": "Woodlands, grasslands, open fields, and woodland edges",
+    "stats": {
+      "size": 32,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 8
+    },
+    "description": "A master excavator capable of removing 640 pounds of soil from a single burrow, this rodent's incisors grow 1.5 millimeters weekly and are worn down at the same rate through constant gnawing. Despite its stocky appearance, it can climb trees and swim with surprising agility when escaping predators.",
+    "image": "images/animals/049.png"
+  },
+  {
+    "id": 50,
+    "name": "Gulf Coast Kangaroo Rat",
+    "species": "Dipodomys compactus",
+    "type": "Mammal",
+    "region": "Southeastern Texas and coastal islands",
+    "habitat": "Sandy dunes and sparse mesquite savannah",
+    "stats": {
+      "size": 22,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This nocturnal desert dweller uses its oversized cheek pouches to transport seeds back to its burrow, and can be distinguished from similar species by its notably shorter, uncrested tail and coarser fur.",
+    "image": "images/animals/050.png"
+  },
+  {
+    "id": 51,
+    "name": "Gunnison's Prairie Dog",
+    "species": "Cynomys gunnisoni",
+    "type": "Mammal",
+    "region": "Four Corners region (Arizona, New Mexico, Utah, Colorado)",
+    "habitat": "High desert grasslands, sagebrush meadows, 6,000\u201310,000 feet elevation",
+    "stats": {
+      "size": 18,
+      "speed": 35,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "These burrowing rodents possess one of the most advanced natural languages in the animal kingdom, with up to 11 distinct warning calls that can be heard nearly a mile away and last up to 30 minutes. Uniquely among prairie dogs, Gunnison's species has 40 chromosomes instead of 50, making them chromosomally distinct from all other prairie dog species.",
+    "image": "images/animals/051.png"
+  },
+  {
+    "id": 52,
+    "name": "Hall's Pocket Gopher",
+    "species": "Geomys jugossicularis",
+    "type": "Mammal",
+    "region": "Western US (Colorado, Kansas, Nebraska)",
+    "habitat": "Grasslands and prairie regions",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 28,
+      "danger": 2
+    },
+    "description": "A genetically distinct burrowing rodent that was long mistaken for other pocket gopher species until chromosomal evidence revealed it as a separate lineage with no gene flow to its closest relatives. Two subspecies inhabit different regions, with the smaller Nebraska population named after renowned mammalogist Eugene Raymond Hall.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 53,
+    "name": "Harris's Antelope Squirrel",
+    "species": "Ammospermophilus harrisii",
+    "type": "Mammal",
+    "region": "Southwestern US (Arizona, New Mexico) and Sonora, Mexico",
+    "habitat": "Sonoran Desert and arid scrubland",
+    "stats": {
+      "size": 12,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A heat-defying desert dweller that holds its tail over its back like a parasol and spreads-eagles against the ground to dump excess body heat in the scorching Sonoran Desert. Despite weighing only 4\u20135 ounces, this pint-sized squirrel maintains a blazing body temperature of 97\u2013107\u00b0F and hunts small rodents and carrion alongside its diet of cacti and mesquite beans.",
+    "image": "images/animals/053.png"
+  },
+  {
+    "id": 54,
+    "name": "Heermann's Kangaroo Rat",
+    "species": "Dipodomys heermanni",
+    "type": "Mammal",
+    "region": "California, from Lake Tahoe to Point Conception",
+    "habitat": "Coastal plains and ridges with shallow soil, up to 3,000 feet elevation",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This broad-faced nocturnal rodent spends up to 23 hours per day in underground burrows, emerging only at night to forage for seeds and insects. Capable of hopping up to 30 inches in a single bound using its distinctive tail for balance.",
+    "image": "images/animals/054.png"
+  },
+  {
+    "id": 55,
+    "name": "Hispid Pocket Mouse",
+    "species": "Chaetodipus hispidus",
+    "type": "Mammal",
+    "region": "Great Plains from North Dakota to central Mexico",
+    "habitat": "Sandy upland grasslands with sparse vegetation and bare ground patches",
+    "stats": {
+      "size": 18,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "One of the largest pocket mice, this bristly-furred forager is notable for its mound-building behavior around burrow entrances, similar to pocket gophers but far smaller. Capable of bearing two or more litters per year, it thrives in the sparse, sandy soils of the Great Plains.",
+    "image": "images/animals/055.png"
+  },
+  {
+    "id": 56,
+    "name": "Hoary Marmot",
+    "species": "Marmota caligata",
+    "type": "Mammal",
+    "region": "Northwestern North America, Alaska to Washington/Idaho",
+    "habitat": "Alpine meadows and rocky terrain above tree line, sea level to 8,200 feet elevation",
+    "stats": {
+      "size": 68,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "The largest North American ground squirrel, weighing up to 13.5 pounds in autumn\u2014nearly double its spring weight\u2014and famous for its high-pitched warning whistle that alerts entire colonies to danger from up to 36 individuals strong.",
+    "image": "images/animals/056.png"
+  },
+  {
+    "id": 57,
+    "name": "Hopi Chipmunk",
+    "species": "Neotamias rufus",
+    "type": "Mammal",
+    "region": "Southwestern US (Colorado, Utah, Arizona)",
+    "habitat": "Rocky pinyon-juniper forests and canyon country",
+    "stats": {
+      "size": 12,
+      "speed": 75,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A naturally timid acrobat of the canyon rocks, weighing just 52-62 grams yet capable of navigating sheer cliff faces with incredible sure-footedness. Even when raised in captivity, these chipmunks never become tame, always maintaining their wild wariness as they zip between boulders watching for hawks.",
+    "image": "images/animals/057.png"
+  },
+  {
+    "id": 58,
+    "name": "Humboldt's Flying Squirrel",
+    "species": "Glaucomys oregonensis",
+    "type": "Mammal",
+    "region": "Pacific Coast (British Columbia to Southern California)",
+    "habitat": "Coniferous and mixed coniferous forests",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "A strictly nocturnal glider that can traverse between trees with remarkable agility, though it awkwardly stumbles on the ground. Under ultraviolet light, this squirrel's fur glows an eerie pink\u2014a phenomenon whose true purpose remains mysteriously debated among scientists.",
+    "image": "images/animals/058.png"
+  },
+  {
+    "id": 59,
+    "name": "Idaho Pocket Gopher",
+    "species": "Thomomys idahoensis",
+    "type": "Mammal",
+    "region": "Northwestern US (Idaho, Montana, Wyoming, Utah)",
+    "habitat": "Savannas, shrublands, and grasslands",
+    "stats": {
+      "size": 12,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A solitary burrowing rodent weighing less than 3.2 ounces that remains active year-round, excavating and storing soil in its own personal underground tunnel system. Its slender skull and long baculum bone make it distinctly adapted for a subterranean lifestyle.",
+    "image": "images/animals/059.png"
+  },
+  {
+    "id": 60,
+    "name": "Knox Jones's Pocket Gopher",
+    "species": "Geomys knoxjonesi",
+    "type": "Mammal",
+    "region": "Central western Texas and southeastern New Mexico",
+    "habitat": "Deep sandy soils in arid regions",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A master burrower with oversized clawed forelimbs, this diminutive rodent weighs less than a deck of cards yet was only recognized as its own species in 1989 after genetic testing proved it distinct from its nearly identical cousin. Its preference for sandy soils over harder earth made it invisible to science for decades.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 61,
+    "name": "Least Chipmunk",
+    "species": "Neotamias minimus",
+    "type": "Mammal",
+    "region": "Western North America from New Mexico to Canada, including Michigan and Wisconsin",
+    "habitat": "Sagebrush, coniferous woodlands, alpine meadows, and tundra edges",
+    "stats": {
+      "size": 12,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "The smallest chipmunk species and most widespread across North America, measuring just 6-10 inches long. Survives harsh winters by entering torpor rather than hibernating, waking to munch on cached food stored deep in burrows.",
+    "image": "images/animals/061.png"
+  },
+  {
+    "id": 62,
+    "name": "Little Pocket Mouse",
+    "species": "Perognathus longimembris",
+    "type": "Mammal",
+    "region": "Southwestern US (Arizona, California, Idaho, Nevada, Oregon, Utah), Baja California, and Sonora",
+    "habitat": "Arid and semiarid grasslands with sagebrush and scrubby vegetation",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "A nocturnal seed-hoarder with an impressively long tail, this tiny rodent became an unlikely space explorer when five of its kind orbited the Moon 75 times aboard Apollo 17 in December 1972, with four surviving the historic journey.",
+    "image": "images/animals/062.png"
+  },
+  {
+    "id": 63,
+    "name": "Llano Pocket Gopher",
+    "species": "Geomys texensis",
+    "type": "Mammal",
+    "region": "Central Texas",
+    "habitat": "Loamy soils suitable for digging",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A master tunneler that constructs elaborate underground burrow systems with multiple chambers, food caches, and vertical corkscrew tunnels to evade predators. Males reach 18 cm in length and are so genetically distinct from their close relatives that scientists initially needed DNA sequencing to confirm their species status.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 64,
+    "name": "Lodgepole Chipmunk",
+    "species": "Neotamias speciosus",
+    "type": "Mammal",
+    "region": "California Sierra Nevada, Lake Tahoe area",
+    "habitat": "Subalpine coniferous forests (lodgepole, Jeffrey, and sugar pine)",
+    "stats": {
+      "size": 12,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A striped mountain dweller that hibernates for five to six months and disperses fungi crucial to forest survival through its droppings. Despite weighing only 55 grams, it plays an outsized ecological role in maintaining Sierra Nevada ecosystems.",
+    "image": "images/animals/064.png"
+  },
+  {
+    "id": 65,
+    "name": "Long-eared Chipmunk",
+    "species": "Neotamias quadrimaculatus",
+    "type": "Mammal",
+    "region": "Central and northern Sierra Nevada, California and Nevada",
+    "habitat": "High-elevation coniferous forests and alpine meadows",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "Sporting the longest ears of any chipmunk species, this bright red-brown rodent displays striking white ear patches and nine alternating dark and pale stripes running down its back. It can weigh up to 105 grams and hibernates for four months each winter in underground burrows.",
+    "image": "images/animals/065.png"
+  },
+  {
+    "id": 66,
+    "name": "Long-tailed Pocket Mouse",
+    "species": "Chaetodipus formosus",
+    "type": "Mammal",
+    "region": "Southwestern US (Arizona, California, Nevada, Utah) and Baja California",
+    "habitat": "Desert scrubland and arid regions",
+    "stats": {
+      "size": 12,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This tiny desert rodent sports an exceptionally long tail relative to its body size, which it uses for balance while navigating rocky desert terrain. Despite its diminutive frame, it's remarkably adapted to arid environments where it forages for seeds and insects.",
+    "image": "images/animals/066.png"
+  },
+  {
+    "id": 67,
+    "name": "Mazama Pocket Gopher",
+    "species": "Thomomys mazama",
+    "type": "Mammal",
+    "region": "Pacific Northwest (Washington, Oregon, Northern California)",
+    "habitat": "Prairie grasslands with well-drained glacial soil",
+    "stats": {
+      "size": 12,
+      "speed": 25,
+      "rarity": 22,
+      "danger": 8
+    },
+    "description": "A diminutive burrower capable of turning over 3\u20137 tons of soil per acre annually, transforming prairie ecosystems and creating homes for countless other species with its powerful claws and tireless digging.",
+    "image": "images/animals/067.png"
+  },
+  {
+    "id": 68,
+    "name": "Meadow Jumping Mouse",
+    "species": "Zapus hudsonius",
+    "type": "Mammal",
+    "region": "Continental US from Atlantic coast to Great Plains, Canada to Alaska south to Georgia, Alabama, Arizona, and New Mexico",
+    "habitat": "Moist grasslands and meadows with nearby streams, ponds, or marshes; high herbaceous cover with open areas preferred",
+    "stats": {
+      "size": 12,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A diminutive rodent with disproportionately large hind feet that can leap 2-3 feet in a single bound\u2014roughly 12 times its body length. Before hibernation, this mouse balloons to 35 grams, nearly doubling its summer weight to survive months of dormancy.",
+    "image": "images/animals/068.png"
+  },
+  {
+    "id": 69,
+    "name": "Merriam's Chipmunk",
+    "species": "Neotamias merriami",
+    "type": "Mammal",
+    "region": "Central and southern California, northern Baja California",
+    "habitat": "Dry scrublands and chaparral in mountainous areas",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "This diminutive rodent uses a unique courtship ritual where females call for 10-15 minutes to attract males, who respond by leaping around before the entire mating process concludes in just 15 seconds. Armed with 22 teeth perfectly adapted for cracking seeds and nuts, it's a master of rapid-fire reproduction.",
+    "image": "images/animals/069.png"
+  },
+  {
+    "id": 70,
+    "name": "Merriam's Ground Squirrel",
+    "species": "Urocitellus canus",
+    "type": "Mammal",
+    "region": "Western US (Oregon, Idaho, Nevada)",
+    "habitat": "Arid sagebrush chaparral and grasslands",
+    "stats": {
+      "size": 12,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A cryptic grey squirrel that spends eight months of the year hibernating underground, emerging only in early spring to feed on seeds, roots, and insects before retreating again by August. Can only be reliably distinguished from similar species through genetic testing.",
+    "image": "images/animals/070.png"
+  },
+  {
+    "id": 71,
+    "name": "Merriam's Kangaroo Rat",
+    "species": "Dipodomys merriami",
+    "type": "Mammal",
+    "region": "Southwestern US, Baja California, northern Mexico",
+    "habitat": "Desert scrub, sagebrush steppe, pinyon-juniper woodland, Joshua tree forests",
+    "stats": {
+      "size": 18,
+      "speed": 75,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A bipedal desert hopper with kangaroo-like hind feet and a distinctive hair-tufted tail that acts like an arrow's fletching to stabilize its movements. This nocturnal seed-hoarder avoids moonlit nights to escape predators, storing hundreds of seeds in underground chambers and extracting water from its food rather than drinking.",
+    "image": "images/animals/071.png"
+  },
+  {
+    "id": 72,
+    "name": "Merriam's Pocket Mouse",
+    "species": "Perognathus merriami",
+    "type": "Mammal",
+    "region": "Southwest US and Northeast Mexico",
+    "habitat": "Shortgrass prairie, desert scrub, and arid shrubland",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "This tiny nocturnal rodent survives up to four years without drinking water, extracting all moisture from seeds stored in its cheek pouches. At temperatures below 50\u00b0F, it enters a death-like torpor from which it mysteriously revives when warmed.",
+    "image": "images/animals/072.png"
+  },
+  {
+    "id": 73,
+    "name": "Mexican Fox Squirrel",
+    "species": "Sciurus nayaritensis",
+    "type": "Mammal",
+    "region": "Southeastern Arizona (Chiricahua Mountains)",
+    "habitat": "Mixed pine-oak and conifer forests, riparian areas with cottonwoods",
+    "stats": {
+      "size": 28,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A surprisingly silent tree dweller weighing around 25 ounces, this squirrel forages year-round in forests maintained by natural fire and uses its charcoal tail frosted with white as a striking beacon through the canopy. When startled, it barks and chucks from safe perches rather than fleeing, preferring stealth over speed.",
+    "image": "images/animals/073.png"
+  },
+  {
+    "id": 74,
+    "name": "Mexican Ground Squirrel",
+    "species": "Ictidomys mexicanus",
+    "type": "Mammal",
+    "region": "Northern Mexico, Texas, Southeastern New Mexico",
+    "habitat": "Flat, brushy, grassy areas with sandy or gravelly soil",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A small burrowing rodent with nine distinctive rows of white spots on its back, this ground squirrel has evolved remarkable resistance to western diamondback rattlesnake venom through a specialized antihemorrhagic factor. Each individual maintains multiple burrows with up to five escape tunnels, allowing it to dart away from predators with impressive agility.",
+    "image": "images/animals/074.png"
+  },
+  {
+    "id": 75,
+    "name": "Mexican Spiny Pocket Mouse",
+    "species": "Heteromys irroratus",
+    "type": "Mammal",
+    "region": "Southern Texas and Mexico",
+    "habitat": "Dry shrubland and scrubby uplands",
+    "stats": {
+      "size": 18,
+      "speed": 75,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal mouse with a kangaroo-like leap that can cover 5 feet in a single second, armed with stiff spines mixed into its coat for protection. Uniquely dependent on water access, it stores seeds in cheek pouches and raises litters of up to eight young throughout the year.",
+    "image": "images/animals/075.png"
+  },
+  {
+    "id": 76,
+    "name": "Mohave Ground Squirrel",
+    "species": "Xerospermophilus mohavensis",
+    "type": "Mammal",
+    "region": "Mojave Desert, California",
+    "habitat": "Joshua tree woodlands, creosote scrub, and desert scrublands",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "This nine-inch desert dweller enters a hibernation-like estivation state during dry months, with entire local populations vanishing during multi-year droughts\u2014only to rebound when rains return. Males emit a distinctive high-pitched 'peep' alarm call that locals often mistake for a horned lark.",
+    "image": "images/animals/076.png"
+  },
+  {
+    "id": 77,
+    "name": "Morro Bay Kangaroo Rat",
+    "species": "D. h. morroensis",
+    "type": "Mammal",
+    "region": "Central Coast of California",
+    "habitat": "Fine sand dunes and coastal scrub",
+    "stats": {
+      "size": 8,
+      "speed": 75,
+      "rarity": 78,
+      "danger": 0
+    },
+    "description": "A tiny nocturnal hopper weighing just 60-80 grams, this rat's oversized hind legs and long tail let it leap like a miniature kangaroo across California's dunes. Restricted to a mere 2 km stretch of Morro Bay, it stands on the brink of extinction with fewer individuals surviving in the wild than many critically endangered species.",
+    "image": "images/animals/077.png"
+  },
+  {
+    "id": 78,
+    "name": "Mount Graham Red Squirrel",
+    "species": "T. f. grahamensis",
+    "type": "Mammal",
+    "region": "Arizona (Pinale\u00f1o Mountains)",
+    "habitat": "High-elevation spruce-fir and mixed-conifer forests",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 78,
+      "danger": 2
+    },
+    "description": "This tiny 8-ounce squirrel was believed extinct until its miraculous rediscovery in the 1970s, and now survives in just the remote peaks of Arizona where it forages for fungi and conifer seeds. Unlike its red squirrel cousins, it lacks the characteristic white-fringed tail and sports rusty orange markings on its grayish-brown fur.",
+    "image": "images/animals/078.png"
+  },
+  {
+    "id": 79,
+    "name": "Mountain Beaver",
+    "species": "Aplodontia rufa",
+    "type": "Mammal",
+    "region": "Pacific Northwest and California mountains",
+    "habitat": "Temperate rainforests and moist coniferous/deciduous forests",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "Despite being called a beaver, this nocturnal burrower is more closely related to squirrels and cannot concentrate urine\u2014forcing it to consume massive amounts of water daily and restricting it to the wettest regions of North America. Known for devastating forest seedlings through bark-stripping and branch-cutting, it harbors the largest flea species on Earth, measuring up to 8 mm long.",
+    "image": "images/animals/079.png"
+  },
+  {
+    "id": 80,
+    "name": "Mountain Pocket Gopher",
+    "species": "Thomomys monticola",
+    "type": "Mammal",
+    "region": "California and Nevada, particularly the Sierra Nevada",
+    "habitat": "Mountain meadows, forest floors, and meadow edges",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A tireless underground engineer that constructs tunnel systems spanning up to 2,000 square feet while rarely surfacing. This 91-gram rodent survives entirely on water extracted from plants and stores roots and bulbs in its elaborate burrow network.",
+    "image": "images/animals/080.png"
+  },
+  {
+    "id": 81,
+    "name": "Narrow-faced Kangaroo Rat",
+    "species": "Dipodomys venustus",
+    "type": "Mammal",
+    "region": "West-central California coastal mountains",
+    "habitat": "Chaparral and sandy soils with oak or pine",
+    "stats": {
+      "size": 18,
+      "speed": 72,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "This nimble rodent possesses a distinctly narrow face among its kangaroo rat cousins, allowing it to navigate the chaparral scrublands of coastal California with remarkable agility. Equipped with powerful hind legs for jumping and specialized cheek pouches for carrying seeds, it's perfectly adapted to life in sandy, drought-prone terrain.",
+    "image": "images/animals/081.png"
+  },
+  {
+    "id": 82,
+    "name": "Nelson's Pocket Mouse",
+    "species": "Chaetodipus nelsoni",
+    "type": "Mammal",
+    "region": "Western Texas, southeastern New Mexico, central and northern Mexico",
+    "habitat": "Desert with sparse scrubby vegetation, rocky slopes with cactus and creosote bush",
+    "stats": {
+      "size": 18,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nimble nocturnal forager with fur-lined cheek pouches and distinctive dark-tipped spines on its rump, this desert dweller can pack seeds into its pouches while moving between plants on rocky slopes. Despite abundant numbers in late summer, only 14% survive to their first birthday.",
+    "image": "images/animals/082.png"
+  },
+  {
+    "id": 83,
     "name": "Nine-banded Armadillo",
     "species": "Dasypus novemcinctus",
     "type": "Mammal",
-    "region": "Southeastern US, expanding northward to Ohio and Pennsylvania",
-    "habitat": "Grasslands, rainforests, scrublands, and tropical dry forests",
+    "region": "Southeastern US, expanding northward to the Midwest and Mid-Atlantic",
+    "habitat": "Grasslands, scrublands, rainforests, and open prairies",
     "stats": {
-      "size": 35,
-      "speed": 45,
+      "size": 28,
+      "speed": 35,
       "rarity": 20,
-      "danger": 10
+      "danger": 8
     },
-    "description": "When startled, this armored mammal can jump 3-4 feet straight into the air and holds its breath for up to six minutes while foraging underground for insects. Its high reproductive rate\u2014producing up to 56 offspring over a lifetime\u2014has allowed it to rapidly expand its range northward across the United States.",
-    "image": "images/animals/003.jpg"
+    "description": "Encased in an impenetrable armor of bony plates, this insectivore can leap 3-4 feet straight into the air when frightened and hold its breath for up to six minutes while hunting underground. A single female can produce up to 56 young in her lifetime, driving the species' explosive expansion across North America.",
+    "image": "images/animals/083.png"
   },
   {
-    "id": 4,
+    "id": 84,
     "name": "North American Porcupine",
     "species": "Erethizon dorsatum",
     "type": "Mammal",
-    "region": "Canada to Mexico, eastern North America to Alaska",
+    "region": "Canada to northern Mexico, eastern North America to Alaska",
     "habitat": "Coniferous and mixed forests, shrublands, tundra",
     "stats": {
       "size": 75,
@@ -60,23 +1340,983 @@
       "rarity": 20,
       "danger": 25
     },
-    "description": "Armed with roughly 30,000 barbed quills covering its body, this slow-moving rodent relies on its formidable defense system and pungent odor to deter even large predators like bears and cougars. Despite its vulnerability to fishers and cougars, it can live up to 30 years by climbing trees and maintaining a solitary, defensive lifestyle.",
-    "image": "images/animals/004.jpg"
+    "description": "Armed with approximately 30,000 barbed quills covering its body, this slow-moving rodent relies on its formidable defense system rather than speed to survive. The only North American mammal to successfully live a solitary lifestyle among herbivores, it can remember complex mazes for up to 100 days.",
+    "image": "images/animals/084.png"
   },
   {
-    "id": 5,
+    "id": 85,
+    "name": "Northern Flying Squirrel",
+    "species": "Glaucomys sabrinus",
+    "type": "Mammal",
+    "region": "Canada and northern United States, from Alaska to Nova Scotia, south to the Appalachian Mountains",
+    "habitat": "Coniferous and mixed coniferous forests",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "A nocturnal glider that can soar up to 45 meters between trees by stretching a patagium membrane and making sharp 90-degree turns in mid-air before using its flat tail as a parachute to land safely on tree trunks.",
+    "image": "images/animals/085.png"
+  },
+  {
+    "id": 86,
+    "name": "Northern Idaho Ground Squirrel",
+    "species": "Urocitellus brunneus",
+    "type": "Mammal",
+    "region": "Western-central Idaho (Adams and Valley Counties)",
+    "habitat": "Dry rocky meadows with ponderosa pine and Douglas-fir forests",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 75,
+      "danger": 2
+    },
+    "description": "This critically endangered squirrel hibernates for 8 months straight and can construct three different types of burrows for specific purposes\u2014nest burrows for breeding, auxiliary burrows for escape, and hibernation burrows for winter survival. Once widespread across 1,600 square kilometers, fewer than 2,000 individuals remain today.",
+    "image": "images/animals/086.png"
+  },
+  {
+    "id": 87,
+    "name": "Northern Pocket Gopher",
+    "species": "Thomomys talpoides",
+    "type": "Mammal",
+    "region": "Western US and Canadian provinces (Alberta, Saskatchewan, British Columbia, Manitoba)",
+    "habitat": "Mountain meadows and lowlands with good soil, near streams",
+    "stats": {
+      "size": 12,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A subterranean master engineer that rarely surfaces, constructing tunnel systems extending hundreds of feet underground where it lives, stores food, and mates. Despite their small 60-160 gram frame, these burrowers significantly reshape their ecosystems by altering plant composition and affecting herbivore populations.",
+    "image": "images/animals/087.png"
+  },
+  {
+    "id": 88,
+    "name": "Olive-backed Pocket Mouse",
+    "species": "Perognathus fasciatus",
+    "type": "Mammal",
+    "region": "Central Great Plains (Canada to Colorado)",
+    "habitat": "Arid grasslands and semi-arid uplands",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 1
+    },
+    "description": "A nocturnal burrower that excavates tunnel systems reaching 6.5 feet deep and spanning nearly 10 feet across, storing hundreds of seeds in underground chambers to survive up to eight months of hibernation without emerging above ground.",
+    "image": "images/animals/088.png"
+  },
+  {
+    "id": 89,
+    "name": "Olympic Marmot",
+    "species": "Marmota olympus",
+    "type": "Mammal",
+    "region": "Olympic Peninsula, Washington",
+    "habitat": "Alpine and subalpine meadows, mountain slopes",
+    "stats": {
+      "size": 65,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "This stocky alpine rodent displays the most pronounced sexual dimorphism of any marmot species, with males weighing 23% more than females. Before hibernating for eight months without eating, they nearly double their body weight and lose half of it by spring.",
+    "image": "images/animals/089.png"
+  },
+  {
+    "id": 90,
+    "name": "Ord's Kangaroo Rat",
+    "species": "Dipodomys ordii",
+    "type": "Mammal",
+    "region": "Great Plains and Great Basin, from southern Canada to central Mexico",
+    "habitat": "Semiarid grasslands, shrublands, and sandy desert scrub",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal master of the desert with a fifth toe on its hind feet and a distinctive white-striped tail, this rat can make hundreds of seed caches to survive harsh conditions. Most water is obtained directly from seeds, allowing it to thrive in some of North America's most arid regions.",
+    "image": "images/animals/090.png"
+  },
+  {
+    "id": 91,
+    "name": "Pacific Pocket Mouse",
+    "species": "P. l. pacificus",
+    "type": "Mammal",
+    "region": "Southern California coast",
+    "habitat": "Coastal sand dunes and sage scrub near the Pacific Ocean",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 78,
+      "danger": 0
+    },
+    "description": "Believed extinct for nearly 20 years before its miraculous rediscovery in 1993, this tiny hibernator weighs less than a third of an ounce yet survives California's harsh coastal climate by storing seeds in fur-lined cheek pouches up to 12 inches long.",
+    "image": "images/animals/091.png"
+  },
+  {
+    "id": 92,
+    "name": "Pale Kangaroo Mouse",
+    "species": "Microdipodops pallidus",
+    "type": "Mammal",
+    "region": "Central Nevada and eastern California deserts",
+    "habitat": "Sand dunes and sandy desert floors of the Great Basin",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 25,
+      "danger": 0
+    },
+    "description": "A nocturnal hopper weighing less than half an ounce, this bipedal rodent avoids moonlight and caches seeds across multiple hiding spots to outwit competing desert scavengers. Known to derive all its water from insects rather than drinking free water.",
+    "image": "images/animals/092.png"
+  },
+  {
+    "id": 93,
+    "name": "Palmer's Chipmunk",
+    "species": "Neotamias palmeri",
+    "type": "Mammal",
+    "region": "Southern Nevada (Spring Mountains)",
+    "habitat": "High-altitude temperate forests with pinyon pine, juniper, fir, and bristlecone pine",
+    "stats": {
+      "size": 12,
+      "speed": 55,
+      "rarity": 75,
+      "danger": 2
+    },
+    "description": "A diminutive striped rodent weighing barely 60 grams that survives Nevada's harsh winters by caching ponderosa pine seeds and emerging on warm days to raid its own underground pantries. Found only in the remote Spring Mountains, this endangered chipmunk is losing ground to campground expansion and Las Vegas sprawl.",
+    "image": "images/animals/093.png"
+  },
+  {
+    "id": 94,
+    "name": "Panamint Chipmunk",
+    "species": "Neotamias panamintinus",
+    "type": "Mammal",
+    "region": "Southeast California and southwest Nevada",
+    "habitat": "Pinyon pine-juniper woodlands, bushes, boulders, and cliffs",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nimble desert dweller that navigates rocky cliffs and canyon walls with ease, serving as a vital food source for raptors, coyotes, and bobcats across the arid southwest. Despite its small size, it thrives in harsh pinyon-juniper environments where few other small mammals persist.",
+    "image": "images/animals/094.png"
+  },
+  {
+    "id": 95,
+    "name": "Panamint Kangaroo Rat",
+    "species": "Dipodomys panamintinus",
+    "type": "Mammal",
+    "region": "Eastern California and western Nevada (Mojave Desert)",
+    "habitat": "Great Basin bush desert, sandy mounds with brush clumps at high elevations",
+    "stats": {
+      "size": 28,
+      "speed": 72,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal desert hopper with a tail 140% longer than its body, equipped with fur-lined cheek pouches and the remarkable ability to survive indefinitely on metabolic water extracted from seeds, producing only a single drop of urine every 1\u20132 hours.",
+    "image": "images/animals/095.png"
+  },
+  {
+    "id": 96,
+    "name": "Piute Ground Squirrel",
+    "species": "Urocitellus mollis",
+    "type": "Mammal",
+    "region": "Great Basin region of western US (California, Idaho, Nevada, Oregon, Utah, Washington)",
+    "habitat": "Great Basin scrublands and arid regions",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nimble burrower endemic to the Great Basin, this small squirrel is perfectly adapted to arid environments and serves as a key food source for the region's raptors and predators.",
+    "image": "images/animals/096.png"
+  },
+  {
+    "id": 97,
+    "name": "Plains Pocket Gopher",
+    "species": "Geomys bursarius",
+    "type": "Mammal",
+    "region": "Great Plains (Manitoba to Texas)",
+    "habitat": "Grasslands and agricultural land with sandy, friable soils",
+    "stats": {
+      "size": 28,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "A master tunneler that excavates up to 2,059 cm of new burrows per week, spending 72% of its time underground in a solitary lifestyle guided by extraordinary sensitivity to soil vibrations. Despite being dismissed as pests, these rodents are vital ecosystem engineers that improve soil aeration, drainage, and plant diversity across the Great Plains.",
+    "image": "images/animals/097.png"
+  },
+  {
+    "id": 98,
+    "name": "Plains Pocket Mouse",
+    "species": "Perognathus flavescens",
+    "type": "Mammal",
+    "region": "Great Plains and Southwest, from Minnesota and North Dakota to Texas and northern Mexico",
+    "habitat": "Sandy soil areas with Spanish bayonet and prickly pear plants",
+    "stats": {
+      "size": 12,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A tiny rodent barely 5 inches long that carries seeds in specialized cheek pouches, capable of storing enough foraged food to survive in arid grasslands where other mammals struggle.",
+    "image": "images/animals/098.png"
+  },
+  {
+    "id": 99,
+    "name": "Red-tailed Chipmunk",
+    "species": "Neotamias ruficaudus",
+    "type": "Mammal",
+    "region": "Pacific Northwest and Northern Rockies (British Columbia, Alberta, Washington, Idaho, Montana)",
+    "habitat": "Coniferous forests and woodland edges at high elevations (2,360-7,870 ft)",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "A bushy-tailed mountain dweller weighing barely 2 ounces that stores seeds in expandable cheek pouches and enters torpor during harsh winters rather than full hibernation. Its distinctive pinkish-buff and orange-brown coloring makes it nearly impossible to distinguish from the yellow-pine chipmunk without skeletal examination.",
+    "image": "images/animals/099.png"
+  },
+  {
+    "id": 100,
+    "name": "Richardson's Ground Squirrel",
+    "species": "Urocitellus richardsonii",
+    "type": "Mammal",
+    "region": "Northern US (North Dakota, Montana) and western Canada (Alberta, Saskatchewan)",
+    "habitat": "Short grass prairies and grasslands; adapts to suburban areas",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 8
+    },
+    "description": "Named for its constantly trembling tail that earns it the nickname \"flickertail,\" this ground squirrel can nearly triple its weight from 250g to 750g before hibernation. Notable for its cannibalistic tendencies and the ability to communicate through both audible whistles and ultrasonic alarm calls to warn colony mates of approaching predators.",
+    "image": "images/animals/100.png"
+  },
+  {
+    "id": 101,
+    "name": "Rio Grande Ground Squirrel",
+    "species": "Ictidomys parvidens",
+    "type": "Mammal",
+    "region": "Southwestern US (Texas and New Mexico), northeastern Mexico",
+    "habitat": "Arid and semi-arid grasslands",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 25,
+      "danger": 2
+    },
+    "description": "Once classified as a subspecies of the Mexican ground squirrel, genetic analysis revealed this burrowing rodent was distinct enough to warrant its own genus\u2014Ictidomys\u2014reshaping our understanding of ground squirrel evolution.",
+    "image": "images/animals/101.png"
+  },
+  {
+    "id": 102,
+    "name": "Rock Pocket Mouse",
+    "species": "Chaetodipus intermedius",
+    "type": "Mammal",
+    "region": "Southwestern United States and Mexico",
+    "habitat": "Rocky desert outcrops",
+    "stats": {
+      "size": 18,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal desert dweller that has evolved a striking example of adaptive melanism, with dark-colored populations perfectly matching black volcanic rock formations while lighter cousins blend seamlessly into tan desert stone. The same dark coat has evolved independently in separate populations through entirely different genetic mutations, a remarkable case of convergent evolution.",
+    "image": "images/animals/102.png"
+  },
+  {
+    "id": 103,
+    "name": "Rock Squirrel",
+    "species": "Otospermophilus variegatus",
+    "type": "Mammal",
+    "region": "Southwestern US and Mexico (Nevada, Utah, Colorado, Arizona, New Mexico, West Texas, Oklahoma panhandle)",
+    "habitat": "Rocky mountains, canyon walls, cliffs, and steep rocky hills",
+    "stats": {
+      "size": 62,
+      "speed": 55,
+      "rarity": 22,
+      "danger": 8
+    },
+    "description": "One of the largest ground squirrels in North America, reaching up to 21 inches in length, with the remarkable ability to survive up to 100 days without water. These social burrowers can carry up to 62 acorns in their cheek pouches and will fearlessly throw debris at approaching snakes.",
+    "image": "images/animals/103.png"
+  },
+  {
+    "id": 104,
+    "name": "Round-tailed Ground Squirrel",
+    "species": "Xerospermophilus tereticaudus",
+    "type": "Mammal",
+    "region": "Southwestern US and Northwestern Mexico",
+    "habitat": "Desert regions with loose soil, mesquite trees, and creosote bushes",
+    "stats": {
+      "size": 12,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This tiny desert burrower weighs merely 125 grams and survives the harshest conditions by choosing foods with 80% water content, never needing a drink. When threatened by snakes, it performs a distinctive tail-wagging display and even kicks dirt at its predators.",
+    "image": "images/animals/104.png"
+  },
+  {
+    "id": 105,
+    "name": "San Bernardino Kangaroo Rat",
+    "species": "D. m. parvus",
+    "type": "Mammal",
+    "region": "Southern California (San Bernardino and Riverside counties)",
+    "habitat": "Sandy alluvial scrub with chaparral and coastal sage scrub",
+    "stats": {
+      "size": 8,
+      "speed": 65,
+      "rarity": 78,
+      "danger": 2
+    },
+    "description": "A four-toed desert dweller with an extraordinarily compressed range: once spanning 320,000 acres, its habitat has shrunk to just 3,247 acres by 1998. These tiny rodents can leap across sandy floodplains using their oversized hind feet and balancing tail, but urban development and flood control projects now threaten their survival.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 106,
+    "name": "San Diego Pocket Mouse",
+    "species": "Chaetodipus fallax",
+    "type": "Mammal",
+    "region": "Southern California and northern Baja California",
+    "habitat": "Desert scrub, rocky areas with herbaceous vegetation",
+    "stats": {
+      "size": 12,
+      "speed": 35,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "A nocturnal forager equipped with fur-lined cheek pouches that can survive indefinitely without drinking water by extracting moisture from seeds and metabolic processes. Males defend territories spanning nearly an acre while females patrol smaller ranges of just over half an acre.",
+    "image": "images/animals/106.png"
+  },
+  {
+    "id": 107,
+    "name": "San Joaquin Antelope Squirrel",
+    "species": "Ammospermophilus nelsoni",
+    "type": "Mammal",
+    "region": "San Joaquin Valley, California",
+    "habitat": "Sandy grasslands with sparse vegetation; Carrizo Plain",
+    "stats": {
+      "size": 12,
+      "speed": 62,
+      "rarity": 75,
+      "danger": 0
+    },
+    "description": "This tiny squirrel can survive at least 7 months without water in the shade and cleverly uses the white underside of its tail as a predator-deceiving lure, flicking it to mimic thistledown blowing in the wind. Once abundant across the San Joaquin Valley, fewer than 1 per hectare remain today due to agricultural expansion.",
+    "image": "images/animals/107.png"
+  },
+  {
+    "id": 108,
+    "name": "San Joaquin Pocket Mouse",
+    "species": "Perognathus inornatus",
+    "type": "Mammal",
+    "region": "California (Central Valley, Sierra Nevada foothills, Mojave Desert)",
+    "habitat": "Desert and semi-desert grasslands with creosote bush and Joshua tree",
+    "stats": {
+      "size": 12,
+      "speed": 45,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "A tiny desert rodent equipped with fur-lined cheek pouches that can carry seeds back to its burrow for storage during lean seasons. Despite weighing mere ounces, it may enter a dormant state called torpor to survive harsh winters.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 109,
+    "name": "Sand Hills Pocket Gopher",
+    "species": "Geomys lutescens",
+    "type": "Mammal",
+    "region": "Great Plains (Wyoming, Colorado, South Dakota, Nebraska)",
+    "habitat": "Sand Hills grasslands, Mississippi basin",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 28,
+      "danger": 2
+    },
+    "description": "A master tunneler that spends most of its life underground, this pocket gopher was long debated by scientists before genetic evidence confirmed it as a distinct species rather than a regional variant of the plains pocket gopher.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 110,
+    "name": "Silky Pocket Mouse",
+    "species": "Perognathus flavus",
+    "type": "Mammal",
+    "region": "Southwest US and northern/central Mexico",
+    "habitat": "Arid and semiarid grasslands, sandy areas, shrublands with yucca and cactus",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "The smallest pocket mouse in its family, this nocturnal forager can collect and store an entire 25-gram pile of seeds\u2014enough to sustain itself for 10 days\u2014in a single night. When temperatures drop below freezing, it enters short periods of torpor and survives on its meticulously organized underground seed caches.",
+    "image": "images/animals/110.png"
+  },
+  {
+    "id": 111,
+    "name": "Siskiyou Chipmunk",
+    "species": "Neotamias siskiyou",
+    "type": "Mammal",
+    "region": "Northern California and central Oregon",
+    "habitat": "Siskiyou Mountains and forested areas between the Klamath and Rogue Rivers",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This striped rodent sports a distinctive pattern of five dark brown and four gray stripes running down its back, with the central stripe appearing almost black. Most active during early evening hours, it communicates with distinctive single-syllable calls spaced evenly apart.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 112,
+    "name": "Sonoma Chipmunk",
+    "species": "Neotamias sonomae",
+    "type": "Mammal",
+    "region": "Northwestern California (Sonoma and Marin counties)",
+    "habitat": "Coniferous forests and chaparral, from sea level to 5,900 feet",
+    "stats": {
+      "size": 12,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "These tiny striped rodents weigh less than half an ounce yet produce alarm calls so distinct they're recognized across chipmunk species, with females working overtime as protective sentries for their young. Masters of camouflage, their barely-demarcated back stripes blur seamlessly into chaparral habitat while they cache seeds in oversized cheek pouches.",
+    "image": "images/animals/112.png"
+  },
+  {
+    "id": 113,
+    "name": "Southeastern Pocket Gopher",
+    "species": "Geomys pinetis",
+    "type": "Mammal",
+    "region": "Southeastern US (Alabama, Georgia, Florida)",
+    "habitat": "Sandy pine woodlands and scrubland with longleaf pine and turkey oak",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "A master underground architect that creates elaborate burrow systems with spiral staircases, pushing up distinctive fan-shaped mounds as it digs. Despite producing only an average of two offspring per year, this industrious burrower thrives throughout the Southeast and may actually improve soil fertility through its excavations.",
+    "image": "images/animals/113.png"
+  },
+  {
+    "id": 114,
+    "name": "Southern Flying Squirrel",
+    "species": "Glaucomys volans",
+    "type": "Mammal",
+    "region": "Eastern North America, from southeastern Canada to Florida; disjunct populations in Mexican highlands",
+    "habitat": "Deciduous and mixed forests with hickory, beech, oak, maple, and poplar trees",
+    "stats": {
+      "size": 12,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 8
+    },
+    "description": "This nocturnal glider extends a furry membrane between its limbs to descend at 30-40 degree angles, making precise 90-degree turns mid-air before raising its flattened tail to brake and land safely. Despite being clumsy on the ground, it can return to its nest from up to a kilometer away using spatial memory alone.",
+    "image": "images/animals/114.png"
+  },
+  {
+    "id": 115,
+    "name": "Southern Idaho Ground Squirrel",
+    "species": "Urocitellus endemicus",
+    "type": "Mammal",
+    "region": "Southwestern Idaho",
+    "habitat": "Rolling hills, basins, and flats at moderate elevation",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "Found only in a 30-by-70 kilometer range of southwestern Idaho, this ground squirrel weighs between 120 and 290 grams and exhibits notable sexual dimorphism with males significantly larger than females. Once considered the same species as its northern cousin, this vulnerable rodent inhabits the unique terrain bounded by the Payette and Snake rivers.",
+    "image": "images/animals/115.png"
+  },
+  {
+    "id": 116,
+    "name": "Southern Pocket Gopher",
+    "species": "Thomomys umbrinus",
+    "type": "Mammal",
+    "region": "Southwestern US (Arizona, New Mexico) and Mexico",
+    "habitat": "High altitude grassland and shrubland, desert grassland and woodland",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A prolific burrower that creates distinctive mounds of excavated soil across grasslands, this rodent can produce litters of up to ten young in a single breeding season. Active year-round without hibernation, it shares its underground tunnels with other species and serves as prey for owls, hawks, coyotes, and badgers.",
+    "image": "images/animals/116.png"
+  },
+  {
+    "id": 117,
+    "name": "Southwestern Red Squirrel",
+    "species": "Tamiasciurus fremonti",
+    "type": "Mammal",
+    "region": "Southwestern US (Colorado, New Mexico, Arizona)",
+    "habitat": "High-altitude mixed coniferous and spruce-fir forests",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 75,
+      "danger": 2
+    },
+    "description": "A tree-dwelling survivor of the last ice age, this species has remained isolated in mountain refuges for over 130,000 years with virtually no genetic exchange between populations. Its scattered populations face an uncertain future as habitat fragmentation threatens to drive them toward extinction.",
+    "image": "images/animals/117.png"
+  },
+  {
+    "id": 118,
+    "name": "Spiny Pocket Mouse",
+    "species": "Chaetodipus spinatus",
+    "type": "Mammal",
+    "region": "Southwestern US (Arizona, California, Nevada) and Baja California",
+    "habitat": "Rocky desert landscapes and desert islands",
+    "stats": {
+      "size": 8,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nocturnal desert dweller weighing just 0.5 ounces, distinguished by flexible spines running down its back that help it navigate rough, rocky terrain. Its tail grows to 126% the length of its body and head combined, aiding balance in the harsh desert environment.",
+    "image": "images/animals/118.png"
+  },
+  {
+    "id": 119,
+    "name": "Spotted Ground Squirrel",
+    "species": "Xerospermophilus spilosoma",
+    "type": "Mammal",
+    "region": "Central and western US (South Dakota to Texas), Mexico",
+    "habitat": "Sandy arid regions, dunes, sparse grasslands",
+    "stats": {
+      "size": 12,
+      "speed": 45,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "One of North America's tiniest squirrels, this spotted burrower enters hibernation for up to 10 months per year and employs 7 distinct alert postures to warn companions of danger. Males engage in frenzied mating displays, darting in and out of burrows in rapid succession.",
+    "image": "images/animals/119.png"
+  },
+  {
+    "id": 120,
+    "name": "Stephens' Kangaroo Rat",
+    "species": "Dipodomys stephensi",
+    "type": "Mammal",
+    "region": "Southern California, primarily western Riverside County",
+    "habitat": "Sparsely vegetated temperate grassland with gravelly soils",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "This medium-sized rodent's tail is 1.45 times longer than its body, and it creates a keystone effect on its ecosystem by clearing vegetation patches and dispersing seeds through caching, increasing plant diversity around its burrows.",
+    "image": "images/animals/120.png"
+  },
+  {
+    "id": 121,
+    "name": "Strecker's Pocket Gopher",
+    "species": "Geomys streckeri",
+    "type": "Mammal",
+    "region": "Texas",
+    "habitat": "Underground burrows in grasslands and prairies",
+    "stats": {
+      "size": 18,
+      "speed": 25,
+      "rarity": 35,
+      "danger": 2
+    },
+    "description": "A burrowing rodent that was long mistaken for its close relative until chromosomal analysis revealed it as a distinct species. Named after American herpetologist John Kern Strecker, this pocket gopher spends most of its life underground, using powerful claws to excavate elaborate tunnel systems across Texas grasslands.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 122,
+    "name": "Texas Antelope Squirrel",
+    "species": "Ammospermophilus interpres",
+    "type": "Mammal",
+    "region": "Western Texas, south-central New Mexico, and northern Mexico",
+    "habitat": "Desert burrows and rock crevices near bushes and shrubs",
+    "stats": {
+      "size": 18,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This small desert dweller can consume so much prickly pear cactus fruit that its flesh turns purple, and remarkably remains active year-round without hibernating despite harsh desert conditions.",
+    "image": "images/animals/122.png"
+  },
+  {
+    "id": 123,
+    "name": "Texas Kangaroo Rat",
+    "species": "Dipodomys elator",
+    "type": "Mammal",
+    "region": "North-central Texas and Oklahoma",
+    "habitat": "Clay-loam prairie with mesquite and lotebush brush, prairie mounds",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "This relatively large kangaroo rat stores seeds and vegetation in its cheek pouches and can survive on bare ground and prairie mounds without brush, making it a surprisingly adaptable rodent despite its vulnerable status across only 13 Texas counties.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 124,
+    "name": "Texas Pocket Gopher",
+    "species": "Geomys personatus",
+    "type": "Mammal",
+    "region": "Southern Texas and northeastern Mexico",
+    "habitat": "Sandy soils and sand drifts, including coastal islands",
+    "stats": {
+      "size": 28,
+      "speed": 15,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "An underground specialist that constructs burrow systems stretching nearly 100 feet, this rodent pulls plant roots down into its tunnels to avoid surface predators and even practices coprophagy to maximize nutrient extraction.",
+    "image": "images/animals/124.png"
+  },
+  {
+    "id": 125,
+    "name": "Thirteen-lined Ground Squirrel",
+    "species": "Ictidomys tridecemlineatus",
+    "type": "Mammal",
+    "region": "Central and northern North America grasslands and prairies",
+    "habitat": "Grasslands and prairies",
+    "stats": {
+      "size": 18,
+      "speed": 32,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This striped burrower can survive over six months in hibernation without food or water, slowing its breathing from 200 breaths per minute to just one breath every five minutes. Known for its distinctive upright posture and bird-like alarm trill, it dives into burrows up to 20 feet long at the first sign of danger.",
+    "image": "images/animals/125.png"
+  },
+  {
+    "id": 126,
+    "name": "Tipton Kangaroo Rat",
+    "species": "D. n. nitratoides",
+    "type": "Mammal",
+    "region": "Central California (Kern and Tulare Counties)",
+    "habitat": "Ground burrows in grasslands and scrublands",
+    "stats": {
+      "size": 8,
+      "speed": 65,
+      "rarity": 75,
+      "danger": 0
+    },
+    "description": "A diminutive desert hopper weighing just 35-38 grams, this creature compensates for its tiny forefeet with exceptionally oversized hind legs and a 125mm tail used for balance during explosive leaps. Known to survive on a diet of seeds with only occasional insects, it remains one of California's most critically endangered rodents.",
+    "image": "images/animals/126.png"
+  },
+  {
+    "id": 127,
+    "name": "Townsend's Chipmunk",
+    "species": "Neotamias townsendii",
+    "type": "Mammal",
+    "region": "Pacific Northwest (southwestern British Columbia through western Washington and Oregon)",
+    "habitat": "Pacific Northwest forests with dense shrubbery",
+    "stats": {
+      "size": 28,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A large chipmunk reaching 14 inches from nose to tail, identifiable by its grayish-and-reddish tail and distinctive brown coloration. In mild climates, this omnivorous forager remains active year-round, switching from summer berries to acorns and conifer seeds as seasons change.",
+    "image": "images/animals/127.png"
+  },
+  {
+    "id": 128,
+    "name": "Townsend's Ground Squirrel",
+    "species": "Urocitellus townsendii",
+    "type": "Mammal",
+    "region": "Great Basin and Columbia Plateau (Washington, Oregon, Idaho, Utah, Nevada, California)",
+    "habitat": "High desert shrublands, arid grasslands, and sagebrush-grasslands",
+    "stats": {
+      "size": 18,
+      "speed": 35,
+      "rarity": 48,
+      "danger": 2
+    },
+    "description": "A desert burrower that enters dormancy for 7.5 to 9 months each year, emerging in late winter to breed and forage. Critical prey for ferruginous hawks and prairie falcons across the Great Basin, with population densities fluctuating wildly from 3 to 331 individuals per hectare depending on habitat conditions.",
+    "image": "images/animals/128.png"
+  },
+  {
+    "id": 129,
+    "name": "Townsend's Pocket Gopher",
+    "species": "Thomomys townsendii",
+    "type": "Mammal",
+    "region": "Northwestern US (Idaho, Oregon, Nevada, California)",
+    "habitat": "Deep, moist soils near rivers and lakes, irrigated cropland",
+    "stats": {
+      "size": 28,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "A powerful underground excavator that can measure up to 11 inches long and weigh nearly a pound, equipped with massive digging claws and fur-lined cheek pouches. This solitary burrower spends almost its entire adult life underground, leaving behind telltale mounds of soil across the landscape.",
+    "image": "images/animals/129.png"
+  },
+  {
+    "id": 130,
+    "name": "Uinta Chipmunk",
+    "species": "Neotamias umbrinus",
+    "type": "Mammal",
+    "region": "Western United States (Utah, Arizona, Nevada, California, Wyoming, Colorado)",
+    "habitat": "Montane and subalpine pine and fir forests",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "A nimble forest dweller that can emit bursts of sharp \"chip\" sounds lasting up to 15 minutes from exposed perches. Despite their small 67-gram frame, these solitary chipmunks fiercely defend territories spanning up to 12 acres in high mountain elevations.",
+    "image": "images/animals/130.png"
+  },
+  {
+    "id": 131,
+    "name": "Uinta Ground Squirrel",
+    "species": "Urocitellus armatus",
+    "type": "Mammal",
+    "region": "Northern and central Utah, eastern Idaho, southwestern Montana, and western Wyoming",
+    "habitat": "Alpine and subalpine meadows, pastures, and shrub-steppe",
+    "stats": {
+      "size": 28,
+      "speed": 45,
+      "rarity": 18,
+      "danger": 2
+    },
+    "description": "Known locally as a \"chisler,\" this ground squirrel emerges from hibernation weighing just 7.4 ounces and nearly doubles its weight before retreating underground again\u2014spending less than half the year awake. Despite living in colonies, adults are aggressively territorial and communicate through six distinct vocalizations to warn of predators or assert dominance.",
+    "image": "images/animals/131.png"
+  },
+  {
+    "id": 132,
+    "name": "Utah Prairie Dog",
+    "species": "Cynomys parvidens",
+    "type": "Mammal",
+    "region": "South-central Utah",
+    "habitat": "Semi-arid grasslands and swale areas with herbaceous vegetation",
+    "stats": {
+      "size": 12,
+      "speed": 35,
+      "rarity": 78,
+      "danger": 2
+    },
+    "description": "The smallest prairie dog species, these highly social rodents engineer elaborate underground towns that transform landscapes and provide homes for countless other species. Once numbering 95,000 individuals in 1920, their population plummeted 87% by the 1970s due to habitat destruction and human persecution.",
+    "image": "images/animals/132.png"
+  },
+  {
+    "id": 133,
     "name": "Virginia Opossum",
     "species": "Didelphis virginiana",
     "type": "Mammal",
-    "region": "Throughout North America from Costa Rica to southern Ontario; expanding northward into New England, the Great Lakes, and Pacific Northwest",
-    "habitat": "Settled areas, forests, gardens, and urban environments near food sources",
+    "region": "Continental US and southern Canada, expanding northward from Maryland to Maine, Ontario, and British Columbia",
+    "habitat": "Urban and suburban areas, forests, and mixed terrain near food sources",
     "stats": {
-      "size": 35,
+      "size": 28,
+      "speed": 15,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "North America's only marsupial north of Mexico, equipped with 50 teeth\u2014more than any other land mammal on the continent\u2014and an opposable thumb on its hind feet for gripping. When threatened, it famously plays dead with such conviction that its heart rate drops by half and breathing becomes nearly undetectable.",
+    "image": "images/animals/133.png"
+  },
+  {
+    "id": 134,
+    "name": "Washington Ground Squirrel",
+    "species": "Urocitellus washingtoni",
+    "type": "Mammal",
+    "region": "Pacific Northwest (Washington and Oregon)",
+    "habitat": "Sagebrush and grassland in the Columbia River Basin",
+    "stats": {
+      "size": 18,
+      "speed": 55,
+      "rarity": 45,
+      "danger": 2
+    },
+    "description": "This burrowing rodent hibernates for 7\u20138 months annually and can disperse over 3.5 kilometers from its birthplace, with juvenile males showing remarkable survival rates higher than their sedentary siblings.",
+    "image": "images/animals/134.png"
+  },
+  {
+    "id": 135,
+    "name": "Western Gray Squirrel",
+    "species": "Sciurus griseus",
+    "type": "Mammal",
+    "region": "Western coast of the United States and Mexico, from Washington to Baja California",
+    "habitat": "Coniferous and oak forests, arboreal tree dweller up to 2,000 m elevation",
+    "stats": {
+      "size": 28,
+      "speed": 65,
+      "rarity": 45,
+      "danger": 2
+    },
+    "description": "A shy forest acrobat weighing less than a kilogram with a distinctive silver-gray coat and perpetually bushy tail curved in an 'S' shape. Despite being the largest native tree squirrel on the western coast, it struggles to compete with introduced species and can take six months or longer to fledge its young.",
+    "image": "images/animals/135.png"
+  },
+  {
+    "id": 136,
+    "name": "White-eared Pocket Mouse",
+    "species": "Perognathus alticola",
+    "type": "Mammal",
+    "region": "Southern California mountains",
+    "habitat": "High-elevation pine forests and chaparral",
+    "stats": {
+      "size": 12,
+      "speed": 35,
+      "rarity": 48,
+      "danger": 1
+    },
+    "description": "A tiny mountain dweller named for the distinctive white-edged ears adorning its yellowish-brown fur, this pocket mouse reaches only 155 mm in length and inhabits pine forests above 4,900 feet in the San Bernardino and Tehachapi Mountains.",
+    "image": "images/animals/placeholder.svg"
+  },
+  {
+    "id": 137,
+    "name": "White-tailed Antelope Squirrel",
+    "species": "Ammospermophilus leucurus",
+    "type": "Mammal",
+    "region": "Southwestern US (Oregon to New Mexico) and Baja California",
+    "habitat": "Arid desert regions and shrublands",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "This desert sprinter is surprisingly carnivorous, hunting lizards and rodents despite being a ground squirrel. Active during the day to avoid nighttime predators, it covers up to 4 acres daily across some of the harshest terrain in North America.",
+    "image": "images/animals/137.png"
+  },
+  {
+    "id": 138,
+    "name": "White-tailed Prairie Dog",
+    "species": "Cynomys leucurus",
+    "type": "Mammal",
+    "region": "Western Wyoming, western Colorado, eastern Utah, southern Montana",
+    "habitat": "High-elevation grasslands and prairie (5,000-10,000 feet)",
+    "stats": {
+      "size": 28,
+      "speed": 35,
+      "rarity": 22,
+      "danger": 5
+    },
+    "description": "Colonial herbivores that live in complex family units and communicate through barks and visual signals, these tan-brown rodents have mysteriously declined to occupy just 8% of their original range despite conservation efforts.",
+    "image": "images/animals/138.png"
+  },
+  {
+    "id": 139,
+    "name": "Woodland Jumping Mouse",
+    "species": "Napaeozapus insignis",
+    "type": "Mammal",
+    "region": "Northeastern North America",
+    "habitat": "Cool, moist boreal woodlands with spruce-fir and hemlock, near streams and meadows",
+    "stats": {
+      "size": 12,
+      "speed": 75,
+      "rarity": 20,
+      "danger": 0
+    },
+    "description": "A diminutive rodent capable of leaping up to 10 feet using its extraordinarily powerful hind legs and lengthy tail, which comprises 60% of its body length. During hibernation, this mouse's body temperature plummets from 98.6\u00b0F to 36\u00b0F, and only one in three mice survives the winter.",
+    "image": "images/animals/139.png"
+  },
+  {
+    "id": 140,
+    "name": "Wyoming Ground Squirrel",
+    "species": "Urocitellus elegans",
+    "type": "Mammal",
+    "region": "Northwestern United States",
+    "habitat": "Grasslands and open meadows",
+    "stats": {
+      "size": 18,
+      "speed": 45,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "A small burrowing rodent endemic to the Pacific Northwest, identifiable by its elegant coloring and pale color variants that resemble cream-colored mutations found in laboratory rats.",
+    "image": "images/animals/140.png"
+  },
+  {
+    "id": 141,
+    "name": "Wyoming Pocket Gopher",
+    "species": "Thomomys clusius",
+    "type": "Mammal",
+    "region": "Southern Wyoming",
+    "habitat": "Flat, well-drained areas with greasewood and saltbush",
+    "stats": {
+      "size": 12,
       "speed": 25,
-      "rarity": 18,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "The smallest member of its genus, this pocket gopher weighs just 44-72 grams yet possesses disproportionately powerful digging claws and cheek pouches that extend 44mm back from its snout for carrying food through narrow underground tunnels.",
+    "image": "images/animals/141.png"
+  },
+  {
+    "id": 142,
+    "name": "Yellow-bellied Marmot",
+    "species": "Marmota flaviventris",
+    "type": "Mammal",
+    "region": "Rocky Mountains, Sierra Nevada, Great Basin; southwestern Canada to northern New Mexico",
+    "habitat": "Alpine meadows, talus fields, and open rocky areas above 2,000 meters",
+    "stats": {
+      "size": 28,
+      "speed": 25,
+      "rarity": 20,
+      "danger": 5
+    },
+    "description": "This rotund ground squirrel spends 80% of its life underground, hibernating for eight months straight in burrows up to 23 feet deep. Known as the \"whistle pig\" for its distinctive alarm calls that warn colonies of approaching predators.",
+    "image": "images/animals/142.png"
+  },
+  {
+    "id": 143,
+    "name": "Yellow-cheeked Chipmunk",
+    "species": "Neotamias ochrogenys",
+    "type": "Mammal",
+    "region": "Northern California coast",
+    "habitat": "Coastal coniferous forests",
+    "stats": {
+      "size": 12,
+      "speed": 55,
+      "rarity": 22,
+      "danger": 2
+    },
+    "description": "The largest chipmunk in its genus, this secretive rodent emits a distinctive low-pitched \"chuck-chuck\" call and can grow up to 11.7 inches long. Despite its limited range of just 20,000 square kilometers along the California coast, its population remains steady and untroubled by threats.",
+    "image": "images/animals/143.png"
+  },
+  {
+    "id": 144,
+    "name": "Yellow-faced Pocket Gopher",
+    "species": "Cratogeomys castanops",
+    "type": "Mammal",
+    "region": "Southwestern US and Northern Mexico",
+    "habitat": "Shortgrass prairies with deep sandy or silty soils",
+    "stats": {
+      "size": 28,
+      "speed": 35,
+      "rarity": 22,
       "danger": 8
     },
-    "description": "A nocturnal marsupial that feigns death when threatened by playing completely motionless with its tongue hanging out\u2014a defense so convincing it can last several hours. Armed with 50 teeth (more than any other North American land mammal) and an opposable thumb, it may eat up to 5,000 ticks per season to help prevent Lyme disease.",
-    "image": "images/animals/005.jpg"
+    "description": "An industrious burrower that excavates tunnel systems averaging 75.8 meters in length, pulling entire plants into its underground network by their roots. Males continue growing throughout their lives, eventually becoming significantly larger than females.",
+    "image": "images/animals/144.png"
+  },
+  {
+    "id": 145,
+    "name": "Yellow-pine Chipmunk",
+    "species": "Neotamias amoenus",
+    "type": "Mammal",
+    "region": "Western North America, parts of Canada and the United States",
+    "habitat": "Brush-covered areas and coniferous forests at high elevation",
+    "stats": {
+      "size": 18,
+      "speed": 65,
+      "rarity": 20,
+      "danger": 2
+    },
+    "description": "This industrious rodent defies typical mammalian trends by having females larger than males, and survives harsh winters entirely on cached seeds gathered during summer\u2014storing food up to 4.9 meters apart to maximize survival odds through hibernation.",
+    "image": "images/animals/145.png"
   }
 ]

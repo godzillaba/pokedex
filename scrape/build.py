@@ -3,12 +3,15 @@
 Reads:
   - scrape/extracted.json     (deterministic fields)
   - scrape/llm_cache/*.json   (LLM-generated fields)
+  - scrape/images/*.png       (pixelated species images)
 
 Outputs:
-  - src/data/species.json     (complete Pokédex entries)
+  - src/data/species.json              (complete Pokédex entries)
+  - public/images/animals/{id:03d}.png (copied species images)
 """
 
 import json
+import shutil
 from pathlib import Path
 
 SCRAPE_DIR = Path(__file__).resolve().parent
@@ -16,6 +19,8 @@ PROJECT_DIR = SCRAPE_DIR.parent
 CACHE_DIR = SCRAPE_DIR / "llm_cache"
 EXTRACTED_PATH = SCRAPE_DIR / "extracted.json"
 OUTPUT_PATH = PROJECT_DIR / "src" / "data" / "species.json"
+SPRITE_DIR = SCRAPE_DIR / "images"
+PUBLIC_IMG_DIR = PROJECT_DIR / "public" / "images" / "animals"
 
 TYPE_ORDER = ["Mammal", "Bird", "Reptile", "Amphibian", "Fish"]
 
@@ -75,6 +80,7 @@ def main():
             "habitat": habitat,
             "stats": st,
             "description": desc,
+            "_wiki_slug": key.split("/wiki/")[-1],
             "_sort_key": (TYPE_ORDER.index(entry["type"])
                           if entry["type"] in TYPE_ORDER else 99, name.lower()),
         })
@@ -82,11 +88,20 @@ def main():
     # Sort by type order, then alphabetically by name
     species_list.sort(key=lambda s: s["_sort_key"])
 
-    # Assign sequential IDs and image paths, remove sort key
+    # Copy images and assign sequential IDs
+    PUBLIC_IMG_DIR.mkdir(parents=True, exist_ok=True)
+    images_copied = 0
     for i, s in enumerate(species_list, 1):
         s["id"] = i
-        s["image"] = f"images/animals/{i:03d}.jpg"
+        sprite = SPRITE_DIR / f"{s['_wiki_slug']}.png"
+        if sprite.exists():
+            shutil.copy2(sprite, PUBLIC_IMG_DIR / f"{i:03d}.png")
+            s["image"] = f"images/animals/{i:03d}.png"
+            images_copied += 1
+        else:
+            s["image"] = "images/animals/placeholder.svg"
         del s["_sort_key"]
+        del s["_wiki_slug"]
 
     # Reorder fields for readability
     output = []
@@ -108,6 +123,7 @@ def main():
 
     print(f"Wrote {len(output)} species to {OUTPUT_PATH}")
     print(f"Skipped {skipped} incomplete entries")
+    print(f"Images copied: {images_copied}/{len(output)}")
 
     # Type breakdown
     type_counts = {}
