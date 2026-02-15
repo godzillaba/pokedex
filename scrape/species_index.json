@@ -1736,14 +1736,6 @@
     "wiki_path": "/wiki/Black-eared_mouse"
   },
   {
-    "name": "Mesquite mouse",
-    "latin": "P. merriami",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Mesquite_mouse"
-  },
-  {
     "name": "Northern rock mouse",
     "latin": "P. nasutus",
     "family": "",
@@ -2136,14 +2128,6 @@
     "wiki_path": "/wiki/Arctic_shrew"
   },
   {
-    "name": "Arizona shrew",
-    "latin": "S. arizonae",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Arizona_shrew"
-  },
-  {
     "name": "Marsh shrew",
     "latin": "S. bendirii",
     "family": "",
@@ -2288,14 +2272,6 @@
     "wiki_path": "/wiki/Baird's_shrew"
   },
   {
-    "name": "American water shrew",
-    "latin": "S. palustris",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/American_water_shrew"
-  },
-  {
     "name": "Glacier Bay water shrew",
     "latin": "S. alaskanus",
     "family": "",
@@ -2392,14 +2368,6 @@
     "wiki_path": "/wiki/Hairy-tailed_mole"
   },
   {
-    "name": "Eastern mole",
-    "latin": "S. aquaticus",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Eastern_mole"
-  },
-  {
     "name": "Northern broad-footed mole",
     "latin": "S. latimanus",
     "family": "",
@@ -2462,14 +2430,6 @@
     "type": "Mammal",
     "distribution": "",
     "wiki_path": "/wiki/Southeastern_myotis"
-  },
-  {
-    "name": "California myotis",
-    "latin": "M. californicus",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/California_myotis"
   },
   {
     "name": "Western small-footed myotis",
@@ -2768,14 +2728,6 @@
     "wiki_path": "/wiki/Pocketed_free-tailed_bat"
   },
   {
-    "name": "Big free-tailed bat",
-    "latin": "N. macrotis",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Big_free-tailed_bat"
-  },
-  {
     "name": "Mexican free-tailed bat",
     "latin": "T. brasiliensis",
     "family": "",
@@ -2790,14 +2742,6 @@
     "type": "Mammal",
     "distribution": "",
     "wiki_path": "/wiki/Ghost-faced_bat"
-  },
-  {
-    "name": "California leaf-nosed bat",
-    "latin": "M. californicus",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/California_leaf-nosed_bat"
   },
   {
     "name": "Mexican long-tongued bat",
@@ -3080,14 +3024,6 @@
     "wiki_path": "/wiki/Wolverine"
   },
   {
-    "name": "North American river otter",
-    "latin": "L. canadensis",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/North_American_river_otter"
-  },
-  {
     "name": "American marten",
     "latin": "M. americana",
     "family": "",
@@ -3280,14 +3216,6 @@
     "wiki_path": "/wiki/Walrus"
   },
   {
-    "name": "Hooded seal",
-    "latin": "C. cristata",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Hooded_seal"
-  },
-  {
     "name": "Bearded seal",
     "latin": "E. barbatus",
     "family": "",
@@ -3374,14 +3302,6 @@
     "type": "Mammal",
     "distribution": "",
     "wiki_path": "/wiki/Collared_peccary"
-  },
-  {
-    "name": "Elk",
-    "latin": "C. canadensis",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Elk"
   },
   {
     "name": "Moose",
@@ -3864,14 +3784,6 @@
     "wiki_path": "/wiki/White-beaked_dolphin"
   },
   {
-    "name": "Northern right whale dolphin",
-    "latin": "L. borealis",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Northern_right_whale_dolphin"
-  },
-  {
     "name": "Killer whale",
     "latin": "O. orca",
     "family": "",
@@ -3926,14 +3838,6 @@
     "type": "Mammal",
     "distribution": "",
     "wiki_path": "/wiki/Atlantic_spotted_dolphin"
-  },
-  {
-    "name": "Spinner dolphin",
-    "latin": "S. longirostris",
-    "family": "",
-    "type": "Mammal",
-    "distribution": "",
-    "wiki_path": "/wiki/Spinner_dolphin"
   },
   {
     "name": "Rough-toothed dolphin",
@@ -20312,7 +20216,7 @@
     "wiki_path": "/wiki/Bighead_carp"
   },
   {
-    "name": "Common carp",
+    "name": "Eurasian carp",
     "latin": "Cyprinus carpio",
     "family": "",
     "type": "Fish",
@@ -20369,7 +20273,7 @@
   },
   {
     "name": "American pickerel",
-    "latin": "Esox americanus vermiculatus",
+    "latin": "Esox americanus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20409,7 +20313,7 @@
   },
   {
     "name": "Longear sunfish",
-    "latin": "Lepomis megalotus",
+    "latin": "Lepomis megalotis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20496,14 +20400,6 @@
     "wiki_path": "/wiki/Striped_bass"
   },
   {
-    "name": "Hybrid striped bass",
-    "latin": "Morone chrysops",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hybrid_striped_bass"
-  },
-  {
     "name": "Brook trout",
     "latin": "Salvelinus fontinalis",
     "family": "",
@@ -20544,14 +20440,6 @@
     "wiki_path": "/wiki/Rainbow_trout"
   },
   {
-    "name": "Tiger trout",
-    "latin": "Salmo trutta",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Tiger_trout"
-  },
-  {
     "name": "Bowfin",
     "latin": "Amia calva",
     "family": "",
@@ -20569,7 +20457,7 @@
   },
   {
     "name": "Spotted gar",
-    "latin": "",
+    "latin": "Lepisosteus oculatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20625,7 +20513,7 @@
   },
   {
     "name": "Bluehead shiner",
-    "latin": "Notropis hubbsi",
+    "latin": "Pteronotropis hubbsi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20633,7 +20521,7 @@
   },
   {
     "name": "Bluntface shiner",
-    "latin": "Notropis camurus",
+    "latin": "Cyprinella camura",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20673,7 +20561,7 @@
   },
   {
     "name": "Flathead chub",
-    "latin": "Hybopsis gracilis",
+    "latin": "Platygobio gracilis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20697,7 +20585,7 @@
   },
   {
     "name": "Gravel chub",
-    "latin": "Hybopsis x-punctata",
+    "latin": "Erimystax x-punctatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20753,7 +20641,7 @@
   },
   {
     "name": "Pallid shiner",
-    "latin": "Notropis amnis",
+    "latin": "Hybopsis amnis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20769,7 +20657,7 @@
   },
   {
     "name": "Pugnose minnow",
-    "latin": "Notropis emiliae",
+    "latin": "Opsopoeodus emiliae",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20809,7 +20697,7 @@
   },
   {
     "name": "Sicklefin chub",
-    "latin": "Hybopsis meeki",
+    "latin": "Macrhybopsis meeki",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20817,7 +20705,7 @@
   },
   {
     "name": "Silver chub",
-    "latin": "Hybopsis storeriana",
+    "latin": "Macrhybopsis storeriana",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20833,7 +20721,7 @@
   },
   {
     "name": "Speckled chub",
-    "latin": "Hybopsis aestivalis",
+    "latin": "Macrhybopsis aestivalis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20857,7 +20745,7 @@
   },
   {
     "name": "Streamline chub",
-    "latin": "Hybopsis dissimilis",
+    "latin": "Erimystax dissimilis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20873,7 +20761,7 @@
   },
   {
     "name": "Sturgeon chub",
-    "latin": "Hybopsis gelida",
+    "latin": "Macrhybopsis gelida",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20881,7 +20769,7 @@
   },
   {
     "name": "Whitetail shiner",
-    "latin": "Notropis galactura",
+    "latin": "Cyprinella galactura",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -20969,7 +20857,7 @@
   },
   {
     "name": "Ribbon shiner",
-    "latin": "Notropis fumeus",
+    "latin": "Lythrurus fumeus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -21041,7 +20929,7 @@
   },
   {
     "name": "American paddlefish",
-    "latin": "Polydon spathula",
+    "latin": "Polyodon spathula",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -21054,14 +20942,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Lake_sturgeon"
-  },
-  {
-    "name": "Atlantic sturgeon",
-    "latin": "Acipenser oxyrinchus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Atlantic_sturgeon"
   },
   {
     "name": "Pallid sturgeon",
@@ -21096,20 +20976,12 @@
     "wiki_path": "/wiki/Alabama_shad"
   },
   {
-    "name": "Skipjack herring",
+    "name": "Skipjack shad",
     "latin": "Alosa chrysochloris",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Skipjack_herring"
-  },
-  {
-    "name": "Gizzard shad",
-    "latin": "Dorosoma cepedianum",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Gizzard_shad"
   },
   {
     "name": "Threadfin shad",
@@ -21137,7 +21009,7 @@
   },
   {
     "name": "Silver lamprey",
-    "latin": "ichthyomyzon unicuspis",
+    "latin": "Ichthyomyzon unicuspis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -21153,7 +21025,7 @@
   },
   {
     "name": "American brook lamprey",
-    "latin": "Lenthenteron appendix",
+    "latin": "Lethenteron appendix",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -21192,1166 +21064,6 @@
     "wiki_path": "/wiki/Goldeye"
   },
   {
-    "name": "Mooneye",
-    "latin": "Hiodon tergisus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Mooneye"
-  },
-  {
-    "name": "Water in Arkansas",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Water_in_Arkansas"
-  },
-  {
-    "name": "\"A salute to the grinnel\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/https://www.arkansasonline.com/news/2016/jun/26/salute-grinnel/"
-  },
-  {
-    "name": "Fayetteville, Arkansas",
-    "latin": "Fishes of Arkansas",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fayetteville%2C_Arkansas"
-  },
-  {
-    "name": "\"Aquatic Fish Report\"",
-    "latin": "Arkansas Wildlife Action Plan",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://www.wildlifearkansas.com/materials/2017/07%20Fish.pdf"
-  },
-  {
-    "name": "Index",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Index_of_Arkansas-related_articles"
-  },
-  {
-    "name": "Outline",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Outline_of_Arkansas"
-  },
-  {
-    "name": "Aviation",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Aviation_in_Arkansas"
-  },
-  {
-    "name": "Climate change",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Climate_change_in_Arkansas"
-  },
-  {
-    "name": "Congressional delegations",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/United_States_congressional_delegations_from_Arkansas"
-  },
-  {
-    "name": "County government",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/County_government_in_Arkansas"
-  },
-  {
-    "name": "Energy",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Energy_in_Arkansas"
-  },
-  {
-    "name": "Geography",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Geography_of_Arkansas"
-  },
-  {
-    "name": "History",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/History_of_Arkansas"
-  },
-  {
-    "name": "Homelessness",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Homelessness_in_Arkansas"
-  },
-  {
-    "name": "Constitution",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Constitution_of_Arkansas"
-  },
-  {
-    "name": "Music",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Music_of_Arkansas"
-  },
-  {
-    "name": "Paleontology",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Paleontology_in_Arkansas"
-  },
-  {
-    "name": "Territory",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Arkansas_Territory"
-  },
-  {
-    "name": "Transportation",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Transportation_in_Arkansas"
-  },
-  {
-    "name": "Abortion",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Abortion_in_Arkansas"
-  },
-  {
-    "name": "Crime",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Crime_in_Arkansas"
-  },
-  {
-    "name": "Culture",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Culture_of_Arkansas"
-  },
-  {
-    "name": "Demographics",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Demographics_of_Arkansas"
-  },
-  {
-    "name": "Economy",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Economy_of_Arkansas"
-  },
-  {
-    "name": "Education",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Education_in_Arkansas"
-  },
-  {
-    "name": "Gun laws",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Gun_laws_in_Arkansas"
-  },
-  {
-    "name": "LGBT rights",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/LGBT_rights_in_Arkansas"
-  },
-  {
-    "name": "Politics",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Politics_and_government_of_Arkansas"
-  },
-  {
-    "name": "Arkansas River Valley",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Arkansas_River_Valley"
-  },
-  {
-    "name": "Ark-La-Tex",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ark-La-Tex"
-  },
-  {
-    "name": "Bayou Bartholomew",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bayou_Bartholomew"
-  },
-  {
-    "name": "Boston Mountains",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Boston_Mountains"
-  },
-  {
-    "name": "Central Arkansas",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Central_Arkansas"
-  },
-  {
-    "name": "Crowley's Ridge",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Crowley's_Ridge"
-  },
-  {
-    "name": "Delta",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Arkansas_Delta"
-  },
-  {
-    "name": "Four State Area",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Four_State_Area"
-  },
-  {
-    "name": "McDonald Territory",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/McDonald_Territory"
-  },
-  {
-    "name": "Mississippi Alluvial Plain",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Mississippi_Alluvial_Plain"
-  },
-  {
-    "name": "New Madrid Seismic Zone",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/New_Madrid_Seismic_Zone"
-  },
-  {
-    "name": "Northwest Arkansas",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Northwest_Arkansas"
-  },
-  {
-    "name": "Ouachita Mountains",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ouachita_Mountains"
-  },
-  {
-    "name": "Ozarks",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ozarks"
-  },
-  {
-    "name": "Piney Woods",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Piney_Woods"
-  },
-  {
-    "name": "South Arkansas",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/South_Arkansas"
-  },
-  {
-    "name": "Timberlands",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Arkansas_Timberlands"
-  },
-  {
-    "name": "Fort Smith",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fort_Smith_metropolitan_area"
-  },
-  {
-    "name": "Texarkana",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Texarkana_metropolitan_area"
-  },
-  {
-    "name": "Jonesboro",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Jonesboro_metropolitan_area"
-  },
-  {
-    "name": "Pine Bluff",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pine_Bluff_metropolitan_area"
-  },
-  {
-    "name": "Hot Springs",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Garland_County%2C_Arkansas"
-  },
-  {
-    "name": "Tri-State",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Memphis_metropolitan_area"
-  },
-  {
-    "name": "Little Rock",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Little_Rock%2C_Arkansas"
-  },
-  {
-    "name": "Fort Smith",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fort_Smith%2C_Arkansas"
-  },
-  {
-    "name": "Springdale",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Springdale%2C_Arkansas"
-  },
-  {
-    "name": "Jonesboro",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Jonesboro%2C_Arkansas"
-  },
-  {
-    "name": "North Little Rock",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/North_Little_Rock%2C_Arkansas"
-  },
-  {
-    "name": "Conway",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Conway%2C_Arkansas"
-  },
-  {
-    "name": "Rogers",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Rogers%2C_Arkansas"
-  },
-  {
-    "name": "Pine Bluff",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pine_Bluff%2C_Arkansas"
-  },
-  {
-    "name": "Bentonville",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bentonville%2C_Arkansas"
-  },
-  {
-    "name": "Hot Springs",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hot_Springs%2C_Arkansas"
-  },
-  {
-    "name": "Benton",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Benton%2C_Arkansas"
-  },
-  {
-    "name": "Texarkana",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Texarkana%2C_Arkansas"
-  },
-  {
-    "name": "Sherwood",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sherwood%2C_Arkansas"
-  },
-  {
-    "name": "Jacksonville",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Jacksonville%2C_Arkansas"
-  },
-  {
-    "name": "Russellville",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Russellville%2C_Arkansas"
-  },
-  {
-    "name": "Bella Vista",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bella_Vista%2C_Arkansas"
-  },
-  {
-    "name": "West Memphis",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/West_Memphis%2C_Arkansas"
-  },
-  {
-    "name": "Paragould",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Paragould%2C_Arkansas"
-  },
-  {
-    "name": "Cabot",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cabot%2C_Arkansas"
-  },
-  {
-    "name": "Arkansas",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Arkansas_County%2C_Arkansas"
-  },
-  {
-    "name": "Ashley",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ashley_County%2C_Arkansas"
-  },
-  {
-    "name": "Baxter",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Baxter_County%2C_Arkansas"
-  },
-  {
-    "name": "Benton",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Benton_County%2C_Arkansas"
-  },
-  {
-    "name": "Boone",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Boone_County%2C_Arkansas"
-  },
-  {
-    "name": "Bradley",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bradley_County%2C_Arkansas"
-  },
-  {
-    "name": "Calhoun",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Calhoun_County%2C_Arkansas"
-  },
-  {
-    "name": "Carroll",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carroll_County%2C_Arkansas"
-  },
-  {
-    "name": "Chicot",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Chicot_County%2C_Arkansas"
-  },
-  {
-    "name": "Clark",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Clark_County%2C_Arkansas"
-  },
-  {
-    "name": "Clay",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Clay_County%2C_Arkansas"
-  },
-  {
-    "name": "Cleburne",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cleburne_County%2C_Arkansas"
-  },
-  {
-    "name": "Cleveland",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cleveland_County%2C_Arkansas"
-  },
-  {
-    "name": "Columbia",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Columbia_County%2C_Arkansas"
-  },
-  {
-    "name": "Conway",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Conway_County%2C_Arkansas"
-  },
-  {
-    "name": "Craighead",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Craighead_County%2C_Arkansas"
-  },
-  {
-    "name": "Crawford",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Crawford_County%2C_Arkansas"
-  },
-  {
-    "name": "Crittenden",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Crittenden_County%2C_Arkansas"
-  },
-  {
-    "name": "Cross",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cross_County%2C_Arkansas"
-  },
-  {
-    "name": "Dallas",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Dallas_County%2C_Arkansas"
-  },
-  {
-    "name": "Desha",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Desha_County%2C_Arkansas"
-  },
-  {
-    "name": "Drew",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Drew_County%2C_Arkansas"
-  },
-  {
-    "name": "Faulkner",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Faulkner_County%2C_Arkansas"
-  },
-  {
-    "name": "Franklin",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Franklin_County%2C_Arkansas"
-  },
-  {
-    "name": "Fulton",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fulton_County%2C_Arkansas"
-  },
-  {
-    "name": "Grant",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Grant_County%2C_Arkansas"
-  },
-  {
-    "name": "Greene",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Greene_County%2C_Arkansas"
-  },
-  {
-    "name": "Hempstead",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hempstead_County%2C_Arkansas"
-  },
-  {
-    "name": "Hot Spring",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hot_Spring_County%2C_Arkansas"
-  },
-  {
-    "name": "Howard",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Howard_County%2C_Arkansas"
-  },
-  {
-    "name": "Independence",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Independence_County%2C_Arkansas"
-  },
-  {
-    "name": "Izard",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Izard_County%2C_Arkansas"
-  },
-  {
-    "name": "Jackson",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Jackson_County%2C_Arkansas"
-  },
-  {
-    "name": "Jefferson",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Jefferson_County%2C_Arkansas"
-  },
-  {
-    "name": "Johnson",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Johnson_County%2C_Arkansas"
-  },
-  {
-    "name": "Lafayette",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lafayette_County%2C_Arkansas"
-  },
-  {
-    "name": "Lawrence",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lawrence_County%2C_Arkansas"
-  },
-  {
-    "name": "Lee",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lee_County%2C_Arkansas"
-  },
-  {
-    "name": "Lincoln",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lincoln_County%2C_Arkansas"
-  },
-  {
-    "name": "Little River",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Little_River_County%2C_Arkansas"
-  },
-  {
-    "name": "Logan",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Logan_County%2C_Arkansas"
-  },
-  {
-    "name": "Lonoke",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lonoke_County%2C_Arkansas"
-  },
-  {
-    "name": "Madison",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Madison_County%2C_Arkansas"
-  },
-  {
-    "name": "Marion",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Marion_County%2C_Arkansas"
-  },
-  {
-    "name": "Miller",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Miller_County%2C_Arkansas"
-  },
-  {
-    "name": "Mississippi",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Mississippi_County%2C_Arkansas"
-  },
-  {
-    "name": "Monroe",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Monroe_County%2C_Arkansas"
-  },
-  {
-    "name": "Montgomery",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Montgomery_County%2C_Arkansas"
-  },
-  {
-    "name": "Nevada",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Nevada_County%2C_Arkansas"
-  },
-  {
-    "name": "Newton",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Newton_County%2C_Arkansas"
-  },
-  {
-    "name": "Ouachita",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ouachita_County%2C_Arkansas"
-  },
-  {
-    "name": "Perry",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Perry_County%2C_Arkansas"
-  },
-  {
-    "name": "Phillips",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Phillips_County%2C_Arkansas"
-  },
-  {
-    "name": "Pike",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pike_County%2C_Arkansas"
-  },
-  {
-    "name": "Poinsett",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Poinsett_County%2C_Arkansas"
-  },
-  {
-    "name": "Polk",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Polk_County%2C_Arkansas"
-  },
-  {
-    "name": "Pope",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pope_County%2C_Arkansas"
-  },
-  {
-    "name": "Prairie",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Prairie_County%2C_Arkansas"
-  },
-  {
-    "name": "Pulaski",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pulaski_County%2C_Arkansas"
-  },
-  {
-    "name": "Randolph",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Randolph_County%2C_Arkansas"
-  },
-  {
-    "name": "St. Francis",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/St._Francis_County%2C_Arkansas"
-  },
-  {
-    "name": "Saline",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Saline_County%2C_Arkansas"
-  },
-  {
-    "name": "Scott",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Scott_County%2C_Arkansas"
-  },
-  {
-    "name": "Searcy",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Searcy_County%2C_Arkansas"
-  },
-  {
-    "name": "Sebastian",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sebastian_County%2C_Arkansas"
-  },
-  {
-    "name": "Sevier",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sevier_County%2C_Arkansas"
-  },
-  {
-    "name": "Sharp",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sharp_County%2C_Arkansas"
-  },
-  {
-    "name": "Stone",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Stone_County%2C_Arkansas"
-  },
-  {
-    "name": "Union",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Union_County%2C_Arkansas"
-  },
-  {
-    "name": "Van Buren",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Van_Buren_County%2C_Arkansas"
-  },
-  {
-    "name": "Washington",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Washington_County%2C_Arkansas"
-  },
-  {
-    "name": "White",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/White_County%2C_Arkansas"
-  },
-  {
-    "name": "Woodruff",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Woodruff_County%2C_Arkansas"
-  },
-  {
-    "name": "Yell",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Yell_County%2C_Arkansas"
-  },
-  {
     "name": "River carpsucker",
     "latin": "Carpiodes carpio",
     "family": "",
@@ -22377,7 +21089,7 @@
   },
   {
     "name": "White sucker",
-    "latin": "Catostomus commersoni",
+    "latin": "Catostomus commersonii",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -22440,24 +21152,8 @@
     "wiki_path": "/wiki/Pumpkinseed"
   },
   {
-    "name": "White crappie",
-    "latin": "Promoxis annularis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Crappie"
-  },
-  {
-    "name": "Tilapia",
-    "latin": "Tilapia spp.",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Tilapia"
-  },
-  {
     "name": "Mottled sculpin",
-    "latin": "Cottus bairdi",
+    "latin": "Cottus bairdii",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -22465,7 +21161,7 @@
   },
   {
     "name": "Paiute sculpin",
-    "latin": "Cottus beldingi",
+    "latin": "Cottus beldingii",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -22553,7 +21249,7 @@
   },
   {
     "name": "Northern redbelly dace",
-    "latin": "Phoxinus eos",
+    "latin": "Chrosomus eos",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -22606,14 +21302,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Tench"
-  },
-  {
-    "name": "Tiger muskellunge",
-    "latin": "E. lucius \u00d7 E. masquinongy",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Tiger_muskellunge"
   },
   {
     "name": "Plains topminnow",
@@ -22680,7 +21368,7 @@
     "wiki_path": "/wiki/Orangethroat_darter"
   },
   {
-    "name": "Logperch",
+    "name": "Common logperch",
     "latin": "Percina caprodes",
     "family": "",
     "type": "Fish",
@@ -22697,7 +21385,7 @@
   },
   {
     "name": "Sauger",
-    "latin": "Sander canadense",
+    "latin": "Sander canadensis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -22705,7 +21393,7 @@
   },
   {
     "name": "Walleye",
-    "latin": "Sander viterus",
+    "latin": "Sander vitreus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -22720,52 +21408,12 @@
     "wiki_path": "/wiki/Bigscale_logperch"
   },
   {
-    "name": "Western mosquitofish",
+    "name": "Mosquitofish",
     "latin": "Gambusia affinis",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Mosquitofish"
-  },
-  {
-    "name": "Snake River cutthroat trout",
-    "latin": "Oncorhynchus clarki behnkei",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Snake_River_fine-spotted_cutthroat_trout"
-  },
-  {
-    "name": "Colorado River cutthroat trout",
-    "latin": "Oncorhynchus clarki pleuriticus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Colorado_River_cutthroat_trout"
-  },
-  {
-    "name": "Greenback cutthroat trout",
-    "latin": "Oncorhynchus clarki stomias",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Greenback_cutthroat_trout"
-  },
-  {
-    "name": "Rio Grande cutthroat trout",
-    "latin": "Oncorhynchus clarki virginalis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Rio_Grande_cutthroat_trout"
-  },
-  {
-    "name": "Golden trout",
-    "latin": "Oncorhynchus mykiss aguabonita",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Golden_trout"
   },
   {
     "name": "Sockeye salmon",
@@ -22790,14 +21438,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Arctic_char"
-  },
-  {
-    "name": "Splake",
-    "latin": "Salvelinus namaycush \u00d7 S.fontinalis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Splake"
   },
   {
     "name": "Arctic grayling",
@@ -22840,7 +21480,7 @@
     "wiki_path": "/wiki/Alewife_(fish)"
   },
   {
-    "name": "Almaco jack",
+    "name": "Longfin yellowtail",
     "latin": "Seriola rivoliana",
     "family": "",
     "type": "Fish",
@@ -22854,14 +21494,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Amazon_sailfin_catfish"
-  },
-  {
-    "name": "Amberjack",
-    "latin": "Seriola",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Amberjack"
   },
   {
     "name": "American butterfish",
@@ -22912,14 +21544,6 @@
     "wiki_path": "/wiki/Arabian_angelfish"
   },
   {
-    "name": "Asian carp",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Asian_carp"
-  },
-  {
     "name": "Asian swamp eel",
     "latin": "Monopterus albus",
     "family": "",
@@ -22928,7 +21552,7 @@
     "wiki_path": "/wiki/Asian_swamp_eel"
   },
   {
-    "name": "Atlantic angel shark",
+    "name": "Sand devil",
     "latin": "Squatina dumeril",
     "family": "",
     "type": "Fish",
@@ -23056,7 +21680,7 @@
     "wiki_path": "/wiki/Atlantic_spadefish"
   },
   {
-    "name": "Atlantic spanish mackerel",
+    "name": "Atlantic Spanish mackerel",
     "latin": "Scomberomorus maculatus",
     "family": "",
     "type": "Fish",
@@ -23104,7 +21728,7 @@
     "wiki_path": "/wiki/Atlantic_tripletail"
   },
   {
-    "name": "Balloonfish",
+    "name": "Long-spine porcupinefish",
     "latin": "Diodon holocanthus",
     "family": "",
     "type": "Fish",
@@ -23320,7 +21944,7 @@
     "wiki_path": "/wiki/Black_drum"
   },
   {
-    "name": "Black durgon",
+    "name": "Black triggerfish",
     "latin": "Melichthys niger",
     "family": "",
     "type": "Fish",
@@ -23360,7 +21984,7 @@
     "wiki_path": "/wiki/Black_marlin"
   },
   {
-    "name": "Black seabass",
+    "name": "Black sea bass",
     "latin": "Centropristis striata",
     "family": "",
     "type": "Fish",
@@ -23392,7 +22016,7 @@
     "wiki_path": "/wiki/Blackchin_tilapia"
   },
   {
-    "name": "Black-ear wrasse",
+    "name": "Blackear wrasse",
     "latin": "Halichoeres poeyi",
     "family": "",
     "type": "Fish",
@@ -23456,14 +22080,6 @@
     "wiki_path": "/wiki/Blacktip_shark"
   },
   {
-    "name": "Blood parrot cichlid",
-    "latin": "Amphilophus citrinellus \u00d7 Vieja melanurus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Blood_parrot_cichlid"
-  },
-  {
     "name": "Blue chromis",
     "latin": "Chromis cyanea",
     "family": "",
@@ -23480,7 +22096,7 @@
     "wiki_path": "/wiki/Blue_hamlet"
   },
   {
-    "name": "Blue marlin",
+    "name": "Atlantic blue marlin",
     "latin": "Makaira nigricans",
     "family": "",
     "type": "Fish",
@@ -23512,7 +22128,7 @@
     "wiki_path": "/wiki/Blue_shark"
   },
   {
-    "name": "Blue striped grunt",
+    "name": "Bluestriped grunt",
     "latin": "Haemulon sciurus",
     "family": "",
     "type": "Fish",
@@ -23521,7 +22137,7 @@
   },
   {
     "name": "Blue surgeonfish",
-    "latin": "Paracanthurus hepatus",
+    "latin": "Acanthurus leucosternon",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -23632,14 +22248,6 @@
     "wiki_path": "/wiki/Brook_silverside"
   },
   {
-    "name": "Brown Bullhead",
-    "latin": "Ameiurus nebulosus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Brown_Bullhead"
-  },
-  {
     "name": "Brown garden eel",
     "latin": "Heteroconger longissimus",
     "family": "",
@@ -23664,7 +22272,7 @@
     "wiki_path": "/wiki/Bull_shark"
   },
   {
-    "name": "Bullet mackerel",
+    "name": "Bullet tuna",
     "latin": "Auxis rochei",
     "family": "",
     "type": "Fish",
@@ -23721,7 +22329,7 @@
   },
   {
     "name": "Caribbean reef shark",
-    "latin": "Carcharhinus perezii",
+    "latin": "Carcharhinus perezi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -23736,7 +22344,7 @@
     "wiki_path": "/wiki/Caribbean_sharpnose-puffer"
   },
   {
-    "name": "Cero mackerel",
+    "name": "Cero",
     "latin": "Scomberomorus regalis",
     "family": "",
     "type": "Fish",
@@ -23744,7 +22352,7 @@
     "wiki_path": "/wiki/Cero_(fish)"
   },
   {
-    "name": "Chain dogfish",
+    "name": "Chain catshark",
     "latin": "Scyliorhinus retifer",
     "family": "",
     "type": "Fish",
@@ -23782,14 +22390,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Cherubfish"
-  },
-  {
-    "name": "Choctaw bass",
-    "latin": "Micropterus sp. cf. punctulatus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Choctaw_bass"
   },
   {
     "name": "Clearnose skate",
@@ -23840,7 +22440,7 @@
     "wiki_path": "/wiki/Colon_goby"
   },
   {
-    "name": "Common clownfish",
+    "name": "Ocellaris clownfish",
     "latin": "Amphiprion ocellaris",
     "family": "",
     "type": "Fish",
@@ -23873,7 +22473,7 @@
   },
   {
     "name": "Convict cichlid",
-    "latin": "Archocentrus nigrofasciatus",
+    "latin": "Amatitlania nigrofasciata",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -23897,7 +22497,7 @@
   },
   {
     "name": "Creole wrasse",
-    "latin": "Clepticus parra",
+    "latin": "Clepticus parrae",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -23912,7 +22512,7 @@
     "wiki_path": "/wiki/Crested_goby"
   },
   {
-    "name": "Crevalle Jack",
+    "name": "Crevalle jack",
     "latin": "Caranx hippos",
     "family": "",
     "type": "Fish",
@@ -23976,7 +22576,7 @@
     "wiki_path": "/wiki/Diamond_killifish"
   },
   {
-    "name": "Doctorfish",
+    "name": "Red garra",
     "latin": "Garra rufa",
     "family": "",
     "type": "Fish",
@@ -24046,14 +22646,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Eastern_mudminnow"
-  },
-  {
-    "name": "Electric eel",
-    "latin": "Electrophorus electricus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Electric_eel"
   },
   {
     "name": "Emperor angelfish",
@@ -24134,14 +22726,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Florida_pompano"
-  },
-  {
-    "name": "Flowerhorn cichlid",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Flowerhorn_cichlid"
   },
   {
     "name": "Flying gurnard",
@@ -24248,7 +22832,7 @@
     "wiki_path": "/wiki/Golden_topminnow"
   },
   {
-    "name": "Golden tilefish",
+    "name": "Great northern tilefish",
     "latin": "Lopholatilus chamaeleonticeps",
     "family": "",
     "type": "Fish",
@@ -24280,7 +22864,7 @@
     "wiki_path": "/wiki/Goldspotted_eel"
   },
   {
-    "name": "Goliath grouper",
+    "name": "Atlantic goliath grouper",
     "latin": "Epinephelus itajara",
     "family": "",
     "type": "Fish",
@@ -24296,7 +22880,7 @@
     "wiki_path": "/wiki/Gray_angelfish"
   },
   {
-    "name": "Gray snapper",
+    "name": "Mangrove snapper",
     "latin": "Lutjanus griseus",
     "family": "",
     "type": "Fish",
@@ -24416,14 +23000,6 @@
     "wiki_path": "/wiki/Gulf_pipefish"
   },
   {
-    "name": "Gulf sturgeon",
-    "latin": "Acipenser oxyrinchus desotoi",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Gulf_sturgeon"
-  },
-  {
     "name": "Gulf surgeonfish",
     "latin": "Acanthurus randalli",
     "family": "",
@@ -24456,16 +23032,8 @@
     "wiki_path": "/wiki/Hairy_blenny"
   },
   {
-    "name": "Hamlet",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hamlet_(fish)"
-  },
-  {
     "name": "Hardhead catfish",
-    "latin": "Arius felis",
+    "latin": "Ariopsis felis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -24478,14 +23046,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Harlequin_bass"
-  },
-  {
-    "name": "High-hat",
-    "latin": "Pareques acuminatus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/High-hat_(fish)"
   },
   {
     "name": "Highfin carpsucker",
@@ -24577,7 +23137,7 @@
   },
   {
     "name": "Jack Dempsey",
-    "latin": "Rocio octafasciata",
+    "latin": "Rocio octofasciata",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -24585,7 +23145,7 @@
   },
   {
     "name": "Jack-knifefish",
-    "latin": "Equetus lanceolatus",
+    "latin": "Eques lanceolatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -24632,30 +23192,6 @@
     "wiki_path": "/wiki/Knobbed_porgy"
   },
   {
-    "name": "Koi",
-    "latin": "Cyprinus rubrofuscus var. \"koi\"",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Koi"
-  },
-  {
-    "name": "K\u014dhaku",
-    "latin": "Cyprinus rubrofuscus var. K\u014dhaku",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/K%C5%8Dhaku_(fish)"
-  },
-  {
-    "name": "Ladyfish",
-    "latin": "Elops saurus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ladyfish"
-  },
-  {
     "name": "Lagoon triggerfish",
     "latin": "Rhinecanthus aculeatus",
     "family": "",
@@ -24673,7 +23209,7 @@
   },
   {
     "name": "Lancer dragonet",
-    "latin": "Paradiplogrammus bairdi",
+    "latin": "Callionymus bairdi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -24704,14 +23240,6 @@
     "wiki_path": "/wiki/Largehead_hairtail"
   },
   {
-    "name": "Largemouth Bass",
-    "latin": "Micropterus salmoides",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Largemouth_Bass"
-  },
-  {
     "name": "Least puffer",
     "latin": "Sphoeroides parvus",
     "family": "",
@@ -24720,7 +23248,7 @@
     "wiki_path": "/wiki/Least_puffer"
   },
   {
-    "name": "Leatherjack",
+    "name": "Leatherjacket fish",
     "latin": "Oligoplites saurus",
     "family": "",
     "type": "Fish",
@@ -24840,14 +23368,6 @@
     "wiki_path": "/wiki/Man-of-war_fish"
   },
   {
-    "name": "Manta ray",
-    "latin": "Manta birostris",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Manta_ray"
-  },
-  {
     "name": "Manytooth conger",
     "latin": "Conger triporiceps",
     "family": "",
@@ -24944,7 +23464,7 @@
     "wiki_path": "/wiki/Misty_grouper"
   },
   {
-    "name": "Molly miller",
+    "name": "Molly Miller",
     "latin": "Scartella cristata",
     "family": "",
     "type": "Fish",
@@ -24960,7 +23480,7 @@
     "wiki_path": "/wiki/Mottled_conger_moray"
   },
   {
-    "name": "Mozambique Tilapia",
+    "name": "Mozambique tilapia",
     "latin": "Oreochromis mossambicus",
     "family": "",
     "type": "Fish",
@@ -25000,14 +23520,6 @@
     "wiki_path": "/wiki/Nassau_grouper"
   },
   {
-    "name": "Neon goby",
-    "latin": "Elacatinus evelynae",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Neon_goby"
-  },
-  {
     "name": "Neon tetra",
     "latin": "Paracheirodon innesi",
     "family": "",
@@ -25016,8 +23528,8 @@
     "wiki_path": "/wiki/Neon_tetra"
   },
   {
-    "name": "Night sergeant",
-    "latin": "Abudefduf taurus",
+    "name": "Dusky sergeant",
+    "latin": "Abudefduf concolor",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -25049,7 +23561,7 @@
   },
   {
     "name": "Northern puffer",
-    "latin": "Sphoeroides maculatus",
+    "latin": "Sphoeroides spheroides",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -25086,14 +23598,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Acanthurus_bahianus"
-  },
-  {
-    "name": "Ocean triggerfish",
-    "latin": "Canthidermis maculata",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ocean_triggerfish"
   },
   {
     "name": "Oceanic whitetip shark",
@@ -25222,22 +23726,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Pinfish"
-  },
-  {
-    "name": "Pirambeba",
-    "latin": "Serrasalmus humeralis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pirambeba"
-  },
-  {
-    "name": "Pirarucu",
-    "latin": "Arapaima gigas",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pirarucu"
   },
   {
     "name": "Plate fish",
@@ -25384,7 +23872,7 @@
     "wiki_path": "/wiki/Red_porgy"
   },
   {
-    "name": "Red snapper",
+    "name": "Northern red snapper",
     "latin": "Lutjanus campechanus",
     "family": "",
     "type": "Fish",
@@ -25433,7 +23921,7 @@
   },
   {
     "name": "Redlip blenny",
-    "latin": "Ophioblennius atlanticus",
+    "latin": "Ophioblennius macclurei",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -25472,8 +23960,8 @@
     "wiki_path": "/wiki/Reef_stonefish"
   },
   {
-    "name": "Rio Grande Cichlid",
-    "latin": "Herichthys cyanoguttatum",
+    "name": "Texas cichlid",
+    "latin": "Herichthys cyanoguttatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -25544,7 +24032,7 @@
     "wiki_path": "/wiki/Saddled_moray_eel"
   },
   {
-    "name": "Sailfin flyingfish",
+    "name": "Sailfin flying fish",
     "latin": "Parexocoetus brachypterus",
     "family": "",
     "type": "Fish",
@@ -25574,14 +24062,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Sandbar_shark"
-  },
-  {
-    "name": "Sand perch",
-    "latin": "Parapercis hexophtalma",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sand_perch"
   },
   {
     "name": "Sand tiger shark",
@@ -25689,7 +24169,7 @@
   },
   {
     "name": "Sheepshead minnow",
-    "latin": "Cyprinodon variegatus variegatus",
+    "latin": "Cyprinodon variegatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -25752,20 +24232,12 @@
     "wiki_path": "/wiki/Silver_arowana"
   },
   {
-    "name": "Silver mullet",
+    "name": "White mullet",
     "latin": "Mugil curema",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/White_mullet"
-  },
-  {
-    "name": "Skipjack shad",
-    "latin": "Alosa chrysochloris",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Skipjack_shad"
   },
   {
     "name": "Skipjack tuna",
@@ -25809,7 +24281,7 @@
   },
   {
     "name": "Smalltooth sawfish",
-    "latin": "Pristis pristis",
+    "latin": "Pristis pectinata",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -25824,7 +24296,7 @@
     "wiki_path": "/wiki/Smooth_butterfly_ray"
   },
   {
-    "name": "Smooth dogfish",
+    "name": "Dusky smooth-hound",
     "latin": "Mustelus canis",
     "family": "",
     "type": "Fish",
@@ -25848,7 +24320,7 @@
     "wiki_path": "/wiki/Smooth_trunkfish"
   },
   {
-    "name": "Snook",
+    "name": "Common snook",
     "latin": "Centropomus undecimalis",
     "family": "",
     "type": "Fish",
@@ -25905,7 +24377,7 @@
   },
   {
     "name": "Speckled hind",
-    "latin": "Epinephelus (or Hyporthodus) drummondhayi",
+    "latin": "Epinephelus drummondhayi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -25961,7 +24433,7 @@
   },
   {
     "name": "Spotted drum",
-    "latin": "Equetus punctatus",
+    "latin": "Eques punctatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26033,14 +24505,14 @@
   },
   {
     "name": "Striped burrfish",
-    "latin": "Chilomycterus antillarum",
+    "latin": "Chilomycterus schoepfi",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Striped_burrfish"
   },
   {
-    "name": "Striped mullet",
+    "name": "Flathead grey mullet",
     "latin": "Mugil cephalus",
     "family": "",
     "type": "Fish",
@@ -26120,7 +24592,7 @@
     "wiki_path": "/wiki/Tiger_sorubim"
   },
   {
-    "name": "Trimac cichlid",
+    "name": "Three spot cichlid",
     "latin": "Amphilophus trimaculatum",
     "family": "",
     "type": "Fish",
@@ -26144,7 +24616,7 @@
     "wiki_path": "/wiki/Tucanare_peacock_bass"
   },
   {
-    "name": "Variatus platy",
+    "name": "Variable platyfish",
     "latin": "Xiphophorus variatus",
     "family": "",
     "type": "Fish",
@@ -26174,22 +24646,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Walking_catfish"
-  },
-  {
-    "name": "Wami tilapia",
-    "latin": "Oreochromis urolepis hornorum",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Wami_tilapia"
-  },
-  {
-    "name": "Weakfish",
-    "latin": "Cynoscion regalis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Weakfish"
   },
   {
     "name": "Wels catfish",
@@ -26393,7 +24849,7 @@
   },
   {
     "name": "Bluehead sucker",
-    "latin": "Catostomus discobolous",
+    "latin": "Catostomus discobolus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26409,14 +24865,14 @@
   },
   {
     "name": "Tui chub",
-    "latin": "Gila bicolor",
+    "latin": "Siphateles bicolor",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Tui_chub"
   },
   {
-    "name": "Leatherside chub",
+    "name": "Northern leatherside chub",
     "latin": "Lepidomeda copei",
     "family": "",
     "type": "Fish",
@@ -26448,36 +24904,12 @@
     "wiki_path": "/wiki/Leopard_dace"
   },
   {
-    "name": "Umatilla dace",
-    "latin": "Rhinichthys umatilla",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Umatilla_dace"
-  },
-  {
     "name": "Redside shiner",
     "latin": "Richardsonius balteatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Redside_shiner"
-  },
-  {
-    "name": "Platy",
-    "latin": "Xiphophorus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Xiphophorus"
-  },
-  {
-    "name": "Mozambique tilapia",
-    "latin": "Tilapia mozambica",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Mozambique_tilapia"
   },
   {
     "name": "Sand roller",
@@ -26502,30 +24934,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Lake_whitefish"
-  },
-  {
-    "name": "Westslope cutthroat trout",
-    "latin": "Oncorhynchus clarki lewisi",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Westslope_cutthroat_trout"
-  },
-  {
-    "name": "Bonneville cutthroat trout",
-    "latin": "Oncorhynchus clarki utahi",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bonneville_cutthroat_trout"
-  },
-  {
-    "name": "Lahontan cutthroat trout",
-    "latin": "Oncorhynchus clarki henshawi",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lahontan_cutthroat_trout"
   },
   {
     "name": "Coho salmon",
@@ -26553,7 +24961,7 @@
   },
   {
     "name": "Pygmy whitefish",
-    "latin": "Prosopium coulteri",
+    "latin": "Prosopium coulterii",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26561,7 +24969,7 @@
   },
   {
     "name": "Bonneville cisco",
-    "latin": "Prosopium gemmiferum",
+    "latin": "Prosopium gemmifer",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26582,14 +24990,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Atlantic_salmon"
-  },
-  {
-    "name": "Blueback trout",
-    "latin": "Salvelinus alpinus oquassa",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Blueback_trout"
   },
   {
     "name": "Bull trout",
@@ -26616,40 +25016,8 @@
     "wiki_path": "/wiki/Cedar_sculpin"
   },
   {
-    "name": "Idaho species of greatest conservation need",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/https://web.archive.org/web/20110718203022/http://fishandgame.idaho.gov/cdc/cwcs_pdf/appendix%20b.pdf"
-  },
-  {
-    "name": "FishBase",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://www.fishbase.org"
-  },
-  {
-    "name": "Integrated Taxonomic Information System",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/https://www.itis.gov"
-  },
-  {
-    "name": "Idaho Comprehensive Wildlife Conservation Strategy Appendix F",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fishandgame.idaho.gov/apps/cwcs/index.cfm"
-  },
-  {
     "name": "Northern brook lamprey",
-    "latin": "Icthyomyzon fossor",
+    "latin": "Ichthyomyzon fossor",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26665,7 +25033,7 @@
   },
   {
     "name": "Silverjaw minnow",
-    "latin": "Notropis buccatus",
+    "latin": "Ericymba buccata",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26696,16 +25064,8 @@
     "wiki_path": "/wiki/Popeye_shiner"
   },
   {
-    "name": "Suckermouth minnow",
-    "latin": "Phenacobius mirabilis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Suckermouth_minnow"
-  },
-  {
     "name": "Bluntnose minnow",
-    "latin": "Pimphales notalus",
+    "latin": "Pimephales notatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26761,7 +25121,7 @@
   },
   {
     "name": "Stonecat",
-    "latin": "Notorus flavus",
+    "latin": "Noturus flavus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26776,7 +25136,7 @@
     "wiki_path": "/wiki/Banded_killifish"
   },
   {
-    "name": "Blackstrip topminnow",
+    "name": "Blackstripe topminnow",
     "latin": "Fundulus notatus",
     "family": "",
     "type": "Fish",
@@ -26961,7 +25321,7 @@
   },
   {
     "name": "Bluntnose darter",
-    "latin": "Etheostoma chlorosoma",
+    "latin": "Etheostoma chlorosomum",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -26984,22 +25344,6 @@
     "wiki_path": "/wiki/Round_goby"
   },
   {
-    "name": "Carp",
-    "latin": "Cyprinus carpio",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carp"
-  },
-  {
-    "name": "Rudd",
-    "latin": "Scardinius erythrophthalmus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Rudd"
-  },
-  {
     "name": "Inland silverside",
     "latin": "Menidia beryllina",
     "family": "",
@@ -27008,7 +25352,7 @@
     "wiki_path": "/wiki/Inland_silverside"
   },
   {
-    "name": "Threespine stickleback",
+    "name": "Three-spined stickleback",
     "latin": "Gasterosteus aculeatus",
     "family": "",
     "type": "Fish",
@@ -27017,23 +25361,15 @@
   },
   {
     "name": "Bloater",
-    "latin": "",
+    "latin": "Coregonus hoyi",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Coregonus_hoyi"
   },
   {
-    "name": "Cisco",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cisco_(fish)"
-  },
-  {
     "name": "Kiyi",
-    "latin": "",
+    "latin": "Coregonus kiyi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27041,7 +25377,7 @@
   },
   {
     "name": "Pink salmon",
-    "latin": "",
+    "latin": "Oncorhynchus gorbuscha",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27049,7 +25385,7 @@
   },
   {
     "name": "Round whitefish",
-    "latin": "",
+    "latin": "Prosopium cylindraceum",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27057,7 +25393,7 @@
   },
   {
     "name": "Shortjaw cisco",
-    "latin": "",
+    "latin": "Coregonus zenithicus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27065,23 +25401,15 @@
   },
   {
     "name": "Black redhorse",
-    "latin": "",
+    "latin": "Moxostoma duquesnei",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Black_redhorse"
   },
   {
-    "name": "Creek chub",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Creek_chub"
-  },
-  {
     "name": "Golden redhorse",
-    "latin": "",
+    "latin": "Moxostoma erythrurum",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27089,7 +25417,7 @@
   },
   {
     "name": "Greater redhorse",
-    "latin": "",
+    "latin": "Moxostoma valenciennesi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27097,7 +25425,7 @@
   },
   {
     "name": "Northern hogsucker",
-    "latin": "",
+    "latin": "Hypentelium nigricans",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27105,7 +25433,7 @@
   },
   {
     "name": "Silver redhorse",
-    "latin": "",
+    "latin": "Moxostoma anisurum",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27113,23 +25441,15 @@
   },
   {
     "name": "Allegheny pearl dace",
-    "latin": "",
+    "latin": "Margariscus margarita",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Allegheny_pearl_dace"
   },
   {
-    "name": "Banded darter",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Etheostoma_zonale"
-  },
-  {
     "name": "Blacknose shiner",
-    "latin": "",
+    "latin": "Notropis heterolepis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27137,7 +25457,7 @@
   },
   {
     "name": "Blackside darter",
-    "latin": "",
+    "latin": "Percina maculata",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27145,7 +25465,7 @@
   },
   {
     "name": "Crystal darter",
-    "latin": "",
+    "latin": "Crystallaria asprella",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27153,7 +25473,7 @@
   },
   {
     "name": "Eastern blacknose dace",
-    "latin": "",
+    "latin": "Rhinichthys atratulus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27161,7 +25481,7 @@
   },
   {
     "name": "Finescale dace",
-    "latin": "",
+    "latin": "Chrosomus neogaeus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27169,7 +25489,7 @@
   },
   {
     "name": "Fourspine stickleback",
-    "latin": "",
+    "latin": "Apeltes quadracus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27177,7 +25497,7 @@
   },
   {
     "name": "Ninespine stickleback",
-    "latin": "",
+    "latin": "Pungitius pungitius",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27185,7 +25505,7 @@
   },
   {
     "name": "Northern pearl dace",
-    "latin": "",
+    "latin": "Margariscus nachtriebi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27193,7 +25513,7 @@
   },
   {
     "name": "Pirate perch",
-    "latin": "",
+    "latin": "Aphredoderus sayanus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27201,7 +25521,7 @@
   },
   {
     "name": "Redside dace",
-    "latin": "",
+    "latin": "Clinostomus elongatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27209,7 +25529,7 @@
   },
   {
     "name": "Ruffe",
-    "latin": "",
+    "latin": "Gymnocephalus cernua",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27217,7 +25537,7 @@
   },
   {
     "name": "Slender madtom",
-    "latin": "",
+    "latin": "Noturus exilis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27225,7 +25545,7 @@
   },
   {
     "name": "Slenderhead darter",
-    "latin": "",
+    "latin": "Percina phoxocephala",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27233,7 +25553,7 @@
   },
   {
     "name": "Spoonhead sculpin",
-    "latin": "",
+    "latin": "Cottus ricei",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27241,23 +25561,15 @@
   },
   {
     "name": "Starhead topminnow",
-    "latin": "",
+    "latin": "Fundulus dispar",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Starhead_topminnow"
   },
   {
-    "name": "Threespine stickleback",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Threespine_stickleback"
-  },
-  {
     "name": "Topeka shiner",
-    "latin": "",
+    "latin": "Notropis topeka",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27265,7 +25577,7 @@
   },
   {
     "name": "Trout-perch",
-    "latin": "",
+    "latin": "Percopsis omiscomaycus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27273,7 +25585,7 @@
   },
   {
     "name": "Western tubenose goby",
-    "latin": "",
+    "latin": "Proterorhinus semilunaris",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -27281,43 +25593,11 @@
   },
   {
     "name": "Zander",
-    "latin": "",
+    "latin": "Sander lucioperca",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Zander"
-  },
-  {
-    "name": "Minnesota DNR Fish Watch List",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://www.dnr.state.mn.us/nature_viewing/fishwatch/index.html"
-  },
-  {
-    "name": "Minnesota State Parks Fish Species List",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/https://web.archive.org/web/20060822141627/http://www.nativefish.org/articles/MNStateParkSpeciesList.php"
-  },
-  {
-    "name": "Minnesota DNR Endangered Fish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/https://web.archive.org/web/20060519083850/http://www.dnr.state.mn.us/ets/fish.html"
-  },
-  {
-    "name": "Minnesota DNR Invasive Species",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/https://web.archive.org/web/20070701202408/http://www.dnr.state.mn.us/ecological_services/invasives/laws.html"
   },
   {
     "name": "Shadow bass",
@@ -27352,28 +25632,12 @@
     "wiki_path": "/wiki/Grotto_sculpin"
   },
   {
-    "name": "Flathead chub",
-    "latin": "Platygobio gracilis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Platygobio_gracilis"
-  },
-  {
     "name": "Creek chub",
     "latin": "Semotilus atromaculatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Semotilus_atromaculatus"
-  },
-  {
-    "name": "Goldeye",
-    "latin": "Hiodon alosoides",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hiodon_tergisus"
   },
   {
     "name": "White bullhead",
@@ -27390,14 +25654,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Mountain_madtom"
-  },
-  {
-    "name": "Stonecat",
-    "latin": "Noturus flavus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Noturus_flavus"
   },
   {
     "name": "Neosho madtom",
@@ -27424,76 +25680,12 @@
     "wiki_path": "/wiki/Goldstripe_darter"
   },
   {
-    "name": "Paddlefish",
-    "latin": "Polyodon spathula",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Paddlefish"
-  },
-  {
-    "name": "Yellowstone cutthroat trout",
-    "latin": "Oncorhynchus clarkii bouvieri",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Yellowstone_cutthroat_trout"
-  },
-  {
-    "name": "Columbia River redband trout",
-    "latin": "Oncorhynchus mykiss gairdneri",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Columbia_River_redband_trout"
-  },
-  {
-    "name": "Montana Arctic grayling",
-    "latin": "Thymallus arcticus montanus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Montana_Arctic_grayling"
-  },
-  {
-    "name": "Kokanee salmon",
-    "latin": "Oncorhynchus nerka",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Kokanee_salmon"
-  },
-  {
     "name": "Shortfin molly",
     "latin": "Poecilia mexicana",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Shortfin_molly"
-  },
-  {
-    "name": "Variable platyfish",
-    "latin": "Xiphophorus variatus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Variable_platyfish"
-  },
-  {
-    "name": "Western mosquitofish",
-    "latin": "Gambusia affinis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Western_mosquitofish"
-  },
-  {
-    "name": "Northern pikeminnow",
-    "latin": "Ptychocheilus oregonensis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Northern_pikeminnow"
   },
   {
     "name": "Western silvery minnow",
@@ -27512,982 +25704,6 @@
     "wiki_path": "/wiki/Torrent_sculpin"
   },
   {
-    "name": "Fishes of Yellowstone National Park",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fishes_of_Yellowstone_National_Park"
-  },
-  {
-    "name": "\"Montana Fisheries Information System\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fwp.mt.gov/fishing/mFish/"
-  },
-  {
-    "name": "\"Montana Field Guide\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/"
-  },
-  {
-    "name": "\"Montana Field Guide-Trout\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Salmonidae"
-  },
-  {
-    "name": "\"Arctic Grayling - Montana Field Guide\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/https://fieldguide.mt.gov/speciesDetail.aspx?elcode=AFCHA07010"
-  },
-  {
-    "name": "\"Montana Field Guide-Paddlefish\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Polyodontidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Pikes and Pickerels\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Esocidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Sunfishes\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Centrarchidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Perches\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Percidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Catfish and Bullheads\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Ictaluridae"
-  },
-  {
-    "name": "\"Montana Field Guide-Sturgeon\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Acipenseridae"
-  },
-  {
-    "name": "\"Montana Field Guide-Burbot\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Gadidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Temperate Basses\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Moronidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Drums\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Sciaenidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Smelt\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Osmeridae"
-  },
-  {
-    "name": "\"Montana Field Guide-Gars\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Lepisosteidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Mooneyes\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Hiodontidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Livebearers (Mosquitofish / Mollies / Swordtails)\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Poeciliidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Killifish\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Fundulidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Minnows\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Cyprinidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Suckers\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Catostomidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Mudminnows\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Umbridae"
-  },
-  {
-    "name": "\"Montana Field Guide-Sculpins\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Cottidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Sticklebacks\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Gasterosteidae"
-  },
-  {
-    "name": "\"Montana Field Guide-Trout-Perch\"",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/http://fieldguide.mt.gov/displaySpecies.aspx?family=Percopsidae"
-  },
-  {
-    "name": "Crustaceans",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Crustaceans_of_Montana"
-  },
-  {
-    "name": "Fish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fish_of_Montana"
-  },
-  {
-    "name": "Index",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Index_of_Montana-related_articles"
-  },
-  {
-    "name": "Climate change",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Climate_change_in_Montana"
-  },
-  {
-    "name": "Congressional delegations",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/United_States_congressional_delegations_from_Montana"
-  },
-  {
-    "name": "Government",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Montana_State_Government"
-  },
-  {
-    "name": "History",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/History_of_Montana"
-  },
-  {
-    "name": "Transportation",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Transportation_in_Montana"
-  },
-  {
-    "name": "Cannabis",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cannabis_in_Montana"
-  },
-  {
-    "name": "Crime",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Crime_in_Montana"
-  },
-  {
-    "name": "Gun laws",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Gun_laws_in_Montana"
-  },
-  {
-    "name": "LGBT rights",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/LGBT_rights_in_Montana"
-  },
-  {
-    "name": "Eastern Montana",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Eastern_Montana"
-  },
-  {
-    "name": "The Flathead",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/The_Flathead"
-  },
-  {
-    "name": "Glacier National Park",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Glacier_National_Park_(U.S.)"
-  },
-  {
-    "name": "Regional designations of Montana",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Regional_designations_of_Montana"
-  },
-  {
-    "name": "Western Montana",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Western_Montana"
-  },
-  {
-    "name": "Yellowstone",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Yellowstone_National_Park"
-  },
-  {
-    "name": "Anaconda",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Anaconda%2C_Montana"
-  },
-  {
-    "name": "Belgrade",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Belgrade%2C_Montana"
-  },
-  {
-    "name": "Billings",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Billings%2C_Montana"
-  },
-  {
-    "name": "Bozeman",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bozeman%2C_Montana"
-  },
-  {
-    "name": "Butte",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Butte%2C_Montana"
-  },
-  {
-    "name": "Columbia Falls",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Columbia_Falls%2C_Montana"
-  },
-  {
-    "name": "Dillon",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Dillon%2C_Montana"
-  },
-  {
-    "name": "Glendive",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Glendive%2C_Montana"
-  },
-  {
-    "name": "Great Falls",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Great_Falls%2C_Montana"
-  },
-  {
-    "name": "Hamilton",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hamilton%2C_Montana"
-  },
-  {
-    "name": "Havre",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Havre%2C_Montana"
-  },
-  {
-    "name": "Helena",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Helena%2C_Montana"
-  },
-  {
-    "name": "Kalispell",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Kalispell%2C_Montana"
-  },
-  {
-    "name": "Laurel",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Laurel%2C_Montana"
-  },
-  {
-    "name": "Lewistown",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lewistown%2C_Montana"
-  },
-  {
-    "name": "Livingston",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Livingston%2C_Montana"
-  },
-  {
-    "name": "Miles City",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Miles_City%2C_Montana"
-  },
-  {
-    "name": "Missoula",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Missoula%2C_Montana"
-  },
-  {
-    "name": "Polson",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Polson%2C_Montana"
-  },
-  {
-    "name": "Sidney",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sidney%2C_Montana"
-  },
-  {
-    "name": "Whitefish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Whitefish%2C_Montana"
-  },
-  {
-    "name": "Beaverhead",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Beaverhead_County%2C_Montana"
-  },
-  {
-    "name": "Big Horn",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Big_Horn_County%2C_Montana"
-  },
-  {
-    "name": "Blaine",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Blaine_County%2C_Montana"
-  },
-  {
-    "name": "Broadwater",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Broadwater_County%2C_Montana"
-  },
-  {
-    "name": "Carbon",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carbon_County%2C_Montana"
-  },
-  {
-    "name": "Carter",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carter_County%2C_Montana"
-  },
-  {
-    "name": "Cascade",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cascade_County%2C_Montana"
-  },
-  {
-    "name": "Chouteau",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Chouteau_County%2C_Montana"
-  },
-  {
-    "name": "Custer",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Custer_County%2C_Montana"
-  },
-  {
-    "name": "Daniels",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Daniels_County%2C_Montana"
-  },
-  {
-    "name": "Dawson",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Dawson_County%2C_Montana"
-  },
-  {
-    "name": "Deer Lodge",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Deer_Lodge_County%2C_Montana"
-  },
-  {
-    "name": "Fallon",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fallon_County%2C_Montana"
-  },
-  {
-    "name": "Fergus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fergus_County%2C_Montana"
-  },
-  {
-    "name": "Flathead",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Flathead_County%2C_Montana"
-  },
-  {
-    "name": "Gallatin",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Gallatin_County%2C_Montana"
-  },
-  {
-    "name": "Garfield",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Garfield_County%2C_Montana"
-  },
-  {
-    "name": "Glacier",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Glacier_County%2C_Montana"
-  },
-  {
-    "name": "Golden Valley",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Golden_Valley_County%2C_Montana"
-  },
-  {
-    "name": "Granite",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Granite_County%2C_Montana"
-  },
-  {
-    "name": "Hill",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hill_County%2C_Montana"
-  },
-  {
-    "name": "Jefferson",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Jefferson_County%2C_Montana"
-  },
-  {
-    "name": "Judith Basin",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Judith_Basin_County%2C_Montana"
-  },
-  {
-    "name": "Lake",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lake_County%2C_Montana"
-  },
-  {
-    "name": "Lewis and Clark",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lewis_and_Clark_County%2C_Montana"
-  },
-  {
-    "name": "Liberty",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Liberty_County%2C_Montana"
-  },
-  {
-    "name": "Lincoln",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lincoln_County%2C_Montana"
-  },
-  {
-    "name": "Madison",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Madison_County%2C_Montana"
-  },
-  {
-    "name": "McCone",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/McCone_County%2C_Montana"
-  },
-  {
-    "name": "Meagher",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Meagher_County%2C_Montana"
-  },
-  {
-    "name": "Mineral",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Mineral_County%2C_Montana"
-  },
-  {
-    "name": "Missoula",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Missoula_County%2C_Montana"
-  },
-  {
-    "name": "Musselshell",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Musselshell_County%2C_Montana"
-  },
-  {
-    "name": "Park",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Park_County%2C_Montana"
-  },
-  {
-    "name": "Petroleum",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Petroleum_County%2C_Montana"
-  },
-  {
-    "name": "Phillips",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Phillips_County%2C_Montana"
-  },
-  {
-    "name": "Pondera",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pondera_County%2C_Montana"
-  },
-  {
-    "name": "Powder River",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Powder_River_County%2C_Montana"
-  },
-  {
-    "name": "Powell",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Powell_County%2C_Montana"
-  },
-  {
-    "name": "Prairie",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Prairie_County%2C_Montana"
-  },
-  {
-    "name": "Ravalli",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ravalli_County%2C_Montana"
-  },
-  {
-    "name": "Richland",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Richland_County%2C_Montana"
-  },
-  {
-    "name": "Roosevelt",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Roosevelt_County%2C_Montana"
-  },
-  {
-    "name": "Rosebud",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Rosebud_County%2C_Montana"
-  },
-  {
-    "name": "Sanders",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sanders_County%2C_Montana"
-  },
-  {
-    "name": "Sheridan",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sheridan_County%2C_Montana"
-  },
-  {
-    "name": "Silver Bow",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Silver_Bow_County%2C_Montana"
-  },
-  {
-    "name": "Stillwater",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Stillwater_County%2C_Montana"
-  },
-  {
-    "name": "Sweet Grass",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sweet_Grass_County%2C_Montana"
-  },
-  {
-    "name": "Teton",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Teton_County%2C_Montana"
-  },
-  {
-    "name": "Toole",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Toole_County%2C_Montana"
-  },
-  {
-    "name": "Treasure",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Treasure_County%2C_Montana"
-  },
-  {
-    "name": "Valley",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Valley_County%2C_Montana"
-  },
-  {
-    "name": "Wheatland",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Wheatland_County%2C_Montana"
-  },
-  {
-    "name": "Wibaux",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Wibaux_County%2C_Montana"
-  },
-  {
-    "name": "Yellowstone",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Yellowstone_County%2C_Montana"
-  },
-  {
-    "name": "Alabama shad",
-    "latin": "Alosa alabamae",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Alabama_Shad"
-  },
-  {
-    "name": "Arkansas River shiner",
-    "latin": "Notropis girardi",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Notropis_girardi"
-  },
-  {
     "name": "Banded pygmy sunfish",
     "latin": "Elassoma zonatum",
     "family": "",
@@ -28504,28 +25720,12 @@
     "wiki_path": "/wiki/Bantam_sunfish"
   },
   {
-    "name": "Blackside darter",
-    "latin": "Percina maculata",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Percina_maculata"
-  },
-  {
     "name": "Blackspotted topminnow",
     "latin": "Fundulus olivaceus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Fundulus_olivaceus"
-  },
-  {
-    "name": "Bluntface shiner",
-    "latin": "Cyprinella camura",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cyprinella_camura"
   },
   {
     "name": "Brindled madtom",
@@ -28536,28 +25736,12 @@
     "wiki_path": "/wiki/Brindled_madtom"
   },
   {
-    "name": "Cardinal shiner",
-    "latin": "Luxilus cardinalis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Luxilus_cardinalis"
-  },
-  {
     "name": "Carmine shiner",
     "latin": "Notropis percobromus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Notropis_percobromus"
-  },
-  {
-    "name": "Chub shiner",
-    "latin": "Notropis potteri",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Notropis_potteri"
   },
   {
     "name": "Creek chubsucker",
@@ -28574,14 +25758,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Etheostoma_collettei"
-  },
-  {
-    "name": "Flathead mullet",
-    "latin": "Mugil cephalus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Flathead_mullet"
   },
   {
     "name": "Freckled madtom",
@@ -28640,14 +25816,6 @@
     "wiki_path": "/wiki/Ozark_cavefish"
   },
   {
-    "name": "Peppered shiner",
-    "latin": "Notropis perpallidus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Notropis_perpallidus"
-  },
-  {
     "name": "Plains killifish",
     "latin": "Fundulus zebrinus",
     "family": "",
@@ -28680,36 +25848,12 @@
     "wiki_path": "/wiki/Etheostoma_whipplei"
   },
   {
-    "name": "Redspot chub",
-    "latin": "Nocomis asper",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Nocomis_asper"
-  },
-  {
     "name": "Redspot darter",
     "latin": "Etheostoma artesiae",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Redspot_darter"
-  },
-  {
-    "name": "Ribbon shiner",
-    "latin": "Lythrurus fumeus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lythrurus_fumeus"
-  },
-  {
-    "name": "River darter",
-    "latin": "Percina shumardi",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Percina_shumardi"
   },
   {
     "name": "Rocky shiner",
@@ -28726,38 +25870,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Scaly_sand_darter"
-  },
-  {
-    "name": "Shoal chub",
-    "latin": "Macrhybopsis hyostoma",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Macrhybopsis_hyostoma"
-  },
-  {
-    "name": "Silver Redhorse",
-    "latin": "moxostoma anisurum",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Silver_Redhorse"
-  },
-  {
-    "name": "Slender madtom",
-    "latin": "Noturus exilis",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Noturus_exilis"
-  },
-  {
-    "name": "Slenderhead darter",
-    "latin": "Percina phoxocephala",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Percina_phoxocephala"
   },
   {
     "name": "Slim minnow",
@@ -28784,22 +25896,6 @@
     "wiki_path": "/wiki/Speckled_darter"
   },
   {
-    "name": "Spotfin shiner",
-    "latin": "Cyprinella spiloptera",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cyprinella_spiloptera"
-  },
-  {
-    "name": "Steelcolor shiner",
-    "latin": "Cyprinella whipplei",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cyprinella_whipplei"
-  },
-  {
     "name": "Stippled darter",
     "latin": "Etheostoma punctulatum",
     "family": "",
@@ -28816,292 +25912,36 @@
     "wiki_path": "/wiki/Phenacobius_mirabilis"
   },
   {
-    "name": "Acipenser fulvescens",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Acipenser_fulvescens"
-  },
-  {
-    "name": "Alosa chrysochloris",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Alosa_chrysochloris"
-  },
-  {
-    "name": "Amia calva",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Amia_calva"
-  },
-  {
-    "name": "Ctenopharyngodon idella",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ctenopharyngodon_idella"
-  },
-  {
-    "name": "Ichthyomyzon greeleyi",
-    "latin": "",
+    "name": "Mountain brook lamprey",
+    "latin": "Ichthyomyzon greeleyi",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Ichthyomyzon_greeleyi"
   },
   {
-    "name": "Ichthyomyzon unicuspis",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ichthyomyzon_unicuspis"
-  },
-  {
-    "name": "Lepisosteus osseus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lepisosteus_osseus"
-  },
-  {
-    "name": "Lethenteron appendix",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Lethenteron_appendix"
-  },
-  {
-    "name": "Luxilus cornutus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Luxilus_cornutus"
-  },
-  {
-    "name": "Macrhybopsis storeriana",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Macrhybopsis_storeriana"
-  },
-  {
-    "name": "Notropis atherinoides",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Notropis_atherinoides"
-  },
-  {
-    "name": "Nocomis micropogon",
-    "latin": "",
+    "name": "River chub",
+    "latin": "Nocomis micropogon",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Nocomis_micropogon"
   },
   {
-    "name": "Notropis procne",
-    "latin": "",
+    "name": "Swallowtail shiner",
+    "latin": "Notropis procne",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Notropis_procne"
   },
   {
-    "name": "Notropis stramineus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Notropis_stramineus"
-  },
-  {
-    "name": "Pimephales promelas",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pimephales_promelas"
-  },
-  {
-    "name": "Polyodon spathula",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Polyodon_spathula"
-  },
-  {
-    "name": "Rhinichthys cataractae",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Rhinichthys_cataractae"
-  },
-  {
-    "name": "Carpiodes carpio",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carpiodes_carpio"
-  },
-  {
-    "name": "Carpiodes cyprinus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carpiodes_cyprinus"
-  },
-  {
-    "name": "Carpiodes velifer",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carpiodes_velifer"
-  },
-  {
-    "name": "Cycleptus elongatus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cycleptus_elongatus"
-  },
-  {
-    "name": "Erimyzon oblongus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Erimyzon_oblongus"
-  },
-  {
-    "name": "Hypentelium nigricans",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hypentelium_nigricans"
-  },
-  {
-    "name": "Ictiobus cyprinellus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ictiobus_cyprinellus"
-  },
-  {
-    "name": "Ictiobus niger",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ictiobus_niger"
-  },
-  {
-    "name": "Minytrema melanops",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Minytrema_melanops"
-  },
-  {
-    "name": "Moxostoma anisurum",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Moxostoma_anisurum"
-  },
-  {
-    "name": "Moxostoma duquesnei",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Moxostoma_duquesnei"
-  },
-  {
-    "name": "Moxostoma erythrurum",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Moxostoma_erythrurum"
-  },
-  {
-    "name": "Moxostoma macrolepidotum",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Moxostoma_macrolepidotum"
-  },
-  {
-    "name": "Ameiurus catus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Ameiurus_catus"
-  },
-  {
-    "name": "Noturus stigmosus",
-    "latin": "",
+    "name": "Northern madtom",
+    "latin": "Noturus stigmosus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Noturus_stigmosus"
-  },
-  {
-    "name": "Esox americanus americanus",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Esox_americanus_americanus"
-  },
-  {
-    "name": "Esox lucius",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Esox_lucius"
-  },
-  {
-    "name": "Umbra limi",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Umbra_limi"
-  },
-  {
-    "name": "Bluehead sucker",
-    "latin": "Catostomus discobolus",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Catostomus_discobolus"
   },
   {
     "name": "Flannelmouth sucker",
@@ -29110,30 +25950,6 @@
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Catostomus_latipinnis"
-  },
-  {
-    "name": "Iowa darter",
-    "latin": "Etheostoma exile",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Etheostoma_exile"
-  },
-  {
-    "name": "Leatherside chub",
-    "latin": "Lepidomeda copei",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Northern_leatherside_chub"
-  },
-  {
-    "name": "Northern plains killifish",
-    "latin": "Fundulus kansae",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Fundulus"
   },
   {
     "name": "Ohrid trout",
@@ -29145,7 +25961,7 @@
   },
   {
     "name": "Alfonsino",
-    "latin": "",
+    "latin": "Beryx decadactylus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29153,95 +25969,31 @@
   },
   {
     "name": "Atlantic saury",
-    "latin": "",
+    "latin": "Scomberesox saurus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Atlantic_saury"
   },
   {
-    "name": "Barbeled dragonfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Barbeled_dragonfish"
-  },
-  {
-    "name": "Black bass",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Black_bass"
-  },
-  {
-    "name": "Blackfin Tuna",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Blackfin_Tuna"
-  },
-  {
-    "name": "Black sea bass",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Black_sea_bass"
-  },
-  {
     "name": "Blind goby",
-    "latin": "",
+    "latin": "Typhlogobius californiensis",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Blind_goby"
   },
   {
-    "name": "Bonnethead shark",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bonnethead_shark"
-  },
-  {
-    "name": "Bonytail",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Bonytail"
-  },
-  {
     "name": "Bramble shark",
-    "latin": "",
+    "latin": "Echinorhinus brucus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Bramble_shark"
   },
   {
-    "name": "Buffalo fish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Buffalo_fish"
-  },
-  {
-    "name": "California flyingfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/California_flyingfish"
-  },
-  {
     "name": "California halibut",
-    "latin": "",
+    "latin": "Paralichthys californicus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29249,95 +26001,31 @@
   },
   {
     "name": "Canary rockfish",
-    "latin": "",
+    "latin": "Sebastes pinniger",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Canary_rockfish"
   },
   {
-    "name": "Carpsucker",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Carpsucker"
-  },
-  {
-    "name": "Catfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Catfish"
-  },
-  {
-    "name": "Channel bass",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Channel_bass"
-  },
-  {
-    "name": "Chubsucker",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Chubsucker"
-  },
-  {
     "name": "Chum salmon",
-    "latin": "",
+    "latin": "Oncorhynchus keta",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Chum_salmon"
   },
   {
-    "name": "Cichlid",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cichlid"
-  },
-  {
-    "name": "Clingfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Clingfish"
-  },
-  {
-    "name": "Collared dogfish",
-    "latin": "",
+    "name": "Cookiecutter shark",
+    "latin": "Isistius brasiliensis",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Collared_dogfish"
   },
   {
-    "name": "Colorado squawfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Colorado_squawfish"
-  },
-  {
-    "name": "Cookiecutter shark",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Cookiecutter_shark"
-  },
-  {
     "name": "Crocodile shark",
-    "latin": "",
+    "latin": "Pseudocarcharias kamoharai",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29345,39 +26033,23 @@
   },
   {
     "name": "Cusk",
-    "latin": "",
+    "latin": "Brosme brosme",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Cusk_(fish)"
   },
   {
-    "name": "Darter",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Darter_(fish)"
-  },
-  {
     "name": "Dolly Varden trout",
-    "latin": "",
+    "latin": "Salvelinus malma",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Dolly_Varden_trout"
   },
   {
-    "name": "Dolphin fish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Dolphin_fish"
-  },
-  {
-    "name": "Dragon goby",
-    "latin": "",
+    "name": "Violet goby",
+    "latin": "Gobioides broussonnetii",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29385,55 +26057,23 @@
   },
   {
     "name": "Dusky grouper",
-    "latin": "",
+    "latin": "Epinephelus marginatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Dusky_grouper"
   },
   {
-    "name": "Electric knifefish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Electric_knifefish"
-  },
-  {
     "name": "European flounder",
-    "latin": "",
+    "latin": "Platichthys flesus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/European_flounder"
   },
   {
-    "name": "Frogfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Frogfish"
-  },
-  {
-    "name": "Gar",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Gar"
-  },
-  {
-    "name": "Garpike",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Garpike"
-  },
-  {
     "name": "Gila trout",
-    "latin": "",
+    "latin": "Oncorhynchus gilae",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29441,7 +26081,7 @@
   },
   {
     "name": "Goblin shark",
-    "latin": "",
+    "latin": "Mitsukurina owstoni",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29449,7 +26089,7 @@
   },
   {
     "name": "Gopher rockfish",
-    "latin": "",
+    "latin": "Sebastes carnatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29457,7 +26097,7 @@
   },
   {
     "name": "Graveldiver",
-    "latin": "",
+    "latin": "Scytalina cerdale",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29465,7 +26105,7 @@
   },
   {
     "name": "Grunt sculpin",
-    "latin": "",
+    "latin": "Rhamphocottus richardsonii",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29473,7 +26113,7 @@
   },
   {
     "name": "Haddock",
-    "latin": "",
+    "latin": "Melanogrammus aeglefinus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29481,23 +26121,15 @@
   },
   {
     "name": "Halfmoon",
-    "latin": "",
+    "latin": "Medialuna californiensis",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Halfmoon"
   },
   {
-    "name": "Hog sucker",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Hog_sucker"
-  },
-  {
     "name": "Ide",
-    "latin": "",
+    "latin": "Leuciscus idus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29505,31 +26137,23 @@
   },
   {
     "name": "Kelp perch",
-    "latin": "",
+    "latin": "Brachyistius frenatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Kelp_perch"
   },
   {
-    "name": "Kokanee",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Kokanee_(fish)"
-  },
-  {
     "name": "Lined sole",
-    "latin": "",
+    "latin": "Achirus lineatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Lined_sole"
   },
   {
-    "name": "Ling cod",
-    "latin": "",
+    "name": "Lingcod",
+    "latin": "Ophiodon elongatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29537,7 +26161,7 @@
   },
   {
     "name": "Loach minnow",
-    "latin": "",
+    "latin": "Rhinichthys cobitis",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29545,7 +26169,7 @@
   },
   {
     "name": "Longfin smelt",
-    "latin": "",
+    "latin": "Spirinchus thaleichthys",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29553,79 +26177,31 @@
   },
   {
     "name": "Longnose lancetfish",
-    "latin": "",
+    "latin": "Alepisaurus ferox",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Longnose_lancetfish"
   },
   {
-    "name": "Long-whiskered catfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Long-whiskered_catfish"
-  },
-  {
-    "name": "Loosejaw",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Loosejaw"
-  },
-  {
     "name": "Louvar",
-    "latin": "",
+    "latin": "Luvarus imperialis",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Louvar"
   },
   {
-    "name": "Loweye catfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Loweye_catfish"
-  },
-  {
     "name": "Luminous hake",
-    "latin": "",
+    "latin": "Steindachneria argentea",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Luminous_hake"
   },
   {
-    "name": "Mackerel",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Mackerel"
-  },
-  {
-    "name": "Madtom",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Madtom"
-  },
-  {
-    "name": "Menhaden",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Menhaden"
-  },
-  {
     "name": "Modoc sucker",
-    "latin": "",
+    "latin": "Catostomus microps",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29633,55 +26209,23 @@
   },
   {
     "name": "Monkeyface prickleback",
-    "latin": "",
+    "latin": "Cebidichthys violaceus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Monkeyface_prickleback"
   },
   {
-    "name": "Monkfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Monkfish"
-  },
-  {
     "name": "Moorish idol",
-    "latin": "",
+    "latin": "Zanclus cornutus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Moorish_idol"
   },
   {
-    "name": "Mud catfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Mud_catfish"
-  },
-  {
-    "name": "North American darter",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/North_American_darter"
-  },
-  {
-    "name": "North American freshwater catfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/North_American_freshwater_catfish"
-  },
-  {
-    "name": "Northern anchovy",
-    "latin": "",
+    "name": "Californian anchovy",
+    "latin": "Engraulis mordax",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29689,7 +26233,7 @@
   },
   {
     "name": "Northern clingfish",
-    "latin": "",
+    "latin": "Gobiesox maeandricus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29697,7 +26241,7 @@
   },
   {
     "name": "Northern sea robin",
-    "latin": "",
+    "latin": "Prionotus carolinus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29705,15 +26249,15 @@
   },
   {
     "name": "Ocean perch",
-    "latin": "",
+    "latin": "Sebastes norvegicus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Ocean_perch"
   },
   {
-    "name": "Oldwife",
-    "latin": "",
+    "name": "Old wife",
+    "latin": "Enoplosus armatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29721,7 +26265,7 @@
   },
   {
     "name": "Opaleye",
-    "latin": "",
+    "latin": "Girella nigricans",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29729,7 +26273,7 @@
   },
   {
     "name": "Orange roughy",
-    "latin": "",
+    "latin": "Hoplostethus atlanticus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29737,71 +26281,23 @@
   },
   {
     "name": "Orbicular batfish",
-    "latin": "",
+    "latin": "Platax orbicularis",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Orbicular_batfish"
   },
   {
-    "name": "Orfe",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Orfe"
-  },
-  {
     "name": "Pacific cod",
-    "latin": "",
+    "latin": "Gadus macrocephalus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Pacific_cod"
   },
   {
-    "name": "Pacific salmon",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pacific_salmon"
-  },
-  {
-    "name": "Pacific trout",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pacific_trout"
-  },
-  {
-    "name": "Piranha",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Piranha"
-  },
-  {
-    "name": "Platy",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Platy_(fish)"
-  },
-  {
-    "name": "Platyfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Platyfish"
-  },
-  {
-    "name": "Porbeagle shark",
-    "latin": "",
+    "name": "Porbeagle",
+    "latin": "Lamna nasus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29809,23 +26305,15 @@
   },
   {
     "name": "Prickly shark",
-    "latin": "",
+    "latin": "Echinorhinus cookei",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Prickly_shark"
   },
   {
-    "name": "Pupfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Pupfish"
-  },
-  {
     "name": "Queen triggerfish",
-    "latin": "",
+    "latin": "Balistes vetula",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29833,7 +26321,7 @@
   },
   {
     "name": "Quillfish",
-    "latin": "",
+    "latin": "Ptilichthys goodei",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29841,39 +26329,15 @@
   },
   {
     "name": "Rock gunnel",
-    "latin": "",
+    "latin": "Pholis gunnellus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Rock_gunnel"
   },
   {
-    "name": "Redmouth whalefish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Redmouth_whalefish"
-  },
-  {
-    "name": "Rice eel",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Rice_eel"
-  },
-  {
-    "name": "Rio Grande perch",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Rio_Grande_perch"
-  },
-  {
     "name": "Roanoke bass",
-    "latin": "",
+    "latin": "Ambloplites cavifrons",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29881,7 +26345,7 @@
   },
   {
     "name": "Rockweed gunnel",
-    "latin": "",
+    "latin": "Apodichthys fucorum",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29889,7 +26353,7 @@
   },
   {
     "name": "Rough scad",
-    "latin": "",
+    "latin": "Trachurus lathami",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29897,7 +26361,7 @@
   },
   {
     "name": "Sarcastic fringehead",
-    "latin": "",
+    "latin": "Neoclinus blanchardi",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -29905,103 +26369,39 @@
   },
   {
     "name": "Sargassum fish",
-    "latin": "",
+    "latin": "Histrio histrio",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Sargassum_fish"
   },
   {
-    "name": "Sawfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sawfish_(fish)"
-  },
-  {
-    "name": "Scaly dragonfish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Scaly_dragonfish"
-  },
-  {
-    "name": "Sea raven",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sea_raven"
-  },
-  {
-    "name": "Sea toad",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sea_toad"
-  },
-  {
-    "name": "Seahorse",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Seahorse"
-  },
-  {
     "name": "Shortnose sucker",
-    "latin": "",
+    "latin": "Chasmistes brevirostris",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Shortnose_sucker"
   },
   {
-    "name": "Slimy mackerel",
-    "latin": "",
+    "name": "Blue mackerel",
+    "latin": "Scomber australasicus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Slimy_mackerel"
   },
   {
-    "name": "Snubnose eel",
-    "latin": "",
+    "name": "Snubnosed eel",
+    "latin": "Simenchelys parasitica",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Snubnose_eel"
   },
   {
-    "name": "Snubnose parasitic eel",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Snubnose_parasitic_eel"
-  },
-  {
-    "name": "Spadefish",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Spadefish"
-  },
-  {
-    "name": "Splitfin",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Splitfin"
-  },
-  {
-    "name": "Staghorn sculpin",
-    "latin": "",
+    "name": "Pacific staghorn sculpin",
+    "latin": "Leptocottus armatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
@@ -30009,127 +26409,39 @@
   },
   {
     "name": "Starry flounder",
-    "latin": "",
+    "latin": "Platichthys stellatus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Starry_flounder"
   },
   {
-    "name": "Steelhead",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Steelhead"
-  },
-  {
-    "name": "Stoneroller minnow",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Stoneroller_minnow"
-  },
-  {
-    "name": "Sturgeon",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Sturgeon"
-  },
-  {
-    "name": "Sucker",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Catostomidae"
-  },
-  {
-    "name": "Surfperch",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Surfperch"
-  },
-  {
-    "name": "Swordtail",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Swordtail"
-  },
-  {
-    "name": "Temperate bass",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Temperate_bass"
-  },
-  {
-    "name": "Thresher shark",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Thresher_shark"
-  },
-  {
-    "name": "Tidewater goby",
-    "latin": "",
+    "name": "Northern tidewater goby",
+    "latin": "Eucyclogobius newberryi",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Tidewater_goby"
   },
   {
-    "name": "Topminnow",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Topminnow"
-  },
-  {
     "name": "Treefish",
-    "latin": "",
+    "latin": "Sebastes serriceps",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Treefish"
   },
   {
-    "name": "Trout",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/Trout"
-  },
-  {
     "name": "Turbot",
-    "latin": "",
+    "latin": "Scophthalmus maximus",
     "family": "",
     "type": "Fish",
     "distribution": "",
     "wiki_path": "/wiki/Turbot"
   },
   {
-    "name": "White shark",
-    "latin": "",
-    "family": "",
-    "type": "Fish",
-    "distribution": "",
-    "wiki_path": "/wiki/White_shark"
-  },
-  {
     "name": "Wrymouth",
-    "latin": "",
+    "latin": "Cryptacanthodes maculatus",
     "family": "",
     "type": "Fish",
     "distribution": "",

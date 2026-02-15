@@ -15,6 +15,7 @@ import json
 import re
 from html import unescape
 from pathlib import Path
+from urllib.parse import unquote
 
 from zim_utils import read_article
 
@@ -22,7 +23,10 @@ OUT = Path(__file__).parent / "species_index.json"
 
 SKIP_HREF = ["File:", "Help:", "Wikipedia:", "Template:", "Category:", "Special:", "#",
              "List_of", "Mammal", "Fauna_of", "ISBN", "ISSN", "OCLC", "doi:",
-             "IUCN", "Binomial", "Family_(biology)", "Order_(biology)"]
+             "IUCN", "Binomial", "Family_(biology)", "Order_(biology)",
+             "http:", "https:"]
+
+LATIN_RE = re.compile(r'^[A-Z][a-z]+ [a-z]+(?:-[a-z]+)*(?:\s[a-z]+)?$')
 
 
 def clean(text):
@@ -202,7 +206,20 @@ NA_KEYWORDS = [
 ]
 
 
+def trim_content(html):
+    start = html.find('id="mw-content-text"')
+    if start > 0:
+        html = html[start:]
+    for marker in ['class="navbox', 'id="References"', 'id="See_also"',
+                    'id="External_links"']:
+        pos = html.find(marker)
+        if pos > 0:
+            html = html[:pos]
+    return html
+
+
 def parse_fish_table(html):
+    html = trim_content(html)
     rows = re.findall(r"<tr[^>]*>(.*?)</tr>", html, re.DOTALL)
     species = []
     for row in rows:
@@ -223,9 +240,7 @@ def parse_fish_table(html):
 
 
 def parse_fish_list(html):
-    content_start = html.find('id="mw-content-text"')
-    if content_start > 0:
-        html = html[content_start:]
+    html = trim_content(html)
     items = re.findall(r"<li[^>]*>(.*?)</li>", html, re.DOTALL)
     species = []
     for item in items:
@@ -265,12 +280,48 @@ def get_range_text(html):
     return " ".join(parts).lower()
 
 
-def article_is_na(wiki_path):
-    html = read_article("A/" + wiki_path.split("/wiki/")[-1])
-    if not html:
-        return False
-    text = get_range_text(html)
-    return any(kw in text for kw in NA_KEYWORDS)
+
+def validate_and_enrich(fish_list):
+    """Verify each entry is a real species and fix name/latin from the article."""
+    result = []
+    for i, s in enumerate(fish_list):
+        if (i + 1) % 200 == 0:
+            print(f"    {i + 1}/{len(fish_list)}...", flush=True)
+        html = read_article("A/" + s["wiki_path"].split("/wiki/")[-1])
+        if not html:
+            continue
+        binom_pos = html.find("Binomial name")
+        if binom_pos < 0:
+            continue
+        latin_m = re.search(
+            r'<i[^>]*>(?:<b>)?([A-Z][a-z]+ [a-z]+(?:-[a-z]+)*(?:\s[a-z]+)?)',
+            html[binom_pos:binom_pos + 500],
+        )
+        if not latin_m:
+            continue
+        epithet = latin_m.group(1).split()[1] if " " in latin_m.group(1) else ""
+        if epithet in ("sp", "spp", "sp.", "spp."):
+            continue
+        s["latin"] = latin_m.group(1)
+
+        genus = s["latin"].split()[0]
+        title_m = re.search(r'<title>([^<]+)</title>', html)
+        title = title_m.group(1).split(" - ")[0].strip() if title_m else ""
+
+        if s["name"] == s["latin"] or s["name"] == genus:
+            if title and title != s["latin"] and title != genus:
+                s["name"] = title
+            else:
+                slug = unquote(s["wiki_path"].split("/wiki/")[-1]).replace("_", " ")
+                slug = re.sub(r"\s*\([^)]+\)$", "", slug)
+                if not LATIN_RE.match(slug) and slug != genus:
+                    s["name"] = slug
+        elif title and title != s["latin"] and title != genus and title != s["name"]:
+            s["name"] = title
+
+        s["name"] = re.sub(r"\s*\([^)]+\)\s*$", "", s["name"]).strip()
+        result.append(s)
+    return result
 
 
 def collect_fish():
@@ -279,8 +330,9 @@ def collect_fish():
 
     def add(species_list):
         for s in species_list:
-            if s["wiki_path"] not in seen:
-                seen.add(s["wiki_path"])
+            key = s["wiki_path"].lower()
+            if key not in seen:
+                seen.add(key)
                 all_fish.append(s)
 
     for path in FISH_PAGES:
@@ -302,18 +354,27 @@ def collect_fish():
         print("NOT FOUND")
         return all_fish
     global_fish = parse_fish_list(html)
-    candidates = [s for s in global_fish if s["wiki_path"] not in seen]
+    candidates = [s for s in global_fish if s["wiki_path"].lower() not in seen]
     print(f"{len(global_fish)} total, {len(candidates)} new candidates")
 
     added = 0
     for i, s in enumerate(candidates):
         if i % 100 == 0 and i > 0:
             print(f"    ...{i}/{len(candidates)} scanned, {added} NA", flush=True)
-        if article_is_na(s["wiki_path"]):
+        page_html = read_article("A/" + s["wiki_path"].split("/wiki/")[-1])
+        if not page_html:
+            continue
+        if "Binomial name" not in page_html:
+            continue
+        text = get_range_text(page_html)
+        if any(kw in text for kw in NA_KEYWORDS):
             add([s])
             added += 1
     print(f"  Global filter: +{added} NA fish")
-    print(f"  Fish total: {len(all_fish)}")
+
+    print(f"  Validating {len(all_fish)} entries...")
+    all_fish = validate_and_enrich(all_fish)
+    print(f"  Fish total: {len(all_fish)} verified species")
     return all_fish
 
 
@@ -343,12 +404,25 @@ def main():
     print("Reading Fish...")
     all_species.extend(collect_fish())
 
-    seen = set()
+    seen_paths = set()
+    seen_latin = set()
+    seen_names = set()
     unique = []
     for s in all_species:
-        if s["wiki_path"] not in seen:
-            seen.add(s["wiki_path"])
-            unique.append(s)
+        path_key = s["wiki_path"].lower()
+        if path_key in seen_paths:
+            continue
+        seen_paths.add(path_key)
+        if s["latin"]:
+            latin_key = s["latin"].lower()
+            if latin_key in seen_latin:
+                continue
+            seen_latin.add(latin_key)
+        name_key = (s["type"], s["name"].lower())
+        if name_key in seen_names:
+            continue
+        seen_names.add(name_key)
+        unique.append(s)
 
     print(f"\nTotal: {len(all_species)} raw, {len(unique)} unique species")
 
