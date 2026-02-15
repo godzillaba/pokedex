@@ -1,6 +1,6 @@
 # American Wildlife Pokédex
 
-A PWA "Pokédex" for American wildlife — retro-styled catalog of ~50 North American species with Pokémon-inspired stat bars, search, and type filtering.
+A PWA "Pokédex" for American wildlife — retro-styled catalog of North American species with Pokémon-inspired stat bars, search, and type filtering.
 
 ## Tech Stack
 
@@ -17,9 +17,9 @@ src/
   main.jsx              # entry point, renders <App />
   app.jsx               # top-level component (shell + list/card routing)
   app.css               # global reset + CSS custom properties
-  data/species.json     # 50 wildlife species with stats
+  data/species.json     # wildlife species with stats
   components/
-    pokedex-shell.*     # red device frame, LCD screen, decorative elements
+    pokedex-shell.*     # LCD screen wrapper with scanline overlay
     species-list.*      # scrollable list + search input + type filters
     species-card.*      # expanded view: image, stats, region, habitat
   hooks/
@@ -31,7 +31,7 @@ public/
 
 ## Data
 
-`src/data/species.json` — array of 50 species. Each entry:
+`src/data/species.json` — array of species. Each entry:
 - `id`, `name`, `species` (Latin), `type` (Bird/Mammal/Reptile/Amphibian/Fish/Insect/Arachnid)
 - `region`, `habitat`, `description`
 - `stats`: `size`, `speed`, `rarity`, `danger` (0–100)
@@ -63,7 +63,7 @@ Use the `/playwright` skill (Playwright) to verify frontend changes — take scr
 
 ## Documentation
 
-When adding or modifying a feature, always update the relevant README if one exists (e.g. `scrape/README.md` for pipeline changes). Keep docs in sync with code.
+When adding or modifying a feature, always update the relevant README if one exists (e.g. `scrape/README.md` for pipeline changes, or `CLAUDE.md` for other project changes). Keep docs in sync with code.
 
 ## Code Style
 

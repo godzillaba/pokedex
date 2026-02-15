@@ -1,14 +1,8 @@
 :root {
-  --red: #cc0000;
-  --red-dark: #8b0000;
-  --red-light: #e83030;
   --lcd-bg: #98b88c;
   --lcd-bg-dark: #7a9a6e;
   --lcd-text: #1a2a10;
-  --border-dark: #2a2a2a;
-  --border-light: #555;
   --white: #f0f0f0;
-  --yellow: #f0c040;
   --blue-led: #30a0d0;
   --font-pixel: "Press Start 2P", monospace;
 }
