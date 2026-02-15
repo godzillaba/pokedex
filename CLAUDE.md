@@ -57,6 +57,10 @@ This project runs inside a devcontainer (`.devcontainer/`). The container is loc
 
 Always use the right tool for the job — install real libraries instead of reimplementing things with stdlib. If a dependency is missing and can't be installed due to the container/firewall setup, ask the user to help unblock it (e.g. add a domain to the firewall, add a package to the Dockerfile, rebuild the container). Don't silently work around missing tools with inferior hand-rolled alternatives.
 
+## Frontend Debugging
+
+Use the `/playwright` skill (Playwright) to verify frontend changes — take screenshots, read rendered text, check console errors, test interactions. Use it proactively after UI changes, don't wait to be asked.
+
 ## Documentation
 
 When adding or modifying a feature, always update the relevant README if one exists (e.g. `scrape/README.md` for pipeline changes). Keep docs in sync with code.
