@@ -43,6 +43,8 @@ ipset create allowed-domains hash:net
 # Resolve and add other allowed domains
 for domain in \
     "registry.npmjs.org" \
+    "pypi.org" \
+    "files.pythonhosted.org" \
     "api.anthropic.com" \
     "sentry.io" \
     "statsig.anthropic.com" \

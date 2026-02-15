@@ -53,6 +53,10 @@ This project runs inside a devcontainer (`.devcontainer/`). The container is loc
 - **To allow network access to a new domain** — add it to the domain list in `.devcontainer/init-firewall.sh`.
 - **Don't `apt-get install` or `npm install -g` at runtime** — it either won't survive a rebuild or will be blocked by the firewall. Put it in the Dockerfile.
 
+## Tooling Philosophy
+
+Always use the right tool for the job — install real libraries instead of reimplementing things with stdlib. If a dependency is missing and can't be installed due to the container/firewall setup, ask the user to help unblock it (e.g. add a domain to the firewall, add a package to the Dockerfile, rebuild the container). Don't silently work around missing tools with inferior hand-rolled alternatives.
+
 ## Code Style
 
 Inspired by NASA/JPL's "Power of 10" — code must be quickly and easily reviewable by a human.
