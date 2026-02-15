@@ -45,6 +45,14 @@ JSON is imported statically by Vite — bundled into JS, no runtime fetch.
 - `npm run build` — production build to `dist/`
 - `npm run preview` — serve production build locally
 
+## Development Environment
+
+This project runs inside a devcontainer (`.devcontainer/`). The container is locked down with an iptables firewall that only allows traffic to a small allowlist of domains (npm registry, Anthropic API, VS Code marketplace, etc.).
+
+- **To install system packages or tools** — edit `.devcontainer/Dockerfile` and rebuild the container.
+- **To allow network access to a new domain** — add it to the domain list in `.devcontainer/init-firewall.sh`.
+- **Don't `apt-get install` or `npm install -g` at runtime** — it either won't survive a rebuild or will be blocked by the firewall. Put it in the Dockerfile.
+
 ## Code Style
 
 Inspired by NASA/JPL's "Power of 10" — code must be quickly and easily reviewable by a human.
