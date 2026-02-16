@@ -129,7 +129,8 @@ Fully deterministic (no LLM). For each species in `species_index.json`:
 2. Finds the first `<img>` inside `<table class="infobox biota">`, skipping icons (Status_, OOjs_, Distribution_ prefixes)
 3. Extracts the image binary from the ZIM at the `I/...` path (handles double-URL-encoded paths)
 4. Pixelates via ImageMagick: center-crop to square → 64×64 downscale → 32 colors → nearest-neighbor upscale to 256×256
-5. Saves to `scrape/images/{wiki_slug}.png`
+5. Also saves a non-pixelated 256×256 center-crop as the "original" version
+6. Saves to `scrape/images/{wiki_slug}.png` (pixelated) and `scrape/images/{wiki_slug}-original.png` (clean)
 
 **Resume support:** skips species whose output PNG already exists. Safe to re-run to fill gaps.
 

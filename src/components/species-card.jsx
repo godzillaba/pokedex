@@ -17,6 +17,7 @@ function StatBar({ label, value }) {
 
 export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack }) {
   const [imgErr, setImgErr] = useState(false);
+  const [showOriginal, setShowOriginal] = useState(false);
 
   return (
     <div class="scard">
@@ -34,14 +35,17 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
         </span>
       </div>
 
-      <div class="scard__image-frame">
+      <div
+        class="scard__image-frame"
+        onClick={() => !imgErr && setShowOriginal((v) => !v)}
+      >
         {imgErr ? (
           <div class="scard__placeholder">?</div>
         ) : (
           <img
-            src={`/${species.image}`}
+            src={`/${showOriginal ? species.image.replace(".png", "-original.png") : species.image}`}
             alt={species.name}
-            onError={() => setImgErr(true)}
+            onError={() => showOriginal ? setShowOriginal(false) : setImgErr(true)}
             loading="lazy"
           />
         )}

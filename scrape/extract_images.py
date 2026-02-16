@@ -1,9 +1,11 @@
 """Extract species photos from ZIM and pixelate into retro sprites.
 
 Reads species_index.json, finds the infobox photo for each species in the ZIM,
-and saves a pixelated 256x256 PNG (64x64 downscale, 32 colors, nearest-neighbor upscale).
+and saves a pixelated 256x256 PNG (64x64 downscale, 32 colors, nearest-neighbor upscale)
+plus a non-pixelated 256x256 original for the detail view toggle.
 
-Output: scrape/images/{wiki_slug}.png
+Output: scrape/images/{wiki_slug}.png         (pixelated sprite)
+        scrape/images/{wiki_slug}-original.png (clean 256x256 crop)
 """
 
 import json
@@ -74,6 +76,22 @@ def pixelate(input_bytes, output_path):
         Path(tmp_path).unlink(missing_ok=True)
 
 
+def save_original(input_bytes, output_path):
+    with tempfile.NamedTemporaryFile(suffix=".webp", delete=False) as tmp:
+        tmp.write(input_bytes)
+        tmp_path = tmp.name
+    try:
+        subprocess.run([
+            "convert", tmp_path,
+            "-gravity", "center",
+            "-thumbnail", "256x256^",
+            "-extent", "256x256",
+            str(output_path),
+        ], check=True, capture_output=True)
+    finally:
+        Path(tmp_path).unlink(missing_ok=True)
+
+
 def main():
     with open(INDEX_PATH) as f:
         index = json.load(f)
@@ -88,8 +106,9 @@ def main():
     for i, entry in enumerate(index, 1):
         slug = entry["wiki_path"].split("/wiki/")[-1]
         out_path = IMAGES_DIR / f"{slug}.png"
+        orig_path = IMAGES_DIR / f"{slug}-original.png"
 
-        if out_path.exists():
+        if out_path.exists() and orig_path.exists():
             skipped_existing += 1
             continue
 
@@ -113,7 +132,10 @@ def main():
             continue
 
         try:
-            pixelate(img_bytes, out_path)
+            if not out_path.exists():
+                pixelate(img_bytes, out_path)
+            if not orig_path.exists():
+                save_original(img_bytes, orig_path)
             extracted += 1
             print(f"[{i}/{total}] {entry['name']} \u2713")
         except subprocess.CalledProcessError as e:

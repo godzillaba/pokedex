@@ -94,12 +94,15 @@ def main():
     for i, s in enumerate(species_list, 1):
         s["id"] = i
         sprite = SPRITE_DIR / f"{s['_wiki_slug']}.png"
+        original = SPRITE_DIR / f"{s['_wiki_slug']}-original.png"
         if sprite.exists():
             shutil.copy2(sprite, PUBLIC_IMG_DIR / f"{i:03d}.png")
             s["image"] = f"images/animals/{i:03d}.png"
             images_copied += 1
         else:
             s["image"] = "images/animals/placeholder.svg"
+        if original.exists():
+            shutil.copy2(original, PUBLIC_IMG_DIR / f"{i:03d}-original.png")
         del s["_sort_key"]
         del s["_wiki_slug"]
 
