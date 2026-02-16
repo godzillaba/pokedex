@@ -1642,5 +1642,149 @@
     "speed": 45,
     "rarity": 75,
     "danger": 2
+  },
+  "/wiki/Saint_Lawrence_Island_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Southeastern_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Mount_Lyell_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 55,
+    "danger": 1
+  },
+  "/wiki/Merriam's_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Dwarf_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Ornate_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Montane_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/New_Mexico_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Pacific_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Baird's_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Glacier_Bay_water_shrew": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Preble's_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Olympic_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Fog_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Inyo_shrew": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Trowbridge's_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tundra_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Barren_ground_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Vagrant_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Alaska_tiny_shrew": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 1
+  },
+  "/wiki/Star-nosed_mole": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hairy-tailed_mole": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Northern_broad-footed_mole": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Southern_broad-footed_mole": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 2
   }
 }
