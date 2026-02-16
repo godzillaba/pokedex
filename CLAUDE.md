@@ -45,6 +45,10 @@ JSON is imported statically by Vite — bundled into JS, no runtime fetch.
 - `npm run build` — production build to `dist/`
 - `npm run preview` — serve production build locally
 
+## Git
+
+Always commit with `--no-gpg-sign` — GPG signing is not configured in this container.
+
 ## Development Environment
 
 This project runs inside a devcontainer (`.devcontainer/`). The container is locked down with an iptables firewall that only allows traffic to a small allowlist of domains (npm registry, Anthropic API, VS Code marketplace, etc.).
