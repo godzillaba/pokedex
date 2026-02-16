@@ -137,7 +137,7 @@ Fully deterministic (no LLM). For each species in `species_index.json`:
 
 ## Step 4: enrich.py — LLM enrichment with per-field caching
 
-Uses Claude Haiku (`claude-haiku-4-5-20251001`) to generate Pokédex-style fields for each species. The key design feature is **per-field caching** — each field type is stored in a separate JSON file:
+Uses Claude Sonnet (`claude-sonnet-4-5-20250929`) to generate Pokédex-style fields for each species. Article HTML is parsed with BeautifulSoup to extract only `<p>` paragraph text — infoboxes, tables, citations, images, and boilerplate sections (References, External links, etc.) are stripped. The cleaned text is capped at 4000 words. The key design feature is **per-field caching** — each field type is stored in a separate JSON file:
 
 ```
 scrape/llm_cache/

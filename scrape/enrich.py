@@ -1,7 +1,9 @@
 """LLM enrichment for species data.
 
 Generates descriptions, stats, regions, habitats, and common names
-using Claude Haiku with per-field caching.
+using Claude Haiku with per-field caching. Wikipedia articles are
+stripped of infoboxes, tables, citations, and image captions before
+sending to the model (~1500 words of clean article text).
 
 Usage:
     python3 scrape/enrich.py              # enrich all species
@@ -18,6 +20,7 @@ import time
 from pathlib import Path
 
 import anthropic
+from bs4 import BeautifulSoup
 
 SCRAPE_DIR = Path(__file__).resolve().parent
 PAGES_DIR = SCRAPE_DIR / "pages"
@@ -27,16 +30,17 @@ EXTRACTED_PATH = SCRAPE_DIR / "extracted.json"
 CACHE_FIELDS = ["descriptions", "stats", "regions", "habitats", "names"]
 
 EXAMPLE_DESCRIPTIONS = [
-    "The national bird of the United States, known for its striking white head "
-    "and powerful talons capable of exerting 400 pounds of pressure per square inch.",
-    "One of North America's most powerful predators, capable of running at "
-    "35 mph despite weighing up to 800 pounds.",
-    "Pound for pound, her venom is 15 times stronger than a rattlesnake's.",
-    "The fastest animal on Earth, reaching speeds over 240 mph in a hunting dive called a stoop.",
+    "Once nearly wiped out by DDT, this iconic raptor made a stunning comeback "
+    "and can spot a rabbit from over a mile away.",
+    "An aquatic engineer whose dams reshape entire watersheds, creating "
+    "wetlands that support hundreds of other species.",
+    "Capable of eating 5,000 ticks in a single season, this misunderstood marsupial "
+    "is virtually immune to rabies thanks to its unusually low body temperature.",
+    "The fastest animal on Earth, tucking into a teardrop-shaped dive called "
+    "a stoop that generates enough force to kill prey on impact.",
 ]
 
-TAG_RE = re.compile(r"<[^>]+>")
-SCRIPT_STYLE_RE = re.compile(r"<(script|style|link)[^>]*>[\s\S]*?</\1>", re.IGNORECASE)
+SKIP_SECTIONS = {"References", "External links", "See also", "Further reading", "Notes"}
 
 
 # --- Cache ---
@@ -56,13 +60,19 @@ def save_cache(field, data):
 # --- HTML → plain text ---
 
 def html_to_text(html):
-    text = SCRIPT_STYLE_RE.sub("", html)
-    text = TAG_RE.sub(" ", text)
-    for old, new in [("&amp;", "&"), ("&lt;", "<"), ("&gt;", ">"),
-                     ("&quot;", '"'), ("&#39;", "'"), ("&nbsp;", " ")]:
-        text = text.replace(old, new)
-    text = re.sub(r"&#\d+;", "", text)
-    return re.sub(r"\s+", " ", text).strip()
+    soup = BeautifulSoup(html, "html.parser")
+    body = soup.find(id="mw-content-text") or soup.body or soup
+    for tag in body.find_all(["table", "sup", "figure", "script", "style"]):
+        tag.decompose()
+    paragraphs = []
+    for el in body.find_all(["p", "h2"]):
+        if el.name == "h2" and el.get_text(strip=True) in SKIP_SECTIONS:
+            break
+        if el.name == "p":
+            text = el.get_text(" ", strip=True)
+            if text:
+                paragraphs.append(text)
+    return " ".join(paragraphs)
 
 
 def load_article_text(wiki_path):
@@ -72,7 +82,7 @@ def load_article_text(wiki_path):
         return None
     text = html_to_text(path.read_text(errors="replace"))
     words = text.split()
-    return " ".join(words[:4000]) if len(words) > 4000 else text
+    return " ".join(words[:1500]) if len(words) > 1500 else text
 
 
 # --- LLM ---
@@ -104,8 +114,8 @@ def build_prompt(species, missing_fields):
     if "descriptions" in missing_fields:
         examples = "\n   ".join(f'- "{d}"' for d in EXAMPLE_DESCRIPTIONS)
         fields.append(
-            '"description": A fun, punchy 1-2 sentence Pokédex entry highlighting the most '
-            "surprising or impressive fact about this animal. Use specific numbers when available. "
+            '"description": A fun, punchy 2-3 short sentence Pokédex entry highlighting the most '
+            "surprising, impressive, or interesting facts about this animal. "
             f"Do NOT start with the species name.\n   Style examples:\n   {examples}")
 
     if "names" in missing_fields:
@@ -142,7 +152,7 @@ def enrich_one(client, species, caches):
     content = f"<article>\n{article}\n</article>\n\n{prompt}" if article else prompt
 
     response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
+        model="claude-sonnet-4-5-20250929",
         max_tokens=1024,
         messages=[{"role": "user", "content": content}],
     )

@@ -5,3 +5,4 @@ scrape/pages
 scrape/images
 __pycache__
 .env
+human-notes.md
