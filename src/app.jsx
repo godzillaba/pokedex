@@ -1,4 +1,4 @@
-import { useState, useRef } from "preact/hooks";
+import { useState, useRef, useEffect } from "preact/hooks";
 import { PokedexShell } from "./components/pokedex-shell.jsx";
 import { SpeciesList } from "./components/species-list.jsx";
 import { SpeciesCard } from "./components/species-card.jsx";
@@ -14,14 +14,23 @@ export function App() {
 
   const handleSelect = (s) => {
     scrollY.current = window.scrollY;
+    history.pushState({ speciesId: s.id }, "");
     setSelected(s);
     window.scrollTo(0, 0);
   };
 
   const handleBack = () => {
-    setSelected(null);
-    requestAnimationFrame(() => window.scrollTo(0, scrollY.current));
+    history.back();
   };
+
+  useEffect(() => {
+    const onPopState = () => {
+      setSelected(null);
+      requestAnimationFrame(() => window.scrollTo(0, scrollY.current));
+    };
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
 
   return (
     <PokedexShell>
