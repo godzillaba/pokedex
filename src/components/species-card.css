@@ -132,10 +132,8 @@
 
 .scard__species {
   font-size: 0.65rem;
-  font-style: italic;
   opacity: 0.7;
   margin-bottom: 0.4rem;
-  font-family: Georgia, serif;
 }
 
 .scard__desc {
@@ -153,6 +151,7 @@
   gap: 0.5rem;
   font-size: 0.65rem;
   padding: 0.3rem 0;
+  line-height: 1.8;
   border-bottom: 1px solid var(--lcd-bg-dark);
 }
 
@@ -176,7 +175,8 @@
 }
 
 .scard__stat-label {
-  min-width: 40px;
+  width: 40px;
+  flex-shrink: 0;
   opacity: 0.7;
 }
 
