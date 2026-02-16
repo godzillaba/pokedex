@@ -6,9 +6,9 @@ import { useSpecies } from "./hooks/use-species.js";
 import { useLog } from "./hooks/use-log.js";
 
 export function App() {
-  const { filtered, types, search, setSearch, typeFilter, setTypeFilter } =
-    useSpecies();
   const { log, toggleSeen, setNote } = useLog();
+  const { filtered, types, search, setSearch, typeFilter, setTypeFilter, seenFilter, setSeenFilter } =
+    useSpecies(log);
   const [selected, setSelected] = useState(null);
   const scrollY = useRef(0);
 
@@ -42,6 +42,8 @@ export function App() {
           onSearch={setSearch}
           typeFilter={typeFilter}
           onTypeFilter={setTypeFilter}
+          seenFilter={seenFilter}
+          onSeenFilter={setSeenFilter}
           onSelect={handleSelect}
           log={log}
         />

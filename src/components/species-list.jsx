@@ -7,6 +7,8 @@ export function SpeciesList({
   onSearch,
   typeFilter,
   onTypeFilter,
+  seenFilter,
+  onSeenFilter,
   onSelect,
   log,
 }) {
@@ -36,6 +38,26 @@ export function SpeciesList({
               {t.toUpperCase()}
             </button>
           ))}
+        </div>
+        <div class="slist__filters">
+          <button
+            class={`slist__filter ${!seenFilter ? "slist__filter--active" : ""}`}
+            onClick={() => onSeenFilter("")}
+          >
+            ALL
+          </button>
+          <button
+            class={`slist__filter ${seenFilter === "seen" ? "slist__filter--active" : ""}`}
+            onClick={() => onSeenFilter(seenFilter === "seen" ? "" : "seen")}
+          >
+            SEEN
+          </button>
+          <button
+            class={`slist__filter ${seenFilter === "unseen" ? "slist__filter--active" : ""}`}
+            onClick={() => onSeenFilter(seenFilter === "unseen" ? "" : "unseen")}
+          >
+            UNSEEN
+          </button>
         </div>
       </div>
       <ul class="slist__entries">
