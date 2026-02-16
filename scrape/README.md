@@ -1,6 +1,6 @@
 # Scrape — Wikipedia Species Extraction & Enrichment
 
-Extracts North American wildlife data from a local Wikipedia ZIM archive, enriches it with an LLM, and outputs the app's `species.json`. The pipeline runs in 6 stages: index → pages → extract → extract_images → enrich → build.
+Extracts North American wildlife data from a local Wikipedia ZIM archive, enriches it with an LLM, and outputs the app's `species.json`. The pipeline runs in 7 stages: index → pages → extract → extract_images → enrich → score_popularity → build.
 
 ## Prerequisites
 
@@ -27,11 +27,14 @@ python3 scrape/extract_images.py
 # 4. Enrich with LLM (descriptions, stats, regions, habitats)
 ANTHROPIC_API_KEY=sk-... python3 scrape/enrich.py
 
+# 4b. Score cultural awareness / popularity (for ID ordering)
+ANTHROPIC_API_KEY=sk-... python3 scrape/score_popularity.py
+
 # 5. Assemble final species.json + copy images to public/
 python3 scrape/build.py
 ```
 
-Steps 1-2 require the ZIM file. Step 3b requires the ZIM + ImageMagick. Steps 3b and 4 can run in parallel. Step 5 copies images from `scrape/images/` to `public/images/animals/`.
+Steps 1-2 require the ZIM file. Step 3b requires the ZIM + ImageMagick. Steps 3b, 4, and 4b can run in parallel. Step 5 copies images from `scrape/images/` to `public/images/animals/`.
 
 ## Pipeline architecture
 
@@ -51,8 +54,10 @@ species_index.json + pages/*.html
     │
     ├─ [4]  enrich.py           → llm_cache/*.json        (LLM-generated fields)
     │
+    ├─ [4b] score_popularity.py → popularity_scores.json   (cultural awareness scores)
+    │
     ▼
-extracted.json + llm_cache/ + scrape/images/
+extracted.json + llm_cache/ + popularity_scores.json + scrape/images/
     │
     └─ [5] build.py             → src/data/species.json   (final app data)
                                 → public/images/animals/  (ID-named PNGs)
@@ -67,7 +72,8 @@ extracted.json + llm_cache/ + scrape/images/
 | `extract.py` | `species_index.json` + `pages/*.html` | `extracted.json` |
 | `enrich.py` | `extracted.json` + `pages/*.html` | `llm_cache/*.json` |
 | `extract_images.py` | `species_index.json` + ZIM | `scrape/images/*.png` |
-| `build.py` | `extracted.json` + `llm_cache/*.json` + `scrape/images/*.png` | `src/data/species.json` + `public/images/animals/*.png` |
+| `score_popularity.py` | `species_index.json` | `popularity_scores.json` |
+| `build.py` | `extracted.json` + `llm_cache/*.json` + `popularity_scores.json` + `scrape/images/*.png` | `src/data/species.json` + `public/images/animals/*.png` |
 | `zim_utils.py` | _(shared module)_ | Provides `read_article(path)` for ZIM lookups |
 
 ## Source pages
@@ -173,13 +179,22 @@ python3 scrape/enrich.py     # re-generates only descriptions
 - Non-retryable errors (auth, bad request): log and skip
 - Retryable errors (429 rate limit, 5xx): exponential backoff, up to 3 retries
 
+## Step 4b: score_popularity.py — Cultural awareness scoring
+
+Uses Claude Sonnet to rate each species' cultural awareness / public recognition on a 0–100 scale. The score reflects how likely an average American is to recognize the animal's name. Used by `build.py` to assign Pokédex IDs — most recognizable species get the lowest IDs.
+
+- Sends species names in batches of 200
+- Outputs `popularity_scores.json` keyed by `wiki_path`
+- Resume-safe: skips species already in the cache file
+- `--limit N` flag for testing
+
 ## Step 5: build.py — Assemble final species.json
 
 Merges `extracted.json` with all LLM cache files into the app's `src/data/species.json`:
 
 1. Joins deterministic fields (`name`, `species`, `type`) with LLM fields (`region`, `habitat`, `stats`, `description`)
 2. Skips any species missing critical LLM fields (incomplete enrichment)
-3. Sorts by type (Mammal → Bird → Reptile → Amphibian → Fish) then alphabetically
+3. Sorts by popularity score (highest first), with alphabetical name as tiebreaker. Falls back to type+alpha sort if `popularity_scores.json` is missing
 4. Assigns sequential IDs (1, 2, 3, ...) and copies matching images from `scrape/images/` to `public/images/animals/{id:03d}.png` (falls back to `placeholder.svg` if no image was extracted)
 
 ## Species counts

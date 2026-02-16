@@ -1,9 +1,10 @@
 """Assemble final species.json from extracted data + LLM cache.
 
 Reads:
-  - scrape/extracted.json     (deterministic fields)
-  - scrape/llm_cache/*.json   (LLM-generated fields)
-  - scrape/images/*.png       (pixelated species images)
+  - scrape/extracted.json          (deterministic fields)
+  - scrape/llm_cache/*.json        (LLM-generated fields)
+  - scrape/popularity_scores.json  (cultural awareness scores)
+  - scrape/images/*.png            (pixelated species images)
 
 Outputs:
   - src/data/species.json              (complete Pokédex entries)
@@ -18,6 +19,7 @@ SCRAPE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = SCRAPE_DIR.parent
 CACHE_DIR = SCRAPE_DIR / "llm_cache"
 EXTRACTED_PATH = SCRAPE_DIR / "extracted.json"
+POPULARITY_PATH = SCRAPE_DIR / "popularity_scores.json"
 OUTPUT_PATH = PROJECT_DIR / "src" / "data" / "species.json"
 SPRITE_DIR = SCRAPE_DIR / "images"
 PUBLIC_IMG_DIR = PROJECT_DIR / "public" / "images" / "animals"
@@ -41,6 +43,12 @@ def main():
     regions = load_cache("regions")
     habitats = load_cache("habitats")
     names = load_cache("names")
+
+    popularity = {}
+    if POPULARITY_PATH.exists():
+        popularity = json.loads(POPULARITY_PATH.read_text())
+    else:
+        print("WARNING: popularity_scores.json not found, falling back to alpha sort")
 
     species_list = []
     skipped = 0
@@ -81,12 +89,17 @@ def main():
             "stats": st,
             "description": desc,
             "_wiki_slug": key.split("/wiki/")[-1],
-            "_sort_key": (TYPE_ORDER.index(entry["type"])
-                          if entry["type"] in TYPE_ORDER else 99, name.lower()),
+            "_wiki_path": key,
         })
 
-    # Sort by type order, then alphabetically by name
-    species_list.sort(key=lambda s: s["_sort_key"])
+    # Sort by popularity (highest first), then alphabetically as tiebreaker
+    if popularity:
+        species_list.sort(key=lambda s: (-popularity.get(s["_wiki_path"], 0), s["name"].lower()))
+    else:
+        species_list.sort(key=lambda s: (
+            TYPE_ORDER.index(s["type"]) if s["type"] in TYPE_ORDER else 99,
+            s["name"].lower(),
+        ))
 
     # Copy images and assign sequential IDs
     PUBLIC_IMG_DIR.mkdir(parents=True, exist_ok=True)
@@ -103,7 +116,7 @@ def main():
             s["image"] = "images/animals/placeholder.svg"
         if original.exists():
             shutil.copy2(original, PUBLIC_IMG_DIR / f"{i:03d}-original.png")
-        del s["_sort_key"]
+        del s["_wiki_path"]
         del s["_wiki_slug"]
 
     # Reorder fields for readability
