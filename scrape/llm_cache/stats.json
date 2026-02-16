@@ -3166,5 +3166,365 @@
     "speed": 55,
     "rarity": 85,
     "danger": 5
+  },
+  "/wiki/Pink-footed_goose": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Brant_(goose)": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Barnacle_goose": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Cackling_goose": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Canada_goose": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 35
+  },
+  "/wiki/Hawaiian_goose": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Mute_swan": {
+    "size": 92,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 55
+  },
+  "/wiki/Black_swan": {
+    "size": 75,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 15
+  },
+  "/wiki/Trumpeter_swan": {
+    "size": 95,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Tundra_swan": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Whooper_swan": {
+    "size": 85,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 15
+  },
+  "/wiki/Egyptian_goose": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Common_shelduck": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Muscovy_duck": {
+    "size": 65,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Wood_duck": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Baikal_teal": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Garganey": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Blue-winged_teal": {
+    "size": 28,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cinnamon_teal": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Northern_shoveler": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gadwall": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Falcated_duck": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Eurasian_wigeon": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/American_wigeon": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pacific_black_duck": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Laysan_duck": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 80,
+    "danger": 2
+  },
+  "/wiki/Hawaiian_duck": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Eastern_spot-billed_duck": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Mallard": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Mexican_duck": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/American_black_duck": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Mottled_duck": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/White-cheeked_pintail": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Northern_pintail": {
+    "size": 35,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Green-winged_teal": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Canvasback": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Redhead_(bird)": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Common_pochard": {
+    "size": 35,
+    "speed": 75,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Ring-necked_duck": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Tufted_duck": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Greater_scaup": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Lesser_scaup": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Steller's_eider": {
+    "size": 35,
+    "speed": 75,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Spectacled_eider": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/King_eider": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Common_eider": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Harlequin_duck": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Labrador_duck": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Surf_scoter": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Velvet_scoter": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/White-winged_scoter": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Stejneger's_scoter": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 5
+  },
+  "/wiki/Common_scoter": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Black_scoter": {
+    "size": 45,
+    "speed": 60,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Long-tailed_duck": {
+    "size": 38,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Bufflehead": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Common_goldeneye": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Barrow's_goldeneye": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Smew": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Hooded_merganser": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
   }
 }
