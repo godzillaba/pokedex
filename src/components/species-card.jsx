@@ -28,11 +28,32 @@ function StatBar({ label, value }) {
 
 export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack }) {
   const [imgErr, setImgErr] = useState(false);
-  const [showOriginal, setShowOriginal] = useState(false);
+  // "sprite" | "original" | "fallback"
+  const [imgMode, setImgMode] = useState("sprite");
 
   useEffect(() => {
     if (species.original_image) new Image().src = species.original_image;
-  }, [species.original_image]);
+    if (species.fallback_image) new Image().src = `/${species.fallback_image}`;
+  }, [species.original_image, species.fallback_image]);
+
+  const hasAnyOriginal = species.original_image || species.fallback_image;
+
+  const imgSrc =
+    imgMode === "original" ? species.original_image :
+    imgMode === "fallback" ? `/${species.fallback_image}` :
+    `/${species.image}`;
+
+  const onImgError = () => {
+    if (imgMode === "original" && species.fallback_image) setImgMode("fallback");
+    else if (imgMode === "original" || imgMode === "fallback") setImgMode("sprite");
+    else setImgErr(true);
+  };
+
+  const toggleImage = () => {
+    if (!hasAnyOriginal) return;
+    if (imgMode !== "sprite") return setImgMode("sprite");
+    setImgMode(species.original_image ? "original" : "fallback");
+  };
 
   return (
     <div class="scard">
@@ -56,16 +77,16 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
       </div>
 
       <div
-        class={`scard__image-frame${!imgErr && species.original_image ? " scard__image-frame--clickable" : ""}`}
-        onClick={() => !imgErr && species.original_image && setShowOriginal((v) => !v)}
+        class={`scard__image-frame${!imgErr && hasAnyOriginal ? " scard__image-frame--clickable" : ""}`}
+        onClick={() => !imgErr && toggleImage()}
       >
         {imgErr ? (
           <div class="scard__placeholder">?</div>
         ) : (
           <img
-            src={showOriginal ? species.original_image : `/${species.image}`}
+            src={imgSrc}
             alt={species.name}
-            onError={() => showOriginal ? setShowOriginal(false) : setImgErr(true)}
+            onError={onImgError}
             loading="lazy"
           />
         )}

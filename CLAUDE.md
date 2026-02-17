@@ -27,6 +27,7 @@ src/
 public/
   icon.svg              # PWA icon
   images/animals/       # species photos (by ID: 001.jpg, 002.jpg, etc.)
+  images/originals/     # raw ZIM photos as fallbacks (by ID: 001.webp, etc.)
 ```
 
 ## Data
@@ -37,6 +38,7 @@ public/
 - `stats`: `size`, `speed`, `rarity`, `danger` (0–100)
 - `image`: path relative to `public/` (e.g. `images/animals/001.png`) — pixelated sprite
 - `original_image`: Wikimedia Commons thumbnail URL (800px) for the high-res photo (omitted if no image)
+- `fallback_image`: path to local ZIM original (e.g. `images/originals/001.webp`) — offline fallback when Wikimedia fails (omitted if no ZIM image)
 - `wiki_url`: full Wikipedia URL (e.g. `https://en.wikipedia.org/wiki/Grizzly_bear`)
 
 JSON is imported statically by Vite — bundled into JS, no runtime fetch.

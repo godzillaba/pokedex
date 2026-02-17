@@ -3,6 +3,7 @@ dist
 wikipedia_en_all_maxi_2024-01.zim
 scrape/pages
 scrape/images
+scrape/originals
 __pycache__
 .env
 human-notes.md

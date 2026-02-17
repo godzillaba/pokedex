@@ -24,6 +24,9 @@ python3 scrape/extract.py
 # 3b. Extract & pixelate species photos from ZIM (needs ZIM + ImageMagick)
 python3 scrape/extract_images.py
 
+# 3c. Extract raw ZIM photos as local fallbacks (needs ZIM)
+python3 scrape/extract_originals.py
+
 # 4. Enrich with LLM (descriptions, stats, regions, habitats)
 ANTHROPIC_API_KEY=sk-... python3 scrape/enrich.py
 
@@ -34,7 +37,7 @@ ANTHROPIC_API_KEY=sk-... python3 scrape/score_popularity.py
 python3 scrape/build.py
 ```
 
-Steps 1-2 require the ZIM file. Step 3b requires the ZIM + ImageMagick. Steps 3b, 4, and 4b can run in parallel. Step 5 copies images from `scrape/images/` to `public/images/animals/`.
+Steps 1-2 require the ZIM file. Steps 3b and 3c require the ZIM (3b also needs ImageMagick). Steps 3b, 3c, 4, and 4b can run in parallel. Step 5 copies sprites from `scrape/images/` to `public/images/animals/` and originals from `scrape/originals/` to `public/images/originals/`.
 
 ## Pipeline architecture
 
@@ -53,15 +56,18 @@ species_index.json + pages/*.html
     ├─ [3b] extract_images.py   → scrape/images/*.png     (pixelated sprites)
     │                           → image_filenames.json    (Wikimedia filenames)
     │
+    ├─ [3c] extract_originals.py → scrape/originals/*.webp (raw ZIM photos)
+    │
     ├─ [4]  enrich.py           → llm_cache/*.json        (LLM-generated fields)
     │
     ├─ [4b] score_popularity.py → popularity_scores.json   (cultural awareness scores)
     │
     ▼
-extracted.json + llm_cache/ + popularity_scores.json + scrape/images/ + image_filenames.json
+extracted.json + llm_cache/ + popularity_scores.json + scrape/images/ + scrape/originals/ + image_filenames.json
     │
     └─ [5] build.py             → src/data/species.json   (final app data)
                                 → public/images/animals/  (ID-named sprite PNGs)
+                                → public/images/originals/ (ID-named original WebPs)
 ```
 
 ## What each script does
@@ -73,8 +79,9 @@ extracted.json + llm_cache/ + popularity_scores.json + scrape/images/ + image_fi
 | `extract.py` | `species_index.json` + `pages/*.html` | `extracted.json` |
 | `enrich.py` | `extracted.json` + `pages/*.html` | `llm_cache/*.json` |
 | `extract_images.py` | `species_index.json` + ZIM + `pages/*.html` | `scrape/images/*.png` + `image_filenames.json` |
+| `extract_originals.py` | `species_index.json` + ZIM | `scrape/originals/*.webp` |
 | `score_popularity.py` | `species_index.json` | `popularity_scores.json` |
-| `build.py` | `extracted.json` + `llm_cache/*.json` + `popularity_scores.json` + `scrape/images/*.png` + `image_filenames.json` | `src/data/species.json` + `public/images/animals/*.png` |
+| `build.py` | `extracted.json` + `llm_cache/*.json` + `popularity_scores.json` + `scrape/images/*.png` + `scrape/originals/*.webp` + `image_filenames.json` | `src/data/species.json` + `public/images/animals/*.png` + `public/images/originals/*.webp` |
 | `zim_utils.py` | _(shared module)_ | Provides `read_article(path)` for ZIM lookups |
 
 ## Source pages
@@ -145,6 +152,15 @@ Fully deterministic (no LLM). Two outputs:
 **Resume support:** skips species whose output PNG already exists. Safe to re-run to fill gaps.
 
 **Coverage:** ~94% of species have infobox photos. The remaining ~6% (mostly obscure salamanders, shiners, darters, pocket gophers) have no photo in their Wikipedia infobox.
+
+## Step 3c: extract_originals.py — Raw ZIM photo extraction
+
+Extracts the same infobox photos as `extract_images.py` but saves the raw WebP bytes without any pixelation or resizing. These serve as local fallback images when Wikimedia Commons URLs fail (404s, CORB errors, offline use).
+
+- Reuses `find_infobox_image()` and `extract_image_bytes()` from `extract_images.py`
+- Output: `scrape/originals/{wiki_slug}.webp` (~200-380px WebP, ~15KB each)
+- Resume-safe: skips species whose output file already exists
+- `build.py` copies these to `public/images/originals/{id:03d}.webp` and adds `fallback_image` to species.json
 
 ## Step 4: enrich.py — LLM enrichment with per-field caching
 

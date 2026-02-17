@@ -26,7 +26,9 @@ POPULARITY_PATH = SCRAPE_DIR / "popularity_scores.json"
 FILENAMES_PATH = SCRAPE_DIR / "image_filenames.json"
 OUTPUT_PATH = PROJECT_DIR / "src" / "data" / "species.json"
 SPRITE_DIR = SCRAPE_DIR / "images"
+ORIGINALS_DIR = SCRAPE_DIR / "originals"
 PUBLIC_IMG_DIR = PROJECT_DIR / "public" / "images" / "animals"
+PUBLIC_ORIGINALS_DIR = PROJECT_DIR / "public" / "images" / "originals"
 
 TYPE_ORDER = ["Mammal", "Bird", "Reptile", "Amphibian", "Fish"]
 
@@ -120,9 +122,11 @@ def main():
             s["name"].lower(),
         ))
 
-    # Copy sprites and assign sequential IDs
+    # Copy sprites and originals, assign sequential IDs
     PUBLIC_IMG_DIR.mkdir(parents=True, exist_ok=True)
+    PUBLIC_ORIGINALS_DIR.mkdir(parents=True, exist_ok=True)
     images_copied = 0
+    originals_copied = 0
     for i, s in enumerate(species_list, 1):
         s["id"] = i
         sprite = SPRITE_DIR / f"{s['_wiki_slug']}.png"
@@ -132,6 +136,14 @@ def main():
             images_copied += 1
         else:
             s["image"] = "images/animals/placeholder.svg"
+
+        original = ORIGINALS_DIR / f"{s['_wiki_slug']}.webp"
+        if original.exists():
+            shutil.copy2(original, PUBLIC_ORIGINALS_DIR / f"{i:03d}.webp")
+            s["_fallback_image"] = f"images/originals/{i:03d}.webp"
+            originals_copied += 1
+        else:
+            s["_fallback_image"] = None
 
         wiki_filename = image_filenames.get(s["_wiki_slug"])
         s["_original_image"] = wikimedia_thumb_url(wiki_filename) if wiki_filename else None
@@ -156,6 +168,8 @@ def main():
             entry["conservation_status"] = s["_conservation_status"]
         if s["_original_image"]:
             entry["original_image"] = s["_original_image"]
+        if s["_fallback_image"]:
+            entry["fallback_image"] = s["_fallback_image"]
         output.append(entry)
         del s["_wiki_path"]
 
@@ -163,10 +177,12 @@ def main():
         json.dump(output, f, indent=2)
 
     originals = sum(1 for s in output if "original_image" in s)
+    fallbacks = sum(1 for s in output if "fallback_image" in s)
     print(f"Wrote {len(output)} species to {OUTPUT_PATH}")
     print(f"Skipped {skipped} incomplete entries")
     print(f"Images copied: {images_copied}/{len(output)}")
     print(f"Original image URLs: {originals}/{len(output)}")
+    print(f"Fallback originals: {fallbacks}/{len(output)} (copied: {originals_copied})")
 
     # Type breakdown
     type_counts = {}
