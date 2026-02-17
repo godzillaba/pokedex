@@ -4852,5 +4852,3035 @@
     "speed": 75,
     "rarity": 45,
     "danger": 0
+  },
+  "/wiki/Black-tailed_godwit": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Hudsonian_godwit": {
+    "size": 35,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Marbled_godwit": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ruddy_turnstone": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Black_turnstone": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Great_knot": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 92,
+    "danger": 2
+  },
+  "/wiki/Red_knot": {
+    "size": 15,
+    "speed": 75,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Surfbird": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Ruff_(bird)": {
+    "size": 18,
+    "speed": 45,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Broad-billed_sandpiper": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Sharp-tailed_sandpiper": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Stilt_sandpiper": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Curlew_sandpiper": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Temminck's_stint": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Long-toed_stint": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Spoon-billed_sandpiper": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Red-necked_stint": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Sanderling": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Dunlin": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Rock_sandpiper": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Purple_sandpiper": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Baird's_sandpiper": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Little_stint": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Least_sandpiper": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/White-rumped_sandpiper": {
+    "size": 8,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Buff-breasted_sandpiper": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Pectoral_sandpiper": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Semipalmated_sandpiper": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Western_sandpiper": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Short-billed_dowitcher": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Long-billed_dowitcher": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Jack_snipe": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Eurasian_woodcock": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/American_woodcock": {
+    "size": 28,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Latham's_snipe": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Solitary_snipe": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Pin-tailed_snipe": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Common_snipe": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Wilson's_snipe": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Swinhoe's_snipe": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Terek_sandpiper": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Common_sandpiper": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Spotted_sandpiper": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Green_sandpiper": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Solitary_sandpiper": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Gray-tailed_tattler": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Wandering_tattler": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Lesser_yellowlegs": {
+    "size": 20,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Willet": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Spotted_redshank": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Common_greenshank": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Greater_yellowlegs": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Common_redshank": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Wood_sandpiper": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Marsh_sandpiper": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Wilson's_phalarope": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Red-necked_phalarope": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Red_phalarope": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Oriental_pratincole": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 99,
+    "danger": 2
+  },
+  "/wiki/Great_skua": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/South_polar_skua": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 25
+  },
+  "/wiki/Pomarine_jaeger": {
+    "size": 48,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Parasitic_jaeger": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Long-tailed_jaeger": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Dovekie": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Common_murre": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Thick-billed_murre": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Razorbill": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Great_auk": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Black_guillemot": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pigeon_guillemot": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Long-billed_murrelet": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Marbled_murrelet": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Kittlitz's_murrelet": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Scripps's_murrelet": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Guadalupe_murrelet": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Craveri's_murrelet": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Ancient_murrelet": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Japanese_murrelet": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Cassin's_auklet": {
+    "size": 18,
+    "speed": 45,
+    "rarity": 38,
+    "danger": 2
+  },
+  "/wiki/Parakeet_auklet": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Least_auklet": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Whiskered_auklet": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Crested_auklet": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Rhinoceros_auklet": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Atlantic_puffin": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Horned_puffin": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Tufted_puffin": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Swallow-tailed_gull": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Black-legged_kittiwake": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Red-legged_kittiwake": {
+    "size": 25,
+    "speed": 60,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Ivory_gull": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Sabine's_gull": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Bonaparte's_gull": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Silver_gull": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 8
+  },
+  "/wiki/Gray-hooded_gull": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Black-headed_gull": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Little_gull": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ross's_gull": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Laughing_gull": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Franklin's_gull": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Pallas's_gull": {
+    "size": 72,
+    "speed": 65,
+    "rarity": 99,
+    "danger": 5
+  },
+  "/wiki/Belcher's_gull": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Black-tailed_gull": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Heermann's_gull": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Common_gull": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Short-billed_gull": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Ring-billed_gull": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 15,
+    "danger": 10
+  },
+  "/wiki/Western_gull": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Yellow-footed_gull": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/California_gull": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/American_herring_gull": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Yellow-legged_gull": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 15
+  },
+  "/wiki/Iceland_gull": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Lesser_black-backed_gull": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Slaty-backed_gull": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 85,
+    "danger": 5
+  },
+  "/wiki/Glaucous-winged_gull": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Glaucous_gull": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Great_black-backed_gull": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Kelp_gull": {
+    "size": 45,
+    "speed": 60,
+    "rarity": 95,
+    "danger": 25
+  },
+  "/wiki/Brown_noddy": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Black_noddy": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Blue-gray_noddy": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/White_tern": {
+    "size": 25,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Sooty_tern": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Gray-backed_tern": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Bridled_tern": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Aleutian_tern": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Little_tern": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 0,
+    "danger": 15
+  },
+  "/wiki/Least_tern": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Large-billed_tern": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Gull-billed_tern": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Caspian_tern": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Black_tern": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/White-winged_tern": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Whiskered_tern": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Roseate_tern": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Black-naped_tern": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Common_tern": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Arctic_tern": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Forster's_tern": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Royal_tern": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Great_crested_tern": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Sandwich_tern": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Elegant_tern": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Black_skimmer": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/White-tailed_tropicbird": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Red-billed_tropicbird": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Red-tailed_tropicbird": {
+    "size": 48,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Red-throated_loon": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Arctic_loon": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Pacific_loon": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Common_loon": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Yellow-billed_loon": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Atlantic_yellow-nosed_albatross": {
+    "size": 65,
+    "speed": 75,
+    "rarity": 78,
+    "danger": 5
+  },
+  "/wiki/White-capped_albatross": {
+    "size": 72,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Chatham_albatross": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Salvin's_albatross": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Black-browed_albatross": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Light-mantled_albatross": {
+    "size": 65,
+    "speed": 75,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Wandering_albatross": {
+    "size": 85,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Laysan_albatross": {
+    "size": 72,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Black-footed_albatross": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Short-tailed_albatross": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Wilson's_storm-petrel": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/White-faced_storm-petrel": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Black-bellied_storm-petrel": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Polynesian_storm-petrel": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/European_storm-petrel": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Fork-tailed_storm-petrel": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Ringed_storm-petrel": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Swinhoe's_storm-petrel": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Leach's_storm-petrel": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Townsend's_storm-petrel": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Ashy_storm-petrel": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Band-rumped_storm-petrel": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Wedge-rumped_storm-petrel": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Black_storm-petrel": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tristram's_storm-petrel": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Least_storm-petrel": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Matsudaira's_storm-petrel": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Northern_giant_petrel": {
+    "size": 72,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Northern_fulmar": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Gray-faced_petrel": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Providence_petrel": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Kermadec_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Trindade_petrel": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 3
+  },
+  "/wiki/Herald_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Murphy's_petrel": {
+    "size": 30,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Mottled_petrel": {
+    "size": 28,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Bermuda_petrel": {
+    "size": 35,
+    "speed": 75,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Black-capped_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 80,
+    "danger": 2
+  },
+  "/wiki/Juan_Fernandez_petrel": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Hawaiian_petrel": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 78,
+    "danger": 3
+  },
+  "/wiki/White-necked_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Bonin_petrel": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Black-winged_petrel": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Fea's_petrel": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Zino's_petrel": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 80,
+    "danger": 2
+  },
+  "/wiki/Cook's_petrel": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Gould's_petrel": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Collared_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Stejneger's_petrel": {
+    "size": 28,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Phoenix_petrel": {
+    "size": 28,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Tahiti_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Bulwer's_petrel": {
+    "size": 20,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Jouanin's_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/White-chinned_petrel": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Parkinson's_petrel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Streaked_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Cory's_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Cape_Verde_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Wedge-tailed_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Buller's_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Short-tailed_shearwater": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Sooty_shearwater": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Great_shearwater": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Pink-footed_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Flesh-footed_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Christmas_shearwater": {
+    "size": 30,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Manx_shearwater": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Townsend's_shearwater": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Newell's_shearwater": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Bryan's_shearwater": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 80,
+    "danger": 5
+  },
+  "/wiki/Black-vented_shearwater": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Little_shearwater": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Audubon's_shearwater": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Tropical_shearwater": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Barolo_shearwater": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Jabiru": {
+    "size": 92,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Wood_stork": {
+    "size": 75,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Lesser_frigatebird": {
+    "size": 48,
+    "speed": 85,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Magnificent_frigatebird": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Great_frigatebird": {
+    "size": 75,
+    "speed": 85,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Masked_booby": {
+    "size": 65,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Nazca_booby": {
+    "size": 65,
+    "speed": 70,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Blue-footed_booby": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Brown_booby": {
+    "size": 65,
+    "speed": 70,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Red-footed_booby": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Abbott's_booby": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Northern_gannet": {
+    "size": 75,
+    "speed": 85,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Anhinga": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Little_pied_cormorant": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Brandt's_cormorant": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Red-faced_cormorant": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Pelagic_cormorant": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Great_cormorant": {
+    "size": 65,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Double-crested_cormorant": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Neotropic_cormorant": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/American_white_pelican": {
+    "size": 85,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Brown_pelican": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/American_bittern": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Yellow_bittern": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 5
+  },
+  "/wiki/Cinnamon_bittern": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Black_bittern": {
+    "size": 62,
+    "speed": 45,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Least_bittern": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Bare-throated_tiger-heron": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Great_blue_heron": {
+    "size": 75,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Gray_heron": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 8
+  },
+  "/wiki/Great_egret": {
+    "size": 72,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Intermediate_egret": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/White-faced_heron": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Chinese_egret": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Little_egret": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Western_reef-heron": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 5
+  },
+  "/wiki/Pacific_reef-heron": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Snowy_egret": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Little_blue_heron": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Tricolored_heron": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Reddish_egret": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Cattle_egret": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Chinese_pond-heron": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 5
+  },
+  "/wiki/Green_heron": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Striated_heron": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Black-crowned_night-heron": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Nankeen_night-heron": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Yellow-crowned_night-heron": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/American_white_ibis": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Scarlet_ibis": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Glossy_ibis": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/White-faced_ibis": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Roseate_spoonbill": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/African_sacred_ibis": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/California_condor": {
+    "size": 95,
+    "speed": 45,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Black_vulture": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Turkey_vulture": {
+    "size": 75,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Osprey": {
+    "size": 65,
+    "speed": 70,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/White-tailed_kite": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Hook-billed_kite": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Swallow-tailed_kite": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Golden_eagle": {
+    "size": 75,
+    "speed": 85,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Double-toothed_kite": {
+    "size": 30,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 8
+  },
+  "/wiki/Gray-faced_buzzard": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Northern_harrier": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Western_marsh-harrier": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 15
+  },
+  "/wiki/Eastern_marsh_harrier": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 15
+  },
+  "/wiki/Hen_harrier": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Chinese_sparrowhawk": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Sharp-shinned_hawk": {
+    "size": 22,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Cooper's_hawk": {
+    "size": 35,
+    "speed": 85,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Eurasian_goshawk": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 95,
+    "danger": 15
+  },
+  "/wiki/American_goshawk": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Eurasian_sparrowhawk": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Black_kite": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 99,
+    "danger": 25
+  },
+  "/wiki/Bald_eagle": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/White-tailed_eagle": {
+    "size": 85,
+    "speed": 65,
+    "rarity": 100,
+    "danger": 15
+  },
+  "/wiki/Steller's_sea-eagle": {
+    "size": 85,
+    "speed": 60,
+    "rarity": 50,
+    "danger": 25
+  },
+  "/wiki/Mississippi_kite": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Crane_hawk": {
+    "size": 45,
+    "speed": 60,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Snail_kite": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Common_black_hawk": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Great_black_hawk": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 15
+  },
+  "/wiki/Roadside_hawk": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 85,
+    "danger": 10
+  },
+  "/wiki/Harris's_hawk": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/White-tailed_hawk": {
+    "size": 65,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Gray_hawk": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 35,
+    "danger": 8
+  },
+  "/wiki/Red-shouldered_hawk": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Broad-winged_hawk": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Hawaiian_hawk": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 8
+  },
+  "/wiki/Short-tailed_hawk": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 8
+  },
+  "/wiki/Swainson's_hawk": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Zone-tailed_hawk": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Red-tailed_hawk": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Rough-legged_hawk": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Ferruginous_hawk": {
+    "size": 65,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Long-legged_buzzard": {
+    "size": 75,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Common_buzzard": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 0,
+    "danger": 15
+  },
+  "/wiki/Eastern_buzzard": {
+    "size": 65,
+    "speed": 70,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Barn_owl": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Oriental_scops-owl": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Flammulated_owl": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Puerto_Rican_owl": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Whiskered_screech-owl": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Western_screech-owl": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Eastern_screech-owl": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Great_horned_owl": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 35
+  },
+  "/wiki/Snowy_owl": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 15
+  },
+  "/wiki/Northern_hawk_owl": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Northern_pygmy-owl": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ferruginous_pygmy-owl": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Elf_owl": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Burrowing_owl": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Mottled_owl": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Spotted_owl": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 8
+  },
+  "/wiki/Barred_owl": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Great_gray_owl": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 8
+  },
+  "/wiki/Long-eared_owl": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Stygian_owl": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 15
+  },
+  "/wiki/Short-eared_owl": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Boreal_owl": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Northern_saw-whet_owl": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Northern_boobook": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Elegant_trogon": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Eared_quetzal": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Eurasian_hoopoe": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Puerto_Rican_tody": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Common_kingfisher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pacific_kingfisher": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Guam_kingfisher": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Collared_kingfisher": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Mariana_kingfisher": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 5
+  },
+  "/wiki/Ringed_kingfisher": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Belted_kingfisher": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Amazon_kingfisher": {
+    "size": 28,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 5
+  },
+  "/wiki/Green_kingfisher": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Oriental_dollarbird": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Eurasian_wryneck": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Lewis's_woodpecker": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Puerto_Rican_woodpecker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red-headed_woodpecker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Acorn_woodpecker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Gila_woodpecker": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Golden-fronted_woodpecker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red-bellied_woodpecker": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Williamson's_sapsucker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Yellow-bellied_sapsucker": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red-naped_sapsucker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red-breasted_sapsucker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/American_three-toed_woodpecker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Black-backed_woodpecker": {
+    "size": 20,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Great_spotted_woodpecker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 5
+  },
+  "/wiki/Downy_woodpecker": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Nuttall's_woodpecker": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Ladder-backed_woodpecker": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red-cockaded_woodpecker": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Hairy_woodpecker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/White-headed_woodpecker": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Arizona_woodpecker": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Northern_flicker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Gilded_flicker": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Pileated_woodpecker": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Ivory-billed_woodpecker": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 98,
+    "danger": 5
+  },
+  "/wiki/Collared_forest-falcon": {
+    "size": 48,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Crested_caracara": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Eurasian_kestrel": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/American_kestrel": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Red-footed_falcon": {
+    "size": 30,
+    "speed": 75,
+    "rarity": 98,
+    "danger": 5
+  },
+  "/wiki/Amur_falcon": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 95,
+    "danger": 10
+  },
+  "/wiki/Merlin_(bird)": {
+    "size": 18,
+    "speed": 85,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Eurasian_hobby": {
+    "size": 25,
+    "speed": 85,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Aplomado_falcon": {
+    "size": 35,
+    "speed": 85,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Gyrfalcon": {
+    "size": 65,
+    "speed": 85,
+    "rarity": 35,
+    "danger": 15
+  },
+  "/wiki/Peregrine_falcon": {
+    "size": 45,
+    "speed": 100,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Prairie_falcon": {
+    "size": 45,
+    "speed": 85,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Tanimbar_corella": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 15
+  },
+  "/wiki/Sulphur-crested_cockatoo": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 15
+  },
+  "/wiki/White_cockatoo": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Monk_parakeet": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Carolina_parakeet": {
+    "size": 25,
+    "speed": 60,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Eupsittula_canicularis": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 5
+  },
+  "/wiki/Brown-throated_parakeet": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Nanday_parakeet": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 15
+  },
+  "/wiki/Green_parakeet": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Puerto_Rican_parakeet": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Hispaniolan_parakeet": {
+    "size": 25,
+    "speed": 60,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Mitred_parakeet": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Red-masked_parakeet": {
+    "size": 25,
+    "speed": 60,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Thick-billed_parrot": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 80,
+    "danger": 5
+  },
+  "/wiki/White-winged_parakeet": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Yellow-chevroned_parakeet": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/White-fronted_parrot": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Hispaniolan_parrot": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 8
+  },
+  "/wiki/Puerto_Rican_parrot": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 8
+  },
+  "/wiki/Orange-winged_parrot": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 10
+  },
+  "/wiki/Red-crowned_parrot": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 8
+  },
+  "/wiki/Yellow-headed_parrot": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 82,
+    "danger": 8
+  },
+  "/wiki/Rose-ringed_parakeet": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Blue-crowned_lorikeet": {
+    "size": 15,
+    "speed": 60,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Rosy-faced_lovebird": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Masked_tityra": {
+    "size": 22,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Gray-collared_becard": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Rose-throated_becard": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Micronesian_myzomela": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Cardinal_myzomela": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Mao_(bird)": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 80,
+    "danger": 5
+  },
+  "/wiki/Eastern_wattled-honeyeater": {
+    "size": 0,
+    "speed": 0,
+    "rarity": 0,
+    "danger": 0
+  },
+  "/wiki/Ashy_minivet": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Black_drongo": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Rufous_fantail": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Northern_beardless-tyrannulet": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Greenish_elaenia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Small-billed_elaenia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Caribbean_elaenia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/White-crested_elaenia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Dusky-capped_flycatcher": {
+    "size": 12,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Ash-throated_flycatcher": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Nutting's_flycatcher": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Great_crested_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Brown-crested_flycatcher": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/La_Sagra's_flycatcher": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Stolid_flycatcher": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Puerto_Rican_flycatcher": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 22,
+    "danger": 2
+  },
+  "/wiki/Great_kiskadee": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Social_flycatcher": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sulphur-bellied_flycatcher": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Piratic_flycatcher": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Variegated_flycatcher": {
+    "size": 12,
+    "speed": 60,
+    "rarity": 98,
+    "danger": 2
+  },
+  "/wiki/Crowned_slaty_flycatcher": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Tropical_kingbird": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Couch's_kingbird": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Cassin's_kingbird": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Thick-billed_kingbird": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Western_kingbird": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Eastern_kingbird": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Gray_kingbird": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Loggerhead_kingbird": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Scissor-tailed_flycatcher": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Fork-tailed_flycatcher": {
+    "size": 12,
+    "speed": 85,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Tufted_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Olive-sided_flycatcher": {
+    "size": 18,
+    "speed": 75,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Greater_pewee": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Western_wood-pewee": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eastern_wood-pewee": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cuban_pewee": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Hispaniolan_pewee": {
+    "size": 12,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Lesser_Antillean_pewee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Yellow-bellied_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Acadian_flycatcher": {
+    "size": 8,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Alder_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Willow_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Least_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hammond's_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/American_grey_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/American_dusky_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pine_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Western_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black_phoebe": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eastern_phoebe": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Say's_phoebe": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Vermilion_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-capped_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/White-eyed_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Thick-billed_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Cuban_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Puerto_Rican_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bell's_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Gray_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Hutton's_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Yellow-throated_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cassin's_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Blue-headed_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Plumbeous_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Philadelphia_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Warbling_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Red-eyed_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
   }
 }
