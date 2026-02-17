@@ -9832,5 +9832,419 @@
     "speed": 55,
     "rarity": 25,
     "danger": 0
+  },
+  "/wiki/Chipping_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Clay-colored_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-chinned_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Field_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Brewer's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Worthen's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Fox_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/American_tree_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Dark-eyed_junco": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Yellow-eyed_junco": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/White-crowned_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Golden-crowned_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Harris's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 38,
+    "danger": 0
+  },
+  "/wiki/White-throated_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sagebrush_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bell's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Vesper_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/LeConte's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Seaside_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Nelson's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Saltmarsh_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 80,
+    "danger": 0
+  },
+  "/wiki/Baird's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Henslow's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Savannah_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Song_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lincoln's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Swamp_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Canyon_towhee": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Abert's_towhee": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/California_towhee": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Rufous-crowned_sparrow": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Green-tailed_towhee": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Spotted_towhee": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eastern_towhee": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Puerto_Rican_tanager": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Western_spindalis": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Puerto_Rican_spindalis": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Yellow-breasted_chat": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Yellow-headed_blackbird": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Bobolink": {
+    "size": 8,
+    "speed": 75,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Chihuahuan_meadowlark": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Eastern_meadowlark": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Western_meadowlark": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Puerto_Rican_oriole": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Black-vented_oriole": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Orchard_oriole": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hooded_oriole": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Venezuelan_troupial": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Streak-backed_oriole": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Bullock's_oriole": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Spot-breasted_oriole": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Altamira_oriole": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Audubon's_oriole": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Baltimore_oriole": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-backed_oriole": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Scott's_oriole": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red-winged_blackbird": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Tricolored_blackbird": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Tawny-shouldered_blackbird": {
+    "size": 22,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Yellow-shouldered_blackbird": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Shiny_cowbird": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Bronzed_cowbird": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Brown-headed_cowbird": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Rusty_blackbird": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Brewer's_blackbird": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Common_grackle": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 3
+  },
+  "/wiki/Boat-tailed_grackle": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Great-tailed_grackle": {
+    "size": 35,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Greater_Antillean_grackle": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
   }
 }
