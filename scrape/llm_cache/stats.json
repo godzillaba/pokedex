@@ -16726,5 +16726,161 @@
     "speed": 55,
     "rarity": 75,
     "danger": 15
+  },
+  "/wiki/Caesar_grunt": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Caribbean_chestnut_moray": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Caribbean_ocellated_moray": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 30
+  },
+  "/wiki/Caribbean_reef_shark": {
+    "size": 85,
+    "speed": 65,
+    "rarity": 35,
+    "danger": 45
+  },
+  "/wiki/Caribbean_sharpnose-puffer": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 75
+  },
+  "/wiki/Cero_(fish)": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Chain_dogfish": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Chain_moray": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Chalk_bass": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Checkered_puffer": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Cherubfish": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Clearnose_skate": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Clown_featherback": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Coastal_shiner": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cobia": {
+    "size": 75,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Collared_eel": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Colon_goby": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Common_clownfish": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Common_lionfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 75
+  },
+  "/wiki/Common_rudd": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Common_thresher": {
+    "size": 95,
+    "speed": 85,
+    "rarity": 48,
+    "danger": 15
+  },
+  "/wiki/Convict_cichlid": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Copper_shark": {
+    "size": 85,
+    "speed": 75,
+    "rarity": 48,
+    "danger": 25
+  },
+  "/wiki/Cownose_ray": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 35
+  },
+  "/wiki/Creole_wrasse": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Crested_goby": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
   }
 }
