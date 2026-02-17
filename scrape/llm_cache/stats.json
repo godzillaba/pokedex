@@ -16882,5 +16882,2957 @@
     "speed": 35,
     "rarity": 20,
     "danger": 0
+  },
+  "/wiki/Crevalle_Jack": {
+    "size": 65,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Croaking_gourami": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Cuban_gar": {
+    "size": 75,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Cuban_dogfish": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Cubbyu": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Cubera_snapper": {
+    "size": 75,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 12
+  },
+  "/wiki/Diamond_blenny": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Diamond_killifish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Doctorfish": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Doctorfish_tang": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Dog_snapper": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 15
+  },
+  "/wiki/Dusky_pipefish": {
+    "size": 25,
+    "speed": 30,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Dusky_shark": {
+    "size": 95,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 45
+  },
+  "/wiki/Dwarf_frogfish": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Dwarf_rainbowfish": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eastern_mosquitofish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Eastern_mudminnow": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Emperor_angelfish": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Eyed_flounder": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Finetooth_shark": {
+    "size": 65,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Firemouth_cichlid": {
+    "size": 35,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Flagfish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Flamefish": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Flat_needlefish": {
+    "size": 65,
+    "speed": 70,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Florida_bass": {
+    "size": 42,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Florida_gar": {
+    "size": 55,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Florida_pompano": {
+    "size": 35,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Flying_gurnard": {
+    "size": 45,
+    "speed": 30,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Foureye_butterflyfish": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/French_angelfish": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/French_grunt": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Frilled_shark": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Frillfin_goby": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Fringed_filefish": {
+    "size": 18,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Gafftopsail_catfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 35
+  },
+  "/wiki/Gag_grouper": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 8
+  },
+  "/wiki/Galapagos_shark": {
+    "size": 85,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 55
+  },
+  "/wiki/Giant_cichlid": {
+    "size": 85,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Giant_oarfish": {
+    "size": 95,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Golden_topminnow": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Great_northern_tilefish": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Goldentail_moray": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Goldline_blenny": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Goldspotted_eel": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Atlantic_goliath_grouper": {
+    "size": 95,
+    "speed": 25,
+    "rarity": 48,
+    "danger": 15
+  },
+  "/wiki/Gray_angelfish": {
+    "size": 45,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Gray_snapper": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Graysby": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Great_barracuda": {
+    "size": 65,
+    "speed": 85,
+    "rarity": 25,
+    "danger": 35
+  },
+  "/wiki/Great_hammerhead": {
+    "size": 95,
+    "speed": 75,
+    "rarity": 92,
+    "danger": 25
+  },
+  "/wiki/Great_white_shark": {
+    "size": 95,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 75
+  },
+  "/wiki/Greater_amberjack": {
+    "size": 85,
+    "speed": 70,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Green_moray": {
+    "size": 85,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 35
+  },
+  "/wiki/Green_razorfish": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Green_swordtail": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 10,
+    "danger": 0
+  },
+  "/wiki/Grey_triggerfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 48,
+    "danger": 8
+  },
+  "/wiki/Gulf_flounder": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Gulf_killifish": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gulf_menhaden": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gulf_of_Mexico_fringed_sole": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Gulf_pipefish": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Gulf_surgeonfish": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Gulf_toadfish": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Guppy": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 0
+  },
+  "/wiki/Hairy_blenny": {
+    "size": 35,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Hardhead_catfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 45
+  },
+  "/wiki/Harlequin_bass": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Highfin_carpsucker": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hickory_shad": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Hogchoker": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hogfish": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Honeycomb_moray": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 30
+  },
+  "/wiki/Horned_searobin": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Horse-eye_jack": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Houndfish": {
+    "size": 55,
+    "speed": 70,
+    "rarity": 20,
+    "danger": 65
+  },
+  "/wiki/Humpback_grouper": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Indigo_Hamlet": {
+    "size": 15,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Inshore_lizardfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Jack_Dempsey_(fish)": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Jack-knifefish": {
+    "size": 35,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Jolthead_porgy": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Keel-jawed_needlefish": {
+    "size": 55,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Keeltail_needlefish": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/King_mackerel": {
+    "size": 55,
+    "speed": 95,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Knobbed_porgy": {
+    "size": 42,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Lagoon_triggerfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Lake_chubsucker": {
+    "size": 25,
+    "speed": 30,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Lancer_dragonet": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Lane_snapper": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 8
+  },
+  "/wiki/Lantern_bass": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Largehead_hairtail": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Least_puffer": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Leatherjack": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Lebranche_mullet": {
+    "size": 42,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lemon_shark": {
+    "size": 85,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 15
+  },
+  "/wiki/Lesser_electric_ray": {
+    "size": 35,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Lichen_moray_eel": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 30
+  },
+  "/wiki/Lined_seahorse": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Little_tunny": {
+    "size": 45,
+    "speed": 85,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Longbill_spearfish": {
+    "size": 75,
+    "speed": 85,
+    "rarity": 45,
+    "danger": 15
+  },
+  "/wiki/Longfin_damselfish": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Longfin_mako_shark": {
+    "size": 92,
+    "speed": 45,
+    "rarity": 78,
+    "danger": 35
+  },
+  "/wiki/Longlure_frogfish": {
+    "size": 25,
+    "speed": 100,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Longspine_squirrelfish": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Lookdown": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Mahi-mahi": {
+    "size": 55,
+    "speed": 95,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Man-of-war_fish": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Manytooth_conger": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Marbled_grouper": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 10
+  },
+  "/wiki/Marbled_moray": {
+    "size": 35,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Masked_puffer": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 100,
+    "danger": 65
+  },
+  "/wiki/Mayan_cichlid": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Megamouth_shark": {
+    "size": 95,
+    "speed": 15,
+    "rarity": 98,
+    "danger": 5
+  },
+  "/wiki/Mekong_giant_catfish": {
+    "size": 95,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Metallic_lanternfish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Midas_cichlid": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Midnight_parrotfish": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Mirrorwing_flyingfish": {
+    "size": 45,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Misty_grouper": {
+    "size": 75,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Molly_miller": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Mottled_conger_moray": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 45
+  },
+  "/wiki/Mozambique_Tilapia": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 10,
+    "danger": 5
+  },
+  "/wiki/Mummichog": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Mutton_snapper": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Naked_sole": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Nassau_grouper": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Neon_tetra": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 5,
+    "danger": 0
+  },
+  "/wiki/Dusky_sergeant": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Night_shark": {
+    "size": 65,
+    "speed": 70,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Nile_perch": {
+    "size": 85,
+    "speed": 45,
+    "rarity": 100,
+    "danger": 15
+  },
+  "/wiki/Nile_tilapia": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Northern_puffer": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Northern_snakehead": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 15
+  },
+  "/wiki/Nurse_shark": {
+    "size": 85,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 35
+  },
+  "/wiki/Ocean_sunfish": {
+    "size": 95,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Acanthurus_bahianus": {
+    "size": 42,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 8
+  },
+  "/wiki/Oceanic_whitetip_shark": {
+    "size": 85,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 88
+  },
+  "/wiki/Ocellated_frogfish": {
+    "size": 45,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Ocellated_moray": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 30
+  },
+  "/wiki/Okefenokee_pygmy_sunfish": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Orange-spine_surgeonfish": {
+    "size": 42,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Orangespotted_filefish": {
+    "size": 35,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Orangespotted_goby": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Orinoco_peacock_bass": {
+    "size": 50,
+    "speed": 45,
+    "rarity": 100,
+    "danger": 10
+  },
+  "/wiki/Orinoco_sailfin_catfish": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 10,
+    "danger": 5
+  },
+  "/wiki/Oscar_(fish)": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Oyster_toadfish": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 30
+  },
+  "/wiki/Peacock_grouper": {
+    "size": 50,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Pearl_cichlid": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Permit_(fish)": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Pike_topminnow": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Pinfish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Plate_fish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Polygon_moray": {
+    "size": 50,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 30
+  },
+  "/wiki/Pompano_dolphinfish": {
+    "size": 65,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Porkfish": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Princess_parrotfish": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Puddingwife_wrasse": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Purplemouth_moray_eel": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 35
+  },
+  "/wiki/Queen_angelfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Queen_parrotfish": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Queen_snapper": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Rainbow_parrotfish": {
+    "size": 65,
+    "speed": 45,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Rainbow_runner": {
+    "size": 65,
+    "speed": 85,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Red-bellied_piranha": {
+    "size": 45,
+    "speed": 60,
+    "rarity": 0,
+    "danger": 25
+  },
+  "/wiki/Red_drum": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Red_grouper": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Red_hind": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Red_lionfish": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 5,
+    "danger": 55
+  },
+  "/wiki/Red_porgy": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Northern_red_snapper": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 8
+  },
+  "/wiki/Redband_parrotfish": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Redbelly_tilapia": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Redbreast_sunfish": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Redbreast_tilapia": {
+    "size": 42,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Redface_eel": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Redlip_blenny": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Redtail_catfish": {
+    "size": 85,
+    "speed": 25,
+    "rarity": 50,
+    "danger": 15
+  },
+  "/wiki/Redtail_parrotfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Reef_squirrelfish": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Reef_stonefish": {
+    "size": 35,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 98
+  },
+  "/wiki/Rio_Grande_Cichlid": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Rock_beauty": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Rosy_barb": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Roughtail_stingray": {
+    "size": 95,
+    "speed": 25,
+    "rarity": 48,
+    "danger": 65
+  },
+  "/wiki/Round_sardinella": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Round_scad": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Roundel_skate": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Royal_gramma": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Saddled_moray_eel": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 45
+  },
+  "/wiki/Sailfin_flyingfish": {
+    "size": 12,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sailfin_molly": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Salvin's_cichlid": {
+    "size": 30,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 8
+  },
+  "/wiki/Sandbar_shark": {
+    "size": 85,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 10
+  },
+  "/wiki/Sand_tiger_shark": {
+    "size": 85,
+    "speed": 35,
+    "rarity": 92,
+    "danger": 15
+  },
+  "/wiki/Sand_seatrout": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Sargassum_triggerfish": {
+    "size": 38,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 8
+  },
+  "/wiki/Saucereye_porgy": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Scaled_sardine": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Scalloped_hammerhead": {
+    "size": 85,
+    "speed": 65,
+    "rarity": 92,
+    "danger": 15
+  },
+  "/wiki/Scamp_grouper": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Schoolmaster_snapper": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Scrawled_cowfish": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Sergeant_major_(fish)": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Serra_Spanish_mackerel": {
+    "size": 55,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Sharktooth_moray_eel": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 45
+  },
+  "/wiki/Sharpnose_sevengill_shark": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 45,
+    "danger": 15
+  },
+  "/wiki/Sheepshead_minnow": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Shoal_bass": {
+    "size": 40,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Shortfin_mako_shark": {
+    "size": 88,
+    "speed": 95,
+    "rarity": 75,
+    "danger": 65
+  },
+  "/wiki/Shy_hamlet": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Siamese_fighting_fish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Silk_snapper": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Silky_shark": {
+    "size": 85,
+    "speed": 75,
+    "rarity": 48,
+    "danger": 45
+  },
+  "/wiki/Silver_arowana": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/White_mullet": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Skipjack_tuna": {
+    "size": 55,
+    "speed": 85,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Slender_seahorse": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Slippery_dick": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Small-scaled_pacu": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 5
+  },
+  "/wiki/Smalltail_shark": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 92,
+    "danger": 3
+  },
+  "/wiki/Smalltooth_sawfish": {
+    "size": 85,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 15
+  },
+  "/wiki/Smooth_butterfly_ray": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Smooth_dogfish": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Smooth_hammerhead": {
+    "size": 95,
+    "speed": 65,
+    "rarity": 48,
+    "danger": 55
+  },
+  "/wiki/Smooth_trunkfish": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 35
+  },
+  "/wiki/Common_snook": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Snowy_grouper": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Southern_kingfish": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Southern_platyfish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 0
+  },
+  "/wiki/Southern_puffer": {
+    "size": 35,
+    "speed": 40,
+    "rarity": 25,
+    "danger": 65
+  },
+  "/wiki/Southern_stingray": {
+    "size": 75,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 45
+  },
+  "/wiki/Spanish_hogfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Speckled_hind": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Speckled_peacock_bass": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Speckled_seatrout": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Spinner_shark": {
+    "size": 85,
+    "speed": 75,
+    "rarity": 48,
+    "danger": 25
+  },
+  "/wiki/Splendid_toadfish": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Spot_(fish)": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Spottail_pinfish": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Spotted_drum": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Spotted_eagle_ray": {
+    "size": 92,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 35
+  },
+  "/wiki/Spotted_goatfish": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Spotted_moray": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 45
+  },
+  "/wiki/Spotted_sucker": {
+    "size": 38,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Spotted_sunfish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Spotted_tilapia": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Spotted_trunkfish": {
+    "size": 35,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Stoplight_parrotfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Striped_burrfish": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Striped_mullet": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Summer_flounder": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Suwannee_bass": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Swamp_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Swordfish": {
+    "size": 85,
+    "speed": 75,
+    "rarity": 35,
+    "danger": 25
+  },
+  "/wiki/Tadpole_madtom": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Tambaqui": {
+    "size": 75,
+    "speed": 45,
+    "rarity": 85,
+    "danger": 5
+  },
+  "/wiki/Tiger_grouper": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 50,
+    "danger": 10
+  },
+  "/wiki/Tiger_shark": {
+    "size": 95,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 75
+  },
+  "/wiki/Tiger_sorubim": {
+    "size": 65,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 10
+  },
+  "/wiki/Trimac_cichlid": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 100,
+    "danger": 15
+  },
+  "/wiki/Tropical_gar": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Tucanare_peacock_bass": {
+    "size": 65,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Variatus_platy": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Vermilion_snapper": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Wahoo": {
+    "size": 75,
+    "speed": 95,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Walking_catfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Wels_catfish": {
+    "size": 85,
+    "speed": 35,
+    "rarity": 100,
+    "danger": 45
+  },
+  "/wiki/Whale_shark": {
+    "size": 100,
+    "speed": 20,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/White_grunt": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/White_marlin": {
+    "size": 75,
+    "speed": 85,
+    "rarity": 75,
+    "danger": 10
+  },
+  "/wiki/White_perch": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Whitespot_moray": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 35
+  },
+  "/wiki/Whitespotted_surgeonfish": {
+    "size": 30,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 10
+  },
+  "/wiki/Windowpane_flounder": {
+    "size": 42,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Yellow_goatfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Yellow_jack": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Yellow_stingray": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 35
+  },
+  "/wiki/Yellow_tang": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Yellowfin_goby": {
+    "size": 35,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 15
+  },
+  "/wiki/Yellowfin_grouper": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Yellowfin_tuna": {
+    "size": 85,
+    "speed": 95,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Yellowhead_wrasse": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Yellowmouth_grouper": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Yellowtail_parrotfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Yellowtail_snapper": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Zebra_tilapia": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 0,
+    "danger": 15
+  },
+  "/wiki/Pacific_lamprey": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 5
+  },
+  "/wiki/White_sturgeon": {
+    "size": 95,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Bridgelip_sucker": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Largescale_sucker": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Utah_sucker": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bluehead_sucker": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Chiselmouth": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tui_chub": {
+    "size": 35,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lepidomeda_copei": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Peamouth": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Northern_squawfish": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Leopard_dace": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Redside_shiner": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Percopsis_transmontana": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Burbot": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Lake_whitefish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Coho_salmon": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Chinook_salmon": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Bear_Lake_whitefish": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Pygmy_whitefish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Bonneville_cisco": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Bonneville_whitefish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Atlantic_salmon": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Bull_trout": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Slimy_sculpin": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cedar_sculpin": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Northern_brook_lamprey": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 55,
+    "danger": 0
+  },
+  "/wiki/Blackchin_shiner": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Silverjaw_minnow": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Shoal_chub": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Pugnose_shiner": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Popeye_shiner": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Bluntnose_minnow": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 0
+  },
+  "/wiki/Western_blacknose_dace": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Blue_sucker": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Bigmouth_buffalo": {
+    "size": 65,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Black_buffalo": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/River_redhorse": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Harelip_sucker": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Stonecat": {
+    "size": 18,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 45
+  },
+  "/wiki/Banded_killifish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Blackstripe_topminnow": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Northern_studfish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Banded_sculpin": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Deepwater_sculpin": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Northern_sunfish": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Stargazing_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Channel_darter": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gilt_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Dusky_darter": {
+    "size": 15,
+    "speed": 30,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/River_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tippecanoe_darter": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Spottail_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Banded_darter_(fish)": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Iowa_darter": {
+    "size": 8,
+    "speed": 85,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Western_sand_darter": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Eastern_sand_darter": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Mud_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Rainbow_darter": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Fantail_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Harlequin_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Least_darter": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Cypress_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Bluebreast_darter": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Bluntnose_darter": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Variegate_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Round_goby": {
+    "size": 15,
+    "speed": 30,
+    "rarity": 10,
+    "danger": 5
+  },
+  "/wiki/Inland_silverside": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Three-spined_stickleback": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Coregonus_hoyi": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Kiyi": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Pink_salmon": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Round_whitefish": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Shortjaw_cisco": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Black_redhorse": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Golden_redhorse": {
+    "size": 35,
+    "speed": 40,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Greater_redhorse": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Northern_hogsucker": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Silver_redhorse": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Allegheny_pearl_dace": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Blacknose_shiner": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Blackside_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Crystal_darter": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Eastern_blacknose_dace": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Finescale_dace": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Fourspine_stickleback": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Ninespine_stickleback": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Northern_pearl_dace": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pirate_perch": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Redside_dace": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Ruffe": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 2
+  },
+  "/wiki/Slender_madtom": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Slenderhead_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Spoonhead_sculpin": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Starhead_topminnow": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Topeka_shiner": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Trout-perch": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Western_tubenose_goby": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Zander": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Shadow_bass": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Ozark_bass": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Dollar_sunfish": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Grotto_sculpin": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Semotilus_atromaculatus": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/White_bullhead": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Mountain_madtom": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 25
+  },
+  "/wiki/Neosho_madtom": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Greenside_darter": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Goldstripe_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Shortfin_molly": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Western_silvery_minnow": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Torrent_sculpin": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Banded_pygmy_sunfish": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Bantam_sunfish": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Fundulus_olivaceus": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Brindled_madtom": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Notropis_percobromus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Creek_chubsucker": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Etheostoma_collettei": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Freckled_madtom": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Leopard_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Longnose_darter": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Mexican_tetra": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Etheostoma_radiosum": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Ouachita_shiner": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Ozark_cavefish": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Plains_killifish": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Macrhybopsis_australis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Cyprinodon_rubrofluviatilis": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 55,
+    "danger": 0
+  },
+  "/wiki/Etheostoma_whipplei": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Redspot_darter": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Rocky_shiner": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Scaly_sand_darter": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pimephales_tenellus": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Slough_darter": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Speckled_darter": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Etheostoma_punctulatum": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Phenacobius_mirabilis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Ichthyomyzon_greeleyi": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Nocomis_micropogon": {
+    "size": 15,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Notropis_procne": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Noturus_stigmosus": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Catostomus_latipinnis": {
+    "size": 45,
+    "speed": 30,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Ohrid_trout": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Alfonsino": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Atlantic_saury": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Blind_goby": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Bramble_shark": {
+    "size": 85,
+    "speed": 20,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/California_halibut": {
+    "size": 50,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Canary_rockfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 40,
+    "danger": 5
+  },
+  "/wiki/Chum_salmon": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Collared_dogfish": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Crocodile_shark": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Cusk_(fish)": {
+    "size": 65,
+    "speed": 20,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Dolly_Varden_trout": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Dragon_goby": {
+    "size": 50,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Dusky_grouper": {
+    "size": 75,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 10
+  },
+  "/wiki/European_flounder": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gila_trout": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Goblin_shark": {
+    "size": 85,
+    "speed": 20,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Gopher_rockfish": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Graveldiver": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Grunt_sculpin": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Haddock": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Halfmoon": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Ide_(fish)": {
+    "size": 42,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Kelp_perch": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Lined_sole": {
+    "size": 30,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Ling_cod": {
+    "size": 65,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Loach_minnow": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Longfin_smelt": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Longnose_lancetfish": {
+    "size": 75,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Louvar": {
+    "size": 85,
+    "speed": 45,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Luminous_hake": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Modoc_sucker": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Monkeyface_prickleback": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Moorish_idol": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Northern_anchovy": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Northern_clingfish": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Northern_sea_robin": {
+    "size": 42,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Ocean_perch": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 55,
+    "danger": 8
+  },
+  "/wiki/Oldwife": {
+    "size": 45,
+    "speed": 40,
+    "rarity": 100,
+    "danger": 35
+  },
+  "/wiki/Opaleye": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Orange_roughy": {
+    "size": 45,
+    "speed": 20,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Orbicular_batfish": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Pacific_cod": {
+    "size": 50,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Porbeagle_shark": {
+    "size": 75,
+    "speed": 80,
+    "rarity": 50,
+    "danger": 15
+  },
+  "/wiki/Prickly_shark": {
+    "size": 85,
+    "speed": 15,
+    "rarity": 60,
+    "danger": 5
+  },
+  "/wiki/Queen_triggerfish": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Quillfish": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Rock_gunnel": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Roanoke_bass": {
+    "size": 38,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Rockweed_gunnel": {
+    "size": 18,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Rough_scad": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sarcastic_fringehead": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Sargassum_fish": {
+    "size": 30,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Shortnose_sucker": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 80,
+    "danger": 0
+  },
+  "/wiki/Slimy_mackerel": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Snubnose_eel": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Staghorn_sculpin": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Starry_flounder": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tidewater_goby": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Treefish": {
+    "size": 42,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 8
+  },
+  "/wiki/Turbot": {
+    "size": 65,
+    "speed": 25,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Wrymouth": {
+    "size": 55,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 5
   }
 }
