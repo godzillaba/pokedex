@@ -7882,5 +7882,473 @@
     "speed": 55,
     "rarity": 20,
     "danger": 0
+  },
+  "/wiki/Yellow-green_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Black-whiskered_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Yucatan_vireo": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 2
+  },
+  "/wiki/Kauai_elepaio": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Oahu_elepaio": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Hawaii_elepaio": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Fiji_shrikebill": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 0,
+    "danger": 2
+  },
+  "/wiki/Tinian_monarch": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Guam_flycatcher": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Brown_shrike": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 8
+  },
+  "/wiki/Red-backed_shrike": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Loggerhead_shrike": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 8
+  },
+  "/wiki/Northern_shrike": {
+    "size": 18,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Canada_jay": {
+    "size": 22,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Brown_jay": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Green_jay": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Pinyon_jay": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Steller's_jay": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Blue_jay": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Florida_scrub-jay": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Island_scrub-jay": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/California_scrub-jay": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Woodhouse's_scrub-jay": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Mexican_jay": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Clark's_nutcracker": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Black-billed_magpie": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Yellow-billed_magpie": {
+    "size": 45,
+    "speed": 60,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Eurasian_jackdaw": {
+    "size": 25,
+    "speed": 60,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Mariana_crow": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/American_crow": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/White-necked_crow": {
+    "size": 45,
+    "speed": 60,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Tamaulipas_crow": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Fish_crow": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Hawaiian_crow": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Chihuahuan_raven": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Common_raven": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Verdin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Carolina_chickadee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-capped_chickadee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Mountain_chickadee": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Mexican_chickadee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Chestnut-backed_chickadee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Boreal_chickadee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gray-headed_chickadee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bridled_titmouse": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Oak_titmouse": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Juniper_titmouse": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tufted_titmouse": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-crested_titmouse": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eurasian_skylark": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Horned_lark": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Icterine_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Thick-billed_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Millerbird": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 92,
+    "danger": 0
+  },
+  "/wiki/Sedge_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Blyth's_reed_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Nightingale_reed_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Saipan_reed_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 92,
+    "danger": 0
+  },
+  "/wiki/Aguiguan_reed_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Pagan_reed_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Pallas's_grasshopper_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Middendorff's_grasshopper_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Lanceolated_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/River_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Bank_swallow": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Tree_swallow": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Bahama_swallow": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Violet-green_swallow": {
+    "size": 8,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Mangrove_swallow": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Northern_rough-winged_swallow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Brown-chested_martin": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Purple_martin": {
+    "size": 18,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Southern_martin": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gray-breasted_martin": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cuban_martin": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Caribbean_martin": {
+    "size": 22,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Barn_swallow": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Common_house-martin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
   }
 }
