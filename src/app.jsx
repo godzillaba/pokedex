@@ -44,9 +44,10 @@ export function App() {
   };
 
   useEffect(() => {
-    const onPopState = () => {
+    const onPopState = (e) => {
+      const state = e.state || {};
       setSelected(null);
-      setPage("list");
+      setPage(state.page || "list");
       requestAnimationFrame(() => window.scrollTo(0, scrollY.current));
     };
     window.addEventListener("popstate", onPopState);
