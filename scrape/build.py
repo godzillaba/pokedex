@@ -5,21 +5,25 @@ Reads:
   - scrape/llm_cache/*.json        (LLM-generated fields)
   - scrape/popularity_scores.json  (cultural awareness scores)
   - scrape/images/*.png            (pixelated species images)
+  - scrape/image_filenames.json    (Wikimedia filenames for original images)
 
 Outputs:
   - src/data/species.json              (complete Pokédex entries)
-  - public/images/animals/{id:03d}.png (copied species images)
+  - public/images/animals/{id:03d}.png (copied species sprites)
 """
 
+import hashlib
 import json
 import shutil
 from pathlib import Path
+from urllib.parse import quote
 
 SCRAPE_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = SCRAPE_DIR.parent
 CACHE_DIR = SCRAPE_DIR / "llm_cache"
 EXTRACTED_PATH = SCRAPE_DIR / "extracted.json"
 POPULARITY_PATH = SCRAPE_DIR / "popularity_scores.json"
+FILENAMES_PATH = SCRAPE_DIR / "image_filenames.json"
 OUTPUT_PATH = PROJECT_DIR / "src" / "data" / "species.json"
 SPRITE_DIR = SCRAPE_DIR / "images"
 PUBLIC_IMG_DIR = PROJECT_DIR / "public" / "images" / "animals"
@@ -34,6 +38,14 @@ def load_cache(name):
     return {}
 
 
+def wikimedia_thumb_url(filename, width=800):
+    """Construct a Wikimedia Commons thumbnail URL from a filename."""
+    md5 = hashlib.md5(filename.encode()).hexdigest()
+    encoded = quote(filename)
+    prefix = f"https://upload.wikimedia.org/wikipedia/commons/thumb/{md5[0]}/{md5[:2]}"
+    return f"{prefix}/{encoded}/{width}px-{encoded}"
+
+
 def main():
     with open(EXTRACTED_PATH) as f:
         extracted = json.load(f)
@@ -43,6 +55,12 @@ def main():
     regions = load_cache("regions")
     habitats = load_cache("habitats")
     names = load_cache("names")
+
+    image_filenames = {}
+    if FILENAMES_PATH.exists():
+        image_filenames = json.loads(FILENAMES_PATH.read_text())
+    else:
+        print("WARNING: image_filenames.json not found, original_image will be omitted")
 
     popularity = {}
     if POPULARITY_PATH.exists():
@@ -101,27 +119,27 @@ def main():
             s["name"].lower(),
         ))
 
-    # Copy images and assign sequential IDs
+    # Copy sprites and assign sequential IDs
     PUBLIC_IMG_DIR.mkdir(parents=True, exist_ok=True)
     images_copied = 0
     for i, s in enumerate(species_list, 1):
         s["id"] = i
         sprite = SPRITE_DIR / f"{s['_wiki_slug']}.png"
-        original = SPRITE_DIR / f"{s['_wiki_slug']}-original.png"
         if sprite.exists():
             shutil.copy2(sprite, PUBLIC_IMG_DIR / f"{i:03d}.png")
             s["image"] = f"images/animals/{i:03d}.png"
             images_copied += 1
         else:
             s["image"] = "images/animals/placeholder.svg"
-        if original.exists():
-            shutil.copy2(original, PUBLIC_IMG_DIR / f"{i:03d}-original.png")
+
+        wiki_filename = image_filenames.get(s["_wiki_slug"])
+        s["_original_image"] = wikimedia_thumb_url(wiki_filename) if wiki_filename else None
         del s["_wiki_slug"]
 
     # Reorder fields for readability
     output = []
     for s in species_list:
-        output.append({
+        entry = {
             "id": s["id"],
             "name": s["name"],
             "species": s["species"],
@@ -132,15 +150,20 @@ def main():
             "description": s["description"],
             "image": s["image"],
             "wiki_url": f"https://en.wikipedia.org{s['_wiki_path']}",
-        })
+        }
+        if s["_original_image"]:
+            entry["original_image"] = s["_original_image"]
+        output.append(entry)
         del s["_wiki_path"]
 
     with open(OUTPUT_PATH, "w") as f:
         json.dump(output, f, indent=2)
 
+    originals = sum(1 for s in output if "original_image" in s)
     print(f"Wrote {len(output)} species to {OUTPUT_PATH}")
     print(f"Skipped {skipped} incomplete entries")
     print(f"Images copied: {images_copied}/{len(output)}")
+    print(f"Original image URLs: {originals}/{len(output)}")
 
     # Type breakdown
     type_counts = {}

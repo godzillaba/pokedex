@@ -42,13 +42,13 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
 
       <div
         class="scard__image-frame"
-        onClick={() => !imgErr && setShowOriginal((v) => !v)}
+        onClick={() => !imgErr && species.original_image && setShowOriginal((v) => !v)}
       >
         {imgErr ? (
           <div class="scard__placeholder">?</div>
         ) : (
           <img
-            src={`/${showOriginal ? species.image.replace(".png", "-original.png") : species.image}`}
+            src={showOriginal ? species.original_image : `/${species.image}`}
             alt={species.name}
             onError={() => showOriginal ? setShowOriginal(false) : setImgErr(true)}
             loading="lazy"

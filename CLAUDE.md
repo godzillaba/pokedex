@@ -35,7 +35,8 @@ public/
 - `id`, `name`, `species` (Latin), `type` (Bird/Mammal/Reptile/Amphibian/Fish/Insect/Arachnid)
 - `region`, `habitat`, `description`
 - `stats`: `size`, `speed`, `rarity`, `danger` (0–100)
-- `image`: path relative to `public/` (e.g. `images/animals/001.jpg`)
+- `image`: path relative to `public/` (e.g. `images/animals/001.png`) — pixelated sprite
+- `original_image`: Wikimedia Commons thumbnail URL (800px) for the high-res photo (omitted if no image)
 - `wiki_url`: full Wikipedia URL (e.g. `https://en.wikipedia.org/wiki/Grizzly_bear`)
 
 JSON is imported statically by Vite — bundled into JS, no runtime fetch.

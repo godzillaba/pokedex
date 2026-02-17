@@ -9256,5 +9256,581 @@
     "speed": 55,
     "rarity": 25,
     "danger": 0
+  },
+  "/wiki/American_pipit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sprague's_pipit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Common_chaffinch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Brambling": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Antillean_euphonia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Evening_grosbeak": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Hawfinch": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Common_rosefinch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Pallas's_rosefinch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Poo-uli": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Akikiki": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Oahu_alauahio": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Kakawahie": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Maui_alauahio": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Palila": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Laysan_finch": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Nihoa_finch": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Kona_grosbeak": {
+    "size": 18,
+    "speed": 25,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Lesser_koa-finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Greater_koa-finch": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Ula-ai-hawane": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Akohekohe": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Laysan_honeycreeper": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Apapane": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Iiwi": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Hawaii_mamo": {
+    "size": 18,
+    "speed": 45,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Black_mamo": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/%CA%BB%C5%8C%CA%BB%C5%AB": {
+    "size": 18,
+    "speed": 45,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Lanai_hookbill": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Maui_parrotbill": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Kauai_nukupuu": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Oahu_nukupuu": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Maui_nukupuu": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Akiapolaau": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 80,
+    "danger": 0
+  },
+  "/wiki/Lesser_akialoa": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Kauai_akialoa": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Oahu_akialoa": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Maui-nui_akialoa": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Anianiau": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Hawaii_amakihi": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Oahu_amakihi": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Kauai_amakihi": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Greater_amakihi": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Hawaii_creeper": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Akekee": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Oahu_akepa": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Maui_akepa": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Hawaii_akepa": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Pine_grosbeak": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Eurasian_bullfinch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 0,
+    "danger": 1
+  },
+  "/wiki/Asian_rosy-finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Gray-crowned_rosy_finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Black_rosy-finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Brown-capped_rosy-finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/House_finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 10,
+    "danger": 2
+  },
+  "/wiki/Purple_finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Cassin's_finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Oriental_greenfinch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Yellow-fronted_canary": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Common_redpoll": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Hoary_redpoll": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Red_crossbill": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cassia_crossbill": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/White-winged_crossbill": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Eurasian_siskin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Pine_siskin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lesser_goldfinch": {
+    "size": 3,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lawrence's_goldfinch": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/American_goldfinch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Island_canary": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Red_siskin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 80,
+    "danger": 2
+  },
+  "/wiki/Lapland_longspur": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Chestnut-collared_longspur": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Smith's_longspur": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Thick-billed_longspur": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Snow_bunting": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/McKay's_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Pine_bunting": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Yellow-browed_bunting": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 2
+  },
+  "/wiki/Little_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Rustic_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Yellow-throated_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Yellow-breasted_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Gray_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Pallas's_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Reed_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Rufous-winged_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Botteri's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Cassin's_sparrow": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bachman's_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Grasshopper_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Olive_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Five-striped_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Black-throated_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lark_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Lark_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
   }
 }

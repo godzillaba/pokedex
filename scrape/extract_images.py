@@ -1,11 +1,13 @@
 """Extract species photos from ZIM and pixelate into retro sprites.
 
 Reads species_index.json, finds the infobox photo for each species in the ZIM,
-and saves a pixelated 256x256 PNG (64x64 downscale, 32 colors, nearest-neighbor upscale)
-plus a non-pixelated 256x256 original for the detail view toggle.
+and saves a pixelated 256x256 PNG (64x64 downscale, 32 colors, nearest-neighbor upscale).
 
-Output: scrape/images/{wiki_slug}.png         (pixelated sprite)
-        scrape/images/{wiki_slug}-original.png (clean 256x256 crop)
+Also extracts original Wikimedia filenames from saved HTML pages and writes
+image_filenames.json for build.py to construct Wikimedia Commons URLs.
+
+Output: scrape/images/{wiki_slug}.png     (pixelated sprite)
+        scrape/image_filenames.json       (wiki_slug → original filename)
 """
 
 import json
@@ -20,6 +22,8 @@ from zim_utils import _get_archive, read_article
 SCRAPE_DIR = Path(__file__).resolve().parent
 INDEX_PATH = SCRAPE_DIR / "species_index.json"
 IMAGES_DIR = SCRAPE_DIR / "images"
+PAGES_DIR = SCRAPE_DIR / "pages"
+FILENAMES_PATH = SCRAPE_DIR / "image_filenames.json"
 
 INFOBOX_RE = re.compile(
     r'<table[^>]*class="[^"]*infobox biota[^"]*"[^>]*>(.*?)</table>', re.DOTALL
@@ -76,20 +80,34 @@ def pixelate(input_bytes, output_path):
         Path(tmp_path).unlink(missing_ok=True)
 
 
-def save_original(input_bytes, output_path):
-    with tempfile.NamedTemporaryFile(suffix=".webp", delete=False) as tmp:
-        tmp.write(input_bytes)
-        tmp_path = tmp.name
-    try:
-        subprocess.run([
-            "convert", tmp_path,
-            "-gravity", "center",
-            "-thumbnail", "256x256^",
-            "-extent", "256x256",
-            str(output_path),
-        ], check=True, capture_output=True)
-    finally:
-        Path(tmp_path).unlink(missing_ok=True)
+def zim_path_to_filename(zim_path):
+    """Convert ZIM image path to original Wikimedia filename.
+    e.g. 'I/Opossum_2.jpg.webp' -> 'Opossum_2.jpg'"""
+    name = zim_path.split("/")[-1]
+    if name.endswith(".webp"):
+        name = name[:-5]
+    return unquote(name)
+
+
+def extract_filenames():
+    """Extract original Wikimedia filenames from saved HTML pages."""
+    with open(INDEX_PATH) as f:
+        index = json.load(f)
+
+    filenames = {}
+    for entry in index:
+        slug = entry["wiki_path"].split("/wiki/")[-1]
+        page_path = PAGES_DIR / f"{slug}.html"
+        if not page_path.exists():
+            continue
+        html = page_path.read_text()
+        zim_path = find_infobox_image(html)
+        if zim_path:
+            filenames[slug] = zim_path_to_filename(zim_path)
+
+    with open(FILENAMES_PATH, "w") as f:
+        json.dump(filenames, f, indent=2)
+    print(f"Wrote {len(filenames)} image filenames to {FILENAMES_PATH}")
 
 
 def main():
@@ -106,44 +124,42 @@ def main():
     for i, entry in enumerate(index, 1):
         slug = entry["wiki_path"].split("/wiki/")[-1]
         out_path = IMAGES_DIR / f"{slug}.png"
-        orig_path = IMAGES_DIR / f"{slug}-original.png"
 
-        if out_path.exists() and orig_path.exists():
+        if out_path.exists():
             skipped_existing += 1
             continue
 
         wiki_path = "A/" + slug
         html = read_article(wiki_path)
         if not html:
-            print(f"[{i}/{total}] {entry['name']} — no article")
+            print(f"[{i}/{total}] {entry['name']} -- no article")
             no_image += 1
             continue
 
         zim_path = find_infobox_image(html)
         if not zim_path:
-            print(f"[{i}/{total}] {entry['name']} — no infobox image")
+            print(f"[{i}/{total}] {entry['name']} -- no infobox image")
             no_image += 1
             continue
 
         img_bytes = extract_image_bytes(zim_path)
         if not img_bytes:
-            print(f"[{i}/{total}] {entry['name']} — image not in ZIM: {zim_path}")
+            print(f"[{i}/{total}] {entry['name']} -- image not in ZIM: {zim_path}")
             no_image += 1
             continue
 
         try:
-            if not out_path.exists():
-                pixelate(img_bytes, out_path)
-            if not orig_path.exists():
-                save_original(img_bytes, orig_path)
+            pixelate(img_bytes, out_path)
             extracted += 1
-            print(f"[{i}/{total}] {entry['name']} \u2713")
+            print(f"[{i}/{total}] {entry['name']} ok")
         except subprocess.CalledProcessError as e:
             errors += 1
-            print(f"[{i}/{total}] {entry['name']} — convert failed: {e.stderr[:200]}")
+            print(f"[{i}/{total}] {entry['name']} -- convert failed: {e.stderr[:200]}")
 
     print(f"\nDone: {extracted} extracted, {skipped_existing} already existed, "
           f"{no_image} no image, {errors} errors")
+
+    extract_filenames()
 
 
 if __name__ == "__main__":

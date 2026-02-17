@@ -51,16 +51,17 @@ species_index.json + pages/*.html
     ├─ [3]  extract.py          → extracted.json          (+ binomial names, IUCN status)
     │
     ├─ [3b] extract_images.py   → scrape/images/*.png     (pixelated sprites)
+    │                           → image_filenames.json    (Wikimedia filenames)
     │
     ├─ [4]  enrich.py           → llm_cache/*.json        (LLM-generated fields)
     │
     ├─ [4b] score_popularity.py → popularity_scores.json   (cultural awareness scores)
     │
     ▼
-extracted.json + llm_cache/ + popularity_scores.json + scrape/images/
+extracted.json + llm_cache/ + popularity_scores.json + scrape/images/ + image_filenames.json
     │
     └─ [5] build.py             → src/data/species.json   (final app data)
-                                → public/images/animals/  (ID-named PNGs)
+                                → public/images/animals/  (ID-named sprite PNGs)
 ```
 
 ## What each script does
@@ -71,9 +72,9 @@ extracted.json + llm_cache/ + popularity_scores.json + scrape/images/
 | `extract_pages.py` | `species_index.json` + ZIM | `pages/*.html` |
 | `extract.py` | `species_index.json` + `pages/*.html` | `extracted.json` |
 | `enrich.py` | `extracted.json` + `pages/*.html` | `llm_cache/*.json` |
-| `extract_images.py` | `species_index.json` + ZIM | `scrape/images/*.png` |
+| `extract_images.py` | `species_index.json` + ZIM + `pages/*.html` | `scrape/images/*.png` + `image_filenames.json` |
 | `score_popularity.py` | `species_index.json` | `popularity_scores.json` |
-| `build.py` | `extracted.json` + `llm_cache/*.json` + `popularity_scores.json` + `scrape/images/*.png` | `src/data/species.json` + `public/images/animals/*.png` |
+| `build.py` | `extracted.json` + `llm_cache/*.json` + `popularity_scores.json` + `scrape/images/*.png` + `image_filenames.json` | `src/data/species.json` + `public/images/animals/*.png` |
 | `zim_utils.py` | _(shared module)_ | Provides `read_article(path)` for ZIM lookups |
 
 ## Source pages
@@ -129,14 +130,17 @@ Output: `extracted.json` — same 3,306 entries with cleaned fields.
 
 ## Step 3b: extract_images.py — Species photo extraction & pixelation
 
-Fully deterministic (no LLM). For each species in `species_index.json`:
+Fully deterministic (no LLM). Two outputs:
+
+**Pixelated sprites** (requires ZIM + ImageMagick): For each species in `species_index.json`:
 
 1. Reads the article HTML from the ZIM
 2. Finds the first `<img>` inside `<table class="infobox biota">`, skipping icons (Status_, OOjs_, Distribution_ prefixes)
 3. Extracts the image binary from the ZIM at the `I/...` path (handles double-URL-encoded paths)
 4. Pixelates via ImageMagick: center-crop to square → 64×64 downscale → 32 colors → nearest-neighbor upscale to 256×256
-5. Also saves a non-pixelated 256×256 center-crop as the "original" version
-6. Saves to `scrape/images/{wiki_slug}.png` (pixelated) and `scrape/images/{wiki_slug}-original.png` (clean)
+5. Saves to `scrape/images/{wiki_slug}.png`
+
+**Image filename mapping** (requires saved HTML pages only): Scans `scrape/pages/*.html` for infobox image filenames, strips ZIM encoding (`.webp` suffix, URL encoding), and writes `scrape/image_filenames.json` mapping `wiki_slug → original_filename`. Used by `build.py` to construct Wikimedia Commons thumbnail URLs for the high-res "original" view.
 
 **Resume support:** skips species whose output PNG already exists. Safe to re-run to fill gaps.
 
