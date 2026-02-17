@@ -54,7 +54,8 @@ for domain in \
     "update.code.visualstudio.com" \
     "upload.wikimedia.org" \
     "fonts.googleapis.com" \
-    "fonts.gstatic.com"; do
+    "fonts.gstatic.com" \
+    "godzillaba.github.io"; do
     echo "Resolving $domain..."
     ips=$(dig +noall +answer A "$domain" | awk '$4 == "A" {print $5}')
     if [ -z "$ips" ]; then

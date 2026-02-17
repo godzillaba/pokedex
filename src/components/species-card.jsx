@@ -1,6 +1,7 @@
 import { useEffect, useState } from "preact/hooks";
 import "./species-card.css";
 
+const BASE = import.meta.env.BASE_URL;
 const STAT_LABELS = { size: "SIZE", speed: "SPD", rarity: "RAR", danger: "DNG" };
 
 const STATUS_CLASS = {
@@ -33,15 +34,15 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onSetDate
 
   useEffect(() => {
     if (species.original_image) new Image().src = species.original_image;
-    if (species.fallback_image) new Image().src = `/${species.fallback_image}`;
+    if (species.fallback_image) new Image().src = `${BASE}${species.fallback_image}`;
   }, [species.original_image, species.fallback_image]);
 
   const hasAnyOriginal = species.original_image || species.fallback_image;
 
   const imgSrc =
     imgMode === "original" ? species.original_image :
-    imgMode === "fallback" ? `/${species.fallback_image}` :
-    `/${species.image}`;
+    imgMode === "fallback" ? `${BASE}${species.fallback_image}` :
+    `${BASE}${species.image}`;
 
   const onImgError = () => {
     if (imgMode === "original" && species.fallback_image) setImgMode("fallback");
