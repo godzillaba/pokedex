@@ -59,10 +59,10 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
     <div class="scard">
       <div class="scard__nav">
         <button class="scard__back" onClick={onBack}>
-          ◄ BACK
+          BACK
         </button>
         <a class="scard__wiki" href={species.wiki_url} target="_blank" rel="noopener noreferrer">
-          WIKI ►
+          WIKI
         </a>
       </div>
 
