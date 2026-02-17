@@ -45,7 +45,7 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
       </div>
 
       <div
-        class="scard__image-frame"
+        class={`scard__image-frame${!imgErr && species.original_image ? " scard__image-frame--clickable" : ""}`}
         onClick={() => !imgErr && species.original_image && setShowOriginal((v) => !v)}
       >
         {imgErr ? (
