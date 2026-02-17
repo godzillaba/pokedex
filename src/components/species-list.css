@@ -11,8 +11,13 @@
   margin-bottom: 0.25rem;
 }
 
+.slist__search-row {
+  display: flex;
+  gap: 6px;
+}
+
 .slist__search {
-  width: 100%;
+  flex: 1;
   padding: 0.6rem 0.75rem;
   font-size: 0.8rem;
   background: var(--lcd-bg-dark);
@@ -20,6 +25,22 @@
   border-radius: 4px;
   color: var(--lcd-text);
   outline: none;
+}
+
+.slist__shuffle {
+  flex-shrink: 0;
+  width: 2.5rem;
+  font-size: 0.9rem;
+  background: var(--lcd-bg-dark);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  color: var(--lcd-text);
+  transition: background 0.15s;
+}
+
+.slist__shuffle:hover {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
 }
 
 .slist__search::placeholder {

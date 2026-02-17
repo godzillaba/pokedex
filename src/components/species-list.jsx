@@ -15,13 +15,22 @@ export function SpeciesList({
   return (
     <div class="slist">
       <div class="slist__controls">
-        <input
-          class="slist__search"
-          type="text"
-          placeholder="SEARCH..."
-          value={search}
-          onInput={(e) => onSearch(e.target.value)}
-        />
+        <div class="slist__search-row">
+          <input
+            class="slist__search"
+            type="text"
+            placeholder="SEARCH..."
+            value={search}
+            onInput={(e) => onSearch(e.target.value)}
+          />
+          <button
+            class="slist__shuffle"
+            onClick={() => species.length && onSelect(species[Math.floor(Math.random() * species.length)])}
+            title="Random species"
+          >
+            ?
+          </button>
+        </div>
         <div class="slist__filters">
           <button
             class={`slist__filter ${!typeFilter ? "slist__filter--active" : ""}`}
