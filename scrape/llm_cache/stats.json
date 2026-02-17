@@ -8350,5 +8350,911 @@
     "speed": 55,
     "rarity": 95,
     "danger": 0
+  },
+  "/wiki/American_cliff_swallow": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Cave_swallow": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/American_bushtit": {
+    "size": 3,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Japanese_bush-warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Willow_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 0,
+    "danger": 0
+  },
+  "/wiki/Common_chiffchaff": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 0,
+    "danger": 0
+  },
+  "/wiki/Wood_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Dusky_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Pallas's_leaf_warbler": {
+    "size": 3,
+    "speed": 65,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Yellow-browed_warbler": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Arctic_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Kamchatka_leaf_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Red-vented_bulbul": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Lesser_whitethroat": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 0,
+    "danger": 2
+  },
+  "/wiki/Wrentit": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Golden_white-eye": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Warbling_white-eye": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Bridled_white-eye": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Rota_white-eye": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Greater_necklaced_laughingthrush": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Hwamei": {
+    "size": 22,
+    "speed": 45,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Red-billed_leiothrix": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Ruby-crowned_kinglet": {
+    "size": 3,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Golden-crowned_kinglet": {
+    "size": 3,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Bohemian_waxwing": {
+    "size": 18,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Cedar_waxwing": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Gray_silky-flycatcher": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Phainopepla": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Kaua%CA%BBi_%CA%BB%C5%8D%CA%BB%C5%8D": {
+    "size": 22,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/O%CA%BBahu_%CA%BB%C5%8D%CA%BB%C5%8D": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Bishop's_%CA%BB%C5%8D%CA%BB%C5%8D": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Hawai%CA%BBi_%CA%BB%C5%8D%CA%BB%C5%8D": {
+    "size": 22,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Kioea": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Red-breasted_nuthatch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/White-breasted_nuthatch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pygmy_nuthatch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Brown-headed_nuthatch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Brown_creeper": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Blue-gray_gnatcatcher": {
+    "size": 4,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-tailed_gnatcatcher": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/California_gnatcatcher": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Black-capped_gnatcatcher": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Rock_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Canyon_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/House_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pacific_wren": {
+    "size": 3,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Winter_wren": {
+    "size": 3,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sedge_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Marsh_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Carolina_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Bewick's_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Cactus_wren": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sinaloa_wren": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Blue_mockingbird": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Gray_catbird": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pearly-eyed_thrasher": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Curve-billed_thrasher": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Brown_thrasher": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Long-billed_thrasher": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Bendire's_thrasher": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/California_thrasher": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/LeConte's_thrasher": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Crissal_thrasher": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Sage_thrasher": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bahama_mockingbird": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Northern_mockingbird": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Micronesian_starling": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Polynesian_starling": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Samoan_starling": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/European_starling": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/White-cheeked_starling": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 2
+  },
+  "/wiki/Common_myna": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Jungle_myna": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/American_dipper": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eastern_bluebird": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Western_bluebird": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Mountain_bluebird": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Townsend's_solitaire": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Brown-backed_solitaire": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/K%C4%81ma%CA%BBo": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 2
+  },
+  "/wiki/Amaui": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Olomao": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/%CA%BB%C5%8Cma%CA%BBo": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Puaiohi": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 82,
+    "danger": 0
+  },
+  "/wiki/Orange-billed_nightingale-thrush": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Black-headed_nightingale-thrush": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Veery": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Gray-cheeked_thrush": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bicknell's_thrush": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Swainson's_thrush": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hermit_thrush": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Wood_thrush": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Eurasian_blackbird": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Eyebrowed_thrush": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Island_thrush": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Dusky_thrush": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Naumann's_thrush": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Fieldfare": {
+    "size": 22,
+    "speed": 45,
+    "rarity": 98,
+    "danger": 2
+  },
+  "/wiki/Redwing": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Song_thrush": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Clay-colored_thrush": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/White-throated_thrush": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Rufous-backed_robin": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/American_robin": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 10,
+    "danger": 0
+  },
+  "/wiki/Red-legged_thrush": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Varied_thrush": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Aztec_thrush": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Gray-streaked_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Asian_brown_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Spotted_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Dark-sided_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/White-rumped_shama": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/European_robin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Siberian_blue_robin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Rufous-tailed_robin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Bluethroat": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Siberian_rubythroat": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Red-flanked_bluetail": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Narcissus_flycatcher": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 98,
+    "danger": 0
+  },
+  "/wiki/Mugimaki_flycatcher": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 99,
+    "danger": 0
+  },
+  "/wiki/Taiga_flycatcher": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Common_redstart": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Asian_stonechat": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Northern_wheatear": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Pied_wheatear": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Olive_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Northern_red_bishop": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Yellow-crowned_bishop": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Pin-tailed_whydah": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Bronze_mannikin": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/African_silverbill": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Indian_silverbill": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Java_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Scaly-breasted_munia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tricolored_munia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Chestnut_munia": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red_avadavat": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Lavender_waxbill": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Common_waxbill": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Siberian_accentor": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/House_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 5,
+    "danger": 2
+  },
+  "/wiki/Tree_sparrow": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Western_yellow_wagtail": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Eastern_yellow_wagtail": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Citrine_wagtail": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Gray_wagtail": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/White_wagtail": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Tree_pipit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 1
+  },
+  "/wiki/Olive-backed_pipit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Pechora_pipit": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 95,
+    "danger": 0
+  },
+  "/wiki/Red-throated_pipit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
   }
 }
