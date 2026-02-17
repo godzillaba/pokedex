@@ -40,7 +40,7 @@ export function SpeciesList({
             onClick={onSettings}
             title="Settings"
           >
-            @
+            *
           </button>
         </div>
         <div class="slist__filters">
