@@ -19,8 +19,10 @@ export function useLog() {
 
   const toggleSeen = useCallback((id) => {
     setLog((prev) => {
-      const entry = prev[id] || { seen: false, note: "" };
-      const next = { ...prev, [id]: { ...entry, seen: !entry.seen } };
+      const entry = prev[id] || { seen: false, note: "", date: "" };
+      const seen = !entry.seen;
+      const date = seen && !entry.date ? new Date().toISOString().slice(0, 10) : entry.date || "";
+      const next = { ...prev, [id]: { ...entry, seen, date } };
       save(next);
       return next;
     });
@@ -28,8 +30,17 @@ export function useLog() {
 
   const setNote = useCallback((id, note) => {
     setLog((prev) => {
-      const entry = prev[id] || { seen: false, note: "" };
+      const entry = prev[id] || { seen: false, note: "", date: "" };
       const next = { ...prev, [id]: { ...entry, note } };
+      save(next);
+      return next;
+    });
+  }, []);
+
+  const setDate = useCallback((id, date) => {
+    setLog((prev) => {
+      const entry = prev[id] || { seen: false, note: "", date: "" };
+      const next = { ...prev, [id]: { ...entry, date } };
       save(next);
       return next;
     });
@@ -40,5 +51,5 @@ export function useLog() {
     setLog({});
   }, []);
 
-  return { log, toggleSeen, setNote, clearLog };
+  return { log, toggleSeen, setNote, setDate, clearLog };
 }

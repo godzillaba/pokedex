@@ -133,6 +133,24 @@
   background: #1e5a1e;
 }
 
+.scard__date {
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+  padding: 0.4rem;
+  background: var(--lcd-bg);
+  color: var(--lcd-text);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  outline: none;
+  color-scheme: dark;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.scard__date:focus {
+  border-color: var(--blue-led);
+}
+
 .scard__note {
   font-family: var(--font-pixel);
   font-size: 0.6rem;

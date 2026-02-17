@@ -15,6 +15,7 @@ export function SpeciesList({
   onSeenFilter,
   onSelect,
   onSettings,
+  onLog,
   log,
 }) {
   return (
@@ -34,6 +35,13 @@ export function SpeciesList({
             title="Random species"
           >
             ?
+          </button>
+          <button
+            class="slist__shuffle"
+            onClick={onLog}
+            title="Sighting log"
+          >
+            #
           </button>
           <button
             class="slist__shuffle"

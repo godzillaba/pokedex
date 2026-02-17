@@ -26,7 +26,7 @@ function StatBar({ label, value }) {
   );
 }
 
-export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack }) {
+export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onSetDate, onBack }) {
   const [imgErr, setImgErr] = useState(false);
   // "sprite" | "original" | "fallback"
   const [imgMode, setImgMode] = useState("sprite");
@@ -99,6 +99,14 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
         >
           {entry.seen ? "* SEEN" : "MARK SEEN"}
         </button>
+        {entry.seen && (
+          <input
+            class="scard__date"
+            type="date"
+            value={entry.date || ""}
+            onInput={(e) => onSetDate(e.target.value)}
+          />
+        )}
         <textarea
           class="scard__note"
           placeholder="Add a note..."
