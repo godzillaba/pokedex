@@ -3,10 +3,14 @@ import "./species-list.css";
 export function SpeciesList({
   species,
   types,
+  statuses,
+  statusCodes,
   search,
   onSearch,
   typeFilter,
   onTypeFilter,
+  statusFilter,
+  onStatusFilter,
   seenFilter,
   onSeenFilter,
   onSelect,
@@ -76,6 +80,23 @@ export function SpeciesList({
             UNSEEN
           </button>
         </div>
+        <div class="slist__filters">
+          <button
+            class={`slist__filter ${!statusFilter ? "slist__filter--active" : ""}`}
+            onClick={() => onStatusFilter("")}
+          >
+            ALL
+          </button>
+          {statuses.map((code) => (
+            <button
+              key={code}
+              class={`slist__filter slist__filter--status slist__filter--${code.toLowerCase()} ${statusFilter === code ? "slist__filter--active" : ""}`}
+              onClick={() => onStatusFilter(statusFilter === code ? "" : code)}
+            >
+              {code}
+            </button>
+          ))}
+        </div>
       </div>
       <ul class="slist__entries">
         {species.map((s) => (
@@ -86,6 +107,11 @@ export function SpeciesList({
             </span>
             <span class="slist__name">{s.name}</span>
             {log[s.id]?.note && <span class="slist__has-note" title="Has note">+</span>}
+            {statusCodes[s.conservation_status] && (
+              <span class={`slist__status slist__status--${statusCodes[s.conservation_status].toLowerCase()}`}>
+                {statusCodes[s.conservation_status]}
+              </span>
+            )}
             <span class={`slist__type slist__type--${s.type.toLowerCase()}`}>
               {s.type}
             </span>

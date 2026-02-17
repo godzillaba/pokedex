@@ -8,8 +8,11 @@ import { useLog } from "./hooks/use-log.js";
 
 export function App() {
   const { log, toggleSeen, setNote, clearLog } = useLog();
-  const { filtered, types, search, setSearch, typeFilter, setTypeFilter, seenFilter, setSeenFilter } =
-    useSpecies(log);
+  const {
+    filtered, types, statuses, search, setSearch,
+    typeFilter, setTypeFilter, statusFilter, setStatusFilter,
+    seenFilter, setSeenFilter, STATUS_CODES,
+  } = useSpecies(log);
   const [selected, setSelected] = useState(null);
   const [page, setPage] = useState("list");
   const scrollY = useRef(0);
@@ -48,10 +51,14 @@ export function App() {
         <SpeciesList
           species={filtered}
           types={types}
+          statuses={statuses}
+          statusCodes={STATUS_CODES}
           search={search}
           onSearch={setSearch}
           typeFilter={typeFilter}
           onTypeFilter={setTypeFilter}
+          statusFilter={statusFilter}
+          onStatusFilter={setStatusFilter}
           seenFilter={seenFilter}
           onSeenFilter={setSeenFilter}
           onSelect={handleSelect}
