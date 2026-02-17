@@ -3,6 +3,11 @@ import preact from "@preact/preset-vite";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
+  test: {
+    environment: "jsdom",
+    globals: true,
+    setupFiles: ["./src/test-setup.js"],
+  },
   plugins: [
     preact(),
     VitePWA({

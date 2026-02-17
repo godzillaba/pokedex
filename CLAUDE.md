@@ -48,6 +48,28 @@ JSON is imported statically by Vite — bundled into JS, no runtime fetch.
 - `npm run dev` — dev server with HMR
 - `npm run build` — production build to `dist/`
 - `npm run preview` — serve production build locally
+- `npm test` — run test suite (vitest)
+- `npm run test:watch` — run tests in watch mode
+
+## Tests
+
+Uses **vitest** + **@testing-library/preact** + **jsdom**. Config lives in the `test` block of `vite.config.js`; global setup in `src/test-setup.js` (imports jest-dom matchers).
+
+```
+src/
+  test-setup.js                          # jest-dom/vitest matchers
+  app.test.jsx                           # navigation state machine, popstate, history
+  hooks/
+    use-log.test.js                      # localStorage, toggleSeen, setNote, setDate, clearLog
+    use-species.test.js                  # search, type/status/seen filters, computed arrays
+  components/
+    sighting-log.test.jsx                # empty states, date sorting, entry rendering
+    species-card.test.jsx                # image cascade, seen state, callbacks, info
+    species-list.test.jsx                # entries, indicators, search/filter callbacks, buttons
+    settings.test.jsx                    # confirmation flow (clear → confirm → YES/CANCEL)
+```
+
+All component/hook tests mock `species.json` with a small fixture (2–3 entries) via `vi.mock()` to avoid loading the full dataset. The mock path must match the import path relative to the file under test.
 
 ## Git
 
