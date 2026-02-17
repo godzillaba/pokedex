@@ -33,7 +33,7 @@ public/
 
 `src/data/species.json` — array of species. Each entry:
 - `id`, `name`, `species` (Latin), `type` (Bird/Mammal/Reptile/Amphibian/Fish/Insect/Arachnid)
-- `region`, `habitat`, `description`
+- `region`, `habitat`, `description`, `conservation_status` (IUCN status, omitted if unknown)
 - `stats`: `size`, `speed`, `rarity`, `danger` (0–100)
 - `image`: path relative to `public/` (e.g. `images/animals/001.png`) — pixelated sprite
 - `original_image`: Wikimedia Commons thumbnail URL (800px) for the high-res photo (omitted if no image)

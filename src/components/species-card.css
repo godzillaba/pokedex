@@ -185,6 +185,22 @@
   min-width: 80px;
 }
 
+.scard__status {
+  font-size: 0.6rem;
+  font-weight: bold;
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  color: var(--white);
+}
+
+.scard__status--lc { background: #4a8c2a; }
+.scard__status--nt { background: #7a9a2a; }
+.scard__status--vu { background: #c47a20; }
+.scard__status--en { background: #c44a20; }
+.scard__status--cr { background: #a01010; }
+.scard__status--ex { background: #505050; }
+.scard__status--dd { background: #707070; }
+
 .scard__stats {
   display: flex;
   flex-direction: column;

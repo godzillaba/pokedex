@@ -3,6 +3,17 @@ import "./species-card.css";
 
 const STAT_LABELS = { size: "SIZE", speed: "SPD", rarity: "RAR", danger: "DNG" };
 
+const STATUS_CLASS = {
+  "Least Concern": "lc",
+  "Near Threatened": "nt",
+  "Vulnerable": "vu",
+  "Endangered": "en",
+  "Critically Endangered": "cr",
+  "Extinct": "ex",
+  "Data Deficient": "dd",
+  "Secure": "dd",
+};
+
 function StatBar({ label, value }) {
   return (
     <div class="scard__stat">
@@ -88,6 +99,14 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
           <span class="scard__info-label">HABITAT</span>
           <span>{species.habitat}</span>
         </div>
+        {species.conservation_status && (
+          <div class="scard__info-row">
+            <span class="scard__info-label">STATUS</span>
+            <span class={`scard__status scard__status--${STATUS_CLASS[species.conservation_status] || "dd"}`}>
+              {species.conservation_status}
+            </span>
+          </div>
+        )}
       </div>
 
       <div class="scard__stats">

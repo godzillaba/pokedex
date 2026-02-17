@@ -10246,5 +10246,3857 @@
     "speed": 55,
     "rarity": 20,
     "danger": 2
+  },
+  "/wiki/Ovenbird": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Worm-eating_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Louisiana_waterthrush": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Northern_waterthrush": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Bachman's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Golden-winged_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Blue-winged_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-and-white_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Prothonotary_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Swainson's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Crescent-chested_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Tennessee_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Orange-crowned_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Colima_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Lucy's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Nashville_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Virginia's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Connecticut_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Gray-crowned_yellowthroat": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/MacGillivray's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Mourning_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Kentucky_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Common_yellowthroat": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Elfin-woods_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Hooded_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/American_redstart": {
+    "size": 8,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Kirtland's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Cape_May_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Cerulean_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Northern_parula": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Tropical_parula": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Magnolia_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Bay-breasted_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Blackburnian_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Yellow_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Chestnut-sided_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Blackpoll_warbler": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Black-throated_blue_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Palm_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pine_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Yellow-rumped_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Yellow-throated_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Prairie_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Adelaide's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Grace's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-throated_grey_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Townsend's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hermit_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Golden-cheeked_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Black-throated_green_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Fan-tailed_warbler_(Parulidae)": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Rufous-capped_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Golden-crowned_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 0
+  },
+  "/wiki/Canada_warbler": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Wilson's_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Red-faced_warbler": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Painted_redstart": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Slate-throated_redstart": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hepatic_tanager": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Summer_tanager": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Scarlet_tanager": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Western_tanager": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Flame-colored_tanager": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Crimson-collared_grosbeak": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Northern_cardinal": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pyrrhuloxia": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Yellow_grosbeak": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Rose-breasted_grosbeak": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Black-headed_grosbeak": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Blue_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Blue_grosbeak": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lazuli_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Indigo_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Varied_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Painted_bunting": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Dickcissel": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Red-crested_cardinal": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Yellow-billed_cardinal": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Saffron_finch": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Red-legged_honeycreeper": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Bananaquit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Yellow-faced_grassquit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Puerto_Rican_bullfinch": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Lesser_Antillean_bullfinch": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Black-faced_grassquit": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Morelet's_seedeater": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Ambystoma_annulatum": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_barbouri": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Ambystoma_bishopi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_californiense": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_cingulatum": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 80,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_gracile": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Ambystoma_jeffersonianum": {
+    "size": 8,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_laterale": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_mabeei": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Ambystoma_macrodactylum": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_maculatum": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Ambystoma_mavortium": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_opacum": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Ambystoma_talpoideum": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_texanum": {
+    "size": 12,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ambystoma_tigrinum": {
+    "size": 18,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Dicamptodon_aterrimus": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Dicamptodon_copei": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Dicamptodon_ensatus": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Dicamptodon_tenebrosus": {
+    "size": 28,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Amphiuma_means": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Amphiuma_pholeter": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 65,
+    "danger": 5
+  },
+  "/wiki/Amphiuma_tridactylum": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Cryptobranchus_alleganiensis": {
+    "size": 45,
+    "speed": 20,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Batrachoseps_altasierrae": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Batrachoseps_attenuatus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_bramei": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Batrachoseps_campi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_diabolicus": {
+    "size": 4,
+    "speed": 8,
+    "rarity": 48,
+    "danger": 1
+  },
+  "/wiki/Batrachoseps_gabrieli": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Batrachoseps_gavilanensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Batrachoseps_gregarius": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_incognitus": {
+    "size": 3,
+    "speed": 8,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_kawia": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_luciae": {
+    "size": 3,
+    "speed": 8,
+    "rarity": 45,
+    "danger": 1
+  },
+  "/wiki/Batrachoseps_major": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_minor": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_nigriventris": {
+    "size": 3,
+    "speed": 10,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Batrachoseps_pacificus": {
+    "size": 3,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_regius": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 48,
+    "danger": 1
+  },
+  "/wiki/Batrachoseps_relictus": {
+    "size": 3,
+    "speed": 8,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Batrachoseps_robustus": {
+    "size": 3,
+    "speed": 8,
+    "rarity": 45,
+    "danger": 1
+  },
+  "/wiki/Batrachoseps_simatus": {
+    "size": 3,
+    "speed": 8,
+    "rarity": 50,
+    "danger": 1
+  },
+  "/wiki/Batrachoseps_stebbinsi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Batrachoseps_wrighti": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Eurycea_aquatica": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Eurycea_arenicola": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Eurycea_bislineata": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Eurycea_chamberlaini": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 35,
+    "danger": 1
+  },
+  "/wiki/Eurycea_chisholmensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Eurycea_cirrigera": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Eurycea_guttolineata": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Eurycea_junaluska": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Eurycea_latitans": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Eurycea_longicauda": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Eurycea_lucifuga": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Eurycea_multiplicata": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Eurycea_nana": {
+    "size": 3,
+    "speed": 20,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Eurycea_naufragia": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Eurycea_neotenes": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Eurycea_pterophila": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Eurycea_quadridigitata": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Eurycea_rathbuni": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Eurycea_robusta": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Eurycea_sosorum": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Eurycea_spelaea": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Eurycea_subfluvicola": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 92,
+    "danger": 2
+  },
+  "/wiki/Eurycea_tonkawae": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Eurycea_tridentifera": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Eurycea_troglodytes": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Eurycea_tynerensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Eurycea_wallacei": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Eurycea_waterlooensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Eurycea_wilderae": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 1
+  },
+  "/wiki/Gyrinophilus_gulolineatus": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Gyrinophilus_palleucus": {
+    "size": 12,
+    "speed": 15,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Gyrinophilus_porphyriticus": {
+    "size": 12,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Gyrinophilus_subterraneus": {
+    "size": 12,
+    "speed": 15,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Hemidactylium_scutatum": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Pseudotriton_montanus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 3
+  },
+  "/wiki/Pseudotriton_ruber": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Stereochilus_marginatus": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Urspelerpes_brucei": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Aneides_aeneus": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Aneides_ferreus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Aneides_flavipunctatus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Aneides_hardii": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Aneides_iecanus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Aneides_lugubris": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Aneides_niger": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Aneides_vagrans": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_abditus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_aeneus": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_apalachicolae": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_aureatus": {
+    "size": 8,
+    "speed": 20,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_auriculatus": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 92,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_brimleyorum": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_carolinensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_conanti": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_folkertsi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_fuscus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_imitator": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_marmoratus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_melanius": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_monticola": {
+    "size": 8,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_ochrophaeus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_ocoee": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_orestes": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_organi": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_planiceps": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_quadramaculatus": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_santeetlah": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Desmognathus_welteri": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Desmognathus_wrighti": {
+    "size": 3,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Ensatina_eschscholtzii": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Hydromantes_brunus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Hydromantes_platycephalus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Hydromantes_shastae": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Phaeognathus_hubrichti": {
+    "size": 18,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Plethodon_ainsworthi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Plethodon_albagula": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plethodon_amplus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plethodon_angusticlavius": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_asupak": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 80,
+    "danger": 2
+  },
+  "/wiki/Plethodon_aureolus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Plethodon_caddoensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Plethodon_chattahoochee": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Plethodon_cheoah": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Plethodon_chlorobryonis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plethodon_cinereus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Plethodon_cylindraceus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plethodon_dorsalis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Plethodon_dunni": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 1
+  },
+  "/wiki/Plethodon_electromorphus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Plethodon_elongatus": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Plethodon_fourchensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_glutinosus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Plethodon_grobmani": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plethodon_hoffmani": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plethodon_hubrichti": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Plethodon_idahoensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Plethodon_jordani": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Plethodon_kentucki": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_kiamichi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Plethodon_kisatchie": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plethodon_larselli": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 55,
+    "danger": 2
+  },
+  "/wiki/Plethodon_meridianus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plethodon_metcalfi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plethodon_mississippi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Plethodon_montanus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Plethodon_neomexicanus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Plethodon_nettingi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Plethodon_ocmulgee": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plethodon_ouachitae": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_petraeus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plethodon_punctatus": {
+    "size": 12,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_richmondi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Plethodon_savannah": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Plethodon_sequoyah": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plethodon_serratus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Plethodon_shenandoah": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 78,
+    "danger": 0
+  },
+  "/wiki/Plethodon_sherando": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Plethodon_shermani": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_stormi": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plethodon_teyahalee": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Plethodon_vandykei": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Plethodon_variolatus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_vehiculum": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Plethodon_ventralis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_virginia": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Plethodon_websteri": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 1
+  },
+  "/wiki/Plethodon_wehrlei": {
+    "size": 12,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Plethodon_welleri": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plethodon_yonahlossee": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Necturus_alabamensis": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 80,
+    "danger": 2
+  },
+  "/wiki/Necturus_beyeri": {
+    "size": 18,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Necturus_lewisi": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Necturus_louisianensis": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Necturus_maculosus": {
+    "size": 25,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Necturus_punctatus": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Rhyacotriton_cascadae": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Rhyacotriton_kezeri": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Rhyacotriton_olympicus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Rhyacotriton_variegatus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Notophthalmus_meridionalis": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 48,
+    "danger": 3
+  },
+  "/wiki/Notophthalmus_perstriatus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Notophthalmus_viridescens": {
+    "size": 8,
+    "speed": 12,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Taricha_granulosa": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 75
+  },
+  "/wiki/Taricha_rivularis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 95
+  },
+  "/wiki/Taricha_sierrae": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 75
+  },
+  "/wiki/Taricha_torosa": {
+    "size": 12,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 75
+  },
+  "/wiki/Pseudobranchus_axanthus": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Pseudobranchus_striatus": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Siren_intermedia": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Siren_lacertina": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Ascaphus_montanus": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Ascaphus_truei": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Anaxyrus_americanus": {
+    "size": 12,
+    "speed": 15,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Anaxyrus_baxteri": {
+    "size": 8,
+    "speed": 20,
+    "rarity": 100,
+    "danger": 0
+  },
+  "/wiki/Anaxyrus_boreas": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Anaxyrus_californicus": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 78,
+    "danger": 45
+  },
+  "/wiki/Anaxyrus_canorus": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Anaxyrus_cognatus": {
+    "size": 18,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Anaxyrus_debilis": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Anaxyrus_exsul": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Anaxyrus_fowleri": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 12
+  },
+  "/wiki/Anaxyrus_hemiophrys": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Anaxyrus_houstonensis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Anaxyrus_microscaphus": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Anaxyrus_nelsoni": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Anaxyrus_punctatus": {
+    "size": 8,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Anaxyrus_quercicus": {
+    "size": 3,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Anaxyrus_retiformis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Anaxyrus_speciosus": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Anaxyrus_terrestris": {
+    "size": 12,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Anaxyrus_woodhousii": {
+    "size": 18,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Incilius_alvarius": {
+    "size": 35,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 65
+  },
+  "/wiki/Incilius_nebulifer": {
+    "size": 8,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Rhinella_marina": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 55
+  },
+  "/wiki/Craugastor_augusti": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Dendrobates_auratus": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 75
+  },
+  "/wiki/Eleutherodactylus_coqui": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eleutherodactylus_cystignathoides": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eleutherodactylus_guttilatus": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eleutherodactylus_marnockii": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Eleutherodactylus_planirostris": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Acris_blanchardi": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 0
+  },
+  "/wiki/Acris_crepitans": {
+    "size": 3,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Acris_gryllus": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_andersonii": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Hyla_arenicolor": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_avivoca": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_chrysoscelis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Hyla_cinerea": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_femoralis": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_gratiosa": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_squirella": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_versicolor": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Hyla_wrightorum": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Osteopilus_septentrionalis": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 20
+  },
+  "/wiki/Pseudacris_brachyphona": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_brimleyi": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_cadaverina": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_clarkii": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_crucifer": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_fouquettei": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_hypochondriaca": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_illinoensis": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_kalmi": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_maculata": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_nigrita": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_ocularis": {
+    "size": 1,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_ornata": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_regilla": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_sierra": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Pseudacris_streckeri": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pseudacris_triseriata": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Smilisca_baudinii": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Smilisca_fodiens": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 22,
+    "danger": 0
+  },
+  "/wiki/Litoria_caerulea": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Leptodactylus_fragilis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Gastrophryne_carolinensis": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Gastrophryne_olivacea": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 25
+  },
+  "/wiki/Hypopachus_variolosus": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Xenopus_laevis": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Glandirana_rugosa": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Lithobates_areolatus": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Lithobates_berlandieri": {
+    "size": 15,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lithobates_blairi": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lithobates_capito": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Lithobates_catesbeianus": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Lithobates_chiricahuensis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 0
+  },
+  "/wiki/Lithobates_clamitans": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lithobates_fisheri": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 100,
+    "danger": 2
+  },
+  "/wiki/Lithobates_grylio": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Lithobates_heckscheri": {
+    "size": 25,
+    "speed": 30,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Lithobates_okaloosae": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Lithobates_onca": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Lithobates_palustris": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Lithobates_pipiens": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Lithobates_septentrionalis": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Lithobates_sevosus": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Lithobates_sphenocephalus": {
+    "size": 18,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Lithobates_sylvaticus": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lithobates_tarahumarae": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Lithobates_virgatipes": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Lithobates_yavapaiensis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Rana_aurora": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Rana_boylii": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 0
+  },
+  "/wiki/Rana_cascadae": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Rana_draytonii": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Rana_luteiventris": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Rana_muscosa": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Rana_pretiosa": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 48,
+    "danger": 0
+  },
+  "/wiki/Rana_sierrae": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Rhinophrynus_dorsalis": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Scaphiopus_couchii": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Scaphiopus_holbrookii": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 0
+  },
+  "/wiki/Scaphiopus_hurterii": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Spea_bombifrons": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Spea_hammondii": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Spea_intermontana": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Spea_multiplicata": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Alligator_mississippiensis": {
+    "size": 92,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 75
+  },
+  "/wiki/Caiman_crocodilus": {
+    "size": 65,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 40
+  },
+  "/wiki/Crocodylus_acutus": {
+    "size": 95,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 72
+  },
+  "/wiki/Podocnemis_unifilis": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Gopherus_polyphemus": {
+    "size": 35,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Gopherus_berlandieri": {
+    "size": 35,
+    "speed": 8,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Gopherus_flavomarginatus": {
+    "size": 65,
+    "speed": 8,
+    "rarity": 92,
+    "danger": 3
+  },
+  "/wiki/Mojave_Desert_tortoise": {
+    "size": 25,
+    "speed": 8,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Indian_star_tortoise": {
+    "size": 25,
+    "speed": 8,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Actinemys_marmorata": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Actinemys_pallida": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Clemmys_guttata": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Glyptemys_insculpta": {
+    "size": 25,
+    "speed": 15,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Glyptemys_muhlenbergii": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 92,
+    "danger": 2
+  },
+  "/wiki/Emydoidea_blandingii": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Terrapene_carolina": {
+    "size": 15,
+    "speed": 8,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Three-toed_box_turtle": {
+    "size": 18,
+    "speed": 12,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Terrapene_ornata": {
+    "size": 25,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Trachemys_scripta": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Trachemys_gaigeae": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Trachemys_terrapen": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 48,
+    "danger": 5
+  },
+  "/wiki/Chrysemys_picta": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Deirochelys_reticularia": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Graptemys_barbouri": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Graptemys_caglei": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Graptemys_ernsti": {
+    "size": 25,
+    "speed": 30,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Graptemys_flavimaculata": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Graptemys_geographica": {
+    "size": 35,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Graptemys_gibbonsi": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Graptemys_nigrinoda": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 48,
+    "danger": 3
+  },
+  "/wiki/Graptemys_oculifera": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Graptemys_ouachitensis": {
+    "size": 35,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Graptemys_sabinensis": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Graptemys_pseudogeographica": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Graptemys_pulchra": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Graptemys_versa": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Malaclemys_terrapin": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Pseudemys_alabamensis": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Pseudemys_concinna": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pseudemys_gorzugi": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Pseudemys_nelsoni": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Pseudemys_peninsularis": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Pseudemys_rubriventris": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 5
+  },
+  "/wiki/Pseudemys_texana": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Lepidochelys_olivacea": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Caretta_caretta": {
+    "size": 85,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 8
+  },
+  "/wiki/Lepidochelys_kempii": {
+    "size": 48,
+    "speed": 45,
+    "rarity": 80,
+    "danger": 5
+  },
+  "/wiki/Chelonia_mydas": {
+    "size": 85,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Eretmochelys_imbricata": {
+    "size": 65,
+    "speed": 45,
+    "rarity": 92,
+    "danger": 8
+  },
+  "/wiki/Dermochelys_coriacea": {
+    "size": 95,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 5
+  },
+  "/wiki/Chelydra_serpentina": {
+    "size": 55,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 45
+  },
+  "/wiki/Macrochelys_temminckii": {
+    "size": 75,
+    "speed": 20,
+    "rarity": 50,
+    "danger": 65
+  },
+  "/wiki/Macrochelys_suwanniensis": {
+    "size": 75,
+    "speed": 15,
+    "rarity": 50,
+    "danger": 45
+  },
+  "/wiki/Arizona_mud_turtle": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 45,
+    "danger": 5
+  },
+  "/wiki/Kinosternon_baurii": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Kinosternon_flavescens": {
+    "size": 18,
+    "speed": 25,
+    "rarity": 22,
+    "danger": 2
+  },
+  "/wiki/Kinosternon_hirtipes": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Kinosternon_sonoriense": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Eastern_mud_turtle": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Kinosternon_steindachneri": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Sternotherus_carinatus": {
+    "size": 25,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Sternotherus_depressus": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Sternotherus_minor": {
+    "size": 8,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Intermediate_musk_turtle": {
+    "size": 12,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Sternotherus_odoratus": {
+    "size": 12,
+    "speed": 20,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Staurotypus_salvinii": {
+    "size": 45,
+    "speed": 35,
+    "rarity": 35,
+    "danger": 25
+  },
+  "/wiki/Apalone_ferox": {
+    "size": 65,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Apalone_mutica": {
+    "size": 45,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Apalone_spinifera": {
+    "size": 55,
+    "speed": 60,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Palea_steindachneri": {
+    "size": 55,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 10
+  },
+  "/wiki/Pelodiscus_sinensis": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 48,
+    "danger": 20
+  },
+  "/wiki/Agama_picticauda": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Calotes_mystaceus": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 15,
+    "danger": 10
+  },
+  "/wiki/Calotes_versicolor": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Leiolepis_belliana": {
+    "size": 25,
+    "speed": 55,
+    "rarity": 85,
+    "danger": 5
+  },
+  "/wiki/Leiolepis_rubritaeniata": {
+    "size": 0,
+    "speed": 0,
+    "rarity": 0,
+    "danger": 0
+  },
+  "/wiki/Chamaeleo_calyptratus": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Trioceros_jacksonii": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Malagasy_giant_chameleon": {
+    "size": 45,
+    "speed": 25,
+    "rarity": 85,
+    "danger": 5
+  },
+  "/wiki/Panther_chameleon": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Crotaphytus_bicinctores": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 8
+  },
+  "/wiki/Crotaphytus_collaris": {
+    "size": 15,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Crotaphytus_nebrius": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Crotaphytus_reticulatus": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 50,
+    "danger": 8
+  },
+  "/wiki/Crotaphytus_vestigium": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Gambelia_copeii": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 45,
+    "danger": 15
+  },
+  "/wiki/Gambelia_sila": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 78,
+    "danger": 8
+  },
+  "/wiki/Gambelia_wislizenii": {
+    "size": 18,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/San_Esteban_spinytail_iguana": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 75,
+    "danger": 15
+  },
+  "/wiki/Sonoran_spiny-tailed_iguana": {
+    "size": 45,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Ctenosaura_pectinata": {
+    "size": 55,
+    "speed": 70,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Ctenosaura_similis": {
+    "size": 65,
+    "speed": 95,
+    "rarity": 25,
+    "danger": 15
+  },
+  "/wiki/Dipsosaurus_dorsalis": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Iguana_iguana": {
+    "size": 65,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Sauromalus_ater": {
+    "size": 35,
+    "speed": 30,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Callisaurus_draconoides": {
+    "size": 8,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Cophosaurus_texanus": {
+    "size": 12,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Holbrookia_lacerata": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Holbrookia_subcaudalis": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Holbrookia_maculata": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Holbrookia_elegans": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Holbrookia_propinqua": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Petrosaurus_mearnsi": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Texas_horned_lizard": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Species_complex": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 100,
+    "danger": 5
+  },
+  "/wiki/Society_for_the_Study_of_Amphibians_and_Reptiles": {
+    "size": 15,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Phrynosoma_brevirostris": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Phrynosoma_ornatissimum": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Phrynosoma_bauri": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 3
+  },
+  "/wiki/Phrynosoma_diminutum": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 75,
+    "danger": 3
+  },
+  "/wiki/Desert_horned_lizard": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Flat-tail_horned_lizard": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Roundtail_horned_lizard": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Regal_horned_lizard": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_arenicolus": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_magister": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_uniformis": {
+    "size": 18,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_clarkii": {
+    "size": 18,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Sceloporus_undulatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_consobrinus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_cowlesi": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_tristichus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_serrifer": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_graciosus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_grammicus": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Sceloporus_jarrovii": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_merriami": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_occidentalis": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_becki": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_olivaceus": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_orcutti": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_poinsettii": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_slevini": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_variabilis": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_virgatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_woodi": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Sceloporus_ornatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Uma_inornata": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Uma_notata": {
+    "size": 20,
+    "speed": 55,
+    "rarity": 35,
+    "danger": 5
+  },
+  "/wiki/Uma_scoparia": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Mohawk_Dunes_fringe-toed_lizard": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 75,
+    "danger": 5
+  },
+  "/wiki/Urosaurus_graciosus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Urosaurus_microscutatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Urosaurus_ornatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Uta_stansburiana": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Anolis_carolinensis": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Anolis_chlorocyanus": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Anolis_cybotes": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 60,
+    "danger": 2
+  },
+  "/wiki/Anolis_equestris": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 15
+  },
+  "/wiki/Anolis_porcatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Anolis_cristatellus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Anolis_distichus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Anolis_allisoni": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Anolis_ferreus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Anolis_garmani": {
+    "size": 18,
+    "speed": 45,
+    "rarity": 65,
+    "danger": 5
+  },
+  "/wiki/Anolis_sagrei": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 10,
+    "danger": 5
+  },
+  "/wiki/Anolis_trinitatis": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Polychrus_marmoratus": {
+    "size": 35,
+    "speed": 15,
+    "rarity": 95,
+    "danger": 5
+  },
+  "/wiki/Basiliscus_vittatus": {
+    "size": 35,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Leiocephalus_carinatus": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Leiocephalus_schreibersii": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Tarentola_mauritanica": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Tarentola_annularis": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 0,
+    "danger": 2
+  },
+  "/wiki/Hemidactylus_frenatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Hemidactylus_garnotii": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Hemidactylus_mabouia": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Hemidactylus_parvimaculatus": {
+    "size": 15,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Hemidactylus_platyurus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Hemidactylus_turcicus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Hemiphyllodactylus_typus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Phyllodactylus_nocticolus": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sphaerodactylus_notatus": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 0
+  },
+  "/wiki/Sphaerodactylus_argus": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Sphaerodactylus_elegans": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Sphaerodactylus_cinereus": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 50,
+    "danger": 2
+  },
+  "/wiki/Chondrodactylus_bibronii": {
+    "size": 18,
+    "speed": 45,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Cyrtopodion_scabrum": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Gehyra_mutilata": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Golden_gecko": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Gekko_gecko": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 65,
+    "danger": 25
+  },
+  "/wiki/Gonatodes_albogularis": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Lepidodactylus_lugubris": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 10,
+    "danger": 2
+  },
+  "/wiki/Phelsuma_grandis": {
+    "size": 18,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Phelsuma_guimbeaui": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 78,
+    "danger": 2
+  },
+  "/wiki/Phelsuma_laticauda": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Coleonyx_brevis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 0
+  },
+  "/wiki/Coleonyx_reticulatus": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 65,
+    "danger": 2
+  },
+  "/wiki/Coleonyx_switaki": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Coleonyx_variegatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Lacerta_bilineata": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 95,
+    "danger": 2
+  },
+  "/wiki/Podarcis_muralis": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Podarcis_siculus": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plestiodon_anthracinus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plestiodon_callicephalus": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plestiodon_egregius": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Plestiodon_fasciatus": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Plestiodon_gilberti": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Plestiodon_inexpectatus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Broad-headed_skink": {
+    "size": 15,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Many-lined_skink": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Great_Plains_skink": {
+    "size": 12,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Plestiodon_septentrionalis": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plestiodon_skiltonianus": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Four-lined_skink": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Neoseps_reynoldsi": {
+    "size": 8,
+    "speed": 25,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Chalcides_ocellatus": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Mabuya_multifasciata": {
+    "size": 12,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Scincella_lateralis": {
+    "size": 3,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Cryptoblepharus_poecilopleurus": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Copper-tailed_skink": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Emoia_impar": {
+    "size": 8,
+    "speed": 45,
+    "rarity": 85,
+    "danger": 2
+  },
+  "/wiki/Lampropholis_delicata": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Lipinia_noctua": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Trachylepis_quinquetaeniata": {
+    "size": 25,
+    "speed": 45,
+    "rarity": 5,
+    "danger": 2
+  },
+  "/wiki/Ophisaurus_attenuatus": {
+    "size": 35,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Ophisaurus_compressus": {
+    "size": 35,
+    "speed": 40,
+    "rarity": 25,
+    "danger": 3
+  },
+  "/wiki/Ophisaurus_mimicus": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 75,
+    "danger": 2
+  },
+  "/wiki/Ophisaurus_ventralis": {
+    "size": 35,
+    "speed": 45,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Elgaria_coerulea": {
+    "size": 18,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 3
+  },
+  "/wiki/Elgaria_kingii": {
+    "size": 25,
+    "speed": 35,
+    "rarity": 25,
+    "danger": 5
+  },
+  "/wiki/Elgaria_multicarinata": {
+    "size": 15,
+    "speed": 35,
+    "rarity": 20,
+    "danger": 10
+  },
+  "/wiki/Elgaria_panamintina": {
+    "size": 8,
+    "speed": 35,
+    "rarity": 45,
+    "danger": 15
+  },
+  "/wiki/Gerrhonotus_infernalis": {
+    "size": 35,
+    "speed": 25,
+    "rarity": 25,
+    "danger": 10
+  },
+  "/wiki/Anniella_pulchra": {
+    "size": 12,
+    "speed": 20,
+    "rarity": 48,
+    "danger": 2
+  },
+  "/wiki/Anniella_campi": {
+    "size": 15,
+    "speed": 20,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Anniella_grinnelli": {
+    "size": 12,
+    "speed": 20,
+    "rarity": 75,
+    "danger": 3
+  },
+  "/wiki/Anniella_stebbinsi": {
+    "size": 8,
+    "speed": 15,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Heloderma_suspectum": {
+    "size": 35,
+    "speed": 20,
+    "rarity": 45,
+    "danger": 30
+  },
+  "/wiki/Ameiva_ameiva": {
+    "size": 35,
+    "speed": 65,
+    "rarity": 0,
+    "danger": 5
+  },
+  "/wiki/Ameiva_praesignis": {
+    "size": 25,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/Canyon_spotted_whiptail": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Red-backed_whiptail": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 35,
+    "danger": 2
+  },
+  "/wiki/Chihuahuan_spotted_whiptail": {
+    "size": 15,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Texas_spotted_whiptail": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Orange-throated_whiptail": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Little_striped_whiptail": {
+    "size": 8,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Pai_striped_whiptail": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 45,
+    "danger": 2
+  },
+  "/wiki/Arizona_striped_whiptail": {
+    "size": 8,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Plateau_striped_whiptail": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Laredo_striped_whiptail": {
+    "size": 15,
+    "speed": 75,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Marbled_whiptail": {
+    "size": 15,
+    "speed": 75,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Giant_whiptail": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 5
+  },
+  "/wiki/New_Mexico_whiptail": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Colorado_checkered_whiptail": {
+    "size": 12,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Aspidoscelis_scalaris": {
+    "size": 15,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Six-lined_racerunner": {
+    "size": 8,
+    "speed": 85,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Sonoran_spotted_whiptail": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Western_whiptail": {
+    "size": 8,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 0
+  },
+  "/wiki/Desert_grassland_whiptail_lizard": {
+    "size": 8,
+    "speed": 55,
+    "rarity": 25,
+    "danger": 2
+  },
+  "/wiki/Cnemidophorus_lemniscatus": {
+    "size": 25,
+    "speed": 65,
+    "rarity": 20,
+    "danger": 2
+  },
+  "/wiki/Salvator_merianae": {
+    "size": 55,
+    "speed": 65,
+    "rarity": 25,
+    "danger": 25
+  },
+  "/wiki/Tupinambis_teguixin": {
+    "size": 55,
+    "speed": 45,
+    "rarity": 25,
+    "danger": 20
+  },
+  "/wiki/Xantusia_vigilis": {
+    "size": 3,
+    "speed": 25,
+    "rarity": 20,
+    "danger": 2
   }
 }

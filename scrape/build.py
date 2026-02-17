@@ -106,6 +106,7 @@ def main():
             "habitat": habitat,
             "stats": st,
             "description": desc,
+            "_conservation_status": entry.get("conservation_status"),
             "_wiki_slug": key.split("/wiki/")[-1],
             "_wiki_path": key,
         })
@@ -151,6 +152,8 @@ def main():
             "image": s["image"],
             "wiki_url": f"https://en.wikipedia.org{s['_wiki_path']}",
         }
+        if s["_conservation_status"]:
+            entry["conservation_status"] = s["_conservation_status"]
         if s["_original_image"]:
             entry["original_image"] = s["_original_image"]
         output.append(entry)
