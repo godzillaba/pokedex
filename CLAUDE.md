@@ -36,6 +36,7 @@ public/
 - `region`, `habitat`, `description`
 - `stats`: `size`, `speed`, `rarity`, `danger` (0–100)
 - `image`: path relative to `public/` (e.g. `images/animals/001.jpg`)
+- `wiki_url`: full Wikipedia URL (e.g. `https://en.wikipedia.org/wiki/Grizzly_bear`)
 
 JSON is imported statically by Vite — bundled into JS, no runtime fetch.
 

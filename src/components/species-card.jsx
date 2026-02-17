@@ -21,9 +21,14 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack })
 
   return (
     <div class="scard">
-      <button class="scard__back" onClick={onBack}>
-        ◄ BACK
-      </button>
+      <div class="scard__nav">
+        <button class="scard__back" onClick={onBack}>
+          ◄ BACK
+        </button>
+        <a class="scard__wiki" href={species.wiki_url} target="_blank" rel="noopener noreferrer">
+          WIKI ►
+        </a>
+      </div>
 
       <div class="scard__header">
         <span class="scard__id">#{String(species.id).padStart(3, "0")}</span>

@@ -2,6 +2,12 @@
   padding: 0.25rem;
 }
 
+.scard__nav {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .scard__back {
   font-size: 0.75rem;
   color: var(--lcd-text);
@@ -9,10 +15,24 @@
   background: var(--lcd-bg-dark);
   border: 2px solid var(--lcd-text);
   border-radius: 4px;
-  margin-bottom: 0.5rem;
 }
 
 .scard__back:hover {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
+}
+
+.scard__wiki {
+  font-size: 0.75rem;
+  color: var(--lcd-text);
+  padding: 0.5rem 0.75rem;
+  background: var(--lcd-bg-dark);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.scard__wiki:hover {
   background: var(--lcd-text);
   color: var(--lcd-bg);
 }

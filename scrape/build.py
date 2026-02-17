@@ -116,7 +116,6 @@ def main():
             s["image"] = "images/animals/placeholder.svg"
         if original.exists():
             shutil.copy2(original, PUBLIC_IMG_DIR / f"{i:03d}-original.png")
-        del s["_wiki_path"]
         del s["_wiki_slug"]
 
     # Reorder fields for readability
@@ -132,7 +131,9 @@ def main():
             "stats": s["stats"],
             "description": s["description"],
             "image": s["image"],
+            "wiki_url": f"https://en.wikipedia.org{s['_wiki_path']}",
         })
+        del s["_wiki_path"]
 
     with open(OUTPUT_PATH, "w") as f:
         json.dump(output, f, indent=2)
