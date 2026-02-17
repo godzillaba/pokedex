@@ -1,4 +1,4 @@
-import { useState } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
 import "./species-card.css";
 
 const STAT_LABELS = { size: "SIZE", speed: "SPD", rarity: "RAR", danger: "DNG" };
@@ -18,6 +18,10 @@ function StatBar({ label, value }) {
 export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onBack }) {
   const [imgErr, setImgErr] = useState(false);
   const [showOriginal, setShowOriginal] = useState(false);
+
+  useEffect(() => {
+    if (species.original_image) new Image().src = species.original_image;
+  }, [species.original_image]);
 
   return (
     <div class="scard">

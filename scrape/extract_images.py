@@ -82,11 +82,17 @@ def pixelate(input_bytes, output_path):
 
 def zim_path_to_filename(zim_path):
     """Convert ZIM image path to original Wikimedia filename.
+    ZIM double-encodes special chars (%252C -> %2C -> ,), so we
+    unquote until stable to fully decode.
     e.g. 'I/Opossum_2.jpg.webp' -> 'Opossum_2.jpg'"""
     name = zim_path.split("/")[-1]
     if name.endswith(".webp"):
         name = name[:-5]
-    return unquote(name)
+    prev = None
+    while name != prev:
+        prev = name
+        name = unquote(name)
+    return name
 
 
 def extract_filenames():
