@@ -35,5 +35,10 @@ export function useLog() {
     });
   }, []);
 
-  return { log, toggleSeen, setNote };
+  const clearLog = useCallback(() => {
+    localStorage.removeItem(KEY);
+    setLog({});
+  }, []);
+
+  return { log, toggleSeen, setNote, clearLog };
 }

@@ -1,0 +1,74 @@
+.settings {
+  padding: 0.25rem;
+}
+
+.settings__back {
+  font-size: 0.75rem;
+  color: var(--lcd-text);
+  padding: 0.5rem 0.75rem;
+  background: var(--lcd-bg-dark);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.settings__back:hover {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
+}
+
+.settings__title {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.settings__section {
+  border: 2px solid var(--lcd-bg-dark);
+  border-radius: 4px;
+  padding: 0.75rem;
+}
+
+.settings__label {
+  font-size: 0.65rem;
+  margin-bottom: 0.75rem;
+  opacity: 0.6;
+}
+
+.settings__btn {
+  font-size: 0.65rem;
+  padding: 0.5rem 0.75rem;
+  background: var(--lcd-bg-dark);
+  border: 2px solid var(--lcd-text);
+  border-radius: 4px;
+  color: var(--lcd-text);
+}
+
+.settings__btn:hover {
+  background: var(--lcd-text);
+  color: var(--lcd-bg);
+}
+
+.settings__btn--danger {
+  border-color: #8b2020;
+  color: #8b2020;
+}
+
+.settings__btn--danger:hover {
+  background: #8b2020;
+  color: var(--lcd-bg);
+}
+
+.settings__confirm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.settings__warn {
+  font-size: 0.65rem;
+}
+
+.settings__confirm-actions {
+  display: flex;
+  gap: 0.5rem;
+}
