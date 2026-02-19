@@ -7,13 +7,13 @@ vi.mock("./data/species.json", () => ({
       id: "Grizzly_bear", name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
       region: "Northwest", habitat: "Forest", conservation_status: "Least Concern",
       stats: { size: 90, speed: 60, rarity: 40, danger: 85 },
-      image: "images/animals/001.png",
+      image: "images/animals/Grizzly_bear.png",
     },
     {
       id: "Bald_eagle", name: "Bald Eagle", species: "Haliaeetus leucocephalus", type: "Bird",
       region: "Nationwide", habitat: "Wetlands", conservation_status: "Least Concern",
       stats: { size: 50, speed: 80, rarity: 30, danger: 20 },
-      image: "images/animals/002.png",
+      image: "images/animals/Bald_eagle.png",
     },
   ],
 }));

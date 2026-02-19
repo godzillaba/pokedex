@@ -8,8 +8,9 @@ Reads:
   - scrape/image_filenames.json    (Wikimedia filenames for original images)
 
 Outputs:
-  - src/data/species.json              (complete Pokédex entries)
-  - public/images/animals/{id:03d}.png (copied species sprites)
+  - src/data/species.json                  (complete Pokédex entries)
+  - public/images/animals/{slug}.png       (copied species sprites)
+  - public/images/originals/{slug}.webp    (copied original photos)
 """
 
 import hashlib
@@ -129,18 +130,19 @@ def main():
     originals_copied = 0
     for i, s in enumerate(species_list, 1):
         s["id"] = s["_wiki_slug"]
-        sprite = SPRITE_DIR / f"{s['_wiki_slug']}.png"
+        slug = s["_wiki_slug"]
+        sprite = SPRITE_DIR / f"{slug}.png"
         if sprite.exists():
-            shutil.copy2(sprite, PUBLIC_IMG_DIR / f"{i:03d}.png")
-            s["image"] = f"images/animals/{i:03d}.png"
+            shutil.copy2(sprite, PUBLIC_IMG_DIR / f"{slug}.png")
+            s["image"] = f"images/animals/{slug}.png"
             images_copied += 1
         else:
             s["image"] = "images/animals/placeholder.svg"
 
-        original = ORIGINALS_DIR / f"{s['_wiki_slug']}.webp"
+        original = ORIGINALS_DIR / f"{slug}.webp"
         if original.exists():
-            shutil.copy2(original, PUBLIC_ORIGINALS_DIR / f"{i:03d}.webp")
-            s["_fallback_image"] = f"images/originals/{i:03d}.webp"
+            shutil.copy2(original, PUBLIC_ORIGINALS_DIR / f"{slug}.webp")
+            s["_fallback_image"] = f"images/originals/{slug}.webp"
             originals_copied += 1
         else:
             s["_fallback_image"] = None

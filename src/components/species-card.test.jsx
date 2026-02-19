@@ -5,9 +5,9 @@ const BASE_SPECIES = {
   id: "Grizzly_bear", number: 7, name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
   region: "Northwest", habitat: "Forest", conservation_status: "Least Concern",
   stats: { size: 90, speed: 60, rarity: 40, danger: 85 },
-  image: "images/animals/007.png",
+  image: "images/animals/Grizzly_bear.png",
   original_image: "https://upload.wikimedia.org/007.jpg",
-  fallback_image: "images/originals/007.webp",
+  fallback_image: "images/originals/Grizzly_bear.webp",
   wiki_url: "https://en.wikipedia.org/wiki/Grizzly_bear",
 };
 
@@ -32,7 +32,7 @@ describe("SpeciesCard", () => {
     it("defaults to sprite image", () => {
       const { container } = renderCard();
       const img = container.querySelector("img");
-      expect(img.getAttribute("src")).toBe("/images/animals/007.png");
+      expect(img.getAttribute("src")).toBe("/images/animals/Grizzly_bear.png");
     });
 
     it("toggles to original image on click", () => {
@@ -46,7 +46,7 @@ describe("SpeciesCard", () => {
       const { container } = renderCard();
       fireEvent.click(container.querySelector(".scard__image-frame"));
       fireEvent.error(container.querySelector("img"));
-      expect(container.querySelector("img").getAttribute("src")).toBe("/images/originals/007.webp");
+      expect(container.querySelector("img").getAttribute("src")).toBe("/images/originals/Grizzly_bear.webp");
     });
 
     it("falls back to sprite when fallback also errors", () => {
@@ -54,7 +54,7 @@ describe("SpeciesCard", () => {
       fireEvent.click(container.querySelector(".scard__image-frame"));
       fireEvent.error(container.querySelector("img")); // original → fallback
       fireEvent.error(container.querySelector("img")); // fallback → sprite
-      expect(container.querySelector("img").getAttribute("src")).toBe("/images/animals/007.png");
+      expect(container.querySelector("img").getAttribute("src")).toBe("/images/animals/Grizzly_bear.png");
     });
 
     it("shows placeholder when sprite errors", () => {
