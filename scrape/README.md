@@ -66,8 +66,8 @@ species_index.json + pages/*.html
 extracted.json + llm_cache/ + popularity_scores.json + scrape/images/ + scrape/originals/ + image_filenames.json
     │
     └─ [5] build.py             → src/data/species.json   (final app data)
-                                → public/images/animals/  (ID-named sprite PNGs)
-                                → public/images/originals/ (ID-named original WebPs)
+                                → public/images/animals/  (position-numbered sprite PNGs)
+                                → public/images/originals/ (position-numbered original WebPs)
 ```
 
 ## What each script does
@@ -160,7 +160,7 @@ Extracts the same infobox photos as `extract_images.py` but saves the raw WebP b
 - Reuses `find_infobox_image()` and `extract_image_bytes()` from `extract_images.py`
 - Output: `scrape/originals/{wiki_slug}.webp` (~200-380px WebP, ~15KB each)
 - Resume-safe: skips species whose output file already exists
-- `build.py` copies these to `public/images/originals/{id:03d}.webp` and adds `fallback_image` to species.json
+- `build.py` copies these to `public/images/originals/{n:03d}.webp` (by array position) and adds `fallback_image` to species.json
 
 ## Step 4: enrich.py — LLM enrichment with per-field caching
 
@@ -201,7 +201,7 @@ python3 scrape/enrich.py     # re-generates only descriptions
 
 ## Step 4b: score_popularity.py — Cultural awareness scoring
 
-Uses Claude Sonnet to rate each species' cultural awareness / public recognition on a 0–100 scale. The score reflects how likely an average American is to recognize the animal's name. Used by `build.py` to assign Pokédex IDs — most recognizable species get the lowest IDs.
+Uses Claude Sonnet to rate each species' cultural awareness / public recognition on a 0–100 scale. The score reflects how likely an average American is to recognize the animal's name. Used by `build.py` to determine sort order — most recognizable species appear first (lowest display numbers).
 
 - Sends species names in batches of 200
 - Outputs `popularity_scores.json` keyed by `wiki_path`
@@ -215,7 +215,7 @@ Merges `extracted.json` with all LLM cache files into the app's `src/data/specie
 1. Joins deterministic fields (`name`, `species`, `type`) with LLM fields (`region`, `habitat`, `stats`, `description`)
 2. Skips any species missing critical LLM fields (incomplete enrichment)
 3. Sorts by popularity score (highest first), with alphabetical name as tiebreaker. Falls back to type+alpha sort if `popularity_scores.json` is missing
-4. Assigns sequential IDs (1, 2, 3, ...) and copies matching images from `scrape/images/` to `public/images/animals/{id:03d}.png` (falls back to `placeholder.svg` if no image was extracted)
+4. Assigns wiki-slug IDs (e.g. `"Bald_eagle"`) from the species' Wikipedia path and copies matching images from `scrape/images/` to `public/images/animals/{n:03d}.png` where `n` is the 1-based array position (falls back to `placeholder.svg` if no image was extracted)
 
 ## Species counts
 

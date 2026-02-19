@@ -122,13 +122,13 @@ def main():
             s["name"].lower(),
         ))
 
-    # Copy sprites and originals, assign sequential IDs
+    # Copy sprites and originals, assign slug IDs
     PUBLIC_IMG_DIR.mkdir(parents=True, exist_ok=True)
     PUBLIC_ORIGINALS_DIR.mkdir(parents=True, exist_ok=True)
     images_copied = 0
     originals_copied = 0
     for i, s in enumerate(species_list, 1):
-        s["id"] = i
+        s["id"] = s["_wiki_slug"]
         sprite = SPRITE_DIR / f"{s['_wiki_slug']}.png"
         if sprite.exists():
             shutil.copy2(sprite, PUBLIC_IMG_DIR / f"{i:03d}.png")

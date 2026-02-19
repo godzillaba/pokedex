@@ -4,19 +4,19 @@ import { useSpecies } from "./use-species.js";
 vi.mock("../data/species.json", () => ({
   default: [
     {
-      id: 1, name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
+      id: "Grizzly_bear", name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
       region: "Northwest", habitat: "Forest", conservation_status: "Least Concern",
       stats: { size: 90, speed: 60, rarity: 40, danger: 85 },
       image: "images/animals/001.png",
     },
     {
-      id: 2, name: "Bald Eagle", species: "Haliaeetus leucocephalus", type: "Bird",
+      id: "Bald_eagle", name: "Bald Eagle", species: "Haliaeetus leucocephalus", type: "Bird",
       region: "Nationwide", habitat: "Wetlands", conservation_status: "Least Concern",
       stats: { size: 50, speed: 80, rarity: 30, danger: 20 },
       image: "images/animals/002.png",
     },
     {
-      id: 3, name: "Timber Rattlesnake", species: "Crotalus horridus", type: "Reptile",
+      id: "Timber_rattlesnake", name: "Timber Rattlesnake", species: "Crotalus horridus", type: "Reptile",
       region: "Eastern", habitat: "Forest", conservation_status: "Vulnerable",
       stats: { size: 30, speed: 40, rarity: 60, danger: 90 },
       image: "images/animals/003.png",
@@ -77,15 +77,15 @@ describe("useSpecies", () => {
 
   describe("seen filter", () => {
     it("filters to seen species", () => {
-      const log = { 1: { seen: true } };
+      const log = { Grizzly_bear: { seen: true } };
       const { result } = renderHook(() => useSpecies(log));
       act(() => result.current.setSeenFilter("seen"));
       expect(result.current.filtered).toHaveLength(1);
-      expect(result.current.filtered[0].id).toBe(1);
+      expect(result.current.filtered[0].id).toBe("Grizzly_bear");
     });
 
     it("filters to unseen species", () => {
-      const log = { 1: { seen: true } };
+      const log = { Grizzly_bear: { seen: true } };
       const { result } = renderHook(() => useSpecies(log));
       act(() => result.current.setSeenFilter("unseen"));
       expect(result.current.filtered).toHaveLength(2);

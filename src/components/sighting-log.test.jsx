@@ -3,9 +3,9 @@ import { SightingLog } from "./sighting-log.jsx";
 
 vi.mock("../data/species.json", () => ({
   default: [
-    { id: 1, name: "Grizzly Bear", type: "Mammal" },
-    { id: 2, name: "Bald Eagle", type: "Bird" },
-    { id: 3, name: "Timber Rattlesnake", type: "Reptile" },
+    { id: "Grizzly_bear", name: "Grizzly Bear", type: "Mammal" },
+    { id: "Bald_eagle", name: "Bald Eagle", type: "Bird" },
+    { id: "Timber_rattlesnake", name: "Timber Rattlesnake", type: "Reptile" },
   ],
 }));
 
@@ -22,7 +22,7 @@ describe("SightingLog", () => {
     });
 
     it("shows empty message when no entries are marked seen", () => {
-      const log = { 1: { seen: false, note: "", date: "" } };
+      const log = { Grizzly_bear: { seen: false, note: "", date: "" } };
       const { getByText } = render(<SightingLog log={log} onSelect={onSelect} onBack={onBack} />);
       expect(getByText("NO SIGHTINGS YET")).toBeInTheDocument();
     });
@@ -36,8 +36,8 @@ describe("SightingLog", () => {
   describe("sorting", () => {
     it("sorts entries in reverse chronological order", () => {
       const log = {
-        1: { seen: true, date: "2025-01-01" },
-        2: { seen: true, date: "2025-06-15" },
+        Grizzly_bear: { seen: true, date: "2025-01-01" },
+        Bald_eagle: { seen: true, date: "2025-06-15" },
       };
       const { container } = render(<SightingLog log={log} onSelect={onSelect} onBack={onBack} />);
       const names = container.querySelectorAll(".slog__name");
@@ -47,8 +47,8 @@ describe("SightingLog", () => {
 
     it("shows dated entries before undated entries", () => {
       const log = {
-        1: { seen: true, date: "" },
-        2: { seen: true, date: "2025-03-01" },
+        Grizzly_bear: { seen: true, date: "" },
+        Bald_eagle: { seen: true, date: "2025-03-01" },
       };
       const { container } = render(<SightingLog log={log} onSelect={onSelect} onBack={onBack} />);
       const names = container.querySelectorAll(".slog__name");
@@ -57,7 +57,7 @@ describe("SightingLog", () => {
     });
 
     it("shows '---' for entries without dates", () => {
-      const log = { 1: { seen: true, date: "" } };
+      const log = { Grizzly_bear: { seen: true, date: "" } };
       const { getByText } = render(<SightingLog log={log} onSelect={onSelect} onBack={onBack} />);
       expect(getByText("---")).toBeInTheDocument();
     });
@@ -65,13 +65,13 @@ describe("SightingLog", () => {
 
   describe("rendering", () => {
     it("shows correct count", () => {
-      const log = { 1: { seen: true, date: "" }, 2: { seen: true, date: "" } };
+      const log = { Grizzly_bear: { seen: true, date: "" }, Bald_eagle: { seen: true, date: "" } };
       const { getByText } = render(<SightingLog log={log} onSelect={onSelect} onBack={onBack} />);
       expect(getByText("2")).toBeInTheDocument();
     });
 
     it("filters out invalid IDs", () => {
-      const log = { 999: { seen: true, date: "" }, 1: { seen: true, date: "" } };
+      const log = { No_such_species: { seen: true, date: "" }, Grizzly_bear: { seen: true, date: "" } };
       const { getByText, container } = render(<SightingLog log={log} onSelect={onSelect} onBack={onBack} />);
       expect(container.querySelectorAll(".slog__entry")).toHaveLength(1);
       expect(getByText("1")).toBeInTheDocument();
@@ -80,10 +80,10 @@ describe("SightingLog", () => {
 
   describe("interaction", () => {
     it("calls onSelect when entry is clicked", () => {
-      const log = { 1: { seen: true, date: "2025-01-01" } };
+      const log = { Grizzly_bear: { seen: true, date: "2025-01-01" } };
       const { getByText } = render(<SightingLog log={log} onSelect={onSelect} onBack={onBack} />);
       fireEvent.click(getByText("Grizzly Bear"));
-      expect(onSelect).toHaveBeenCalledWith(expect.objectContaining({ id: 1, name: "Grizzly Bear" }));
+      expect(onSelect).toHaveBeenCalledWith(expect.objectContaining({ id: "Grizzly_bear", name: "Grizzly Bear" }));
     });
 
     it("calls onBack when BACK is clicked", () => {

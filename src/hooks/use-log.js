@@ -1,10 +1,26 @@
 import { useState, useCallback } from "preact/hooks";
+import data from "../data/species.json";
 
 const KEY = "wilddex-log";
+const MIGRATED_KEY = "wilddex-log-v2";
+
+function migrate(log) {
+  if (localStorage.getItem(MIGRATED_KEY)) return log;
+  const numToSlug = {};
+  for (let i = 0; i < data.length; i++) numToSlug[String(i + 1)] = data[i].id;
+  const migrated = {};
+  for (const [k, v] of Object.entries(log)) {
+    migrated[numToSlug[k] || k] = v;
+  }
+  localStorage.setItem(MIGRATED_KEY, "1");
+  localStorage.setItem(KEY, JSON.stringify(migrated));
+  return migrated;
+}
 
 function load() {
   try {
-    return JSON.parse(localStorage.getItem(KEY)) || {};
+    const log = JSON.parse(localStorage.getItem(KEY)) || {};
+    return migrate(log);
   } catch {
     return {};
   }
@@ -48,6 +64,7 @@ export function useLog() {
 
   const clearLog = useCallback(() => {
     localStorage.removeItem(KEY);
+    localStorage.removeItem(MIGRATED_KEY);
     setLog({});
   }, []);
 

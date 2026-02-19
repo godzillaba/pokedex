@@ -1,5 +1,6 @@
 import { useState, useMemo } from "preact/hooks";
-import data from "../data/species.json";
+import raw from "../data/species.json";
+const data = raw.map((s, i) => ({ ...s, number: i + 1 }));
 
 const STATUS_CODES = {
   "Least Concern": "LC",

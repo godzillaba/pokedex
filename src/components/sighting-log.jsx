@@ -1,7 +1,7 @@
 import species from "../data/species.json";
 import "./sighting-log.css";
 
-const byId = Object.fromEntries(species.map((s) => [s.id, s]));
+const byId = Object.fromEntries(species.map((s, i) => [s.id, { ...s, number: i + 1 }]));
 
 export function SightingLog({ log, onSelect, onBack }) {
   const entries = Object.entries(log)
@@ -29,7 +29,7 @@ export function SightingLog({ log, onSelect, onBack }) {
           {entries.map((e) => (
             <li key={e.id} class="slog__entry" onClick={() => onSelect(e.species)}>
               <span class="slog__date">{e.date || "---"}</span>
-              <span class="slog__num">#{String(e.id).padStart(3, "0")}</span>
+              <span class="slog__num">#{String(e.species.number).padStart(4, "0")}</span>
               <span class="slog__name">{e.species.name}</span>
               <span class={`slog__type slog__type--${e.species.type.toLowerCase()}`}>
                 {e.species.type}

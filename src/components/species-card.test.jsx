@@ -2,7 +2,7 @@ import { render, fireEvent } from "@testing-library/preact";
 import { SpeciesCard } from "./species-card.jsx";
 
 const BASE_SPECIES = {
-  id: 7, name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
+  id: "Grizzly_bear", number: 7, name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
   region: "Northwest", habitat: "Forest", conservation_status: "Least Concern",
   stats: { size: 90, speed: 60, rarity: 40, danger: 85 },
   image: "images/animals/007.png",
@@ -131,9 +131,9 @@ describe("SpeciesCard", () => {
       expect(getByText("60")).toBeInTheDocument();  // speed
     });
 
-    it("pads ID to 3 digits", () => {
+    it("pads number to 4 digits", () => {
       const { getByText } = renderCard();
-      expect(getByText("#007")).toBeInTheDocument();
+      expect(getByText("#0007")).toBeInTheDocument();
     });
   });
 });

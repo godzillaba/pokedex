@@ -33,7 +33,8 @@ public/
 ## Data
 
 `src/data/species.json` — array of species. Each entry:
-- `id`, `name`, `species` (Latin), `type` (Bird/Mammal/Reptile/Amphibian/Fish/Insect/Arachnid)
+- `id`: stable wiki-slug string (e.g. `"Bald_eagle"`) extracted from `wiki_url` — used as lookup key in localStorage and React keys. Display number (`#001`) is derived from array position at runtime via `number` property, not stored in JSON.
+- `name`, `species` (Latin), `type` (Bird/Mammal/Reptile/Amphibian/Fish/Insect/Arachnid)
 - `region`, `habitat`, `description`, `conservation_status` (IUCN status, omitted if unknown)
 - `stats`: `size`, `speed`, `rarity`, `danger` (0–100)
 - `image`: path relative to `public/` (e.g. `images/animals/001.png`) — pixelated sprite
@@ -60,7 +61,7 @@ src/
   test-setup.js                          # jest-dom/vitest matchers
   app.test.jsx                           # navigation state machine, popstate, history
   hooks/
-    use-log.test.js                      # localStorage, toggleSeen, setNote, setDate, clearLog
+    use-log.test.js                      # localStorage, toggleSeen, setNote, setDate, clearLog, migration
     use-species.test.js                  # search, type/status/seen filters, computed arrays
   components/
     sighting-log.test.jsx                # empty states, date sorting, entry rendering

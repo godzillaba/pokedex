@@ -68,7 +68,7 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onSetDate
       </div>
 
       <div class="scard__header">
-        <span class="scard__id">#{String(species.id).padStart(3, "0")}</span>
+        <span class="scard__id">#{String(species.number).padStart(4, "0")}</span>
         <h2 class="scard__name">{species.name}</h2>
         <span
           class={`scard__type scard__type--${species.type.toLowerCase()}`}

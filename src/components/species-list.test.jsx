@@ -3,15 +3,15 @@ import { SpeciesList } from "./species-list.jsx";
 
 const SPECIES = [
   {
-    id: 1, name: "Grizzly Bear", type: "Mammal",
+    id: "Grizzly_bear", number: 1, name: "Grizzly Bear", type: "Mammal",
     conservation_status: "Least Concern",
   },
   {
-    id: 2, name: "Bald Eagle", type: "Bird",
+    id: "Bald_eagle", number: 2, name: "Bald Eagle", type: "Bird",
     conservation_status: "Least Concern",
   },
   {
-    id: 42, name: "Timber Rattlesnake", type: "Reptile",
+    id: "Timber_rattlesnake", number: 42, name: "Timber Rattlesnake", type: "Reptile",
     conservation_status: "Vulnerable",
   },
 ];
@@ -58,21 +58,21 @@ describe("SpeciesList", () => {
       expect(getByText("NO SPECIES FOUND")).toBeInTheDocument();
     });
 
-    it("pads IDs to 3 digits", () => {
+    it("pads numbers to 4 digits", () => {
       const { getByText } = renderList();
-      expect(getByText("001")).toBeInTheDocument();
-      expect(getByText("042")).toBeInTheDocument();
+      expect(getByText("0001")).toBeInTheDocument();
+      expect(getByText("0042")).toBeInTheDocument();
     });
   });
 
   describe("indicators", () => {
     it("shows * for seen species", () => {
-      const { container } = renderList({ log: { 1: { seen: true } } });
+      const { container } = renderList({ log: { Grizzly_bear: { seen: true } } });
       expect(container.querySelector(".slist__seen")).toBeInTheDocument();
     });
 
     it("shows + for species with notes", () => {
-      const { container } = renderList({ log: { 1: { note: "hello" } } });
+      const { container } = renderList({ log: { Grizzly_bear: { note: "hello" } } });
       expect(container.querySelector(".slist__has-note")).toBeInTheDocument();
     });
 

@@ -1,6 +1,6 @@
 # American Wildlife Pokedex
 
-A retro-styled PWA catalog of North American wildlife, inspired by the Pokedex from Pokemon. Browse 2,800+ species with pixelated sprites, stat bars, search, type/status filtering, and a sighting log to track what you've seen in the wild.
+A retro-styled PWA catalog of North American wildlife, inspired by the Pokedex from Pokemon. Browse 3,300+ species with pixelated sprites, stat bars, search, type/status filtering, and a sighting log to track what you've seen in the wild.
 
 <p align="center">
   <img src=".github/list.png" alt="Species list" width="280" />
@@ -32,4 +32,4 @@ Vite + Preact + plain CSS. No runtime dependencies beyond Preact (~3KB). Hosted 
 npm test
 ```
 
-76 tests covering hooks, components, and navigation using vitest + @testing-library/preact.
+tests covering hooks, components, and navigation using vitest + @testing-library/preact.

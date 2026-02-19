@@ -111,7 +111,7 @@ export function SpeciesList({
           <li key={s.id} class="slist__entry" onClick={() => onSelect(s)}>
             {log[s.id]?.seen && <span class="slist__seen" title="Seen!">*</span>}
             <span class="slist__num">
-              {String(s.id).padStart(3, "0")}
+              {String(s.number).padStart(4, "0")}
             </span>
             <span class="slist__name">{s.name}</span>
             {log[s.id]?.note && <span class="slist__has-note" title="Has note">+</span>}

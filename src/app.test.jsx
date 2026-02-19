@@ -4,13 +4,13 @@ import { App } from "./app.jsx";
 vi.mock("./data/species.json", () => ({
   default: [
     {
-      id: 1, name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
+      id: "Grizzly_bear", name: "Grizzly Bear", species: "Ursus arctos", type: "Mammal",
       region: "Northwest", habitat: "Forest", conservation_status: "Least Concern",
       stats: { size: 90, speed: 60, rarity: 40, danger: 85 },
       image: "images/animals/001.png",
     },
     {
-      id: 2, name: "Bald Eagle", species: "Haliaeetus leucocephalus", type: "Bird",
+      id: "Bald_eagle", name: "Bald Eagle", species: "Haliaeetus leucocephalus", type: "Bird",
       region: "Nationwide", habitat: "Wetlands", conservation_status: "Least Concern",
       stats: { size: 50, speed: 80, rarity: 30, danger: 20 },
       image: "images/animals/002.png",
@@ -33,7 +33,7 @@ describe("App", () => {
   it("navigates to species card on click", () => {
     const { getByText } = render(<App />);
     fireEvent.click(getByText("Grizzly Bear"));
-    expect(getByText("#001")).toBeInTheDocument();
+    expect(getByText("#0001")).toBeInTheDocument();
     expect(getByText("BACK")).toBeInTheDocument();
   });
 
@@ -53,9 +53,9 @@ describe("App", () => {
   it("returns to list via popstate from card", () => {
     const { getByText, queryByText } = render(<App />);
     fireEvent.click(getByText("Grizzly Bear"));
-    expect(getByText("#001")).toBeInTheDocument();
+    expect(getByText("#0001")).toBeInTheDocument();
     act(() => window.dispatchEvent(new PopStateEvent("popstate", { state: null })));
-    expect(queryByText("#001")).not.toBeInTheDocument();
+    expect(queryByText("#0001")).not.toBeInTheDocument();
     expect(getByText("Grizzly Bear")).toBeVisible();
   });
 
@@ -71,7 +71,7 @@ describe("App", () => {
     const spy = vi.spyOn(history, "pushState");
     const { getByText } = render(<App />);
     fireEvent.click(getByText("Grizzly Bear"));
-    expect(spy).toHaveBeenCalledWith({ speciesId: 1 }, "");
+    expect(spy).toHaveBeenCalledWith({ speciesId: "Grizzly_bear" }, "");
     spy.mockRestore();
   });
 
