@@ -14,7 +14,7 @@ const BASE_SPECIES = {
 const UNSEEN_ENTRY = { seen: false, note: "", date: "" };
 const SEEN_ENTRY = { seen: true, note: "Big one!", date: "2025-07-04" };
 
-function renderCard(speciesOverrides = {}, entry = UNSEEN_ENTRY, callbacks = {}) {
+function renderCard(speciesOverrides = {}, entry = UNSEEN_ENTRY, { preferOriginal = false, ...callbacks } = {}) {
   const props = {
     species: { ...BASE_SPECIES, ...speciesOverrides },
     entry,
@@ -22,9 +22,12 @@ function renderCard(speciesOverrides = {}, entry = UNSEEN_ENTRY, callbacks = {})
     onSetNote: vi.fn(),
     onSetDate: vi.fn(),
     onBack: vi.fn(),
+    preferOriginal,
+    onToggleImageMode: vi.fn(),
     ...callbacks,
   };
-  return { ...render(<SpeciesCard {...props} />), props };
+  const result = render(<SpeciesCard {...props} />);
+  return { ...result, props, rerender: (overrides) => result.rerender(<SpeciesCard {...props} {...overrides} />) };
 }
 
 describe("SpeciesCard", () => {
@@ -35,23 +38,26 @@ describe("SpeciesCard", () => {
       expect(img.getAttribute("src")).toBe("/images/animals/Grizzly_bear.png");
     });
 
-    it("toggles to original image on click", () => {
-      const { container } = renderCard();
-      fireEvent.click(container.querySelector(".scard__image-frame"));
+    it("shows original image when preferOriginal is true", () => {
+      const { container } = renderCard({}, UNSEEN_ENTRY, { preferOriginal: true });
       const img = container.querySelector("img");
       expect(img.getAttribute("src")).toBe("https://upload.wikimedia.org/007.jpg");
     });
 
-    it("falls back to fallback_image when original errors", () => {
-      const { container } = renderCard();
+    it("calls onToggleImageMode on click", () => {
+      const { container, props } = renderCard();
       fireEvent.click(container.querySelector(".scard__image-frame"));
+      expect(props.onToggleImageMode).toHaveBeenCalled();
+    });
+
+    it("falls back to fallback_image when original errors", () => {
+      const { container } = renderCard({}, UNSEEN_ENTRY, { preferOriginal: true });
       fireEvent.error(container.querySelector("img"));
       expect(container.querySelector("img").getAttribute("src")).toBe("/images/originals/Grizzly_bear.webp");
     });
 
     it("falls back to sprite when fallback also errors", () => {
-      const { container } = renderCard();
-      fireEvent.click(container.querySelector(".scard__image-frame"));
+      const { container } = renderCard({}, UNSEEN_ENTRY, { preferOriginal: true });
       fireEvent.error(container.querySelector("img")); // original → fallback
       fireEvent.error(container.querySelector("img")); // fallback → sprite
       expect(container.querySelector("img").getAttribute("src")).toBe("/images/animals/Grizzly_bear.png");

@@ -27,17 +27,26 @@ function StatBar({ label, value }) {
   );
 }
 
-export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onSetDate, onBack }) {
+export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onSetDate, onBack, preferOriginal, onToggleImageMode }) {
   const [imgErr, setImgErr] = useState(false);
   // "sprite" | "original" | "fallback"
   const [imgMode, setImgMode] = useState("sprite");
+
+  const hasAnyOriginal = species.original_image || species.fallback_image;
+
+  useEffect(() => {
+    setImgErr(false);
+    if (preferOriginal && hasAnyOriginal) {
+      setImgMode(species.original_image ? "original" : "fallback");
+    } else {
+      setImgMode("sprite");
+    }
+  }, [species.id, preferOriginal]);
 
   useEffect(() => {
     if (species.original_image) new Image().src = species.original_image;
     if (species.fallback_image) new Image().src = `${BASE}${species.fallback_image}`;
   }, [species.original_image, species.fallback_image]);
-
-  const hasAnyOriginal = species.original_image || species.fallback_image;
 
   const imgSrc =
     imgMode === "original" ? species.original_image :
@@ -52,8 +61,7 @@ export function SpeciesCard({ species, entry, onToggleSeen, onSetNote, onSetDate
 
   const toggleImage = () => {
     if (!hasAnyOriginal) return;
-    if (imgMode !== "sprite") return setImgMode("sprite");
-    setImgMode(species.original_image ? "original" : "fallback");
+    onToggleImageMode();
   };
 
   return (

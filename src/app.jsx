@@ -16,6 +16,7 @@ export function App() {
   } = useSpecies(log);
   const [selected, setSelected] = useState(null);
   const [page, setPage] = useState("list");
+  const [preferOriginal, setPreferOriginal] = useState(false);
   const scrollY = useRef(0);
 
   const handleSelect = (s) => {
@@ -84,6 +85,8 @@ export function App() {
           onSetNote={(note) => setNote(selected.id, note)}
           onSetDate={(date) => setDate(selected.id, date)}
           onBack={handleBack}
+          preferOriginal={preferOriginal}
+          onToggleImageMode={() => setPreferOriginal((p) => !p)}
         />
       )}
       {page === "log" && (
