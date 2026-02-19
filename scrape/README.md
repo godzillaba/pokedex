@@ -44,7 +44,7 @@ Steps 1-2 require the ZIM file. Steps 3b and 3c require the ZIM (3b also needs I
 ```
 ZIM archive
     │
-    ├─ [1] build_index.py       → species_index.json    (3,306 species)
+    ├─ [1] build_index.py       → species_index.json    (3,307 species)
     │
     ├─ [2] extract_pages.py     → pages/*.html           (3,733 articles)
     │
@@ -93,6 +93,7 @@ extracted.json + llm_cache/ + popularity_scores.json + scrape/images/ + scrape/o
 - **Amphibians** (303) — `List_of_amphibians_of_the_United_States`
 - **Reptiles** (426) — `List_of_North_American_reptiles`
 - **Fish** (hybrid) — see below
+- **Manual additions** — `MANUAL_ADDITIONS` in `build_index.py` for species present in the ZIM but missing from list pages (e.g. Elk, which is a separate species from Red deer but only Red deer was linked)
 
 ### Fish: hybrid approach
 
@@ -221,9 +222,9 @@ Merges `extracted.json` with all LLM cache files into the app's `src/data/specie
 
 | Type | Count |
 |---|---|
-| Mammal | 516 |
+| Mammal | 517 |
 | Bird | 1,278 |
 | Reptile | 426 |
 | Amphibian | 303 |
 | Fish | 783 |
-| **Total** | **3,306** |
+| **Total** | **3,307** |

@@ -1,5 +1,13 @@
 [
   {
+    "name": "Elk",
+    "latin": "Cervus canadensis",
+    "family": "",
+    "type": "Mammal",
+    "distribution": "",
+    "wiki_path": "/wiki/Elk"
+  },
+  {
     "name": "Virginia opossum",
     "latin": "D. virginiana",
     "family": "",

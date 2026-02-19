@@ -379,6 +379,22 @@ def collect_fish():
 
 
 # ---------------------------------------------------------------------------
+# Manual additions — species present in the ZIM but missing from list pages
+# (e.g. Elk is a separate species from Red deer since 2004 DNA evidence,
+#  but the mammals list page only links to Red_deer)
+# ---------------------------------------------------------------------------
+MANUAL_ADDITIONS = [
+    {
+        "name": "Elk",
+        "latin": "Cervus canadensis",
+        "family": "",
+        "type": "Mammal",
+        "distribution": "",
+        "wiki_path": "/wiki/Elk",
+    },
+]
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 SOURCES = [
@@ -390,7 +406,8 @@ SOURCES = [
 
 
 def main():
-    all_species = []
+    all_species = list(MANUAL_ADDITIONS)
+    print(f"Manual additions: {len(MANUAL_ADDITIONS)}")
     for label, path, parser in SOURCES:
         print(f"Reading {label}... ", end="", flush=True)
         html = read_article(path)

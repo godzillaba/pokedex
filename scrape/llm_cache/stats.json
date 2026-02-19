@@ -19834,5 +19834,11 @@
     "speed": 20,
     "rarity": 25,
     "danger": 5
+  },
+  "/wiki/Elk": {
+    "size": 95,
+    "speed": 55,
+    "rarity": 20,
+    "danger": 45
   }
 }

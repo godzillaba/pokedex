@@ -960,6 +960,26 @@
     "fallback_image": "images/originals/Eastern_diamondback_rattlesnake.webp"
   },
   {
+    "id": "Elk",
+    "name": "Elk",
+    "species": "Cervus canadensis",
+    "type": "Mammal",
+    "region": "Western North America, Rocky Mountains to Pacific Coast",
+    "habitat": "Forest edges and mountain meadows",
+    "stats": {
+      "size": 95,
+      "speed": 55,
+      "rarity": 20,
+      "danger": 45
+    },
+    "description": "Males produce eerie bugling calls that echo through mountain valleys during mating season, establishing dominance over rivals. The second-largest deer species sheds massive antlers annually, only to regrow them in velvet-covered bone that hardens into formidable sparring weapons. Their meat is leaner than beef while packing more protein per ounce.",
+    "image": "images/animals/Elk.png",
+    "wiki_url": "https://en.wikipedia.org/wiki/Elk",
+    "conservation_status": "Least Concern",
+    "original_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Jasper.Wapiti-Hirsch.P1033401.jpg/800px-Jasper.Wapiti-Hirsch.P1033401.jpg",
+    "fallback_image": "images/originals/Elk.webp"
+  },
+  {
     "id": "Heloderma_suspectum",
     "name": "Gila Monster",
     "species": "Heloderma suspectum",

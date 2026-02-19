@@ -1,5 +1,12 @@
 [
   {
+    "name": "Elk",
+    "species": "Cervus canadensis",
+    "type": "Mammal",
+    "wiki_path": "/wiki/Elk",
+    "conservation_status": "Least Concern"
+  },
+  {
     "name": "Virginia Opossum",
     "species": "Didelphis virginiana",
     "type": "Mammal",
