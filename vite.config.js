@@ -16,8 +16,8 @@ export default defineConfig({
       injectRegister: false,
       manifest: {
         name: "American Wildlife Pokédex",
-        short_name: "WildDex",
-        description: "A retro Pokédex for American wildlife",
+        short_name: "Pokédex",
+        description: "A Pokédex for American wildlife",
         theme_color: "#cc0000",
         background_color: "#cc0000",
         display: "standalone",
