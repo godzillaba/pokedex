@@ -1,14 +1,6 @@
 import { renderHook, act } from "@testing-library/preact";
 import { useLog } from "./use-log.js";
 
-vi.mock("../data/species.json", () => ({
-  default: [
-    { id: "Grizzly_bear", name: "Grizzly Bear" },
-    { id: "Bald_eagle", name: "Bald Eagle" },
-    { id: "Timber_rattlesnake", name: "Timber Rattlesnake" },
-  ],
-}));
-
 beforeEach(() => localStorage.clear());
 
 describe("useLog", () => {
@@ -89,43 +81,5 @@ describe("useLog", () => {
       expect(localStorage.getItem("wilddex-log")).toBeNull();
     });
 
-    it("removes migration sentinel", () => {
-      localStorage.setItem("wilddex-log", JSON.stringify({ Grizzly_bear: { seen: true, note: "", date: "" } }));
-      localStorage.setItem("wilddex-log-v2", "1");
-      const { result } = renderHook(() => useLog());
-      act(() => result.current.clearLog());
-      expect(localStorage.getItem("wilddex-log-v2")).toBeNull();
-    });
-  });
-
-  describe("migration", () => {
-    it("migrates old numeric keys to slug keys", () => {
-      localStorage.setItem("wilddex-log", JSON.stringify({
-        "1": { seen: true, note: "big bear", date: "2025-01-01" },
-        "2": { seen: true, note: "", date: "2025-06-15" },
-      }));
-      const { result } = renderHook(() => useLog());
-      expect(result.current.log.Grizzly_bear).toEqual({ seen: true, note: "big bear", date: "2025-01-01" });
-      expect(result.current.log.Bald_eagle).toEqual({ seen: true, note: "", date: "2025-06-15" });
-      expect(result.current.log["1"]).toBeUndefined();
-      expect(localStorage.getItem("wilddex-log-v2")).toBe("1");
-    });
-
-    it("skips migration if sentinel exists", () => {
-      localStorage.setItem("wilddex-log-v2", "1");
-      localStorage.setItem("wilddex-log", JSON.stringify({
-        "1": { seen: true, note: "", date: "" },
-      }));
-      const { result } = renderHook(() => useLog());
-      expect(result.current.log["1"]).toEqual({ seen: true, note: "", date: "" });
-    });
-
-    it("preserves already-migrated slug keys", () => {
-      localStorage.setItem("wilddex-log", JSON.stringify({
-        Grizzly_bear: { seen: true, note: "", date: "" },
-      }));
-      const { result } = renderHook(() => useLog());
-      expect(result.current.log.Grizzly_bear).toEqual({ seen: true, note: "", date: "" });
-    });
   });
 });

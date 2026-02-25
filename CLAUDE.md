@@ -61,7 +61,7 @@ src/
   test-setup.js                          # jest-dom/vitest matchers
   app.test.jsx                           # navigation state machine, popstate, history
   hooks/
-    use-log.test.js                      # localStorage, toggleSeen, setNote, setDate, clearLog, migration
+    use-log.test.js                      # localStorage, toggleSeen, setNote, setDate, clearLog
     use-species.test.js                  # search, type/status/seen filters, computed arrays
   components/
     sighting-log.test.jsx                # empty states, date sorting, entry rendering
