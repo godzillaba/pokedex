@@ -72,3 +72,25 @@
   display: flex;
   gap: 0.5rem;
 }
+
+.settings__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.settings__file-input {
+  display: none;
+}
+
+.settings__msg {
+  font-size: 0.6rem;
+  opacity: 0.8;
+}
+
+.settings__divider {
+  border: none;
+  border-top: 1px solid var(--lcd-bg-dark);
+  margin: 0.75rem 0;
+}

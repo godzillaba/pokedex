@@ -68,5 +68,11 @@ export function useLog() {
     setLog({});
   }, []);
 
-  return { log, toggleSeen, setNote, setDate, clearLog };
+  const restoreLog = useCallback((imported) => {
+    localStorage.setItem(KEY, JSON.stringify(imported));
+    localStorage.setItem(MIGRATED_KEY, "1");
+    setLog(imported);
+  }, []);
+
+  return { log, toggleSeen, setNote, setDate, clearLog, restoreLog };
 }

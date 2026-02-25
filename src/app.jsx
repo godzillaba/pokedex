@@ -8,7 +8,7 @@ import { useSpecies } from "./hooks/use-species.js";
 import { useLog } from "./hooks/use-log.js";
 
 export function App() {
-  const { log, toggleSeen, setNote, setDate, clearLog } = useLog();
+  const { log, toggleSeen, setNote, setDate, clearLog, restoreLog } = useLog();
   const {
     filtered, types, statuses, search, setSearch,
     typeFilter, setTypeFilter, statusFilter, setStatusFilter,
@@ -93,7 +93,7 @@ export function App() {
         <SightingLog log={log} onSelect={handleSelect} onBack={handleBack} />
       )}
       {page === "settings" && (
-        <Settings onBack={handleBack} onClearData={clearLog} />
+        <Settings onBack={handleBack} onClearData={clearLog} log={log} onRestore={restoreLog} />
       )}
     </PokedexShell>
   );
