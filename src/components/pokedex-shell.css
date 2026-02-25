@@ -7,7 +7,7 @@
 }
 
 .pokedex__scanlines {
-  position: absolute;
+  position: fixed;
   inset: 0;
   background: repeating-linear-gradient(
     to bottom,
@@ -17,7 +17,7 @@
     rgba(0, 0, 0, 0.06) 4px
   );
   pointer-events: none;
-  z-index: 1;
+  z-index: 10;
 }
 
 .pokedex__content {
