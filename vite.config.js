@@ -13,6 +13,7 @@ export default defineConfig({
     preact(),
     VitePWA({
       registerType: "autoUpdate",
+      injectRegister: false,
       manifest: {
         name: "American Wildlife Pokédex",
         short_name: "WildDex",
