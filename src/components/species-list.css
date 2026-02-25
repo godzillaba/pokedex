@@ -20,15 +20,40 @@
   gap: 6px;
 }
 
-.slist__search {
+.slist__search-wrap {
   flex: 1;
-  padding: 0.6rem 0.75rem;
+  position: relative;
+}
+
+.slist__search {
+  width: 100%;
+  padding: 0.6rem 2rem 0.6rem 0.75rem;
   font-size: 0.8rem;
   background: var(--lcd-bg-dark);
   border: 2px solid var(--lcd-text);
   border-radius: 4px;
   color: var(--lcd-text);
   outline: none;
+  box-sizing: border-box;
+}
+
+.slist__clear {
+  position: absolute;
+  right: 4px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--lcd-text);
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0.2rem 0.4rem;
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.slist__clear:hover {
+  opacity: 1;
 }
 
 .slist__shuffle {
