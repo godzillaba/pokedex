@@ -75,7 +75,7 @@
   background: var(--lcd-bg-dark);
   border: 3px solid var(--lcd-text);
   border-radius: 6px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 1 / 1;
   overflow: hidden;
   margin-bottom: 0.5rem;
   display: flex;
